@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NYGeog
-tagline: Supporting tagline TEST
+tagline: the new website in beta
 ---
 {% include JB/setup %}
 
