@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: NYGeog
+tagline: Supporting tagline TEST
 ---
 {% include JB/setup %}
 
