@@ -2,7 +2,7 @@
 layout: post
 title:  "Converting File Geodatabase (FGDB) to Shapefile or CSV via OSGEO4W with OGR2OGR"
 date:   2014-08-28 11:31:10
-categories: 2014, File Geodatabase, Shapefile, OSGEO4W
+categories: 2014 File Geodatabase Shapefile OSGEO4W
 ---
 
 ##The Problem:
