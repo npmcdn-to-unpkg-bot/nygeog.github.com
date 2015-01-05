@@ -11,10 +11,12 @@ categories: 2015 Goals
 From now on my rule-of-thumb will be to attempt to geoprocess using open source tools rather than using an Esri solution as default. 
 
 ![osgeo](http://wiki.osgeo.org/images/7/74/OSGeo_logo_750_317.png)
+
 ##2. PostGIS
 Probably the biggest initial hindrance of PostGIS is deciding which version to install. Once I get past those hurdles and have a reliable install of PostGIS I think I'll be ready to roll. I have been using a ton of GDAL/OGR tools lately so I'm really looking forward to the efficiencies of doing more work in PostGIS.
 
 ![postgis](http://upload.wikimedia.org/wikipedia/commons/7/7b/Logo_square_postgis.png)
+
 ##3. Personal Website updates
 Rebuild the personal website. Include mapping examples (even some static ones) as I don't have much of an organized web portfolio. 
 
