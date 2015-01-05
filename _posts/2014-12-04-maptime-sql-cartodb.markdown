@@ -1,7 +1,12 @@
-Title: Maptime 2014-12-03
-Date: 2014-12-04 22:02 
+---
+layout: post
+title:  "Maptime SQL for CartoDB"
+date:   2014-12-04 11:31:10
+categories: Maptime CartoDB SQL
+---
 
-Jeff F. ( aka [@zingbot](https://twitter.com/zingbot)) gave a solid presentation during the [@MaptimeNYC](http://www.meetup.com/Maptime-NYC/) session last night. The Maptime was at [CartoDB's](http://cartodb.com/) Williamsburg, Brooklyn office. 
+
+Jeff F. ( aka [@zingbot](https://twitter.com/zingbot)) gave a solid presentation during the [@MaptimeNYC](http://www.meetup.com/Maptime-NYC/) session last night (2014-12-03). The Maptime was at [CartoDB's](http://cartodb.com/) Williamsburg, Brooklyn office. 
 
 Below are my notes:
 

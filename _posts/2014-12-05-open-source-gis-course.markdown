@@ -1,7 +1,9 @@
-Title: Open Source GIS Course at Hunter College this January (2015)
-Date: 2014-12-05 22:02 
-
-
+---
+layout: post
+title:  "Open Source GIS Course at Hunter College this January (2015)"
+date:   2014-12-05 11:31:10
+categories: 2015 GIS OpenSource Hunter 
+---
 
 ###Intro
 I've been really busy with my Data Science course, holidays and work in general. But I just saw some info about a course I really would like to sit for. The Geo folks at CUNY Hunter have put together a great course that they did for the first time this past August (2014) and will be doing so again in January 2015. I missed out on the August course due to sheer forgetfulness. 

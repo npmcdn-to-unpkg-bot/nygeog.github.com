@@ -1,5 +1,10 @@
-Date: 2014-11-18 12:00
-Title: Mapbox Source Quickstart
+---
+layout: post
+title:  "Mapbox Source Quickstart"
+date:   2014-11-18 11:31:10
+categories: Mapbox
+---
+
 
 While I have a ton of Python and other desktop-related stuff going on (also following up on Eric Thiese's GeoStack demo, more on that later on), two nights ago I took a quick digression into doing the [Mapbox Source Quickstart](https://www.mapbox.com/mapbox-studio/source-quickstart/). While I've done a few of the Mapbox and TileMill exercises before this was one of the first I followed through with the directions exactly and all the way to the end. 
 

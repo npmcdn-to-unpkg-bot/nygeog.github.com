@@ -1,6 +1,11 @@
-Date: 2014-10-13 14:31
-Title: What I've been up to...
-<!--arpy.mapping, fiona, shapely-->
+---
+layout: post
+title:  "What I've been up to..."
+date:   2014-10-13 11:31:10
+categories: ArcPy Fiona Shapely
+---
+
+
 ##What's going on!
 Been working a lot and taking a course in Probability and Statistics at Columbia University IDSE. 
 
