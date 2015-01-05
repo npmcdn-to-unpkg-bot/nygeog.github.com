@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2015 Goals"
+title:  "2015 Goals for GIS (geospatial) and Web"
 date:   2015-01-01 11:31:10
 categories: 2015 Goals
 ---
