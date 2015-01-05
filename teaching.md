@@ -14,8 +14,7 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 #Upcoming GIS Courses
 Summer 2015 Epic
 
-</br>
-</br>
+
 
 #Past GIS Courses
 * ######The Epidemiology and Population Health Summer Institute at New York, NY 
