@@ -17,4 +17,4 @@ Below is a Spotify playlist of my favorite music of 2014. I've been making this 
 The playlist may be slightly edited over the next few days. Thanks. 
 
 <center>
-<iframe src="https://embed.spotify.com/?uri=spotify:user:nygeog:playlist:4EBV6FILEjykKNpG1B2G4y" width="500" height="800" frameborder="0" allowtransparency="true"></iframe></center>
+<iframe src="https://embed.spotify.com/?uri=spotify:user:nygeog:playlist:4EBV6FILEjykKNpG1B2G4y" width="100%" height="800" frameborder="0" allowtransparency="true"></iframe></center>
