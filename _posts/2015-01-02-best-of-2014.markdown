@@ -2,7 +2,7 @@
 layout: post
 title:  "Best Music of 2014"
 date:   2015-01-02 12:21:10
-categories: 2014, Music
+categories: Music 2014
 ---
 <!--<iframe src="http://bl.ocks.org/mbostock/raw/cfcdbd3eacd79d30b2e6/e72f86bfeda491fa4012aebcbb0ea9241116b94a/" width="100%" height="400" marginwidth="0" marginheight="0" scrolling="no"></iframe>-->
 
