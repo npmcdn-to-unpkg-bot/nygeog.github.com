@@ -4,10 +4,17 @@ title:  "Best Music of 2014"
 date:   2015-01-02 12:21:10
 categories: 2014, Music
 ---
+<!--<iframe src="http://bl.ocks.org/mbostock/raw/cfcdbd3eacd79d30b2e6/e72f86bfeda491fa4012aebcbb0ea9241116b94a/" width="100%" height="400" marginwidth="0" marginheight="0" scrolling="no"></iframe>-->
+
+
+<center><img src="http://photos-e.ak.instagram.com/hphotos-ak-xpa1/t51.2885-15/10691849_1493937880853988_1991221116_n.jpg" height="75%" width="75%"></center>
+<center></center>
+      
+<!-- -> ![image](http://photos-e.ak.instagram.com/hphotos-ak-xpa1/t51.2885-15/10691849_1493937880853988_1991221116_n.jpg) <-  -->
 
 Below is a Spotify playlist of my favorite music of 2014. I've been making this best of list since 2007 and will hopefully get the older ones up at some point. 
 
 The playlist may be slightly edited over the next few days. Thanks. 
 
 <center>
-<iframe src="https://embed.spotify.com/?uri=spotify:user:nygeog:playlist:4EBV6FILEjykKNpG1B2G4y" width="300" height="380" frameborder="0" allowtransparency="true"></iframe></center>
+<iframe src="https://embed.spotify.com/?uri=spotify:user:nygeog:playlist:4EBV6FILEjykKNpG1B2G4y" width="500" height="800" frameborder="0" allowtransparency="true"></iframe></center>
