@@ -13,6 +13,7 @@ Below are my notes:
 ##MaptimeNYC's SQL for CartoDB
 
 ####Creating Lines from Points
+
 #####ST_Makeline
 
 	SELECT ST_MakeLine (the_geom_webmercator ORDER BY _order ASC)
