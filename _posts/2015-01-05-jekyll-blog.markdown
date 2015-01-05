@@ -17,4 +17,4 @@ I was just dabbling with jekyll bootstrap again recently and I forgot how easy i
 I followed the simple instructions at [jekyllrb.com](http://jekyllrb.com/) and had a blog/website up in minutes. Uploading the site to GitHub was easy as well. 
 
 Here's a screenshot from **jekyllrb** that shows four (4) steps to get started. 
-![jekyll cmd](img/jekyll_cmd.png)
+![jekyll cmd](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/jekyll_cmd.png)
