@@ -7,12 +7,18 @@ categories: Presentations GIS viz
 ---
 Friday January 9th - 11 am
 
-Dr. Catherine Richards Data Viz Course
+Dr. Catherine Richards
+
+###Data Viz Course
 
 ---
 
 
-[View the Slides here](https://nygeog.github.io/big/processing)
+####[View the Slides here](https://nygeog.github.io/big/processing)
+
+####Useful Links
+* [Processing.org](https://processing.org/)
+* [Citi Bike Rides: September 17th & 18th, 2013](http://vimeo.com/89305412)
 
 
 <!--Ok great. What other tools were you thinking about? Just asking to make sure I didn't cover them
