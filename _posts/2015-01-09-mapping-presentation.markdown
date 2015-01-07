@@ -12,10 +12,10 @@ Dr. Catherine Richards Data Viz Course
 ---
 
 
-Slides
+[View the Slides here](https://nygeog.github.io/big/processing)
 
 
-Ok great. What other tools were you thinking about? Just asking to make sure I didn't cover them
+<!--Ok great. What other tools were you thinking about? Just asking to make sure I didn't cover them
 
 
 On Dec 30, 2014, at 7:29 AM, Daniel M Sheehan <dms2203@columbia.edu> wrote:
@@ -47,4 +47,4 @@ Hi Danny,
 
 Would you be interested and have time to give a 30-45 minute lecture on processing.js. Mostly just an overview of what it is, what us required to make maps in processing (code and/or data manipulation) as well as some examples, on Friday January 9th at 11 am?
 
-Catherine
+Catherine-->
