@@ -15,7 +15,12 @@ Dr. Catherine Richards
 
 
 
-####[*View the Slides here*](https://nygeog.github.io/big/processing)
+####View the Slides
+
+* <a href="https://nygeog.github.io/big/processing_1" target="_blank">Part 1</a></div>	
+* <a href="https://nygeog.github.io/big/processing_2" target="_blank">Part 2</a></div>
+
+
 
 ####Useful Links
 * [Processing.org](https://processing.org/)
