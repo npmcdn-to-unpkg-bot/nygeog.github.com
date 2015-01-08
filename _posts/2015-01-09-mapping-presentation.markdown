@@ -81,7 +81,6 @@ You should see this pop-up on screen.
 	void draw(){
   		background(235,235,235);
  		ellipse(movement,height/2,ballSize, ballSize);
-  
   		if(increase == true){
     		movement++;
   		}
@@ -89,14 +88,12 @@ You should see this pop-up on screen.
   		{
     		movement--;
  		}
-  
   		if(movement > width - ballSize/2){
     	increase = false;
  		 }
   		if(movement < ballSize/2){  
     	increase = true;
   		}
-  
   		print(movement);
 		}	
 
