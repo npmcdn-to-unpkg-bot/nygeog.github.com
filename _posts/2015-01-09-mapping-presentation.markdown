@@ -10,7 +10,7 @@ Friday, January 9th, 2014 - 11:00 am - Columbia University: CUMC - Hammer 410
 Dr. Catherine Richards
 
 ---
-
+<a name="top"></a>
 If you'd like **[download Processing](https://processing.org/download/)** at the beginning and if you are savvy, follow along with Exercise A (~9 minutes in).
 
 * ###<a href="https://nygeog.github.io/big/processing_1" target="_blank">Part 1 - Intro</a>
@@ -98,6 +98,8 @@ You should see this pop-up on screen.
 
 ![play a](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/e_a_play.png)
 
+[Top](#top)
+
 ---
 
 ###<a name="e_b">Exercise B Bouncing Ball</a>
@@ -131,6 +133,8 @@ You should see this pop-up on screen.
 
 
 Here we can make the ball move and interact with its surroundings, such as the extents you set for the window in the **Setup**.
+
+[Top](#top)
 
 ---
 
@@ -283,6 +287,9 @@ Here we can make the ball move and interact with its surroundings, such as the e
     }
     }
 
+
+[Top](#top)
+
 ---
 
 ###<a name="e_d">Exercise D Crazy Ball Orbits</a>
@@ -354,6 +361,9 @@ Here we can make the ball move and interact with its surroundings, such as the e
 
     }
     }
+
+
+[Top](#top)
 
 ---
 
@@ -462,6 +472,8 @@ Here we can make the ball move and interact with its surroundings, such as the e
     }
     }
 
+
+[Top](#top)
 
 ---
 
