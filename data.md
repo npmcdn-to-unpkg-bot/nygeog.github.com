@@ -14,9 +14,14 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 ---
 
 #New York City
-* [NYC Open Data](https://nycopendata.socrata.com/)
-* [NYC SR Spatial/CUNY](http://spatialityblog.com)
-* [NYC Department of City Planning - Bytes of Big Apple](http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml)
+* [Open Data](https://nycopendata.socrata.com/)
+* [Department of City Planning - Bytes of Big Apple](http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml)
+* [DOTMap - New York City Department of Transportation](http://gis.nyc.gov/doitt/nycitymap/template?applicationName=DOT)
+* [NYCityMap](http://maps.nyc.gov/doitt/nycitymap/)
+* [NYC.gov Map Gallery](http://www1.nyc.gov/nyc-resources/nyc-maps.page)
+* [MTA Developer Data Downloads](http://web.mta.info/developers/download.html)
+* [SR Spatial (Steven Romalewski) from CUNY](http://spatialityblog.com)
+	* [Subway Data](http://spatialityblog.com/2010/07/08/mta-gis-data-update/)
 
 ---
 
