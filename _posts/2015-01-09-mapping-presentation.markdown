@@ -11,7 +11,7 @@ Dr. Catherine Richards
 
 ---
 
-If you'd like [download Processing](https://processing.org/download/) at the beginning and if you are savvy, follow along with Exercise A (~9 minutes in).
+If you'd like **[download Processing](https://processing.org/download/)** at the beginning and if you are savvy, follow along with Exercise A (~9 minutes in).
 
 * ###<a href="https://nygeog.github.io/big/processing_1" target="_blank">Part 1 - Intro</a>
 * ###<a href="https://nygeog.github.io/big/processing_2" target="_blank">Part 2 - Life Before Processing</a>
@@ -30,7 +30,7 @@ If you'd like [download Processing](https://processing.org/download/) at the beg
 
 ---
 
-* ###<a href="https://nygeog.github.io/big/processing_5" target="_blank">Part 5</a>
+* ###<a href="https://nygeog.github.io/big/processing_5" target="_blank">Part 5 - Projecting Data onto a Map</a>
 
 ####Useful Links
 * [Processing.org](https://processing.org/)
@@ -41,7 +41,9 @@ If you'd like [download Processing](https://processing.org/download/) at the beg
 		* [CityLab Article](http://www.citylab.com/work/2013/06/what-happens-when-you-track-493-people-heading-grocery-store/5887/)
 	* [Mapping Health: Slow/Fast Seattle](Mapping Health: Slow/Fast Seattle)
 	
-
+* [Till Nagel](http://tillnagel.com)
+	* [Unfolding Map Library](http://tillnagel.com/2013/07/unfolding-map-library/)
+	* [UnfoldingMaps.org](http://unfoldingmaps.org)
 
 
 
@@ -463,17 +465,7 @@ Here we can make the ball move and interact with its surroundings, such as the e
 
 ---
 
-* ###<a href="https://nygeog.github.io/big/processing_5" target="_blank">Part 5</a>
 
-####Useful Links
-* [Processing.org](https://processing.org/)
-* [Citi Bike Rides: September 17th & 18th, 2013](http://vimeo.com/89305412)
-(http://vimeo.com/67708597)
-* University of Washington GPS Viz via [**Schema Design**](https://www.schemadesign.com):
-	* [Mapping Health: Shopping for Health](http://vimeo.com/67708596)
-		* [CityLab Article](http://www.citylab.com/work/2013/06/what-happens-when-you-track-493-people-heading-grocery-store/5887/)
-	* [Mapping Health: Slow/Fast Seattle](Mapping Health: Slow/Fast Seattle)
-	
 <!--Ok great. What other tools were you thinking about? Just asking to make sure I didn't cover them
 
 
