@@ -11,10 +11,6 @@ Dr. Catherine Richards
 
 ---
 
-
-
-
-####View the Presentation:
 If you'd like [download Processing](https://processing.org/download/) at the beginning and if you are savvy, follow along with Exercise A (~9 minutes in).
 
 * ###<a href="https://nygeog.github.io/big/processing_1" target="_blank">Part 1 - Intro</a>
