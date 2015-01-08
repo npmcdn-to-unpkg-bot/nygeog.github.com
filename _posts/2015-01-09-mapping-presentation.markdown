@@ -63,7 +63,7 @@ You should see this pop-up on screen.
 
 ---
 
-####Exercise B Bouncing Ball
+###Exercise B Bouncing Ball
 
 	int movement = 0;
 	boolean increase = true;
@@ -97,6 +97,162 @@ Here we can make the ball move and interact with its surroundings, such as the e
 
 ---
 
+###Exercise C Bouncing Ball
+
+    Circle circleOne = new Circle(50,0,0,1,5,1,5,10,0,0,0);
+
+    void setup(){
+      size(600,800);
+      noStroke();
+      
+    }
+
+    void draw(){
+      background(255,255,255);
+      circleOne.drawCircle();
+    }
+
+    class Circle{
+      int ballSize = 150;
+      //bouncing a ball with diff. speeds in the y and x
+      // int positions for xy
+      int posX = 0;
+      int posY = 0;
+
+      boolean increaseX = true;
+      boolean increaseY = true;
+
+      boolean increaseRed = true;
+      boolean increaseGreen = true;
+      boolean increaseBlue = true;
+
+      // speeds
+      int speedX = 5;
+      int speedY = 20;
+      int speedRed = 1;
+      int speedBlue = 5;
+      int speedGreen = 10;
+      
+      int red = 0;
+      int green = 0;
+      int blue = 0;
+
+
+      Circle(int bs, int x, int y, int sX, int sY, 
+        int sR, int sG, int sB, int r, int g, int b){
+      
+        ballSize = bs; 
+        
+        posX = x;
+        posY = y;
+        
+        speedX = sX;
+        speedY = sY;
+        speedRed = sR;
+        speedGreen = sG;
+        speedBlue = sB;
+        
+        red = r;
+        green = g;
+        blue = b;
+    }
+
+    void drawCircle(){
+        
+      fill(red, green, blue);
+      ellipse(posX,posY,ballSize, ballSize);
+      println(red +", "+ green +", "+ blue);
+     
+      //red++;
+      if(increaseRed == true){
+        red = red + speedRed;
+      }
+      else
+        {red = red - speedRed;
+      }
+      
+      if(red > 255){
+        increaseRed = false;
+      }
+      if(red < 0){
+        increaseRed = true;
+      }
+      
+      //green
+        if(increaseGreen == true){
+        green = green + speedGreen;
+      }
+      else
+        {green = green - speedGreen;
+      }
+      
+      if(green > 255){
+        increaseGreen = false;
+      }
+      if(green < 0){
+        increaseGreen = true;
+      }
+      
+        //blye
+        if(increaseBlue == true){
+        blue = blue + speedBlue;
+      }
+      else
+        {blue = blue - speedBlue;
+      }
+      
+      if(blue > 255){
+        increaseBlue = false;
+      }
+      if(blue < 0){
+        increaseBlue = true;
+      }
+      
+      
+      
+      
+      
+      if(increaseX == true){
+        posX = posX + speedX;
+      }
+      else
+      {
+        posX = posX - speedX;
+      }
+      
+      if(posX > width - ballSize/2){
+        increaseX = false;
+      }
+      if(posX < ballSize/2){  
+        increaseX = true;
+      }
+      
+      
+      if(increaseY == true){
+        posY = posY + speedY;
+      }
+      else
+      {
+        posY = posY - speedY;
+      }
+      
+      if(posY > height - ballSize/2){
+        increaseY = false;
+      }
+      if(posY < ballSize/2){  
+        increaseY = true;
+      }
+      
+      
+        //print(movement);
+        
+         
+    }
+    }
+
+---
+
+
 * ###<a href="https://nygeog.github.io/big/processing_5" target="_blank">Part 5</a>
 
 ####Useful Links
@@ -105,6 +261,7 @@ Here we can make the ball move and interact with its surroundings, such as the e
 (http://vimeo.com/67708597)
 * University of Washington GPS Viz via [**Schema Design**](https://www.schemadesign.com):
 	* [Mapping Health: Shopping for Health](http://vimeo.com/67708596)
+		* [CityLab Article](http://www.citylab.com/work/2013/06/what-happens-when-you-track-493-people-heading-grocery-store/5887/)
 	* [Mapping Health: Slow/Fast Seattle](Mapping Health: Slow/Fast Seattle)
 	
 <!--Ok great. What other tools were you thinking about? Just asking to make sure I didn't cover them
