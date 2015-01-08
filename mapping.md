@@ -12,7 +12,7 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 
 #*Mapping examples-upcoming*
 
-###[NETS Animation]()
+####[NETS Animation](http://nygeog.github.io/maps/nets_animation.html)
 * .PNG file with NETS animation
 
-###[Open Layers]()
+####[Open Layers](http://nygeog.github.io/maps/openlayers.html)
