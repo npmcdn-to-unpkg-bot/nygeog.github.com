@@ -27,7 +27,7 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 * [Building Bulk Density (2013) Quartiles by Census Block (2010)](http://nygeog.github.io/maps/buildingbulkdensity.html)
 * [Buildings and Trees Layers](http://nygeog.github.io/maps/buildingstrees.html)
 * [GPS Stationary Battery Test](http://nygeog.github.io/maps/gpsstationary.html)
-
+* [Tanzania Dispensary and Intervention Locations](http://nygeog.github.io/maps/tanzania.html)
 ---
 
 ####MapBox
