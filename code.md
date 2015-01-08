@@ -13,9 +13,9 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 ##[GitHub](https://github.com/nygeog)
 Most of my project-related GitHub code is in a private repository. [Contact me](mailto:daniel.martin.sheehan@gmail.com) if you have any questions about code.
 
-<center><a href="https://github.com/nygeog">
+<right><a href="https://github.com/nygeog">
 <img border="0" alt="github" src="https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png" width="25%" height="25%">
-</a></center>
+</a></right>
 
 ###Python
 * [Python code](https://github.com/nygeog/python)
