@@ -16,13 +16,17 @@ Dr. Catherine Richards
 
 
 ####View the Presentation:
+If you'd like [download Processing](https://processing.org/download/) at the beginning and if you are savvy, follow along with Exercise A (~9 minutes in).
 
 * ###<a href="https://nygeog.github.io/big/processing_1" target="_blank">Part 1 - Intro</a>
-* ###<a href="https://nygeog.github.io/big/processing_2" target="_blank">Part 2 - Failure</a>
-* ###<a href="https://nygeog.github.io/big/processing_3" target="_blank">Part 3 - Seeing</a>
+* ###<a href="https://nygeog.github.io/big/processing_2" target="_blank">Part 2 - Life Before Processing</a>
+* ###<a href="https://nygeog.github.io/big/processing_3" target="_blank">Part 3 - Seeing Processing</a>
 * ###<a href="https://nygeog.github.io/big/processing_4" target="_blank">Part 4 - Shaking Hands with Processing</a>
 
-###Exercise: A Setup
+
+
+###Exercise A Setup
+Copy and paste this code into the processing interface.
 
     int ballSize = 150;
 
@@ -34,6 +38,25 @@ Dr. Catherine Richards
   		background(235,235,0);
   		ellipse(width/2,height/2,ballSize, ballSize);
 		}
+####Exercise A Setup code broken down.
+Here we create the **ballSize** variable and set it to **150**.
+
+    int ballSize = 150;
+
+
+Here we are creating out **setup** to build a 400 by 400 pixel window.
+
+	void setup(){
+  		size(400,400);
+		}
+
+Next, we create our **draw** loop, decide on a background color and position the 2D Primitive **[ellipse](https://processing.org/reference/ellipse_.html)**
+
+	void draw(){
+  		background(235,235,0);
+  		ellipse(width/2,height/2,ballSize, ballSize);
+		}
+
 
 * ###<a href="https://nygeog.github.io/big/processing_5" target="_blank">Part 5</a>
 
