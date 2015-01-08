@@ -20,7 +20,42 @@ If you'd like [download Processing](https://processing.org/download/) at the beg
 
 ---
 
-###Exercise A Setup
+####Code Exercises:
+
+* [Exercise A Setup](#e_a)
+* [Exercise B Bouncing Ball](#e_b)
+* [Exercise C Bouncing Ball with Changing Color and Speeds](#e_c)
+* [Exercise D Crazy Ball Orbits](#e_d)
+* [Exercise E Mouse Position](#e_e)
+
+---
+
+* ###<a href="https://nygeog.github.io/big/processing_5" target="_blank">Part 5</a>
+
+####Useful Links
+* [Processing.org](https://processing.org/)
+* [Citi Bike Rides: September 17th & 18th, 2013](http://vimeo.com/89305412)
+(http://vimeo.com/67708597)
+* University of Washington GPS Viz via [**Schema Design**](https://www.schemadesign.com):
+	* [Mapping Health: Shopping for Health](http://vimeo.com/67708596)
+		* [CityLab Article](http://www.citylab.com/work/2013/06/what-happens-when-you-track-493-people-heading-grocery-store/5887/)
+	* [Mapping Health: Slow/Fast Seattle](Mapping Health: Slow/Fast Seattle)
+	
+
+
+
+
+
+
+---
+
+#Code Exercises
+
+---
+
+
+
+###<a name="e_a">Exercise A Setup</a>
 Copy and paste this code into the processing interface.
 
     int ballSize = 150;
@@ -63,7 +98,7 @@ You should see this pop-up on screen.
 
 ---
 
-###Exercise B Bouncing Ball
+###<a name="e_b">Exercise B Bouncing Ball</a>
 
 	int movement = 0;
 	boolean increase = true;
@@ -97,7 +132,7 @@ Here we can make the ball move and interact with its surroundings, such as the e
 
 ---
 
-###Exercise C Bouncing Ball with Changing Color and Speeds
+###<a name="e_c">Exercise C Bouncing Ball with Changing Color and Speeds</a>
 
     Circle circleOne = new Circle(50,0,0,1,5,1,5,10,0,0,0);
 
@@ -248,7 +283,7 @@ Here we can make the ball move and interact with its surroundings, such as the e
 
 ---
 
-###Exercise D Crazy Ball Orbits
+###<a name="e_d">Exercise D Crazy Ball Orbits</a>
 
 	float positionX = 400.0;
     float positionY = 200; //height/2.0;
@@ -320,7 +355,7 @@ Here we can make the ball move and interact with its surroundings, such as the e
 
 ---
 
-###Exercise E Mouse Position
+###<a name="e_e">Exercise E Mouse Position</a>
 
 	float positionX = 400.0;
     float positionY = 200; //height/2.0;
