@@ -13,7 +13,6 @@ Dr. Catherine Richards
 
 ###Data Viz Course
 
----
 
 
 ####[View the Slides here](https://nygeog.github.io/big/processing)
