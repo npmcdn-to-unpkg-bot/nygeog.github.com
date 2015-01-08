@@ -10,7 +10,7 @@ You can find the source code for the Jekyll new theme at: [github.com/jglovier/j
 
 You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)-->
 
-#*Mapping examples-upcoming*
+#*More mapping examples-upcoming*
 
 ####[NETS Animation](http://nygeog.github.io/maps/nets_animation.html)
 * .PNG file with NETS animation
