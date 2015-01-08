@@ -11,6 +11,8 @@ You can find the source code for the Jekyll new theme at: [github.com/jglovier/j
 You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
 -->
 
+---
+
 ####*Menu*
 * [Info](#info)
 * [Publications](#pubs)
@@ -21,17 +23,27 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 * [Teaching](#teaching)
 * [Calendar](#calendar)
 
+---
+
+Geographer/GIS Analyst at Columbia University, student at the Institute for Data Science and Engineering at Columbia University. Python programmer. Geoprocessing with ArcPy, Shapely, GDAL and OGR. Interested in learning more FOSS4G, specifically PostGIS and online mapping tools.
+
+---
+
 ##<a name="info"></a>Info
 
 * [Resume/CV](https://dl.dropboxusercontent.com/u/36281098/nygeog/pages/cv/daniel_martin_sheehan_cv.pdf)
 * [LinkedIn](https://www.linkedin.com/pub/daniel-sheehan/53/10b/984)
 * [BEH website](http://beh.columbia.edu/)
 
+---
+
 ##<a name="pubs"></a>Publications
 * [Google Scholar](http://scholar.google.com/citations?user=K6iTYsUAAAAJ&hl=en)
 * [LinkedIn](https://www.linkedin.com/pub/daniel-sheehan/53/10b/984)
 
 Add List of publications.
+
+---
 
 ##<a name="news"></a>In the News
 * 2014-07-09 - [Voice of San Diego - Yep, Trolley Use and Density Are Linked
@@ -46,8 +58,12 @@ geoprocessing for population density estimates around station locations](http://
 	
 * 2010-09-09 - [WNYC NPR - Map Your Moves: Brian Lehrer Radio Program](http://www.wnyc.org/shows/bl/2010/sep/09/map-your-moves-data-visualization-challenge/)
 
+---
+
 ##<a name="contact"></a>Contact
 Send me an [email](mailto:daniel.martin.sheehan@gmail.com).
+
+---
 
 ##<a name="hire"></a>Hire
 * GIS
@@ -56,6 +72,8 @@ Send me an [email](mailto:daniel.martin.sheehan@gmail.com).
 	* I program in Python and know many modules such as Pandas, Shapely, Fiona, etc. 
 * Website development
 	* I do some basic web programming and have worked on large websites for public outreach for engineering and transit projects. 
+
+---
 
 ##<a name="blog"></a>Blog
 * My current [blog is on this website](http://nygeog.github.io).
@@ -66,9 +84,12 @@ Send me an [email](mailto:daniel.martin.sheehan@gmail.com).
 * [Blogspot](http://nygeog.blogspot.com/)
 	* My blogging platform from 2008-2013. Earlier posts may be found here
 
+---
+
 ##<a name="teaching"></a>Teaching
 My [teaching information](https://nygeog.github.io/teaching/) can be found [here](https://nygeog.github.io/teaching/). 
 
+---
 
 ##<a name="calendar"></a>Calendar
 

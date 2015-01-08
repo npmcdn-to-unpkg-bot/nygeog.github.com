@@ -11,10 +11,12 @@ You can find the source code for the Jekyll new theme at: [github.com/jglovier/j
 You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
 -->
 
+---
+
 #Upcoming GIS Courses
 * #####**Summer 2015 EPIC**
 
-
+---
 
 #Past GIS Courses
 * #####**The Epidemiology and Population Health Summer Institute at New York, NY** 
