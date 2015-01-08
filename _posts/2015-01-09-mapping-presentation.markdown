@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Presentation: Intro to Processing for spatial data viz"
+title:  "Presentation: Intro to Processing for Spatial Data Viz"
 date:   2015-01-09 12:21:10
 categories: Presentations GIS viz
 ---
