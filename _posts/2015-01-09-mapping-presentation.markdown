@@ -41,7 +41,7 @@ If you'd like **[download Processing](https://processing.org/download/)** at the
 ---
 
 * ###Part 6 - What we can create!
-	
+	Show CitiMotion animation.
 
 
 
