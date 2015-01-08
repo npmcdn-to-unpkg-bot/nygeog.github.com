@@ -9,6 +9,8 @@ Friday January 9th - 11 am
 
 Dr. Catherine Richards
 
+---
+
 ###Data Viz Course
 
 ---
