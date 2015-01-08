@@ -32,6 +32,23 @@ If you'd like **[download Processing](https://processing.org/download/)** at the
 
 * ###<a href="https://nygeog.github.io/big/processing_5" target="_blank">Part 5 - Projecting Data onto a Map</a>
 
+---
+
+####Code Exercises:
+
+* [Download Exercise F Simple Mercator](https://www.dropbox.com/sh/8rumg04nukqihsf/AAAKfeNn2pXt-aZ8mCUS5vyna?dl=1)
+
+---
+
+* ###Part 6 - What we can create!
+	
+
+
+
+
+
+---
+
 ####Useful Links
 * [Processing.org](https://processing.org/)
 * [Citi Bike Rides: September 17th & 18th, 2013](http://vimeo.com/89305412)
@@ -52,6 +69,8 @@ If you'd like **[download Processing](https://processing.org/download/)** at the
 ---
 
 #Code Exercises
+
+
 
 ---
 
