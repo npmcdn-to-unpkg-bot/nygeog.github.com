@@ -62,15 +62,44 @@ Next, we create our **draw** loop, decide on a background color and position the
 		}
 
 ####Now hit the **PLAY** button.
+You should see this pop-up on screen.
 
-![exercise a play](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/e_a_play.png)
+![play a](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/e_a_play.png)
+
+####Exercise B Bouncing Ball
+
+	int movement = 0;
+	boolean increase = true;
+	int ballSize = 150;
+
+	void setup(){
+  		size(400,400);
+	}
+
+	void draw(){
+  		background(235,235,235);
+ 		ellipse(movement,height/2,ballSize, ballSize);
+  
+  		if(increase == true){
+    		movement++;
+  		}
+  		else
+  		{
+    		movement--;
+ 		}
+  
+  		if(movement > width - ballSize/2){
+    	increase = false;
+ 		 }
+  		if(movement < ballSize/2){  
+    	increase = true;
+  		}
+  
+  		print(movement);
+		}	
 
 
-
-
-
-
-
+Here we can make the ball move and interact with its surroundings, such as the extents you set for the window in the **Setup**.
 
 
 * ###<a href="https://nygeog.github.io/big/processing_5" target="_blank">Part 5</a>
