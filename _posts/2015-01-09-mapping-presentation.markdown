@@ -5,13 +5,12 @@ date:   2015-01-09 12:21:10
 categories: Presentations GIS viz
 ---
 ---
-Friday January 9th - 11 am
+Friday, January 9th, 2014 - 11:00 am - Columbia University: CUMC - Hammer 410
 
 Dr. Catherine Richards
 
 ---
 
-###Data Viz Course
 
 
 
