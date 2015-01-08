@@ -15,18 +15,36 @@ Dr. Catherine Richards
 
 
 
-####View the Slides
+####View the Presentation:
 
-* <a href="https://nygeog.github.io/big/processing_1" target="_blank">Part 1</a>
-* <a href="https://nygeog.github.io/big/processing_2" target="_blank">Part 2</a>
+* ####<a href="https://nygeog.github.io/big/processing_1" target="_blank">Part 1</a>
+* ####<a href="https://nygeog.github.io/big/processing_2" target="_blank">Part 2</a>
+* ####<a href="https://nygeog.github.io/big/processing_3" target="_blank">Part 3</a>
+* ####<a href="https://nygeog.github.io/big/processing_4" target="_blank">Part 4</a>
 
+###Exercise: A Setup
 
+    int ballSize = 150;
+
+	void setup(){
+  		size(400,400);
+		}
+
+	void draw(){
+  		background(235,235,0);
+  		ellipse(width/2,height/2,ballSize, ballSize);
+		}
+
+* ####<a href="https://nygeog.github.io/big/processing_5" target="_blank">Part 5</a>
 
 ####Useful Links
 * [Processing.org](https://processing.org/)
 * [Citi Bike Rides: September 17th & 18th, 2013](http://vimeo.com/89305412)
-
-
+(http://vimeo.com/67708597)
+* University of Washington GPS Viz via [**Schema Design**](https://www.schemadesign.com):
+	* [Mapping Health: Shopping for Health](http://vimeo.com/67708596)
+	* [Mapping Health: Slow/Fast Seattle](Mapping Health: Slow/Fast Seattle)
+	
 <!--Ok great. What other tools were you thinking about? Just asking to make sure I didn't cover them
 
 
