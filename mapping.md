@@ -28,6 +28,8 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 * [Buildings and Trees Layers](http://nygeog.github.io/maps/buildingstrees.html)
 * [GPS Stationary Battery Test](http://nygeog.github.io/maps/gpsstationary.html)
 * [Tanzania Dispensary and Intervention Locations](http://nygeog.github.io/maps/tanzania.html)
+
+
 ---
 
 ####MapBox
