@@ -97,7 +97,7 @@ Here we can make the ball move and interact with its surroundings, such as the e
 
 ---
 
-###Exercise C Bouncing Ball
+###Exercise C Bouncing Ball with Changing Color and Speeds
 
     Circle circleOne = new Circle(50,0,0,1,5,1,5,10,0,0,0);
 
@@ -208,10 +208,6 @@ Here we can make the ball move and interact with its surroundings, such as the e
         increaseBlue = true;
       }
       
-      
-      
-      
-      
       if(increaseX == true){
         posX = posX + speedX;
       }
@@ -251,6 +247,81 @@ Here we can make the ball move and interact with its surroundings, such as the e
     }
 
 ---
+
+###Exercise D Crazy Ball Orbits
+
+	float positionX = 400.0;
+    float positionY = 200; //height/2.0;
+    float a = 0;
+    float inc = TWO_PI / 100.0;
+    ArrayList<Orbit> orbits;
+
+
+
+    //Orbit orbitOne;
+    //Orbit orbitTwo;
+
+    void setup(){
+      size(800,400);
+      println(positionY);
+      orbits = new ArrayList<Orbit>();
+      
+      
+      for(int i = 0; i < 100; i++){
+        
+         orbits.add(new Orbit(random(50.0, 200.0), random(50.0, 200.0), TWO_PI / random(5.0, 10.0), random(20,50), int(random(0,255)), int(random(0,255)), int(random(0,255))  ));
+      }
+      noStroke();
+    }
+
+    void draw(){
+       background(255,255,255);
+       for(int i = 0; i < orbits.size(); i++){
+         Orbit orbit = orbits.get(i);
+         orbit.drawFigure();
+         orbit.modPos();
+       }
+       
+    }
+
+    class Orbit{
+      float magnifierX;
+      float magnifierY;
+      float inc;
+      float size;
+      float a;
+      int red;
+      int green;
+      int blue;
+
+      
+      Orbit (float mX, float mY, float i, float s, int r, int g, int b){  
+      magnifierX = mX;
+      magnifierY = mY;
+      inc = i;
+      size = s;
+      red = r;
+      green = g;
+      blue = b;
+    }
+
+      void drawFigure(){
+        fill(red, green, blue);
+        ellipse(positionX + cos(a)*magnifierX, positionY + sin(a)*magnifierY, size, size); 
+        //rect(positionX + cos(a)*magnifierX, positionY + sin(a)*magnifierY, 10, 50); 
+      
+    }
+
+      void modPos(){
+        a = a + inc;
+
+    }
+    }
+
+---
+
+
+
 
 
 * ###<a href="https://nygeog.github.io/big/processing_5" target="_blank">Part 5</a>
