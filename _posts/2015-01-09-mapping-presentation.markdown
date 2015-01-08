@@ -62,7 +62,8 @@ Next, we create our **draw** loop, decide on a background color and position the
 		}
 
 ####Now hit the **PLAY** button.
-![exercise a](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/e_a_play.png)	
+
+![exercise a play](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/e_a_play.png)
 
 
 
