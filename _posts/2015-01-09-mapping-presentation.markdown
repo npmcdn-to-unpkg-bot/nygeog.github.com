@@ -320,9 +320,113 @@ Here we can make the ball move and interact with its surroundings, such as the e
 
 ---
 
+###Exercise E Mouse Position
+
+	float positionX = 400.0;
+    float positionY = 200; //height/2.0;
+    float a = 0;
+    float inc = TWO_PI / 100.0;
+    ArrayList<Orbit> orbits;
+    boolean frozen = false;
 
 
 
+    //Orbit orbitOne;
+    //Orbit orbitTwo;
+
+    void setup(){
+      size(800,600);
+      println(positionY);
+      orbits = new ArrayList<Orbit>();
+      
+      float mX;
+      float mY;
+      float s;
+      int r;
+      int g;
+      int b;
+      // variables for each of the things we modify in the class
+      
+      for(int i = 0; i < 400; i++){
+        //for loop to decide how many things (400) 
+         mX = random(100.0, 400.0);
+         mY = random(100.0, 400.0);
+         inc = TWO_PI / random(100.0, 200.0);
+         s = random(10, 100);
+         r = int(random(0, 255));
+         g = int(random(0, 255));
+         b = int(random(0, 255));
+         
+         // set the random vairables
+         // and add to orbits
+         
+         orbits.add(new Orbit(mX, mY, inc, s, r, g, b));
+      }
+      noStroke();
+    }
+
+    void draw(){
+       background(0,0,0);
+       if(frozen == false){
+       positionX = mouseX;
+       positionY = mouseY;
+       }
+       for(int i = 0; i < orbits.size(); i++){
+         // for loop handles all our orbits
+         Orbit orbit = orbits.get(i);
+         orbit.drawFigure();
+         orbit.modifyVariables();
+       }  
+    }
+
+
+    void keyPressed(){
+     if(frozen == true){
+       frozen = false;
+     }else{
+       frozen = true;
+     }
+    }
+
+    class Orbit{
+      float magnifierX;
+      float magnifierY;
+      float inc;
+      float size;
+      float a;
+      float c;
+      int red;
+      int green;
+      int blue;
+
+      
+      Orbit (float mX, float mY, float i, float s, int r, int g, int b){  
+      magnifierX = mX;
+      magnifierY = mY;
+      inc = i;
+      size = s;
+      red = r;
+      green = g;
+      blue = b;
+    }
+
+      void drawFigure(){
+        
+        fill(red + sin(a)*100, green + cos(c)*200, blue + tan(c)*100);
+        //ellipse(positionX + cos(a)*magnifierX, positionY + sin(a)*magnifierY,size + tan(a) *20, size + tan(a)*20); 
+        rect(positionX + cos(a)*magnifierX, positionY + sin(a)*magnifierY, size + sin(a) *20, size + cos(a)*20);
+      
+    }
+
+      void modifyVariables(){
+        a = a + inc;
+        c = c + inc*2;
+
+    }
+    }
+
+
+---
 
 * ###<a href="https://nygeog.github.io/big/processing_5" target="_blank">Part 5</a>
 
