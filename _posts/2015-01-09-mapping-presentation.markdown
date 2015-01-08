@@ -38,6 +38,10 @@ Copy and paste this code into the processing interface.
   		background(235,235,0);
   		ellipse(width/2,height/2,ballSize, ballSize);
 		}
+		
+####It should look like this
+![exercise a](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/e_a_code.png)		
+		
 ####Exercise A Setup code broken down.
 Here we create the **ballSize** variable and set it to **150**.
 
@@ -56,6 +60,16 @@ Next, we create our **draw** loop, decide on a background color and position the
   		background(235,235,0);
   		ellipse(width/2,height/2,ballSize, ballSize);
 		}
+
+####Now hit the **PLAY** button.
+![exercise a](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/e_a_play.png)	
+
+
+
+
+
+
+
 
 
 * ###<a href="https://nygeog.github.io/big/processing_5" target="_blank">Part 5</a>
