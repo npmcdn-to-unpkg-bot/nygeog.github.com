@@ -14,7 +14,7 @@ Below are my notes:
 
 ####Creating Lines from Points
 
-#####ST_Makeline
+####ST_Makeline
 
 	SELECT ST_MakeLine (the_geom_webmercator ORDER BY _order ASC)
 	AS the_geom_webmercator, route
@@ -23,7 +23,8 @@ Below are my notes:
 	
 <iframe width='100%' height='900' frameborder='0' src='https://dms2203.cartodb.com/tables/maptimesql_points/public/map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 	
-#####ST_Contains (Spatial Join)
+####ST_Contains (Spatial Join)
+
 	SELECT 
 	us_counties.the_geom_webmercator,us_counties.cartodb_id, count(quakes.the_geom)
 	AS total

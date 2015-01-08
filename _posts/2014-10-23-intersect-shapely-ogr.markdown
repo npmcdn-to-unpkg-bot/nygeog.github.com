@@ -17,6 +17,7 @@ categories: Intersect Shapely OGR
 What I was trying to do is intersect these buffers with these census tracts, maintain their ID's and the tracts attributes. I had some code for Cascaded Unions that was not really working, posted a [GIS.StackExchange conversation](http://gis.stackexchange.com/questions/119374/intersect-shapefiles-using-shapely) and was able to get two open souce soluations. 
 
 ![image](https://dl.dropboxusercontent.com/u/36281098/images/shapely_intersect.png)
+
 ####[See the GitHub page for the data](https://github.com/nygeog/questions/tree/master/shapely_intersect)
 
 
