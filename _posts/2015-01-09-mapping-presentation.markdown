@@ -23,7 +23,7 @@ If you'd like [download Processing](https://processing.org/download/) at the beg
 * ###<a href="https://nygeog.github.io/big/processing_3" target="_blank">Part 3 - Seeing Processing</a>
 * ###<a href="https://nygeog.github.io/big/processing_4" target="_blank">Part 4 - Shaking Hands with Processing</a>
 
-
+---
 
 ###Exercise A Setup
 Copy and paste this code into the processing interface.
@@ -66,6 +66,8 @@ You should see this pop-up on screen.
 
 ![play a](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/e_a_play.png)
 
+---
+
 ####Exercise B Bouncing Ball
 
 	int movement = 0;
@@ -101,6 +103,7 @@ You should see this pop-up on screen.
 
 Here we can make the ball move and interact with its surroundings, such as the extents you set for the window in the **Setup**.
 
+---
 
 * ###<a href="https://nygeog.github.io/big/processing_5" target="_blank">Part 5</a>
 
