@@ -23,9 +23,9 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 
 #<a name="info"></a>Info
 
-* ####Resume/CV
-* ####LinkedIn
-* ####BEH website
+* #####[Resume/CV](https://dl.dropboxusercontent.com/u/36281098/nygeog/pages/cv/daniel_martin_sheehan_cv.pdf")
+* #####[LinkedIn](https://www.linkedin.com/pub/daniel-sheehan/53/10b/984)
+* #####[BEH website](http://beh.columbia.edu/)
 
 #<a name="hire"></a>Hire
 * ####GIS
