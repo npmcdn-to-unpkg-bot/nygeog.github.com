@@ -4,13 +4,16 @@ title:  "Presentation: Intro to Processing for Spatial Data Viz"
 date:   2015-01-09 12:21:10
 categories: Presentations GIS viz
 ---
+
+<a name="top"></a>
+
 ---
 Friday, January 9th, 2014 - 11:00 am - Columbia University: CUMC - Hammer 410
 
 Dr. Catherine Richards
 
 ---
-<a name="top"></a>
+
 If you'd like **[download Processing](https://processing.org/download/)** at the beginning and if you are savvy, follow along with Exercise(s) (~9 minutes in).
 
 * ###<a href="https://nygeog.github.io/big/processing_1" target="_blank">Part 1 - Intro</a>
