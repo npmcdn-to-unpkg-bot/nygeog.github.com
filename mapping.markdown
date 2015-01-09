@@ -14,10 +14,8 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 
 #*More mapping examples-upcoming-need to add links*
 
----
+I'll be adding more mapping examples over the next few weeks/months. Some projects and maps I've created are [HIPAA](http://www.hhs.gov/ocr/privacy/) or [IRB](http://en.wikipedia.org/wiki/Institutional_review_board) sensitive and can not be shared. 
 
-####[NETS Animation](http://nygeog.github.io/maps/nets_animation.html)
-* .PNG file with NETS animation
 
 ---
 
@@ -33,6 +31,15 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 ---
 
 ####MapBox
+
+* [Mapbox Source Quickstart](https://nygeog.github.io/mapbox/2014/11/18/mapbox-tutorial.html)
+
+---
+
+####[NETS Animation](http://nygeog.github.io/maps/nets_animation.html)
+* .PNG file with NETS animation
+
+
 
 ----
 
