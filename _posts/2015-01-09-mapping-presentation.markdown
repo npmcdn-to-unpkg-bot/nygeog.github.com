@@ -21,27 +21,22 @@ If you'd like **[download Processing](https://processing.org/download/)** at the
 * ###<a href="https://nygeog.github.io/big/processing_3" target="_blank">Part 3 - Seeing Processing</a>
 * ###<a href="https://nygeog.github.io/big/processing_4" target="_blank">Part 4 - Shaking Hands with Processing</a>
 
----
 
-####Code Exercises:
+* ####Code Exercises:
 
-* [Exercise A Setup](#e_a)
-* [Exercise B Bouncing Ball](#e_b)
-* [Exercise C Bouncing Ball with Changing Color and Speeds](#e_c)
-* [Exercise D Crazy Ball Orbits](#e_d)
-* [Exercise E Mouse Position](#e_e)
-
----
+	* [Exercise A Setup](#e_a)
+	* [Exercise B Bouncing Ball](#e_b)
+	* [Exercise C Bouncing Ball with Changing Color and Speeds](#e_c)
+	* [Exercise D Crazy Ball Orbits](#e_d)
+	* [Exercise E Mouse Position](#e_e)
 
 * ###<a href="https://nygeog.github.io/big/processing_5" target="_blank">Part 5 - Projecting Data onto a Map</a>
 
----
+* ####Code Exercises:
 
-####Code Exercises:
+	* [Download Exercise F Simple Mercator](https://www.dropbox.com/sh/8rumg04nukqihsf/AAAKfeNn2pXt-aZ8mCUS5vyna?dl=1)
 
-* [Download Exercise F Simple Mercator](https://www.dropbox.com/sh/8rumg04nukqihsf/AAAKfeNn2pXt-aZ8mCUS5vyna?dl=1)
 
----
 
 * ###Part 6 - What we can create!
 	* Show CitiMotion animation.
