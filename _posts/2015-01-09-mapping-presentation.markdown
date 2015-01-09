@@ -60,6 +60,8 @@ If you'd like **[download Processing](https://processing.org/download/)** at the
 	* [Unfolding Map Library](http://tillnagel.com/2013/07/unfolding-map-library/)
 	* [UnfoldingMaps.org](http://unfoldingmaps.org)
 
+* **Export Javascript Project to HTML web page**
+	* [Video from Univ. Oregon on how to quickly export](http://pages.uoregon.edu/park/252/VideoTutorials/ProcessingExport.html)
 
 Thanks: Tom MacWright for creating the [Big presentation system](http://www.macwright.org/2011/10/28/big.html); Processing Instructor at 3rd Ward (forgot his name).
 
