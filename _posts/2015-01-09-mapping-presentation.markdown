@@ -10,7 +10,7 @@ categories: Presentations GIS viz
 ---
 Friday, January 9th, 2014 - 11:00 am - Columbia University: CUMC - Hammer 410
 
-Dr. Catherine Richards
+For Dr. Catherine Richards Course
 
 ---
 
