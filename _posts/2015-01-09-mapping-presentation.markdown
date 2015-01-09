@@ -40,7 +40,7 @@ If you'd like **[download Processing](https://processing.org/download/)** at the
 
 * ###Part 6 - What we can create!
 	* Show CitiMotion animation.
-	* [NYC Traffic Crashes: Bikes & Pedestrians 1995-2009 ](https://www.youtube.com/watch?v=UIy3YyFizUo)
+	* [NYC Traffic Crashes: Bikes & Pedestrians 1995-2009](https://www.youtube.com/watch?v=UIy3YyFizUo) (what YouTube does to raw video, fuzzy).
 
 
 
