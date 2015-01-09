@@ -17,7 +17,7 @@ For Dr. Catherine Richards Course
 If you'd like **[download Processing](https://processing.org/download/)** at the beginning and if you are savvy, follow along with Exercise(s) (~9 minutes in).
 
 * ###<a href="https://nygeog.github.io/big/processing_1" target="_blank">Part 1 - Intro</a>
-* ###<a href="https://nygeog.github.io/big/processing_2" target="_blank">Part 2 - Life Before Processing</a>
+* ###<a href="https://nygeog.github.io/big/processing_2" target="_blank">Part 2 - Before Processing</a>
 * ###<a href="https://nygeog.github.io/big/processing_3" target="_blank">Part 3 - Seeing Processing</a>
 * ###<a href="https://nygeog.github.io/big/processing_4" target="_blank">Part 4 - Shaking Hands with Processing</a>
 
