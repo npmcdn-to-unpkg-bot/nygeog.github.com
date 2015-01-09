@@ -61,7 +61,7 @@ If you'd like **[download Processing](https://processing.org/download/)** at the
 	* [UnfoldingMaps.org](http://unfoldingmaps.org)
 
 
-
+Thanks: Tom MacWright for creating the [Big presentation system](http://www.macwright.org/2011/10/28/big.html); Processing Instructor at 3rd Ward (forgot his name).
 
 
 ---
