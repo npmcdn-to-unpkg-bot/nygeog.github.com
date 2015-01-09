@@ -50,11 +50,11 @@ If you'd like **[download Processing](https://processing.org/download/)** at the
 ####Useful Links
 * [Processing.org](https://processing.org/)
 * [Citi Bike Rides: September 17th & 18th, 2013](http://vimeo.com/89305412)
-(http://vimeo.com/67708597)
+
 * University of Washington GPS Viz via [**Schema Design**](https://www.schemadesign.com):
 	* [Mapping Health: Shopping for Health](http://vimeo.com/67708596)
 		* [CityLab Article](http://www.citylab.com/work/2013/06/what-happens-when-you-track-493-people-heading-grocery-store/5887/)
-	* [Mapping Health: Slow/Fast Seattle](Mapping Health: Slow/Fast Seattle)
+	* [Mapping Health: Slow/Fast Seattle](http://vimeo.com/67708597)
 	
 * [Till Nagel](http://tillnagel.com)
 	* [Unfolding Map Library](http://tillnagel.com/2013/07/unfolding-map-library/)
