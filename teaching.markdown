@@ -26,7 +26,7 @@ Geographic Information Systems (20-hour course)
 Columbia University (EPIC) – Spring 2013 
 Geographic Information Systems (20-hour course) 
 * #####**Barnard College – Spring 2013 New York, NY** 
-Spatial Analysis: GIS Methods and Urban Case Studies -URBS V 3200 
+Spatial Analysis: GIS Methods and Urban Case Studies - URBS V 3200 
 * #####**Barnard College – Fall 2012 New York, NY** 
 Spatial Analysis: GIS Methods and Urban Case Studies - URBS V 3200 
 * #####**The Epidemiology and Population Health Summer Institute at New York, NY** 
