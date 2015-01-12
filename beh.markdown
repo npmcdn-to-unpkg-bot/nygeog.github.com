@@ -5,10 +5,12 @@ permalink: /beh/
 ---
 
 
-#BEH Walkability
+#The Built Environment and Health Project (BEH) 
+
+##Walkability
 
 
-* ##2010
+* ###2010
 
 	* ###Census Block
 	
