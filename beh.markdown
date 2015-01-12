@@ -6,6 +6,7 @@ permalink: /beh/
 
 
 #The Built Environment and Health Project (BEH) 
+The [BEH Website.](http://beh.columbia.edu/)
 
 ##Walkability
 
