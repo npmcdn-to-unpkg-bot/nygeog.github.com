@@ -13,7 +13,18 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 
 ---
 
-#New York City
+####*Menu*
+* [New York City](#nyc)
+* [New York State](#nys)
+* [United States](#us)
+* [Global](#global)
+* [University Data Centers](#univ)
+
+
+---
+
+
+#<a name="nyc"></a>New York City
 * [Open Data](https://nycopendata.socrata.com/)
 	* Parks
 		* [Park Inspections Data (XML)](https://data.cityofnewyork.us/Housing-Development/Parks-Inspections-data/t9jy-gfev)
@@ -51,24 +62,24 @@ Directory of Parks Properties (webpage)
 
 ---
 
-#New York State
+#<a name="nys"></a>New York State
 * [NYS Open Data](https://data.ny.gov/)
 * [NYS GIS Clearinghouse](https://gis.ny.gov/)
 
 ---
 
-#United States
+#<a name="us"></a>United States
 * [US Open Data](https://www.data.gov/)
 
 ---
 
-#Global
+#<a name="global"></a>Global
 * [Global Data DIVA-GIS](http://www.diva-gis.org/)
 * [Global Data OpenStreetMap](http://www.openstreetmap.org/)
 
 ---
 
-#University Data Centers
+#<a name="univ"></a>University Data Centers
 * [Columbia - Digital Social Science Center (DSSC) ](http://gis.columbia.edu/data.html)
 * [Cornell University Geospatial Information Repository (CUGIR)](http://cugir.mannlib.cornell.edu/)
 * [The National Historical Geographic Information System (NHGIS)](https://www.nhgis.org/)
