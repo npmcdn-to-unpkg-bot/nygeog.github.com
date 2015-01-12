@@ -15,7 +15,7 @@ The [BEH Website.](http://beh.columbia.edu/)
 
 * ###2010
 
-	* ####Census Block
+	* **Census Block**
 	
 		* Walkability Tables
 		
@@ -29,7 +29,7 @@ The [BEH Website.](http://beh.columbia.edu/)
 		
 			* Download Data Dictionary
 			
-	* ####Census Tract
+	* **Census Tract**
 	
 		* Walkability Tables
 		
@@ -44,7 +44,7 @@ The [BEH Website.](http://beh.columbia.edu/)
 		
 			* [Download Data Dictionary](https://github.com/nygeog/beh_public/blob/master/data/walkability/docs/walkability-gis-codebook-2010-tracts-20150112.pdf?raw=true)
 			
-	* ####Community District
+	* **Community District**
 	
 		* Walkability Tables
 		
@@ -59,7 +59,7 @@ The [BEH Website.](http://beh.columbia.edu/)
 		
 			* [Download Data Dictionary](https://github.com/nygeog/beh_public/blob/master/data/walkability/docs/GIS-Codebook-CommunityDistricts-12dec2014.pdf?raw=true)
 			
-	* ####UHF (42)
+	* **UHF (42)**
 	
 		* Walkability Tables
 		
