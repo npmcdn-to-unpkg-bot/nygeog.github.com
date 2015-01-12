@@ -13,7 +13,7 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 
 ---
 
-####*Menu*
+####<a name="top"></a>*Menu*
 * [Info](#info)
 * [Publications](#pubs)
 * [News](#news)

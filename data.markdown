@@ -60,16 +60,22 @@ Directory of Parks Properties (webpage)
 * [SR Spatial (Steven Romalewski) from CUNY](http://spatialityblog.com)
 	* [Subway Data](http://spatialityblog.com/2010/07/08/mta-gis-data-update/)
 
+[Top](#top)
+
 ---
 
 #<a name="nys"></a>New York State
 * [NYS Open Data](https://data.ny.gov/)
 * [NYS GIS Clearinghouse](https://gis.ny.gov/)
 
+[Top](#top)
+
 ---
 
 #<a name="us"></a>United States
 * [US Open Data](https://www.data.gov/)
+
+[Top](#top)
 
 ---
 
@@ -77,9 +83,14 @@ Directory of Parks Properties (webpage)
 * [Global Data DIVA-GIS](http://www.diva-gis.org/)
 * [Global Data OpenStreetMap](http://www.openstreetmap.org/)
 
+[Top](#top)
+
 ---
 
 #<a name="univ"></a>University Data Centers
 * [Columbia - Digital Social Science Center (DSSC) ](http://gis.columbia.edu/data.html)
 * [Cornell University Geospatial Information Repository (CUGIR)](http://cugir.mannlib.cornell.edu/)
 * [The National Historical Geographic Information System (NHGIS)](https://www.nhgis.org/)
+
+
+[Top](#top)
