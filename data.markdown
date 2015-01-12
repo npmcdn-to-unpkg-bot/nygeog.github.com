@@ -15,6 +15,13 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 
 #New York City
 * [Open Data](https://nycopendata.socrata.com/)
+	* Parks
+		* [Park Inspections Data (XML)](https://data.cityofnewyork.us/Housing-Development/Parks-Inspections-data/t9jy-gfev)
+The Parks Inspection Program (PIP) is a comprehensive, outcome-based performance measurement system that generates frequent, random, and detailed inspections of our parks and playgrounds. A team of inspectors conducts nearly 5,000 inspections per year. Each site receives a rating of "Acceptable" or "Unacceptable" based upon the condition of specific park features.
+		* [Parks (Shapefile)](https://data.cityofnewyork.us/City-Government/Parks-Properties/rjaj-zgq7)
+Directory of Parks Properties (webpage)
+			* [Direct Download of the Parks (Shapefile)](https://data.cityofnewyork.us/api/geospatial/rjaj-zgq7?method=export&format=Shapefile)
+
 * [Department of City Planning - Bytes of Big Apple](http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml)
 * [DOTMap - New York City Department of Transportation](http://gis.nyc.gov/doitt/nycitymap/template?applicationName=DOT)
 * [NYCityMap](http://maps.nyc.gov/doitt/nycitymap/)
