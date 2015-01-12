@@ -1,6 +1,6 @@
 ---
 layout: page
-title: BEH
+title: The Build Environment and Health Project
 permalink: /beh/
 ---
 
