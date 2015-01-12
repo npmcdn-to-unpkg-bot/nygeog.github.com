@@ -23,6 +23,25 @@ Directory of Parks Properties (webpage)
 			* [Direct Download of the Parks (Shapefile)](https://data.cityofnewyork.us/api/geospatial/rjaj-zgq7?method=export&format=Shapefile)
 
 * [Department of City Planning - Bytes of Big Apple](http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml)
+	* [PLUTO and MapPLUTO](http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml#pluto)
+	* [Political & Election Districts](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml#pod)
+	* [Borough Boundaries & Community Districts](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml#bcd)
+	* [School, Police, Health & Fire](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml#shfp)
+	* [Census Geographies](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml#cbt)
+		* Census Tracts
+			* [2010 Census Tracts (Clipped to Shoreline)](http://www.nyc.gov/html/dcp/download/bytes/nyct2010_14d.zip)
+			* [2010 Census Tracts (Water Areas Included)](http://www.nyc.gov/html/dcp/download/bytes/nyct2010wi_14d.zip)
+			* [2000 Census Tracts (Clipped to Shoreline)](http://www.nyc.gov/html/dcp/download/bytes/nyct2000_14d.zip)
+			* [2000 Census Tracts (Water Areas Included)](http://www.nyc.gov/html/dcp/download/bytes/nyct2000wi_14d.zip)	
+		* Census Blocks
+			* [2010 Census Blocks (Clipped to Shoreline)](http://www.nyc.gov/html/dcp/download/bytes/nycb2010_14d.zip)
+			* [2010 Census Blocks (Water Areas Included)](http://www.nyc.gov/html/dcp/download/bytes/nycb2010wi_14d.zip)
+			* [2000 Census Blocks (Clipped to Shoreline)](http://www.nyc.gov/html/dcp/download/bytes/nycb2000_14d.zip)
+			* [2000 Census Blocks (Water Areas Included)](http://www.nyc.gov/html/dcp/download/bytes/nycb2000wi_14d.zip)
+			
+			
+			
+			
 * [DOTMap - New York City Department of Transportation](http://gis.nyc.gov/doitt/nycitymap/template?applicationName=DOT)
 * [NYCityMap](http://maps.nyc.gov/doitt/nycitymap/)
 * [NYC.gov Map Gallery](http://www1.nyc.gov/nyc-resources/nyc-maps.page)
