@@ -46,6 +46,8 @@ Geographer/GIS Analyst at Columbia University, student at the Institute for Data
 
 Add List of publications.
 
+[Top](#top)
+
 ---
 
 ##<a name="news"></a>In the News
@@ -79,6 +81,8 @@ Send me an [email](mailto:daniel.martin.sheehan@gmail.com).
 	* I program in Python and know many modules such as Pandas, Shapely, Fiona, etc. 
 * Website development
 	* I do some basic web programming and have worked on large websites for public outreach for engineering and transit projects. 
+	
+[Top](#top)
 
 ---
 
