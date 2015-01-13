@@ -34,6 +34,7 @@ Geographer/GIS Analyst at Columbia University, student at the Institute for Data
 * [Resume/CV](https://dl.dropboxusercontent.com/u/36281098/nygeog/pages/cv/daniel_martin_sheehan_cv.pdf)
 * [LinkedIn](https://www.linkedin.com/pub/daniel-sheehan/53/10b/984)
 * [BEH website](http://beh.columbia.edu/)
+* [BEH GIS website](http://beh-gis.github.com)
 
 ---
 
