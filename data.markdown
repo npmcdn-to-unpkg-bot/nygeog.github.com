@@ -60,6 +60,12 @@ Directory of Parks Properties (webpage)
 * [SR Spatial (Steven Romalewski) from CUNY](http://spatialityblog.com)
 	* [Subway Data](http://spatialityblog.com/2010/07/08/mta-gis-data-update/)
 
+
+* Taxi Data Foiled by [Chris Wong](http://chriswhong.com)
+	* [NYC Taxi Data 2013 - Trip and Fare Data](http://chriswhong.com/open-data/foil_nyc_taxi/)
+	* [NYC Boro Taxi (Green Taxi) Trip Data 2013-2014](http://chriswhong.com/nycborotaxidata/)
+	
+	
 [Top](#top)
 
 ---
