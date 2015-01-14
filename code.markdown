@@ -23,21 +23,26 @@ Most of my project-related GitHub code is in a private repository. [Contact me](
 
 ---
 
-###<a name="python">Python
+###<a name="python"></a>Python
 * [Python code](https://github.com/nygeog/python)
 	* [ArcPy](https://github.com/nygeog/python/tree/master/arcpy)
 	* [Pandas](https://github.com/nygeog/python/tree/master/pandas)
 	
 * Tools
-	* <a name="mappluto">[MapPluto - Download and Merge to File Geodatabase](https://github.com/nygeog/mappluto_to_fgdb) This tool downloads and merges all the available MapPluto files from NYC Department of City Planning into a File Geodatabase with Feature Datasets for each MapPluto Release. 
+	* <a name="mappluto"></a>[MapPluto - Download and Merge to File Geodatabase](https://github.com/nygeog/mappluto_to_fgdb) This tool downloads and merges all the available MapPluto files from NYC Department of City Planning into a File Geodatabase with Feature Datasets for each MapPluto Release. 
+
+[Top](#top)
 	
 ---
 	
-###<a name="osgeo">Open Source Geo (OSGEO)
+###<a name="osgeo"></a>Open Source Geo (OSGEO)
 * [GDAL Cheat Sheet](https://github.com/nygeog/gdal-cheat-sheet) 
+
+[Top](#top)
 
 ---
 		
-###<a name="api">API's
+###<a name="api"></a>API's
 * [Census API](https://github.com/nygeog/census_api)
 
+[Top](#top)
