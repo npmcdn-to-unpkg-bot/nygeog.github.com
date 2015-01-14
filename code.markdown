@@ -4,11 +4,13 @@ title: Code
 permalink: /code/
 ---
 
-<!--This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+---
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+####<a name="top"></a>*Menu*
+* [Python](#python)
+* [OSGeo](#osgeo)
+* [API's](#api)
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)-->
 
 ---
 
@@ -21,21 +23,21 @@ Most of my project-related GitHub code is in a private repository. [Contact me](
 
 ---
 
-###Python
+###<a name="python">Python
 * [Python code](https://github.com/nygeog/python)
 	* [ArcPy](https://github.com/nygeog/python/tree/master/arcpy)
 	* [Pandas](https://github.com/nygeog/python/tree/master/pandas)
 	
 * Tools
-	* [MapPluto - Download and Merge to File Geodatabase](https://github.com/nygeog/mappluto_to_fgdb)
+	* <a name="mappluto">[MapPluto - Download and Merge to File Geodatabase](https://github.com/nygeog/mappluto_to_fgdb) This tool downloads and merges all the available MapPluto files from NYC Department of City Planning into a File Geodatabase with Feature Datasets for each MapPluto Release. 
 	
 ---
 	
-###Open Source Geo (OSGEO)
+###<a name="osgeo">Open Source Geo (OSGEO)
 * [GDAL Cheat Sheet](https://github.com/nygeog/gdal-cheat-sheet) 
 
 ---
 		
-###API
+###<a name="api">API's
 * [Census API](https://github.com/nygeog/census_api)
 

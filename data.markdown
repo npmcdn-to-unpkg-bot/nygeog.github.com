@@ -4,13 +4,6 @@ title: Data
 permalink: /data/
 ---
 
-<!--This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
--->
-
 ---
 
 ####<a name="top"></a>*Menu*
@@ -34,7 +27,7 @@ Directory of Parks Properties (webpage)
 			* [Direct Download of the Parks (Shapefile)](https://data.cityofnewyork.us/api/geospatial/rjaj-zgq7?method=export&format=Shapefile)
 
 * [Department of City Planning - Bytes of Big Apple](http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml)
-	* [PLUTO and MapPLUTO](http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml#pluto)
+	* [PLUTO and MapPLUTO](http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml#pluto) - [Check out my Python MapPluto download and merge python tool](http://nygeog.github.io/code/#mappluto)
 	* [Political & Election Districts](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml#pod)
 	* [Borough Boundaries & Community Districts](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml#bcd)
 	* [School, Police, Health & Fire](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml#shfp)
