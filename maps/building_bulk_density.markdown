@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "NYC Building Bulk Density"
 permalink: /maps/building_bulk_density/
 ---
