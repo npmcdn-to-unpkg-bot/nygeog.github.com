@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NYC Building Bulk Density Quartiles"
+title:  "NYC Building Bulk Density"
 date:   2014-08-25 11:31:10
 categories: Blog 
 ---
