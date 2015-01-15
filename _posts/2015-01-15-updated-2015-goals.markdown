@@ -18,4 +18,6 @@ Updated and Additional 2015 Goals
 <!--![GIF](https://dl-web.dropbox.com/get/Public/images/beh_gis_animated_gif_2_download.gif?_subject_uid=36281098&w=AAAE6FL_6TjkPRBTgWQ5LiLzIhlE0y9wH2nuJJmKgSMydw)
 -->
 
-<iframe src="https://dl.dropboxusercontent.com/u/36281098/Slides-SlidesJS-3/examples/playing/index.html" frameborder="0" style="width: 100%; height: 450px" ></iframe>
+[SlidesJS](http://www.slidesjs.com/)
+
+<iframe src="https://dl.dropboxusercontent.com/u/36281098/Slides-SlidesJS-3/examples/playing/index.html" frameborder="0" style="width: 100%; height: 355px" ></iframe>
