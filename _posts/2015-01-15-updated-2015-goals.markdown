@@ -20,4 +20,4 @@ Updated and Additional 2015 Goals
 
 [SlidesJS](http://www.slidesjs.com/)
 
-<iframe src="https://dl.dropboxusercontent.com/u/36281098/Slides-SlidesJS-3/examples/playing/index.html" frameborder="0" style="width: 100%; height: 440px" ></iframe>
+<iframe src="http://nygeog.github.io/maps/misc/Slides-SlidesJS-3/examples/playing/" frameborder="0" style="width: 100%; height: 440px" ></iframe>
