@@ -20,6 +20,7 @@ Updated and Additional 2015 Goals
 -->
 
 [SlidesJS](http://www.slidesjs.com/)
+I couldn't manage to get this to work on Chrome at all so I ended up changing my forwarding to HTTP from HTTPS. I'm not totally sure what the consequences of this will be, but figure since I don't engage in any commerce here it should be all right. 
 
 <iframe src="http://nygeog.github.io/index_slide.html" frameborder="0" style="width: 100%; height: 440px" ></iframe>
 
