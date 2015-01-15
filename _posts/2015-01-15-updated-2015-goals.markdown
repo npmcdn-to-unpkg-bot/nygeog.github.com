@@ -15,4 +15,14 @@ Updated and Additional 2015 Goals
 * Try out Python for Processing 2.0 
 
 
-![GIF](https://dl-web.dropbox.com/get/Public/images/beh_gis_animated_gif_2_download.gif?_subject_uid=36281098&w=AAAE6FL_6TjkPRBTgWQ5LiLzIhlE0y9wH2nuJJmKgSMydw)
+<!--![GIF](https://dl-web.dropbox.com/get/Public/images/beh_gis_animated_gif_2_download.gif?_subject_uid=36281098&w=AAAE6FL_6TjkPRBTgWQ5LiLzIhlE0y9wH2nuJJmKgSMydw)
+-->
+
+{{ content | slideshows }}
+
+<ul>    
+<li><img src="assets/images/77_xs650.JPG" alt="Example image" title="" /></li>
+<li><img src="assets/images/650_chop.JPG" alt="Example image" title="" /></li>
+<li><img src="assets/images/sr500.JPG" alt="Example image" title="" /></li>
+<li><img src="assets/images/triumph.jpg" alt="Example image" title="" /></li>
+</ul>
