@@ -10,7 +10,7 @@ permalink: /code/
 * [Python](#python)
 * [OSGeo](#osgeo)
 * [API's](#api)
-
+* [Misc](#misc)
 
 ---
 
@@ -44,5 +44,12 @@ Most of my project-related GitHub code is in a private repository. [Contact me](
 		
 ###<a name="api"></a>API's
 * [Census API](https://github.com/nygeog/census_api)
+
+[Top](#top)
+
+---
+		
+###<a name="misc"></a>Misc
+* [Columbia - Register Windows 7 - first VPN on then follow these steps](https://cuit.columbia.edu/software-downloads/operating-system-software/windows-7-enterprise/windows-7-activation)
 
 [Top](#top)

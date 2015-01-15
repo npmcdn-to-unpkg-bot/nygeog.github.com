@@ -81,7 +81,9 @@ Directory of Parks Properties (webpage)
 #<a name="global"></a>Global
 * [Global Data DIVA-GIS](http://www.diva-gis.org/)
 * [Global Data OpenStreetMap](http://www.openstreetmap.org/)
-
+* Business Data
+	* [All the Starbucks in the World](https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed)
+	
 [Top](#top)
 
 ---
