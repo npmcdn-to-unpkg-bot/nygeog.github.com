@@ -21,4 +21,6 @@ Updated and Additional 2015 Goals
 
 [SlidesJS](http://www.slidesjs.com/)
 
-<iframe src="https://nygeog.github.io/index_slide.html" frameborder="0" style="width: 100%; height: 440px" ></iframe>
+<iframe src="http://nygeog.github.io/index_slide.html" frameborder="0" style="width: 100%; height: 440px" ></iframe>
+
+http://nygeog.github.io/2015/goals/gis/2015/01/15/updated-2015-goals.html
