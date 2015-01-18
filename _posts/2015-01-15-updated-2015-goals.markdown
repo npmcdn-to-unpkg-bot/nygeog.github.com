@@ -7,20 +7,19 @@ categories: 2015 Goals GIS
 
 
 
-Updated and Additional 2015 Goals
+###Updated and Additional 2015 Goals
+* Write out more goals! It seems like when I write the stuff down I actually end up following through. 
 
-* Javascript
-	* Learn CartoDB.js. 
+* Try out [Python for Processing 2.0](http://py.processing.org/)
+
+* Do more stuff in [R with ggplot2](http://ggplot2.org/) and maybe [Shiny](http://shiny.rstudio.com/). 
+
+
+* Javascript Goals
+	* Learn [CartoDB.js](http://docs.cartodb.com/cartodb-platform/cartodb-js.html)
 	* Make good slide show frame using Javascript
-	
-* Try out Python for Processing 2.0 
+		[SlidesJS](http://www.slidesjs.com/). I couldn't manage to get this to work on Chrome at all so I ended up changing my forwarding to HTTP from HTTPS. I'm not totally sure what the consequences of this will be, but figure since I don't engage in any commerce here it should be all right. 
 
-
-<!--![GIF](https://dl-web.dropbox.com/get/Public/images/beh_gis_animated_gif_2_download.gif?_subject_uid=36281098&w=AAAE6FL_6TjkPRBTgWQ5LiLzIhlE0y9wH2nuJJmKgSMydw)
--->
-
-[SlidesJS](http://www.slidesjs.com/)
-I couldn't manage to get this to work on Chrome at all so I ended up changing my forwarding to HTTP from HTTPS. I'm not totally sure what the consequences of this will be, but figure since I don't engage in any commerce here it should be all right. 
-
+####Slide.js example
 <iframe src="http://nygeog.github.io/index_slide.html" frameborder="0" style="width: 100%; height: 440px" ></iframe>
 
