@@ -2,7 +2,7 @@
 layout: post
 title:  "Exploratory Data Analysis and Visualization Course"
 date:   2015-01-21 12:21:10
-categories: DATA SCIENCE, COLUMBIA, IDSE
+categories: DATA SCIENCE COLUMBIA IDSE
 ---
 
 ####[Exploratory Data Analysis and Visualization Course Website](http://stat4701.github.io/edav/)
