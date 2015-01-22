@@ -22,6 +22,8 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 * [Blog](#blog)
 * [Teaching](#teaching)
 * [Calendar](#calendar)
+* [Misc](#misc)
+
 
 ---
 
@@ -112,3 +114,14 @@ My [teaching information](https://nygeog.github.io/teaching/) can be found [here
 
 [Top](#top)
 
+---
+		
+###<a name="misc"></a>Misc
+
+* [Study Space Density at Columbia](http://density.adicu.com)
+
+* [Biking at Columbia University](http://worklife.columbia.edu/bicycling-columbia#section1)
+
+* [Work Life Wellness Discounts](http://worklife.columbia.edu/discounts)
+
+[Top](#top)
