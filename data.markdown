@@ -25,6 +25,9 @@ The Parks Inspection Program (PIP) is a comprehensive, outcome-based performance
 		* [Parks (Shapefile)](https://data.cityofnewyork.us/City-Government/Parks-Properties/rjaj-zgq7)
 Directory of Parks Properties (webpage)
 			* [Direct Download of the Parks (Shapefile)](https://data.cityofnewyork.us/api/geospatial/rjaj-zgq7?method=export&format=Shapefile)
+			
+			
+	* [Health Areas](https://data.cityofnewyork.us/Health/Health-Areas/5p78-k3zm) GIS data: Boundaries of Health Areas
 
 * [Department of City Planning - Bytes of Big Apple](http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml)
 	* [PLUTO and MapPLUTO](http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml#pluto) - [Check out my Python MapPluto download and merge python tool](http://nygeog.github.io/code/#mappluto)
@@ -47,6 +50,9 @@ Directory of Parks Properties (webpage)
 			
 			
 * [DOTMap - New York City Department of Transportation](http://gis.nyc.gov/doitt/nycitymap/template?applicationName=DOT)
+
+* [NYC Vision Zero](https://data.cityofnewyork.us/Public-Safety/Vision-Zero-View-Data/y74e-vkxy) Data that that populates the Vision Zero View map, which can be found at www.nycvzv.info Vision Zero is the City's goal for ending traffic deaths and injuries. The Vision Zero action plan can be found at http://www.nyc.gov/html/visionzero/pdf/nyc-vision-zero-action-plan.pdf Crash data is obtained from the Traffic Accident Management System (TAMS), which is maintained by the New York City Police Department (NYPD). Only crashes with valid geographic information are mapped. All midblock crashes are mapped to the nearest intersection. Injuries and fatalities are grouped by intersection and summarized by month and year. This data is queried and aggregated on a monthly basis and is current as of the query date. Current year data is January to the end of the latest full month. All mappable crash data is represented on the simplified NYC street model. Crashes occurring at complex intersections with multiple roadways are mapped onto a single point. Injury and fatality crashes occurring on highways are excluded from this data. Please note that this data is preliminary and may contain errors, accordingly, the data on this site is for informational purposes only. Although all attempts to provide the most accurate information are made, errors may be present and any person who relies upon this data does so at their own risk.
+
 * [NYCityMap](http://maps.nyc.gov/doitt/nycitymap/)
 * [NYC.gov Map Gallery](http://www1.nyc.gov/nyc-resources/nyc-maps.page)
 * [MTA Developer Data Downloads](http://web.mta.info/developers/download.html)
