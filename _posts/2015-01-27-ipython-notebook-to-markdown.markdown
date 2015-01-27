@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using iPython Notebook for data analysis with Pandas
+title: Using iPython Notebook with Pandas and exporting to Markdown
 date:   2015-01-27 10:21:10
 tags: ipython pandas markdown 
 ---
