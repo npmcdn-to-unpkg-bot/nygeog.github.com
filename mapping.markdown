@@ -23,7 +23,7 @@ I'll be adding more mapping examples over the next few weeks/months. Some projec
 * [NYC Homicides Animation (mined from NY Times) 2003-2011/08](http://cdb.io/1Cm6z3B)
 * [Percent Tree Canopy (2010) Quartiles by Census Block (2010)](http://nygeog.github.io/maps/treecanopy.html)
 * [Building Bulk Density (2013) Quartiles by Census Block (2010)](http://nygeog.github.io/maps/buildingbulkdensity.html)
-* [Buildings and Trees Layers](http://nygeog.github.io/maps/buildingstrees.html)
+* [Buildings and Trees Layers](http://cdb.io/1BK36sT)
 * [GPS Stationary Battery Test](https://cartodbacademy.cartodb.com/viz/26250460-05d8-11e4-9e73-0e73339ffa50/embed_map)
 * [Tanzania Dispensary and Intervention Locations](http://nygeog.github.io/maps/tanzania.html)
 
