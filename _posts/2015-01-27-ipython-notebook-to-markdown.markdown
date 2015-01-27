@@ -2268,7 +2268,7 @@ Last, I used **df.head(15)** to show the first 15 records in the dataframe.
 
 #Using terminal convert the iPython Notebook to a Markdown file
 
-```ipython nbconvert iPythonTest.ipynb --to markdown```
+	ipython nbconvert iPythonTest.ipynb --to markdown
 
 
     
