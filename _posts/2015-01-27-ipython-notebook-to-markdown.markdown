@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Using iPython Notebook with Pandas and exporting to Markdown
+title: Using IPython Notebook with Pandas and exporting to Markdown
 date:   2015-01-27 10:21:10
-tags: ipython pandas markdown 
+tags: IPython pandas markdown 
 ---
 
-<!--##Using iPython Notebook for data analysis with Pandas
+<!--##Using IPython Notebook for data analysis with Pandas
 -->
 
-In my [Exploratory Data Analysis and Visualization Course](http://nygeog.github.io/data/science/columbia/idse/2015/01/21/exploratory-data-analysis-and-visualization.html) we've been using [RStudio](http://www.rstudio.com/) for exploring and munging data. I'm used to doing this in Pandas and it sort of reminded me of [iPython Notebook](http://ipython.org/notebook.html). One of the great things about RStudio is the ability to create [Markdown](http://daringfireball.net/projects/markdown/) files that include your code and whatever text you'd like to include.  
+In my [Exploratory Data Analysis and Visualization Course](http://nygeog.github.io/data/science/columbia/idse/2015/01/21/exploratory-data-analysis-and-visualization.html) we've been using [RStudio](http://www.rstudio.com/) for exploring and munging data. I'm used to doing this in Pandas and it sort of reminded me of [IPython Notebook](http://IPython.org/notebook.html). One of the great things about RStudio is the ability to create [Markdown](http://daringfireball.net/projects/markdown/) files that include your code and whatever text you'd like to include.  
 
-So I looked into whether iPython notebook could export to Markdown and sure enough it does. Below is an example of exporting a **df.head** table. 
+So I looked into whether IPython notebook could export to Markdown and sure enough it does. Below is an example of exporting a **df.head** table. 
 
 ---
 
@@ -18,7 +18,7 @@ Below I'm importing **Pandas** as **pd**, then reading a project-file csv.
 
 Next, I'm setting the display options to max columns of 5200 (5200 is arbitrary
 number) as when you try to display a large dataframe sometimes it won't display
-b/c it exceeds the defaut iPython Notebook settings.
+b/c it exceeds the defaut IPython Notebook settings.
 
 Last, I used **df.head(15)** to show the first 15 records in the dataframe.
 
@@ -2271,9 +2271,9 @@ Last, I used **df.head(15)** to show the first 15 records in the dataframe.
 
 
 
-#Using terminal convert the iPython Notebook to a Markdown file
+#Using terminal convert the IPython Notebook to a Markdown file
 
-	ipython nbconvert iPythonTest.ipynb --to markdown
+	IPython nbconvert IPythonTest.ipynb --to markdown
 
 
     
