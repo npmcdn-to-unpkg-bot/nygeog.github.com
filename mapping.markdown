@@ -24,7 +24,7 @@ I'll be adding more mapping examples over the next few weeks/months. Some projec
 * [Percent Tree Canopy (2010) Quartiles by Census Block (2010)](http://nygeog.github.io/maps/treecanopy.html)
 * [Building Bulk Density (2013) Quartiles by Census Block (2010)](http://nygeog.github.io/maps/buildingbulkdensity.html)
 * [Buildings and Trees Layers](http://nygeog.github.io/maps/buildingstrees.html)
-* [GPS Stationary Battery Test](http://nygeog.github.io/maps/gpsstationary.html)
+* [GPS Stationary Battery Test](https://cartodbacademy.cartodb.com/viz/26250460-05d8-11e4-9e73-0e73339ffa50/embed_map)
 * [Tanzania Dispensary and Intervention Locations](http://nygeog.github.io/maps/tanzania.html)
 
 
