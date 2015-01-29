@@ -10,6 +10,7 @@ permalink: /code/
 * [Python](#python)
 * [OSGeo](#osgeo)
 * [API's](#api)
+* [GitHub](#github)
 * [Misc](#misc)
 
 ---
@@ -48,6 +49,21 @@ Most of my project-related GitHub code is in a private repository. [Contact me](
 [Top](#top)
 
 ---
+
+		
+###<a name="github"></a>Github
+* Preview an html file in GitHub without setting up a gh-pages.
+		
+		http://htmlpreview.github.com/?<path_to_html_file_in_github>
+	
+	example:
+	
+		http://htmlpreview.github.io/?https://github.com/nygeog/R/blob/master/censusGetR/censusGetR.html
+		
+[Top](#top)
+
+---
+
 		
 ###<a name="misc"></a>Misc
 
