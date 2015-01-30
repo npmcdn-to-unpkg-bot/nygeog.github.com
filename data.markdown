@@ -28,7 +28,16 @@ Directory of Parks Properties (webpage)
 			
 			
 	* [Health Areas](https://data.cityofnewyork.us/Health/Health-Areas/5p78-k3zm) GIS data: Boundaries of Health Areas
-
+	
+	* [Schools Point Locations (Shapefile)](https://data.cityofnewyork.us/Education/School-Point-Locations/jfju-ynrr)
+		* [Direct Download of School Point Locations (Shapefile)](https://data.cityofnewyork.us/download/jfju-ynrr/application/zip)
+	This is an ESRI shape file of school point locations based on the official address.  It includes some additional basic and pertinent information needed to link to other data sources. It also includes some basic school information such as Name, Address, Principal, and Principal’s contact information.
+	
+	* [Building Footprints (Shapefile in Web Mercator)](https://data.cityofnewyork.us/Housing-Development/Building-Footprints/tb92-6tj8)
+		* [Direct Download Building Footprints (Shapefile in Web Mercator)](https://data.cityofnewyork.us/download/tb92-6tj8/application/zip) Shapefile of footprint outlines of buildings in New York City.	
+	
+	
+	
 * [Department of City Planning - Bytes of Big Apple](http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml)
 	* [PLUTO and MapPLUTO](http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml#pluto) - [Check out my Python MapPluto download and merge python tool](http://nygeog.github.io/code/#mappluto)
 	* [Political & Election Districts](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml#pod)
@@ -46,12 +55,16 @@ Directory of Parks Properties (webpage)
 			* [2000 Census Blocks (Clipped to Shoreline)](http://www.nyc.gov/html/dcp/download/bytes/nycb2000_14d.zip)
 			* [2000 Census Blocks (Water Areas Included)](http://www.nyc.gov/html/dcp/download/bytes/nycb2000wi_14d.zip)
 			
-			
-			
+	* [Selected Facilities and Program Sites](http://www.nyc.gov/html/dcp/html/bytes/dwnselfac.shtml)			
+		* [Metadata](http://www.nyc.gov/html/dcp/pdf/bytes/selfac_metadata.pdf) Point features representing the geographic locations of facilities, programs or parkland properties in New York City contained in the master table in an Access database which was developed with the
+cooperation and assistance of numerous governmental and non-profit agencies. Users can access the location, type, capacity and oversight agency of public and private educational, recreational, cultural, public safety, criminal justice, health, mental health, chemical dependency, developmentaldisabilities, day care, foster care, senior citizen, homeless facilities and programs. Data related to the location of transportation and waste management facilities have also been included since theprevious (2012) release . These facilities and programs are, with few exceptions, operated, funded, licensed, or certified by a government agency. Each facility or program site is geocoded for taxblock, tax lot, 2010 census tract, city council district, community district, school district, police precinct, health area, zip code, borough, and x and y coordinates, provided by the Department of City Planning's Geosupport Information System (GIS). Parkland properties are coded for borough, community district, tax block, taxt lot, and x and y coordinates only. The features in the shapefile are represented by points created with ArcGIS tool using the x and y coordinates mostly derived from the centroids of the tax lots where facilities, programs or parkland properties are located.		
 			
 * [DOTMap - New York City Department of Transportation](http://gis.nyc.gov/doitt/nycitymap/template?applicationName=DOT)
+	
 
 * [NYC Vision Zero](https://data.cityofnewyork.us/Public-Safety/Vision-Zero-View-Data/y74e-vkxy) Data that that populates the Vision Zero View map, which can be found at www.nycvzv.info Vision Zero is the City's goal for ending traffic deaths and injuries. The Vision Zero action plan can be found at http://www.nyc.gov/html/visionzero/pdf/nyc-vision-zero-action-plan.pdf Crash data is obtained from the Traffic Accident Management System (TAMS), which is maintained by the New York City Police Department (NYPD). Only crashes with valid geographic information are mapped. All midblock crashes are mapped to the nearest intersection. Injuries and fatalities are grouped by intersection and summarized by month and year. This data is queried and aggregated on a monthly basis and is current as of the query date. Current year data is January to the end of the latest full month. All mappable crash data is represented on the simplified NYC street model. Crashes occurring at complex intersections with multiple roadways are mapped onto a single point. Injury and fatality crashes occurring on highways are excluded from this data. Please note that this data is preliminary and may contain errors, accordingly, the data on this site is for informational purposes only. Although all attempts to provide the most accurate information are made, errors may be present and any person who relies upon this data does so at their own risk.
+
+
 
 * [NYCityMap](http://maps.nyc.gov/doitt/nycitymap/)
 * [NYC.gov Map Gallery](http://www1.nyc.gov/nyc-resources/nyc-maps.page)
