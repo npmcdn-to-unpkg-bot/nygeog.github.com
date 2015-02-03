@@ -36,7 +36,8 @@ Directory of Parks Properties (webpage)
 	* [Building Footprints (Shapefile in Web Mercator)](https://data.cityofnewyork.us/Housing-Development/Building-Footprints/tb92-6tj8)
 		* [Direct Download Building Footprints (Shapefile in Web Mercator)](https://data.cityofnewyork.us/download/tb92-6tj8/application/zip) Shapefile of footprint outlines of buildings in New York City.	
 	
-	
+	* [NYC Address Points](https://data.cityofnewyork.us/City-Government/NYC-Address-Points/4iq4-tuhq)
+		* [Direct Download NYC Address Points](https://data.cityofnewyork.us/download/4iq4-tuhq/application/zip)
 	
 * [Department of City Planning - Bytes of Big Apple](http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml)
 	* [PLUTO and MapPLUTO](http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml#pluto) - [Check out my Python MapPluto download and merge python tool](http://nygeog.github.io/code/#mappluto)
