@@ -11,6 +11,7 @@ permalink: /code/
 * [OSGeo](#osgeo)
 * [API's](#api)
 * [GitHub](#github)
+* [ArcGIS](#arcgis)
 * [Misc](#misc)
 
 ---
@@ -59,6 +60,20 @@ Most of my project-related GitHub code is in a private repository. [Contact me](
 	example:
 	
 		http://htmlpreview.github.io/?https://github.com/nygeog/R/blob/master/censusGetR/censusGetR.html
+
+[Top](#top)
+
+---
+
+		
+###<a name="ArcGIS"></a>ArcGIS code and other tips
+
+* While 64-bit Geoprocessing is off, check your output with your History. To see this XML go to:
+
+		C:\Users\USERNAME\AppData\Roaming\ESRI\Desktop10.1\ArcToolbox\History…
+
+* Here are a bunch of [**ArcPy** reference files](https://github.com/nygeog/python/tree/master/arcpy) I have in my [Python repo](https://github.com/nygeog/python)
+
 		
 [Top](#top)
 
@@ -68,6 +83,7 @@ Most of my project-related GitHub code is in a private repository. [Contact me](
 ###<a name="misc"></a>Misc
 
 * [Columbia - Register Windows 7 - first VPN on then follow these steps](https://cuit.columbia.edu/software-downloads/operating-system-software/windows-7-enterprise/windows-7-activation)
+
 
 
 [Top](#top)
