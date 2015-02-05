@@ -66,7 +66,7 @@ Most of my project-related GitHub code is in a private repository. [Contact me](
 ---
 
 		
-###<a name="ArcGIS"></a>ArcGIS code and other tips
+###<a name="arcgis"></a>ArcGIS code and other tips
 
 * While 64-bit Geoprocessing is off, check your output with your History. To see this XML go to:
 
