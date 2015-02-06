@@ -82,6 +82,8 @@ Most of my project-related GitHub code is in a private repository. [Contact me](
 		
 ###<a name="misc"></a>Misc
 
+* [Formatting CSS LonnieBest](http://www.lonniebest.com/formatcss/)
+
 * [Columbia - Register Windows 7 - first VPN on then follow these steps](https://cuit.columbia.edu/software-downloads/operating-system-software/windows-7-enterprise/windows-7-activation)
 
 
