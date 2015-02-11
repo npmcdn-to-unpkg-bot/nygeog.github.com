@@ -39,6 +39,11 @@ Most of my project-related GitHub code is in a private repository. [Contact me](
 	
 ###<a name="osgeo"></a>Open Source Geo (OSGEO)
 * [GDAL Cheat Sheet](https://github.com/nygeog/gdal-cheat-sheet) 
+* QGIS
+  	* [QGIS Install](http://www.kyngchaos.com/software/qgis)
+	* [Python Modules](http://www.kyngchaos.com/software/python) 
+	* [Install Frameworks](http://www.kyngchaos.com/software/frameworks)
+
 
 [Top](#top)
 
