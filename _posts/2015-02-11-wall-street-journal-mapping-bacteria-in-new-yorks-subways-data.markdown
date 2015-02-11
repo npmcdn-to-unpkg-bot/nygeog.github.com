@@ -9,7 +9,7 @@ If you haven't seen this yet, the Wall Street Journal featured an article [Mappi
 
 A screenshot of the interface.
 
-![](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/wsj-subway-bacteria.png)
+[![map](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/wsj-subway-bacteria.png)](http://graphics.wsj.com/patho-map/?sel=stn_311)
 
 I was messing around with the map and looking at how it was created. I was also curious if the data was available. It was a little hidden but I was able to track down the data sources contributing to the map. I have yet to look at this data intimately so if you have any questions I'm probably not the best person to speak to. 
 
