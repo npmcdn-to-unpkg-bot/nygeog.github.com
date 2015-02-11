@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wall Street Journal: Mapping the Bacteria in New York’s Subways Data
+title: Wall Street Journal Mapping the Bacteria in New York’s Subways Data
 date:   2015-02-11 10:21:10
 tags: mapping bacteria subways 
 ---
