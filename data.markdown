@@ -59,6 +59,11 @@ Directory of Parks Properties (webpage)
 	* [Selected Facilities and Program Sites](http://www.nyc.gov/html/dcp/html/bytes/dwnselfac.shtml)			
 		* [Metadata](http://www.nyc.gov/html/dcp/pdf/bytes/selfac_metadata.pdf) Point features representing the geographic locations of facilities, programs or parkland properties in New York City contained in the master table in an Access database which was developed with the
 cooperation and assistance of numerous governmental and non-profit agencies. Users can access the location, type, capacity and oversight agency of public and private educational, recreational, cultural, public safety, criminal justice, health, mental health, chemical dependency, developmentaldisabilities, day care, foster care, senior citizen, homeless facilities and programs. Data related to the location of transportation and waste management facilities have also been included since theprevious (2012) release . These facilities and programs are, with few exceptions, operated, funded, licensed, or certified by a government agency. Each facility or program site is geocoded for taxblock, tax lot, 2010 census tract, city council district, community district, school district, police precinct, health area, zip code, borough, and x and y coordinates, provided by the Department of City Planning's Geosupport Information System (GIS). Parkland properties are coded for borough, community district, tax block, taxt lot, and x and y coordinates only. The features in the shapefile are represented by points created with ArcGIS tool using the x and y coordinates mostly derived from the centroids of the tax lots where facilities, programs or parkland properties are located.		
+
+* Crime Data
+	* [NYC's Crime Map](http://maps.nyc.gov/crime/)
+		* [The scraped data](http://small.dada.pink/nyc-crime-map-data/)
+		* [The code](https://github.com/tlevine/nyc-crime-map)
 			
 * [DOTMap - New York City Department of Transportation](http://gis.nyc.gov/doitt/nycitymap/template?applicationName=DOT)
 	
