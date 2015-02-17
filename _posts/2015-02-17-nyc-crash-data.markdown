@@ -272,10 +272,12 @@ Converted to Markdown (of course). See my old blog post [Using IPython Notebook 
 
 ####Density Hex Bins of 2014 Collisions
 I'm not totally sure if when creating the classes if it ignores hex bins with no collisions or what. Need to look into that. 
+
 <iframe width='100%' height='520' frameborder='0' src='http://nygeog.cartodb.com/viz/7144d0b2-b6f2-11e4-bf9b-0e018d66dc29/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 ####Density of 2014 Collisions over time (using Torque)
 Animation of Density of Collisions. I think these are Kernel Densities but not sure, need to check CartoDB documentation.
+
 <iframe width='100%' height='520' frameborder='0'
 src='http://nygeog.cartodb.com/viz/8df5425a-b6ed-
 11e4-9539-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen
@@ -283,4 +285,5 @@ mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 ####Valentine's Day 2014 Collisions (Clickbait)
 I hate Clickbait. :)
+
 <iframe width='100%' height='520' frameborder='0' src='http://nygeog.cartodb.com/viz/8ebe3f92-b6f3-11e4-81dd-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
