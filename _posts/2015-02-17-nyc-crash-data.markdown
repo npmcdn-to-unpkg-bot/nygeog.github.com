@@ -287,3 +287,8 @@ mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 I hate Clickbait. :)
 
 <iframe width='100%' height='520' frameborder='0' src='http://nygeog.cartodb.com/viz/8ebe3f92-b6f3-11e4-81dd-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+####Parting Note:
+While informative, crash data doesn't really tell us anything interesting about street design and whether specific places are more prone to crashes as without a denominator (such as traffic and/or pedestrian and/or cyclists) its difficult to discern if there's just more targets for collisions (like counting homicides vs. homicides per 10,000 people) or if street design (or in the case of homicides, higher homicide rate) is actually to blame. 
+
+New York City has some traffic estimates but nothing we can attribute to every street over the whole city. There may be something that NYC DOT or someone else has, but until its FOIL'ed we can't really create that denominator without more reliable data. 
