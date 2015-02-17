@@ -254,7 +254,6 @@ Converted to Markdown (of course). See my old blog post [Using IPython Notebook 
 
 ---
 
-</br>
 
 ####[The table on CartoDB's PostGIS Server](https://nygeog.cartodb.com/tables/nypd_mv_collisions_2014_20150213)
 
