@@ -1,6 +1,6 @@
 ---
 layout: post
-title: New York City Collisions Data: IPython Notebook and Plotting in CartoDB
+title: New York City Collisions Data-IPython Notebook and Plotting in CartoDB
 date:   2015-02-17 10:21:10
 tags: statw470 nyc collisions ipython cartodb
 ---
