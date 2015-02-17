@@ -263,7 +263,7 @@ Converted to Markdown (of course). See my old blog post [Using IPython Notebook 
 
 ---
 
-##Maps
+##Maps in CartoDB
 
 ####PostGIS SQL Statement to grab 2014 from the 2014-2015/02/13 Table
 
