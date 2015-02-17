@@ -27,7 +27,7 @@ Converted to Markdown (of course). See my old blog post [Using IPython Notebook 
     print len(df.index)
     df.head(5)
 
-    449644
+    449644 #count of valid lat's records 
 
 
 
