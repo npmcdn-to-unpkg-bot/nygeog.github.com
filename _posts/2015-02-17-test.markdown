@@ -1,0 +1,11 @@
+---
+layout: post
+title: Test
+date:   2015-02-17 10:21:10
+tags: test 
+---
+
+
+<span style="color:red">10</span> people out of every 100,000 in the US died by a gun.
+    
+<span style="background-color: #FFFF00">Yellow text.</span>
