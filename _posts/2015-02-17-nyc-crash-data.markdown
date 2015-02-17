@@ -252,15 +252,20 @@ Converted to Markdown (of course). See my old blog post [Using IPython Notebook 
 </table>
 </div>
 
+---
+
 ####[The table on CartoDB's PostGIS Server](https://nygeog.cartodb.com/tables/nypd_mv_collisions_2014_20150213)
 
 ####IPython Notebook to Markdown
 
 	IPython nbconvert 01-read-crash-data.ipynb --to markdown
 
+---
+
 ##Maps
 
-<!--<iframe width='100%' height='520' frameborder='0'
+####Density of Collisions in 2014 over time
+<iframe width='100%' height='520' frameborder='0'
 src='http://nygeog.cartodb.com/viz/8df5425a-b6ed-
 11e4-9539-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen
-mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>-->
+mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
