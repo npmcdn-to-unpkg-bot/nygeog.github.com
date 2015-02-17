@@ -7,10 +7,10 @@ permalink: /code/
 ---
 
 ####<a name="top"></a>*Menu*
+* [GitHub](#github)
 * [Python](#python)
 * [OSGeo](#osgeo)
 * [API's](#api)
-* [GitHub](#github)
 * [ArcGIS](#arcgis)
 * [Misc](#misc)
 
