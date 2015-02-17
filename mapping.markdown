@@ -20,6 +20,14 @@ I'll be adding more mapping examples over the next few weeks/months. Some projec
 ---
 
 ####CartoDB
+I have a few working CartoDB accounts:
+
+* [dms2203](https://dms2203.cartodb.com)
+* [dms2203](https://nygeog.cartodb.com)
+* [cartodbacademy - took their course name as username - sorry!](https://cartodbacademy.cartodb.com)
+
+Here's some maps:
+
 * [NYC Homicides Animation (mined from NY Times) 2003-2011/08](http://cdb.io/1Cm6z3B)
 * [Percent Tree Canopy (2010) Quartiles by Census Block (2010)](http://nygeog.github.io/maps/treecanopy.html)
 * [Building Bulk Density (2013) Quartiles by Census Block (2010)](http://nygeog.github.io/maps/buildingbulkdensity.html)
