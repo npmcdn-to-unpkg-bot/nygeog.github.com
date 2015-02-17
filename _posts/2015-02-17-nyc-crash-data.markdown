@@ -2,7 +2,7 @@
 layout: post
 title: New York City Collisions Data: IPython Notebook and Plotting in CartoDB
 date:   2015-02-17 10:21:10
-tags: statw470 edav nyc collisions ipython cartodb
+tags: statw470 nyc collisions ipython cartodb
 ---
 
 I missed last Thursday's STAT W4701 class due to being under the weather but was able to check it out via Columbia Video Network. Dr. Malecki posted a [mini assignment](http://stat4701.github.io/edav/2015/02/12/mini-assignment) where we could use NYC Crash Data. I've used this data before for mapping pedestrian and bicycle injuries and fatalities. This data used to be available via [Transportation Alternatives: CrashStat](http://crashstat.org/crashsolr/search) but is now delivered via [NYC Open Data](https://data.cityofnewyork.us/NYC-BigApps/NYPD-Motor-Vehicle-Collisions/h9gi-nx95).
