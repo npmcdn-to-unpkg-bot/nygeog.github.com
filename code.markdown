@@ -30,7 +30,7 @@ Most of my project-related GitHub code is in a private repository. [Contact me](
 		
 		http://htmlpreview.github.com/?<path_to_html_file_in_github>
 	
-	example:
+	Example:
 	
 		http://htmlpreview.github.io/?https://github.com/nygeog/R/blob/master/censusGetR/censusGetR.html
 
@@ -46,6 +46,15 @@ Most of my project-related GitHub code is in a private repository. [Contact me](
 	
 * Tools
 	* <a name="mappluto"></a>[MapPluto - Download and Merge to File Geodatabase](https://github.com/nygeog/mappluto_to_fgdb) This tool downloads and merges all the available MapPluto files from NYC Department of City Planning into a File Geodatabase with Feature Datasets for each MapPluto Release. 
+	
+
+* Python Notebook: Show in Browser from GitHub page
+		
+		http://nbviewer.ipython.org/  + add link
+		
+	Example:
+		
+		http://nbviewer.ipython.org/github/nygeog/data/blob/master/nyc_crashes/02-parse-lat-lng-string-field.ipynb
 
 [Top](#top)
 	
