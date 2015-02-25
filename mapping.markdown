@@ -23,7 +23,7 @@ I'll be adding more mapping examples over the next few weeks/months. Some projec
 I have a few working CartoDB accounts:
 
 * [dms2203](https://dms2203.cartodb.com)
-* [dms2203](https://nygeog.cartodb.com)
+* [nygeog](https://nygeog.cartodb.com)
 * [cartodbacademy - took their course name as username - sorry!](https://cartodbacademy.cartodb.com)
 
 Here's some maps:
