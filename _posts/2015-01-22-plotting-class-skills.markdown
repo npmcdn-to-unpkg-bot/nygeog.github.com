@@ -29,7 +29,7 @@ Some stuff to get started:
 10. merge upstream/gh-pages
 
 ####The Plot
-![questionnare_plot](https://raw.githubusercontent.com/nygeog/edav/gh-pages/lab/questionnaire/image.png)
+![questionnare_plot](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/skills_plot.png)
 
 ####The Code	
 	
@@ -44,23 +44,33 @@ Some stuff to get started:
 
 
 	names(df)
+	#df <- gsub( "OpenRefine" , "Openrefine" , df)
 
 	removeParentheses <- function(x){
-	    gsub("\\(.*\\)$", "", x)
+	  gsub("\\(.*\\)$/", "", x)
 	}
 	mrOptions <- strsplit("Excel, R, Stata, D3, Gephi, ggplot2, lattice, SQL, git / Github, SPSS, shell (terminal / command line), regular expressions (grep), Rstudio, JSON, Python, Sweave/knitr, Processing (language), C/C++, Leaflet, CartoDB, GeoJSON, node/npm, go language, ruby, LaTeX, Heroku, Make, Pandas, Julia, non-git version control, XML, Web: html css js, vagrant/virtualbox, amazon web services, dropbox, google drive (formerly docs), OpenRefine (formerly Google refine), Pair programming", ", ")[[1]]
 
 	mrOptions <- removeParentheses(mrOptions)
+
+	mrOptions <- gsub( "OpenRefine" , "Openrefine" , mrOptions)
+
+
+
+	mrOptions
+
 	expandSelections <- function(selected, options){
-	    selected <- removeParentheses(selected)
-	    sapply(options, grepl, x=selected, fixed=TRUE)
+	  selected <- removeParentheses(selected)
+	  sapply(options, grepl, x=selected, fixed=TRUE)
 	}
-	gridLevels <- c("None", "A little", "Confident", "Expert")
-	makeOrderedFactor <- function(col, levels){
-	    return (factor(col, levels=levels, labels=levels, ordered=TRUE))
-	}
-	mrLogical <- t(sapply(df[['Baseline experience']], expandSelections, 
+	# gridLevels <- c("None", "A little", "Confident", "Expert")
+	# makeOrderedFactor <- function(col, levels){
+	#   return (factor(col, levels=levels, labels=levels, ordered=TRUE))
+	# }
+	mrLogical <- t(sapply(gsub( "OpenRefine" , "Openrefine" ,df[['Baseline experience']]), expandSelections, 
 	                      options=mrOptions))
+
+
 
 	View(mrLogical)
 	sum(mrLogical)
@@ -79,4 +89,3 @@ Some stuff to get started:
 
 
 
-Notes: Maybe hunt down the CartoDB error, why it doesn't show up in chart
