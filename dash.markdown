@@ -10,3 +10,9 @@ permalink: /dash/
 
 ##NYC Weather
 <iframe src="http://www.weather.com/weather/today/l/New+York+NY+USNY0996:1:US" frameborder="0" height="375" width="100%"></iframe>
+
+##Columbia Homepage 
+<iframe src="http://www.columbia.edu/" frameborder="0" height="575" width="100%"></iframe>
+
+
+
