@@ -13,3 +13,5 @@ Last night I co-presented on D3.js for Mapping.
 Embedded Presentation:
 
 <iframe src="http://stat4701-edav-d3.github.io/remark-develop/index_2.html#1"  width="100%" height="555"></iframe>
+
+[![map](https://raw.githubusercontent.com/stat4701-edav-d3/d3-presentation/master/img/city_flu.png)](http://stat4701-edav-d3.github.io/viz/cities/cities.html)
