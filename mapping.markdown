@@ -35,6 +35,11 @@ Here's some maps:
 * [GPS Stationary Battery Test](https://cartodbacademy.cartodb.com/viz/26250460-05d8-11e4-9e73-0e73339ffa50/embed_map)
 * [Tanzania Dispensary and Intervention Locations](http://nygeog.github.io/maps/tanzania.html)
 
+---
+
+####D3
+* [D3.js Class Presenation](http://nygeog.github.io/2015/03/06/d3-mapping-with-flu-data.html)
+* [D3 Google Flu Trends Map by US Cities](http://stat4701-edav-d3.github.io/viz/cities/cities.html)
 
 ---
 
