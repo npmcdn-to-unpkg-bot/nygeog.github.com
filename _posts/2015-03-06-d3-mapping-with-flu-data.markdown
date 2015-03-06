@@ -1,6 +1,6 @@
 ---
 layout: post
-title: D3 Mapping (Shapefile conversion to TopoJSON/GeoJSON) with Google Flu Trends Data
+title: D3 Mapping - Shapefile conversion to TopoJSON/GeoJSON - with Google Flu Trends Data
 date:   2015-02-17 10:21:10
 tags: statw470 d3 mapping flu
 ---
