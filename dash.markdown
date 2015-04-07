@@ -14,5 +14,4 @@ permalink: /dash/
 ##Columbia Homepage 
 <iframe src="http://www.columbia.edu/" frameborder="0" height="675" width="100%"></iframe>
 
-
-
+##[Columbia Study Areas App](http://density.adicu.com/)
