@@ -97,6 +97,10 @@ cooperation and assistance of numerous governmental and non-profit agencies. Use
 ---
 
 #<a name="us"></a>United States
+* US Census
+	* [Table Comparisons: ACS 5-year estimates and Census 2000 SF3](http://www.census.gov/acs/www/guidance_for_data_users/table_comparisons/index.php)
+	* [American FactFinder](http://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml)
+	* [Census APIs](http://www.census.gov/data/developers/data-sets.html)
 * [US Open Data](https://www.data.gov/)
 * [List of US FIPS codes for States](http://www.epa.gov/envirofw/html/codes/state.html)
 * [HUD ZIP-Tract Crosswalk](http://www.huduser.org/portal/datasets/usps_crosswalk.html)
