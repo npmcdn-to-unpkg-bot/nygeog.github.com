@@ -99,6 +99,7 @@ Most of my project-related GitHub code is in a private repository. [Contact me](
 
 * [Columbia - Register Windows 7 - first VPN on then follow these steps](https://cuit.columbia.edu/software-downloads/operating-system-software/windows-7-enterprise/windows-7-activation)
 
+* [CIESIN - The Earth Institute at Columbia University. GIS Service Center - Support Services](http://www.ciesin.org/gisservicecenter/support.html)
 
 
 [Top](#top)
