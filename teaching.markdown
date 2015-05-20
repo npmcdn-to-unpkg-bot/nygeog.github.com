@@ -13,14 +13,14 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 
 ---
 
-#Upcoming GIS Courses
+<!--#Upcoming GIS Courses
 
 June 2015
 
 * **The Epidemiology and Population Health Summer Institute at Columbia University - New York, NY** 
 	* Columbia University (EPIC) – Spring 2015 Geographic Information Systems (20-hour course) 
 
----
+----->
 
 #Past GIS Courses
 * **The Epidemiology and Population Health Summer Institute at Columbia University - New York, NY** 
