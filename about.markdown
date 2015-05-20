@@ -33,7 +33,7 @@ Geographer/GIS Analyst at Columbia University, student at the Institute for Data
 
 ##<a name="info"></a>Info
 
-* [Resume/CV](https://dl.dropboxusercontent.com/u/36281098/nygeog/pages/cv/daniel_martin_sheehan_cv.pdf)
+* [Resume/CV](http://nygeog.github.io/resume_cv)
 * [LinkedIn](https://www.linkedin.com/pub/daniel-sheehan/53/10b/984)
 * [BEH website](http://beh.columbia.edu/)
 * [BEH GIS website](http://beh-gis.github.com)
@@ -42,32 +42,6 @@ Geographer/GIS Analyst at Columbia University, student at the Institute for Data
 
 ---
 
-##<a name="pubs"></a>Publications
-* [Google Scholar](http://scholar.google.com/citations?user=K6iTYsUAAAAJ&hl=en)
-* [LinkedIn](https://www.linkedin.com/pub/daniel-sheehan/53/10b/984)
-
-Add List of publications.
-
-[Top](#top)
-
----
-
-##<a name="news"></a>In the News
-* 2014-07-09 - [Voice of San Diego - Yep, Trolley Use and Density Are Linked
-geoprocessing for population density estimates around station locations](http://voiceofsandiego.org/2014/07/09/yep-trolley-use-and-density-are-linked/)
-	* Geoprocessing: [https://github.com/nygeog/pop_estimate](https://github.com/nygeog/pop_estimate) 
-	
-
-* 2011-08-30 - [NBC News - New Flickr Feature Lets Users Secure Private Location Data](http://www.nbcnews.com/id/44333199/ns/technology_and_science-security/t/flickr-now-lets-you-secure-private-location-info/)
-
-* 2010-10-20 - [Security News Daily - Social Media Location Program Threatens Security](http://www.securitynewsdaily.com/social-media-location-program-threatens-security-0192/)
-	* Link no longer operational
-	
-* 2010-09-09 - [WNYC NPR - Map Your Moves: Brian Lehrer Radio Program](http://www.wnyc.org/shows/bl/2010/sep/09/map-your-moves-data-visualization-challenge/)
-
-[Top](#top)
-
----
 
 ##<a name="contact"></a>Contact
 Send me an [email](mailto:daniel.martin.sheehan@gmail.com).
