@@ -33,6 +33,8 @@ geographer, python programmer, gis analyst
 * [continuing education](#continuing_ed)* [professional courses attended](#professional_courses_attended)
 * [computer skills](#computer_skills)  
 
+####[short resume](http://nygeog.github.io/misc/daniel_martin_sheehan_resume_20150520.pdf)
+
 ---
 
 <!--Mailman School of Public Health
