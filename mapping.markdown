@@ -12,7 +12,7 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 
 ---
 
-#*More mapping examples-upcoming-need to add links*
+#*More mapping examples-upcoming*
 
 I'll be adding more mapping examples over the next few weeks/months. Some projects and maps I've created are [HIPAA](http://www.hhs.gov/ocr/privacy/) or [IRB](http://en.wikipedia.org/wiki/Institutional_review_board) sensitive and can not be shared. 
 
