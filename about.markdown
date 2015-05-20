@@ -16,12 +16,11 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 ####<a name="top"></a>*Menu*
 * [Info](#info)
 * [Contact](#contact)
-* [Hire](#hire)
 * [Blog](#blog)
 * [Teaching](#teaching)
 * [Calendar](#calendar)
 * [Misc](#misc)
-
+<!--* [Hire](#hire)-->
 
 ---
 
@@ -48,7 +47,7 @@ Send me an [email](mailto:daniel.martin.sheehan@gmail.com).
 
 ---
 
-##<a name="hire"></a>Hire
+<!--##<a name="hire"></a>Hire
 * GIS
 	* GIS (geoprocessing, mapping, data collection, data mining, geocoding, etc.) is my main concentration and would be happy to help with any type of GIS or mapping project. 
 * Python
@@ -58,7 +57,7 @@ Send me an [email](mailto:daniel.martin.sheehan@gmail.com).
 	
 [Top](#top)
 
----
+--- -->
 
 ##<a name="blog"></a>Blog
 * My current [blog is on this website](http://nygeog.github.io).
