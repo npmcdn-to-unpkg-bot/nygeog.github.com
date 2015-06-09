@@ -90,11 +90,16 @@ My [teaching information](https://nygeog.github.io/teaching/) can be found [here
 		
 ###<a name="misc"></a>Misc
 
-* [Columbia School Style Guide](http://www.mailman.columbia.edu/faculty-staff/administrative-offices/communications/school-style-guidelines)
-
+Computer Stuff:
 * [Columbia - Register Windows 7 - first VPN on then follow these steps](https://cuit.columbia.edu/software-downloads/operating-system-software/windows-7-enterprise/windows-7-activation)
 
+* [Mapping a Network Drive on Macintosh OS X](https://secure.cumc.columbia.edu/cumcit/secure/howto/remote/drivemac.html)
+
 * [CIESIN - The Earth Institute at Columbia University. GIS Service Center - Support Services](http://www.ciesin.org/gisservicecenter/support.html)
+
+Other Stuff:
+
+* [Columbia School Style Guide](http://www.mailman.columbia.edu/faculty-staff/administrative-offices/communications/school-style-guidelines)
 
 * [Study Space Density at Columbia](http://density.adicu.com)
 
