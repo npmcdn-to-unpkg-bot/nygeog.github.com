@@ -26,6 +26,21 @@ I went to SOTMUS 2014 in Washington, D.C. and thought the sessions and community
 ![sotmus group photo](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/IMG_0944.JPG)
 *SOTMUS 2015 group photo*
 
+##Takeaways
+
+####[Code of Conduct](http://stateofthemap.us/codeofconduct/)
+
+One thing that I've noticed with the OSM community and State of the Map in general is a concept of openness and understanding. The [Code of Conduct](http://stateofthemap.us/codeofconduct/) embraces and emphasizes those concepts. It's very healthy to talk about and bring up the Code of Conduct as I think it helps and reminds attendees that we are all at the event to celebrate a truly great community and the work they put into OpenStreetMap. Being negative or disrespectful is antithetical to the purpose of OSM. That said, healthy and vibrant debate is encouraged amongst the community. Ideas can be challenged but people should respect one another. 
+
+I think there is very healthy debate about companies and individuals who use OpenStreetMap data to help build and create their business. And I think Randy Meech's talk **[O.S.M.B.A. The history and future of companies in OpenStreetMap](http://stateofthemap.us/osmba-the-history-and-future-of-companies-in-openstreetmap/)** touched on some of that great debate. However, as a community I think we may find that **bashing** companies and software doesn't help. If the community has problem with a software company maybe the energy spent bashing that company or software would be better placed to developing better open source alternatives. 
+
+####Geocoding 
+Geocoding is the next big component to work on in the FOSS4G/Open Data stack. While I missed the **[State of the Geocoder](______)** (side note: Saturday is such a busy day that some folks, including me, find it tough to get to the venue early on Sunday) talk I was able to catch [@IanDee](https://twitter.com/iandees)'s **[OpenAddresses](_________)** talk. 
+
+Why can't we develop open geocoding methods for desktop and possibly even the web? With points, the task requires some text-matching and some parsing problems, but for the most part has been conceptually completed by **Esri**. Esri's geocoding systems are properietary but it wouldn't be difficult to develop the open source community's ideas on address matching with Esri's system serving as a template. 
+
+####Stickers
+Everyone loves stickers at conferences. I may retire from geo and start a sticker company. 
 
 ![stickers](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/IMG_0960.JPG)
 *SOTMUS 2015 program and stickers*
@@ -33,7 +48,6 @@ I went to SOTMUS 2014 in Washington, D.C. and thought the sessions and community
 ![t-shirt](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/IMG_0959.JPG)
 *SOTMUS 2015 t-shirt*
 
-![rose-garden](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/IMG_0956.JPG)
-*UN rose garden*
+I have a few more items/notes I'd like to discuss from SOTMUS but will continue on that later since it took so long for this post to come to fruition. 
 
-
+To be continued........
