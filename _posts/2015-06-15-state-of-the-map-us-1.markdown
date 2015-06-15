@@ -13,7 +13,8 @@ The first weekend of June ~850 people attended the [State of the Map US](http://
 
 Learn more about [OpenStreetMap](http://www.openstreetmap.org/about).
 
-<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-77.32177734375%2C37.57070524233116%2C-70.59814453125%2C43.77902662160831&amp;layer=mapnik&amp;marker=40.74725696280421%2C-73.95996093749999" style="border: 1px solid black"></iframe><br/><small><a href="http://www.openstreetmap.org/?mlat=40.747&amp;mlon=-73.960#map=7/40.747/-73.960">View Larger Map</a></small>
+<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-77.32177734375%2C37.57070524233116%2C-70.59814453125%2C43.77902662160831&amp;layer=mapnik&amp;marker=40.74725696280421%2C-73.95996093749999" style="border: 1px solid black"></iframe>
+<!--<br/><small><a href="http://www.openstreetmap.org/?mlat=40.747&amp;mlon=-73.960#map=7/40.747/-73.960">View Larger Map</a></small>-->
 
 ![un](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/IMG_0946.JPG)
 *The United Nations Building*
