@@ -5,7 +5,6 @@ date:   2015-06-12 14:21:10
 tags: sotmus openstreetmap
 ---
 
-#Thoughts from State of the Map US (#SOTMUS) Post 1 
 
 The first weekend of June ~850 people attended the [State of the Map US](http://stateofthemap.us/) (SOTMUS) conference at the United Nations in New York City, NY. The conference is centered around a global mapping dataset called [OpenStreetMap](http://www.openstreetmap.org/) (OSM). 
 
