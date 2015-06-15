@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thoughts from State of the Map US (#SOTMUS) Post 1
+title: Thoughts from State of the Map US (#SOTMUS) Post 1 of 2
 date:   2015-06-12 14:21:10
 tags: sotmus openstreetmap
 ---
