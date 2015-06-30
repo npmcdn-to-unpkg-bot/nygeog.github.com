@@ -20,7 +20,7 @@ After staring at the FlyFi flight tracker map, I realized that since its served 
 
 Now using [Chris Albon's **Plot Points On A Map** blogpost](http://chrisalbon.com/python/matplotlib_plot_points_on_map.html), we can use **[Basemap](http://matplotlib.org/basemap/)** to plot these Lat,Lng's from this flight. 
 
-I then worked with this [IPython notebook file](https://github.com/nygeog/nygeog.github.com/blob/master/_posts/2015-06-29-jetblue-latlng/jetblue-latlng.ipynb) which I'll convert using a method I learned from an earlier blogpost **[Using IPython Notebook with Pandas and exporting to Markdown](http://nygeog.github.io/2015/01/27/ipython-notebook-to-markdown%20copy.html)**
+I then worked with this [IPython notebook file](https://github.com/nygeog/nygeog.github.com/blob/master/posts_data/2015-06-29-jetblue-latlng/jetblue-latlng.ipynb) which I'll convert using a method I learned from an earlier blogpost **[Using IPython Notebook with Pandas and exporting to Markdown](http://nygeog.github.io/2015/01/27/ipython-notebook-to-markdown%20copy.html)**
 
 
 	IPython nbconvert jetblue-latlng.ipynb --to markdown
@@ -135,5 +135,5 @@ I then worked with this [IPython notebook file](https://github.com/nygeog/nygeog
     plt.show()
 
 ##The points plotted
-![png](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/2015-06-29-jetblue-latlng/jetblue-latlng_files/jetblue-latlng_2_0.png)
+![png](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/posts_data/2015-06-29-jetblue-latlng/jetblue-latlng_files/jetblue-latlng_2_0.png)
 
