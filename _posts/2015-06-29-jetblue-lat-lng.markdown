@@ -26,6 +26,7 @@ I then worked with this [IPython notebook file](https://github.com/nygeog/nygeog
 	IPython nbconvert jetblue-latlng.ipynb --to markdown
 
 ##The IPython notebook code:
+[IPython notebook file](https://github.com/nygeog/nygeog.github.com/blob/master/posts_data/2015-06-29-jetblue-latlng/jetblue-latlng.ipynb)
 
     # Import pandas
     import pandas as pd
