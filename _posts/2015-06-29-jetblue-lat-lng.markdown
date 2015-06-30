@@ -25,7 +25,7 @@ I then worked with this [IPython notebook file](https://github.com/nygeog/nygeog
 
 	IPython nbconvert jetblue-latlng.ipynb --to markdown
 
-
+##The IPython notebook code:
 
     # Import pandas
     import pandas as pd
@@ -134,6 +134,6 @@ I then worked with this [IPython notebook file](https://github.com/nygeog/nygeog
     # Show the map
     plt.show()
 
-
-![png](jetblue-latlng_files/jetblue-latlng_2_0.png)
+##The points plotted
+![png](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/2015-06-29-jetblue-latlng/jetblue-latlng_files/jetblue-latlng_2_0.png)
 
