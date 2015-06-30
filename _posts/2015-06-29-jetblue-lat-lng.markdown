@@ -7,7 +7,7 @@ tags: latlng travel web jetblue
 
 Being a fairly regular [JetBlue](http://www.jetblue.com/) customer - they don't fly everywhere but do most major cities across the US - I have come to enjoy checking out the back-of-the-seat heads up display of flight tracking. For a while they were using **Google Maps** but that display now uses **OpenStreetMap** as a basemap. 
 
-Ever since I started seeing wifi on JetBlue flights, via **FlyFi**, I also enjoyed looking at that flight tracker as well. If you are on a JetBlue flight go to [http://www.flyfi.com/travel/](http://www.flyfi.com/travel/) (this link won't work if not currently on a JetBlue flight). 
+Ever since I started seeing wifi on JetBlue flights, via **FlyFi**, I also enjoyed looking at that flight tracker as well. If you are on a JetBlue flight go to [http://www.flyfi.com/travel/](http://www.flyfi.com/travel/) (this link won't work if not currently on a JetBlue flight). FlyFi uses **Google** for mapping but hopefully they will transition to **OpenStreetMap**.
 
 ![un](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/jetblue-flyfi-map.png)
 *FlyFi flight tracker*
