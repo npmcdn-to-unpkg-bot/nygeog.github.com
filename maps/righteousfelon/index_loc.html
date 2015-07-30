@@ -87,7 +87,7 @@
           lon = position.coords.longitude;
           lat = position.coords.latitude;
           //updateQuery();
-          map.setView(new L.LatLng(lat,lon), 18);
+          // map.setView(new L.LatLng(lat,lon), 18);
           new L.CircleMarker([lat,lon],{radius: 30}).addTo(map);
 }
       
