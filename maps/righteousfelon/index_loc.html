@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RdP - Sampling Grid</title>
+    <title>RdP - User Location</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
@@ -20,8 +20,33 @@
 
     <!-- include cartodb.js library -->
     <script src="http://libs.cartocdn.com/cartodb.js/v3/3.11/cartodb.js"></script>
-
+    <script>      // credit: http://html5doctor.com/finding-your-position-with-geolocation/
+    var map;
+              function detectUserLocation(){
+                if (navigator.geolocation) {
+                  var timeoutVal = 10 * 1000 * 1000;
+                  navigator.geolocation.watchPosition(
+                    mapToPosition, 
+                    alertError,
+                    { enableHighAccuracy: true, timeout: timeoutVal, maximumAge: 0 }
+                  );
+                }
+                else {
+                  alert("Geolocation is not supported by this browser");
+                }
+                
+                function alertError(error) {
+                  var errors = { 
+                    1: 'Permission denied',
+                    2: 'Position unavailable',
+                    3: 'Request timeout'
+                  };
+                  alert("Error: " + errors[error.code]);
+                }
+              }
+              </script>
     <script>
+
       function main() {
         cartodb.createVis('map', 'https://dms2203.cartodb.com/api/v2/viz/10f4abd4-36ee-11e5-855a-0e018d66dc29/viz.json', {
             title: true,
@@ -30,11 +55,12 @@
             tiles_loader: true,
             center_lat: 40.6928,
             center_lon: -73.9903, 
-            zoom: 13,
+            zoom: 14,
             scrollwheel: false,
             search: false,
             shareable: false,
             layer_selector: true,
+            mobile_layout: true,
         })
         .done(function(vis, layers) {
           // layer 0 is the base layer, layer 1 is cartodb layer
@@ -44,10 +70,11 @@
             cartodb.log.log(e, pos, latlng, data);
           });
           // you can get the native map to work with it
-          var map = vis.getNativeMap();
+          map = vis.getNativeMap();
           // now, perform any operations you need
           // map.setZoom(3);
           // map.panTo([50.5, 30.5]);
+          // detectUserLocation();
 
         })
         .error(function(err) {
@@ -55,6 +82,18 @@
         });
       }
       window.onload = main;
+
+      function mapToPosition(position) {
+          lon = position.coords.longitude;
+          lat = position.coords.latitude;
+          //updateQuery();
+          map.setView(new L.LatLng(lat,lon), 18);
+          new L.CircleMarker([lat,lon],{radius: 30}).addTo(map);
+}
+      
+
+      mapToPosition();
+
 
 
 
