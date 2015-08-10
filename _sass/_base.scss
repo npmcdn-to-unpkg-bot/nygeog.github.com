@@ -35,6 +35,21 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+/**
+ * Tables
+ */
+
+th {
+    color: black;
+}
+
+
+table, td, th {
+    border: 1px #FFFFFF;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+}
+
 
 
 /**
@@ -130,7 +145,7 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: #E6FFFF;
 }
 
 code {
