@@ -22,6 +22,7 @@ I grabbed this [volcano csv](https://data.hdx.rwlabs.org/dataset/volcano-populat
 
 
 The simply query to show points is:
+
 	SELECT * FROM volcano
 
 ###Volcano Point Dataset with 100 mile buffer:
