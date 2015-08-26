@@ -18,6 +18,9 @@ permalink: /data/
 
 
 #<a name="nyc"></a>New York City
+
+
+
 * [Open Data](https://nycopendata.socrata.com/)
 	* Parks
 		* [Park Inspections Data (XML)](https://data.cityofnewyork.us/Housing-Development/Parks-Inspections-data/t9jy-gfev)
@@ -82,6 +85,8 @@ cooperation and assistance of numerous governmental and non-profit agencies. Use
 * [SR Spatial (Steven Romalewski) from CUNY](http://spatialityblog.com)
 	* [Subway Data](http://spatialityblog.com/2010/07/08/mta-gis-data-update/)
 
+* [Citi Bike](https://www.citibikenyc.com)
+	* [Station Data Feed](https://www.citibikenyc.com/stations/json) 
 
 * Taxi Data Foiled by [Chris Wong](http://chriswhong.com)
 	* [NYC Taxi Data 2013 - Trip and Fare Data](http://chriswhong.com/open-data/foil_nyc_taxi/)
