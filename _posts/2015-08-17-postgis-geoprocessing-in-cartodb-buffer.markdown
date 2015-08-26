@@ -17,9 +17,9 @@ I grabbed this [volcano csv](https://data.hdx.rwlabs.org/dataset/volcano-populat
 ###Input Volcano Point Dataset:
 <iframe width='100%' height='520' frameborder='0' src='https://dms2203.cartodb.com/viz/52cc2ce0-14f1-11e5-b152-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-![cartdob_buffer_1](img/cartodb_buffer_1.png)
+![cartdob_buffer_1](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/cartodb_buffer_1.png)
 
 ###Volcano Point Dataset with 100 mile buffer:
 <iframe width='100%' height='520' frameborder='0' src='https://dms2203.cartodb.com/viz/0cdb870c-14f2-11e5-9a9e-0e0c41326911/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-![cartdob_buffer_2](img/cartodb_buffer_2.png)
+![cartdob_buffer_2](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/cartodb_buffer_2.png)
