@@ -14,14 +14,30 @@ As part of my attempts to increasingly leverage PostGIS into my workflow, I'll b
 ####The practice dataset
 I grabbed this [volcano csv](https://data.hdx.rwlabs.org/dataset/volcano-population-exposure-index-gvm/resource/e3b1ecf0-ec47-49f7-9011-6bbb7403ef6d) from the [Humanitarian Data Exchange](https://data.hdx.rwlabs.org/) and imported it into my [CartoDB](https://cartodb.com/) account. 
 
+
 ###Input Volcano Point Dataset:
 <iframe width='100%' height='520' frameborder='0' src='https://dms2203.cartodb.com/viz/52cc2ce0-14f1-11e5-b152-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 ![cartdob_buffer_1](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/cartodb_buffer_1.png)
 
+
+The simply query to show points is:
+	SELECT * FROM volcano
+
 ###Volcano Point Dataset with 100 mile buffer:
 <iframe width='100%' height='520' frameborder='0' src='https://dms2203.cartodb.com/viz/0cdb870c-14f2-11e5-9a9e-0e0c41326911/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 ![cartdob_buffer_2](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/cartodb_buffer_2.png)
+
+So that query is:
+
+	SELECT
+		ST_Buffer(
+			the_geom_webmercator,
+			100*1609
+			) AS the_geom_webmercator,
+		cartodb_id
+	FROM
+		volcano
 
 Next up will be Convex Hulls...
