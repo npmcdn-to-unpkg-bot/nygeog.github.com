@@ -5,7 +5,7 @@ date:   2015-08-17 14:21:10
 tags: postgis cartodb buffer sql
 ---
 
-Note: This post was mostly written in early June. 
+Note: This post was mostly written in early June. Summer has been busy. 
 
 As part of my attempts to increasingly leverage PostGIS into my workflow, I'll be posting some pretty basic how-to's so I can better understand geoprocessing with SQL. One of the most rudimentary geoprocessing tasks is to construct a buffer. So I figured I'd tackle this one first. 
 
