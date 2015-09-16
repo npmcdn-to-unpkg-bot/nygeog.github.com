@@ -2,7 +2,7 @@
 title: NYGeog
 email: 
 description: > # this means to ignore newlines until "baseurl:"
-  Geographer/GIS Analyst at Columbia University, student at the Institute for Data Science 
+  Geographer/GIS Analyst at Columbia University, available for GIS work as GIS tudor, student at the Institute for Data Science 
   and Engineering at Columbia University. Python programmer. Geoprocessing with ArcPy, Shapely,
    GDAL and OGR. Interested in learning more FOSS4G, specifically PostGIS and online mapping tools.
 baseurl: "" # the subpath of your site, e.g. /blog/
