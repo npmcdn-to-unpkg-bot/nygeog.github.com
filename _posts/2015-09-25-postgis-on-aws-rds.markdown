@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PostGIS Geoprocessing with SQL in CartoDB-Buffer
+title: Installing PostGIS (PostgreSQL) on Amazon Web Services (RDS)
 date:   2015-09-25 14:21:10
 tags: postgis amazonwebservices aws rds
 ---
