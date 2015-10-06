@@ -59,7 +59,7 @@ Here's the code if you'd like to copy and paste (remember to modify the dates to
     
     
 ##5. Display the data in IPython. 
-Next I'll embed an **iframe** of the embeddable map into IPython. More **CartoDB/IPython** integration may be found here: [https://plot.ly/ipython-notebooks/cartodb/](https://plot.ly/ipython-notebooks/cartodb/).
+Next I'll embed an **iframe** of the embeddable map into IPython (Hit **Publish** and grab the **embed** code). More **CartoDB/IPython** integration may be found here: [https://plot.ly/ipython-notebooks/cartodb/](https://plot.ly/ipython-notebooks/cartodb/).
 
 
     from IPython.display import HTML
