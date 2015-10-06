@@ -22,12 +22,17 @@ First off, go out and do some runs with the [RunKeeper app](https://runkeeper.co
 Unzip the file and note its directory location. 
 
 ##2. Merge all RunKeeper GPX files to a single Shapefile using [GDAL/OGR](http://www.gdal.org/index.html) with [OSGEO4W](http://trac.osgeo.org/osgeo4w/).
+
+####Important Note: you can skip this step if you don't have GDAL installed or if you just want to view a sinlge run. Skip this step if that's the case and move to step 3. Zip shapefile and upload to CartoDB. 
+
 Any GDAL installation can merge all your files in the folder, for this example I used [OSGEO4Windows](http://trac.osgeo.org/osgeo4w/) as I already had a Windows VM up. You can easily run this on Mac as well. Here is a great resource for this operation from [this StackExchange post](http://gis.stackexchange.com/questions/159360/how-to-bulk-import-gpx-files-to-qgis-and-merge-into-a-single-shapefile).
     
     for %p in (W:\GIS\Data\Monitoring\RunKeeper\runkeeper-data-export-30244759-2015-10-06-1740\*.gpx) do ogr2ogr W:\GIS\Data\Monitoring\RunKeeper\RunKeeper_Points\RunKeeper_Points.shp -append %p track_points -fieldTypeToString DateTime    
     
 Running the GDAL/OGR in OSGEO4W:
 ![osgoe4w](https://raw.githubusercontent.com/nygeog/runkeeper/master/img/osgeo4w.png)
+
+
 
 ##3. Zip shapefile and upload to CartoDB. 
 Below we are going to zip our shapefile directory up for uploading to CartoDB. 
