@@ -24,7 +24,7 @@ Unzip the file and note its directory location.
 
 ##2. Merge all RunKeeper GPX files to a single Shapefile using [GDAL/OGR](http://www.gdal.org/index.html) with [OSGEO4W](http://trac.osgeo.org/osgeo4w/).
 
-####Important Note: you can skip this step if you don't have GDAL installed or if you just want to view a sinlge run. Skip this step if that's the case and move to step 3. Zip shapefile and upload to CartoDB. 
+####Important Note: you can skip this step if you don't have GDAL installed or if you just want to view a single run. Skip this step if that's the case and move to step 3. Zip shapefile and upload to CartoDB. 
 
 Any GDAL installation can merge all your files in the folder, for this example I used [OSGEO4Windows](http://trac.osgeo.org/osgeo4w/) as I already had a Windows VM up. You can easily run this on Mac as well. Here is a great resource for this operation from [this StackExchange post](http://gis.stackexchange.com/questions/159360/how-to-bulk-import-gpx-files-to-qgis-and-merge-into-a-single-shapefile).
     
