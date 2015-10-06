@@ -37,13 +37,6 @@ Below we are going to zip our shapefile directory up for uploading to CartoDB.
     
     shutil.make_archive("/Volumes/Kilo/Dropbox/GIS/Data/Monitoring/RunKeeper/RunKeeper_Points", "zip", "/Volumes/Kilo/Dropbox/GIS/Data/Monitoring/RunKeeper/RunKeeper_Points")
 
-
-
-
-    '/Volumes/Kilo/Dropbox/GIS/Data/Monitoring/RunKeeper/RunKeeper_Points.zip'
-
-
-
 Next, upload your data to CartoDB. You can simply drag-and-drop the zipped file onto your browser. 
 ![cartodb_upload](https://raw.githubusercontent.com/nygeog/runkeeper/master/img/cartodb_upload.png)
 
