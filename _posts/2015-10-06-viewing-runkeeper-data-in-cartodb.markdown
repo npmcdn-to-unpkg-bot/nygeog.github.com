@@ -77,7 +77,7 @@ Next I'll embed an **iframe** of the embeddable map into IPython. More **CartoDB
 #Next Steps and future things for consideration:
 
 ##Time between GPS observations
-I'm not always running. Yes, I should be running more, but no matter if your an Ultramarathon runner or a casual stroller, you'll most likely always spend more time not running than running. In fact the distribution of my runs in the winter is pretty bad. 
+I'm not always running. Yes, I should be running more, but no matter if your an Ultramarathon runner or a casual stroller, you'll most likely always spend more time not running than running. In fact, the distribution of my runs in the winter is pretty bad as seen below.
 ![seasonal](https://raw.githubusercontent.com/nygeog/runkeeper/master/img/seasonal.png)
 
 For animating my runs, perhaps using the **cartodb_id** rather than time (datetime) would be beneficial for showing consecutive runs rather than the units of time in Torque passing uniformly. 
@@ -93,7 +93,10 @@ For animating my runs, perhaps using the **cartodb_id** rather than time (dateti
 
 <iframe width="100%" height="520" frameborder="0" src="https://dms2203.cartodb.com/viz/06395e7a-6c62-11e5-a57f-0e674067d321/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
+The SQL to select the days:
 
+	SELECT * FROM runkeeper_points 
+	WHERE time > '07/07/2014' AND time <= '07/10/2014' 
 
 ##Zoom to events
 Another feature that would be fun to work with is zooming to runs by day, perhaps set the bounding box of the map frame to the envelope of the GPS per day and then zoom to that box for every new day. 
