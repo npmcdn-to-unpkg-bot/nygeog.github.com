@@ -6,6 +6,7 @@ tags: runkeeper cartodb ogr gdal osgeo4w gpx gps
 ---
 
 #Viewing Your [RunKeeper](https://runkeeper.com/) Data in [CartoDB](https://cartodb.com/)
+![osgoe4w](https://raw.githubusercontent.com/nygeog/runkeeper/master/img/home_page_slide.png)
 [RunKeeper](https://runkeeper.com/) is a great app for recording runs and other workout adventures. While its fun to see your workout on the app, it can also be exported and viewed and analyzed. [CartoDB](https://cartodb.com/) is a great mapping platform for visualizing your data. In this exercise, I'll show the following steps:
 
 1. Export your RunKeeper data GPX files. 
