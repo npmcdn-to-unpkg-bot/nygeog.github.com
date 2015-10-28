@@ -30,9 +30,9 @@ Here is the overview of the course. The main bullets are the lectures, the sub-i
 
 
 ##Some definitions and notes
-Auto Scaling Group - instances that scale and create and kill to meet demand. 
+**Auto Scaling Group** - instances that scale and create and kill to meet demand. 
 
-Availability Zone - Data Center Region
+**Availability Zone** - Data Center Region
 
 EC2 Pricing Options
 
