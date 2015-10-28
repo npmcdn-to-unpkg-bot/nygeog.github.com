@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with AWS (Amazon Web Services) - free bootcamp class at the AWS Loft in NYC
-date:   2015-10-28 14:21:10
+date:   2015-10-28 08:00:00
 tags: amazonwebservices aws rds nyc
 ---
 
@@ -34,7 +34,7 @@ Auto Scaling Group - instances that scale and create and kill to meet demand.
 
 Availability Zone - Data Center Region
 
-Ec2 Pricing Options
+EC2 Pricing Options
 
 * On-Demand
 * Reserved Instances
@@ -44,13 +44,17 @@ Ec2 Pricing Options
 ##The takeaway
 My immediate takeway was understanding more of the terms and concepts of AWS, especially **Regions** and **Availability Zones**. I also felt way more comfortable navigating around the AWS console. 
 
-One of the things I'd like to learn more of is **Elastic BeanStalk**, you are in luck though. I deployed my first **Flask** app tutorial and published via Elastic BeanStalk and hope to provide a post on that very soon. Others are **Chef** and **Docker**. 
+One of the things I'd like to learn more of is **Elastic BeanStalk**. Luckily though, I deployed my first **Flask** app via a tutorial and published via Elastic BeanStalk and hope to provide a post on that very soon. Other things I'd like to learn more about are **Chef** and **Docker**. 
 
-Lastly, as someone who is often precious about their computer and production environment, I really loved this quote: "stop treating computers like pets and treat them more like cattle." While this quote reinforces our horribly unsustainable meat-addiction, it is apt for thinking about computing environments. Meaning, if an instance fails, shut it down and just build a new one (from a pre-built image). This is probably more applicable to someone who builds servers, but I also thought about it for when a GIS machine gets bogged down (or when your ArcGIS desktop build gets sluggish). If we compute in a virtual environment, there's really no reason to feel compelled to troubleshoot a system that goes haywire, simply build up a new one. Granted, that won't solve all your problems and sometimes a stable environment is better than rebuilding. 
+Lastly, as someone who is often precious about their computer and production environment, I really loved this quote: *"stop treating computers like pets and treat them more like cattle."* While this quote reinforces our horribly unsustainable meat-addiction, it is apt for thinking about computing environments. Meaning, if an instance fails, shut it down and just build a new one (from a pre-built image). This is probably more applicable to someone who builds servers, but I also thought about it for when a GIS machine gets bogged down (or when your ArcGIS desktop build gets sluggish). If we compute in a virtual environment, there's really no reason to feel compelled to troubleshoot a system that goes haywire, simply build up a new one. Granted, that won't solve all your problems and sometimes a stable environment is better than rebuilding. 
+
+Overall, I highly recommend taking this course. 
+
+[Click more about the AWS Loft and Amazon Web Services (AWS) Pop-up Loft in New York City](https://aws.amazon.com/start-ups/loft/) 
 
 ![aws_loft_logo](https://d0.awsstatic.com/Startups/test/pdp_loft.png)
 
-[Click more about the AWS Loft and Amazon Web Services (AWS) Pop-up Loft in New York City](https://aws.amazon.com/start-ups/loft/) 
+
 
 
 
