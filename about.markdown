@@ -18,7 +18,7 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 * [Contact](#contact)
 * [Blog](#blog)
 * [Teaching](#teaching)
-* [Calendar](#calendar)
+<!--* [Calendar](#calendar)-->
 * [Misc](#misc)
 <!--* [Hire](#hire)-->
 
@@ -78,14 +78,14 @@ My [teaching information](https://nygeog.github.io/teaching/) can be found [here
 
 [Top](#top)
 
----
+<!-----
 
 ##<a name="calendar"></a>[Calendar](http://www.google.com/calendar/embed?src=39a18nupjlakmcbjq3pveu1nqc@group.calendar.google.com&ctz=America/New_York)
 [Click here to access Calendar (if in Google Chrome) or not rendering.](http://www.google.com/calendar/embed?src=39a18nupjlakmcbjq3pveu1nqc@group.calendar.google.com&ctz=America/New_York)
 
 <p><iframe src="http://www.google.com/calendar/embed?src=39a18nupjlakmcbjq3pveu1nqc%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width='100%' height="500" frameborder="0" scrolling="no"></iframe></p>
 
-[Top](#top)
+[Top](#top)-->
 
 ---
 		
