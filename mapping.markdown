@@ -16,7 +16,7 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 
 I'll be adding more mapping examples over the next few weeks/months. Some projects and maps I've created are [HIPAA](http://www.hhs.gov/ocr/privacy/) or [IRB](http://en.wikipedia.org/wiki/Institutional_review_board) sensitive and can not be shared. 
 
-
+![campus](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/columbia_campus.png)
 ---
 
 ####CartoDB
