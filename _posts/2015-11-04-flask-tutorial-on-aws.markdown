@@ -34,6 +34,7 @@ Without further ado, here's a quick text submission form I set up from the tutor
 **Enter the number 9 in the bottom entry form and view the last 9 entries.**
 
 If you want to use your **Elastic Beanstalk** app on your own domain, look no farther than [Rodkey's](https://medium.com/@rodkey) advice:
+
 > The easiest way is to use Amazon’s Route 53 — you can easily map the yourapp.elasticbeanstalk.com domain to your domain.
 
 
