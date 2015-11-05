@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tutorial: Deploying a Flask application on AWS 
-date:   2015-11-04 16:00:00
+date: 2015-11-04 16:00:00
 tags: amazonwebservices aws flask python elasticbeanstalk
 ---
 
