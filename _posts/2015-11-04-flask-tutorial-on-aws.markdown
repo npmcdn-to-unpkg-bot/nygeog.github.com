@@ -27,7 +27,7 @@ After cloning the **Flask template app**, I setup and pushed the repository up t
 
 Without further ado, here's a quick text submission form I set up from the tutorial and Flask template app. It simply writes the input to a **MySQL** database on Amazon **RDS**. 
 
-**Enter some text to submit to the DB.** Keep it clean. I'm prety sure I can check the IP of the submitter. 
+**Enter some text to submit to the DB.** Keep it clean. I'm pretty sure I can check the IP of the submitter. 
 
 [![flask-beanstalk-img](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/flask-elastic-beanstalk.png)](http://nygeog-flask-aws-tutorial.elasticbeanstalk.com/)
 
