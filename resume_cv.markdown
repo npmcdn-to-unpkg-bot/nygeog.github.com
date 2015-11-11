@@ -11,11 +11,11 @@ permalink: /resume_cv/
 
 
 
-##Daniel M. Sheehan
+<!--##Daniel M. Sheehan
 
-geographer, python programmer, gis analyst
+geographer, python programmer, gis analyst-->
 
-[daniel.martin.sheehan@gmail.com](mailto:daniel.martin.sheehan@gmail.com?Subject=Resume_CV)
+
 
 <iframe src="http://docs.google.com/gview?url=https://dl.dropboxusercontent.com/u/36281098/daniel_martin_sheehan_resume.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
 
@@ -23,7 +23,7 @@ geographer, python programmer, gis analyst
 
 [github/nygeog](https://github.com/nygeog)
 
-
+[daniel.martin.sheehan@gmail.com](mailto:daniel.martin.sheehan@gmail.com?Subject=Resume_CV)
 ---
 
 ####<a name="top"></a>menu
