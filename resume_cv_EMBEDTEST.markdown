@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resume/CV
+title: Resume/CV TEST
 permalink: /resume_cv_embedtest/
 ---
 
