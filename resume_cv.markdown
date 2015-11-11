@@ -12,7 +12,7 @@ permalink: /resume_cv/
 
 
 ##Daniel M. Sheehan
-![campus](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/columbia_medical_center.png)
+
 geographer, python programmer, gis analyst
 
 [daniel.martin.sheehan@gmail.com](mailto:daniel.martin.sheehan@gmail.com?Subject=Resume_CV)

@@ -22,8 +22,7 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 * [Misc](#misc)
 <!--* [Hire](#hire)-->
 
-
-<!--![campus](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/id4.jpg)-->
+![campus](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/columbia_medical_center.png)
 
 Geographer/GIS Analyst at Columbia University, student at the Institute for Data Science and Engineering at Columbia University. Python programmer. Geoprocessing with ArcPy, Shapely, GDAL and OGR. Interested in learning more FOSS4G, specifically PostGIS and online mapping tools.
 
