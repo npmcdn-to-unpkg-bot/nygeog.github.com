@@ -53,8 +53,8 @@
             description: true,
             search: true,
             tiles_loader: true,
-            center_lat: -22.9785,
-            center_lon: -43.3373, 
+            center_lat: 40.7190467,
+            center_lon: -73.9520948, 
             zoom: 17,
             scrollwheel: false,
             search: false,
@@ -88,8 +88,8 @@
           lat = position.coords.latitude;
           //updateQuery();
           map.setView(new L.LatLng(lat,lon), 18);
-          new L.CircleMarker([lat,lon],{radius: 30}).addTo(map);
-          CircleMarker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+          new L.CircleMarker([lat,lon],{radius: 30}).addTo(map).bindPopup("<b>Someone loves you at: </b>"+lat+", "+lon).openPopup();
+          //new CircleMarker;
 }
       
 
