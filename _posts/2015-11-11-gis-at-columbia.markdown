@@ -35,6 +35,7 @@ I'm not going to go too in-depth with these resources, but will provide a few li
 
 ###Companies
 * CartoDB
+* Mapzen
 
 ###Data
 * Link to my page Data NYC - maybe an iframe of that page...?
