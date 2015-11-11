@@ -19,11 +19,15 @@ geographer, python programmer, gis analyst-->
 
 <iframe src="http://docs.google.com/gview?url=https://dl.dropboxusercontent.com/u/36281098/daniel_martin_sheehan_resume.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
 
+[daniel.martin.sheehan@gmail.com](mailto:daniel.martin.sheehan@gmail.com?Subject=Resume_CV)
+
 **[download resume pdf](https://www.dropbox.com/s/1k454fart4ii78c/daniel_martin_sheehan_resume.pdf?dl=1)**
 
 [github/nygeog](https://github.com/nygeog)
 
-[daniel.martin.sheehan@gmail.com](mailto:daniel.martin.sheehan@gmail.com?Subject=Resume_CV)
+
+
+
 ---
 
 ####<a name="top"></a>menu
