@@ -1,1 +1,7 @@
+---
+layout: page
+title: Resume/CV
+permalink: /resume_cv_embedtest/
+---
+
 <iframe src="http://docs.google.com/gview?url=https://www.dropbox.com/s/1k454fart4ii78c/daniel_martin_sheehan_resume.pdf?dl=0&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
