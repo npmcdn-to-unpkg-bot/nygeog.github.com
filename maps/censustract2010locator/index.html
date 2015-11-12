@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RdP - User Location</title>
+    <title>User Location - Census Tract</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
     <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
@@ -49,7 +49,7 @@
 
       function main() {
         cartodb.createVis('map', 'https://dms8md23.cartodb.com/api/v2/viz/e11893e4-88c8-11e5-8791-0ecfd53eb7d3/viz.json', {
-            title: true,
+            title: false,
             description: true,
             search: true,
             tiles_loader: true,
@@ -102,7 +102,7 @@
 
           //updateQuery();
           map.setView(new L.LatLng(lat,lon), 18);
-          new L.CircleMarker([lat,lon],{radius: 30}).addTo(map).bindPopup("<b>You are located (via ISP) at: </b>"+lat+", "+lon+" Census Tract: "+tblRow).openPopup();
+          new L.CircleMarker([lat,lon],{radius: 30}).addTo(map).bindPopup("<b>You are located (via ISP) at: </b>"+lat+", "+lon+" <b>Census Tract:</b> "+tblRow).openPopup();
           //new CircleMarker;
 
 });});
