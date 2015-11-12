@@ -112,7 +112,7 @@
 
           //updateQuery();
           map.setView(new L.LatLng(lat,lon), 18);
-          new L.CircleMarker([lat,lon],{radius: 30}).addTo(map).bindPopup("<b>You are located (via ISP) at: </b>"+lat+", "+lon+" <b>Census Tract:</b> "+tblRow+" with a <b>Population</b> ("+varName+") of <b>"+popVal+"</b>").openPopup();
+          new L.CircleMarker([lat,lon],{radius: 30}).addTo(map).bindPopup("<b>You are located (via ISP) at: </b>"+lat+", "+lon+" <b>Census Tract:</b> "+tblRow+" with a <b>Population</b> ("+varName+") of <b>"+popVal+"</b> via <a href='http://cartodb.com'>CartoDB and Common Data</a>, PostGIS (SQL), and the <a href='http://api.census.gov/'>US Census API</a>").openPopup();
           //new CircleMarker;
 
 });
