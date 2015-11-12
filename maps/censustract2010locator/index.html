@@ -90,22 +90,33 @@
           lat = position.coords.latitude;
           
           var jsonURL = "https://common-data.cartodb.com/api/v2/sql?q=select geoid from public.tl_2014_census_tracts where st_intersects(the_geom,st_GeomFromText('POINT("+lon+" "+lat+")', 4326)) & format=geojson";
-
+          
          // var jsonObj = [];
          $.getJSON(jsonURL, function(data) {
              $.each(data.rows, function(i, f) {
-                tblRow = f.geoid;
+                tblRow   = f.geoid;
+                tractID  = tblRow.substr(5, 6); 
+                stateID  = tblRow.substr(0, 2);
+                countyID = tblRow.substr(2, 3); 
+
+          var cenURL  = "http://api.census.gov/data/2010/sf1?key=30699f15ab4d04a1e0943715b539d256c9a3ee44&get=P0010001&for=tract:"+tractID+"&in=state:"+stateID+"+county:"+countyID
                
-                  
-          
+         $.getJSON(cenURL, function(data) {
+             var cenVar = data;//.split(",",1);//.["P0010001"][0]
+             //popVar = data.str.split(",",-3);
+                      
+          var varName = cenVar[0][0];
+          var popVal  = cenVar[1][0];
+
           // window.alert(jsonObj);
 
           //updateQuery();
           map.setView(new L.LatLng(lat,lon), 18);
-          new L.CircleMarker([lat,lon],{radius: 30}).addTo(map).bindPopup("<b>You are located (via ISP) at: </b>"+lat+", "+lon+" <b>Census Tract 2010:</b> "+tblRow).openPopup();
+          new L.CircleMarker([lat,lon],{radius: 30}).addTo(map).bindPopup("<b>You are located (via ISP) at: </b>"+lat+", "+lon+" Census Tract: "+tblRow+" with a Population ("+varName+") of "+popVal).openPopup();
           //new CircleMarker;
 
-});});
+});
+         });});
 };
 
       
