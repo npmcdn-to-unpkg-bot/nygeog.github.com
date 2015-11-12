@@ -112,7 +112,7 @@
 
           //updateQuery();
           map.setView(new L.LatLng(lat,lon), 18);
-          new L.CircleMarker([lat,lon],{radius: 30}).addTo(map).bindPopup("<b>You are located (via ISP) at: </b>"+lat+", "+lon+" Census Tract: "+tblRow+" with a Population ("+varName+") of "+popVal).openPopup();
+          new L.CircleMarker([lat,lon],{radius: 30}).addTo(map).bindPopup("<b>You are located (via ISP) at: </b>"+lat+", "+lon+" <b>Census Tract:</b> "+tblRow+" with a <b>Population ("+varName+") of "+popVal+"</b>").openPopup();
           //new CircleMarker;
 
 });
