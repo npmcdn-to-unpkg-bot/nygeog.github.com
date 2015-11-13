@@ -33,7 +33,7 @@ Another course I'd highly recommend is **[PLA6204 Tales of the Digital City](htt
 ####Other NYC GIS Academic Course Resources
 * **[CUNY Graduate Center and Hunter College](http://www.geo.hunter.cuny.edu/)** offers many great **graduate-level GIS** courses and programs. This is perhaps the best place in NYC for all things GIS in academia as they offer Certificates, Master's and a PhD. *Full disclosure: do not know very many of the faculty here.*
 
-* **[Pratt Institute’s Spatial Analysis and Visualization Initiative (SAVI)](https://www.pratt.edu/pratt-research-and-centers/spatial-analysis-visualization-initiative/)** is one of the newer expanding programs and are offering Certificates. Pratt has offered a  *Full disclosure: know some of the faculty here.*
+* **[Pratt Institute’s Spatial Analysis and Visualization Initiative (SAVI)](https://www.pratt.edu/pratt-research-and-centers/spatial-analysis-visualization-initiative/)** is one of the newer expanding programs and are offering Certificates. Pratt has offered a GIS courses in the past, but SAVI is a new initiative. *Full disclosure: know some of the faculty here.*
 
 * **[NYU](http://guides.nyu.edu/c.php?g=276822&p=1846136)** offers some GIS resources but I don't know much about their programs specifically.
 
