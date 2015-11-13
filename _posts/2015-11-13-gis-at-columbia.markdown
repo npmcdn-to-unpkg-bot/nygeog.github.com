@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GIS at Columbia University (Spring 2016)
+title: GIS Courses at Columbia University (Spring 2016)
 date: 2015-11-13 16:00:00
 tags: gis columbia 2016 courses
 ---
