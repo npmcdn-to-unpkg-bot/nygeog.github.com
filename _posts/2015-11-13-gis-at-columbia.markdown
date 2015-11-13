@@ -16,7 +16,7 @@ Due to time constraints and becoming a [data science student](http://datascience
 
 <a name="courses"></a>
 
-##GIS Courses At Columbia University
+##Spring 2016 GIS Courses At Columbia University
 
 **Course Listings in SSOL when search word "GIS"**
 ![gis courses columbia 2016](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/gis-columbia-courses-2016.png)
