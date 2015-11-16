@@ -16,7 +16,11 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 
 I'll be adding more mapping examples over the next few weeks/months. Some projects and maps I've created are [HIPAA](http://www.hhs.gov/ocr/privacy/) or [IRB](http://en.wikipedia.org/wiki/Institutional_review_board) sensitive and can not be shared. 
 
-[![locator](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/locator_census_tract_2010_pop.png)](http://nygeog.github.io/maps/censustract2010locator/)
+<!--[![locator](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/locator_census_tract_2010_pop.png)](http://nygeog.github.io/maps/censustract2010locator/)-->
+
+<a href='http://nygeog.github.io/maps/censustract2010locator/'><img src="https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/locator_census_tract_2010_pop.png" alt="locator" style="height:300px;"></a>
+
+
 ---
 
 ####CartoDB
