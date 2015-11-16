@@ -18,9 +18,11 @@ I'll be adding more mapping examples over the next few weeks/months. Some projec
 
 <!--[![locator](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/locator_census_tract_2010_pop.png)](http://nygeog.github.io/maps/censustract2010locator/)-->
 
-**Census Tract 2010 identifier with CartoDB SQL API, then link with US Census API to get population values**
 
-<center><a href='http://nygeog.github.io/maps/censustract2010locator/'><img src="https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/locator_census_tract_2010_pop.png" alt="locator" style="height:500px;"></a></center>
+
+<center><h3>Census Tract 2010 identifier with CartoDB SQL API, then link with US Census API to get population values</h3>
+<a href='http://nygeog.github.io/maps/censustract2010locator/'><img src="https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/locator_census_tract_2010_pop.png" alt="locator" style="height:500px;"></a>
+</center>
 
 
 ---
