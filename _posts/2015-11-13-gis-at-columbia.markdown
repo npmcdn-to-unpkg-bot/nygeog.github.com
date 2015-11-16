@@ -63,7 +63,7 @@ I'm not going to go too in-depth with these resources, but will provide a few li
 
 ###Spatiality
 
-* In category all its own is [Steven Romalewski - CUNY Mapping Service at the Graduate Center of the City University of New York (CUNY) - a great NYC GIS resource](http://spatialityblog.com/).
+* In category all his own is [Steven Romalewski - CUNY Mapping Service at the Graduate Center of the City University of New York (CUNY) - a great NYC GIS resource](http://spatialityblog.com/).
 
 
 
