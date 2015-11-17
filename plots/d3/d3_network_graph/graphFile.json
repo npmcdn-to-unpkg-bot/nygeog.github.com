@@ -8,7 +8,11 @@
 		{"name":"MapBox","group":5},
 		{"name":"Mapzen","group":6},
 		{"name":"Factual","group":7},
-		{"name":"Esri","group":8}
+		{"name":"Esri","group":8},
+		{"name":"Craig C. Cleveland","group":9},
+		{"name":"no one","group":10},
+		{"name":"Randy Meech","group":11},
+		{"name":"no one","group":12}
 	],
 	"links":[
 		{"source":0,"target":1,"weight":50},
@@ -16,7 +20,15 @@
 		{"source":0,"target":4,"weight":10},
 		{"source":1,"target":2,"weight":2},
 		{"source":3,"target":2,"weight":2},
-		{"source":4,"target":2,"weight":2}
+		{"source":4,"target":2,"weight":2},
+		{"source":0,"target":9,"weight":50},
+		{"source":9,"target":8,"weight":2},
+		{"source":0,"target":10,"weight":2},
+		{"source":10,"target":7,"weight":2},
+		{"source":11,"target":6,"weight":2},
+		{"source":11,"target":0,"weight":2},
+		{"source":12,"target":0,"weight":2},
+		{"source":12,"target":5,"weight":2}
 	]
 }
 
