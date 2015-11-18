@@ -42,7 +42,7 @@ Most of my project-related GitHub code is in a private repository. [Contact me](
 ###<a name="python"></a>Python
 * [Python code](https://github.com/nygeog/python)
 	* [ArcPy](https://github.com/nygeog/python/tree/master/arcpy)
-	* [Pandas](https://github.com/nygeog/python/tree/master/pandas)
+	* [Pandas](å)
 	
 * Tools
 	* <a name="mappluto"></a>[MapPluto - Download and Merge to File Geodatabase](https://github.com/nygeog/mappluto_to_fgdb) This tool downloads and merges all the available MapPluto files from NYC Department of City Planning into a File Geodatabase with Feature Datasets for each MapPluto Release. 
@@ -63,7 +63,7 @@ Most of my project-related GitHub code is in a private repository. [Contact me](
 ###<a name="osgeo"></a>Open Source Geo (OSGEO)
 * [GDAL Cheat Sheet](https://github.com/nygeog/gdal-cheat-sheet) 
 * QGIS
-  	* [QGIS Install](http://www.kyngchaos.com/software/qgis)
+	* [QGIS Install](http://www.kyngchaos.com/software/qgis)
 	* [Python Modules](http://www.kyngchaos.com/software/python) 
 	* [Install Frameworks](http://www.kyngchaos.com/software/frameworks)
 
