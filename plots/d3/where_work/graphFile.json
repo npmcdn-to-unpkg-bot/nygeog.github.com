@@ -5,14 +5,16 @@
 		{"name":"Mapzen","group":2},
 		{"name":"MapBox","group":3},
 		{"name":"Factual","group":4},
-		{"name":"Esri","group":5}
+		{"name":"Esri","group":5},
+		{"name":"Spatial Networks","group":6}
 	],
 	"links":[
 		{"source":0,"target":1,"weight":500},
 		{"source":0,"target":2,"weight":400},
 		{"source":0,"target":3,"weight":300},
 		{"source":0,"target":4,"weight":200},
-		{"source":0,"target":5,"weight":20}
+		{"source":0,"target":5,"weight":20},
+		{"source":0,"target":6,"weight":200}
 
 	]
 }

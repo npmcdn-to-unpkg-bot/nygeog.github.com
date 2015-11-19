@@ -12,7 +12,9 @@
 		{"name":"Craig C. Cleveland","group":9},
 		{"name":"no one","group":10},
 		{"name":"Randy Meech","group":11},
-		{"name":"no one","group":12}
+		{"name":"no one","group":12},
+		{"name":"Spatial Networks","group":13},
+		{"name":"Bryan McBride","group":14}
 	],
 	"links":[
 		{"source":0,"target":1,"weight":50},
@@ -28,7 +30,9 @@
 		{"source":11,"target":6,"weight":2},
 		{"source":11,"target":0,"weight":2},
 		{"source":12,"target":0,"weight":2},
-		{"source":12,"target":5,"weight":2}
+		{"source":12,"target":5,"weight":2},
+		{"source":13,"target":14,"weight":2},
+		{"source":14,"target":0,"weight":20}
 	]
 }
 
