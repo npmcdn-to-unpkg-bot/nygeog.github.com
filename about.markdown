@@ -90,6 +90,7 @@ My [teaching information](https://nygeog.github.io/teaching/) can be found [here
 ###<a name="misc"></a>Misc
 
 Computer Stuff:
+
 * [Columbia - Register Windows 7 - first VPN on then follow these steps](https://cuit.columbia.edu/software-downloads/operating-system-software/windows-7-enterprise/windows-7-activation)
 
 * [Mapping a Network Drive on Macintosh OS X](https://secure.cumc.columbia.edu/cumcit/secure/howto/remote/drivemac.html)
