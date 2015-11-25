@@ -57,7 +57,7 @@ Send me an [email](mailto:daniel.martin.sheehan@gmail.com).
 	
 [Top](#top)
 
---- -->
+-->
 
 <!--##<a name="blog"></a>Blog
 * My current [blog is on this website](http://nygeog.github.io).
@@ -70,14 +70,14 @@ Send me an [email](mailto:daniel.martin.sheehan@gmail.com).
 
 [Top](#top)
 -->
----
+
 
 <!--##<a name="teaching"></a>Teaching
 My [teaching information](https://nygeog.github.io/teaching/) can be found [here](https://nygeog.github.io/teaching/). 
 
 [Top](#top)
 -->
-<!-----
+<!--
 
 ##<a name="calendar"></a>[Calendar](http://www.google.com/calendar/embed?src=39a18nupjlakmcbjq3pveu1nqc@group.calendar.google.com&ctz=America/New_York)
 [Click here to access Calendar (if in Google Chrome) or not rendering.](http://www.google.com/calendar/embed?src=39a18nupjlakmcbjq3pveu1nqc@group.calendar.google.com&ctz=America/New_York)
@@ -86,7 +86,6 @@ My [teaching information](https://nygeog.github.io/teaching/) can be found [here
 
 [Top](#top)-->
 
----
 		
 ###<a name="misc"></a>Misc
 
