@@ -16,8 +16,8 @@ You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://gi
 ####<a name="top"></a>*Menu*
 * [Info](#info)
 * [Contact](#contact)
-* [Blog](#blog)
-* [Teaching](#teaching)
+<!--* [Blog](#blog)-->
+<!--* [Teaching](#teaching)-->
 <!--* [Calendar](#calendar)-->
 * [Misc](#misc)
 <!--* [Hire](#hire)-->
@@ -59,7 +59,7 @@ Send me an [email](mailto:daniel.martin.sheehan@gmail.com).
 
 --- -->
 
-##<a name="blog"></a>Blog
+<!--##<a name="blog"></a>Blog
 * My current [blog is on this website](http://nygeog.github.io).
 * [Scriptogram](http://scriptogr.am/nygeog)
 	* All the posts from my **scriptogram** (a great markdown-based free blogging platform) blog have been copied over to this site. I used scriptogram for the last few months of 2014. 
@@ -69,14 +69,14 @@ Send me an [email](mailto:daniel.martin.sheehan@gmail.com).
 	* My blogging platform from 2008-2013. Earlier posts may be found here
 
 [Top](#top)
-
+-->
 ---
 
-##<a name="teaching"></a>Teaching
+<!--##<a name="teaching"></a>Teaching
 My [teaching information](https://nygeog.github.io/teaching/) can be found [here](https://nygeog.github.io/teaching/). 
 
 [Top](#top)
-
+-->
 <!-----
 
 ##<a name="calendar"></a>[Calendar](http://www.google.com/calendar/embed?src=39a18nupjlakmcbjq3pveu1nqc@group.calendar.google.com&ctz=America/New_York)
