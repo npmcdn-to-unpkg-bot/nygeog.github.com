@@ -3,8 +3,8 @@ title: NYGeog
 email: 
 description: > # this means to ignore newlines until "baseurl:"
   Geographer/GIS Analyst at Columbia University, student at the Institute for Data Science 
-  and Engineering at Columbia University. Python programmer. Geoprocessing with ArcPy, Shapely,
-   GDAL and OGR. Interested in FOSS4G, specifically PostGIS and online mapping tools. Available as instructor or tudor.
+  and Engineering at Columbia University. Geospatial Python programmer. Geoprocessing with ArcPy, Shapely,
+   GDAL/OGR, FOSS4G, PostGIS and online mapping tools. Available as GIS instructor or tudor.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://nygeog.com" # the base hostname & protocol for your site
 twitter_username: nygeog
