@@ -11,6 +11,7 @@ I've been challenged throughout my algorithms for data science class. This last 
 
 ###NP Complete Problems
 [Topic 24 C NP Complete Problems: Video](https://www.youtube.com/watch?v=J5l-crl0LgA&app=desktop)
+
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/J5l-crl0LgA" frameborder="0" allowfullscreen></iframe>
 
 Published on Dec 9, 2013
@@ -21,7 +22,9 @@ Based on Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford S
 
 ###Pulp 
 [Solving Optimisation Problem Using PuLP/Python - Prof. Jayendran Venkateswaran: Video](https://www.youtube.com/watch?v=-hfnglaFLrk)
+
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/-hfnglaFLrk" frameborder="0" allowfullscreen></iframe>
+
 Published on Aug 5, 2015
 Speaker - Professor Jayendran Venkateswaran
 Topic - Solving Optimisation Problem Using PuLP/Python
