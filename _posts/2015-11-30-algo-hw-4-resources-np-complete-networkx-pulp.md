@@ -5,7 +5,7 @@ date: 2015-11-30 08:00:00
 tags: algorithms columbia datascience courses
 ---
 
-I've been challenged throughout my algorithms for data science class. This last homework (HW4) we studied and programmed NP Complete Problems and used [networkx](https://networkx.github.io/) and [PuLP](https://pypi.python.org/pypi/PuLP) so I thought I'd share a few resources that were helpful for that assignment. 
+I've been taking an algorithms for data science class this fall. This last homework (HW4) we studied and programmed NP Complete Problems and used [networkx](https://networkx.github.io/) and [PuLP](https://pypi.python.org/pypi/PuLP) so I thought I'd share a few resources that were helpful for that assignment. 
 
 
 
