@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Algorithms for Data Science - HW4 - NP Complete and PuLP date: 2015-11-30 08:00:00
+title: Algorithms for Data Science - HW4 - NP Complete and PuLP 
+date: 2015-11-30 08:00:00
 tags: algorithms columbia datascience courses
 ---
 
