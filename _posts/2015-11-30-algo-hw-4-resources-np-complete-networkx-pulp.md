@@ -5,7 +5,7 @@ date: 2015-11-30 08:00:00
 tags: algorithms columbia datascience courses
 ---
 
-I've been taking an algorithms for data science class this fall. This last homework (HW4) we studied and programmed NP Complete Problems and used [networkx](https://networkx.github.io/) and [PuLP](https://pypi.python.org/pypi/PuLP) so I thought I'd share a few resources that were helpful for that assignment. 
+I've been taking an algorithms for data science class this fall. This last homework (HW4) we studied and programmed NP Complete Problems and used [networkx](https://networkx.github.io/) and [PuLP](https://pypi.python.org/pypi/PuLP) so I thought I'd share a few resources that were helpful for that assignment. I'd love to go into some of the applications and usefulness of algorithms for considerations for GIS analysts but I need to move on to the next homework problem set. We are using **[GML](https://en.wikipedia.org/wiki/Geography_Markup_Language)** files! 
 
 
 
