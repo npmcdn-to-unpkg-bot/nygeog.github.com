@@ -8,7 +8,7 @@ categories: Music 2014
 
 
 <center><img src="http://photos-e.ak.instagram.com/hphotos-ak-xpa1/t51.2885-15/10691849_1493937880853988_1991221116_n.jpg" height="75%" width="75%"></center>
-<center></center>
+<center></center></br></br>
       
 <!-- -> ![image](http://photos-e.ak.instagram.com/hphotos-ak-xpa1/t51.2885-15/10691849_1493937880853988_1991221116_n.jpg) <-  -->
 
