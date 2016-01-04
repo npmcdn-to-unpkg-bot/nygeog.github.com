@@ -11,36 +11,31 @@ categories: Music 2015
 <center></center></br></br>-->
   
   
-<center><img src="https://scontent.cdninstagram.com/hphotos-xat1/t51.2885-15/e35/11240707_933611443352328_1654235534_n.jpg" height="75%" width="75%"></center>
-<center></center></br></br>  
-
-Below is a Spotify playlist of my favorite music of 2015. I've been making this best of list since 2007 and will hopefully get the older ones up at some point. 
-
-The playlist may be slightly edited over the next few days. Thanks for listening. 
+<center><img src="https://scontent.cdninstagram.com/hphotos-xat1/t51.2885-15/e35/11240707_933611443352328_1654235534_n.jpg" height="75%" width="100%"></center>
+<center></center>
 
 
 
-##Best of 2015 - Consideration
+ 
 
-<center>
-<iframe src="https://embed.spotify.com/?uri=spotify:user:nygeog:playlist:4yEZUeopIMfNRzYmb9mkD2" width="100%" height="575" frameborder="0" allowtransparency="true"></iframe></center>
+Below is a Spotify playlist of my favorite music of 2015. I've been making this best of list since 2007 and will hopefully get the older ones up at some point. The playlist may be slightly edited over the next few days. Thanks for listening. 
+*Parquet Courts - Content Nausea, while technically released it 2014, they released it as a second album in 2014 so its valid for this 2015 list.*
 
 ##Best of 2015
-
-*Parquet Courts - Content Nausea, while technically released it 2014, they released it as a second album in 2014 so its valid for 2015.*
 
 <center>
 <iframe src="https://embed.spotify.com/?uri=spotify:user:nygeog:playlist:2aobZQs00swSfMYMqeqOGe" width="100%" height="575" frameborder="0" allowtransparency="true"></iframe></center>
 
-##Best albums of 2015
+<!--##Best albums of 2015
 
 *insert spotify embeds of the top 5 albums of 2015*
 
 Father John Misty
 
 Lord Huron
+-->
 
+##Your Year in Music
 
-##Check out a summary of your year in music from Spotify
-Log in to your account and check out your stats via this interactive web application. It's interesting to see how it breaks down by season. 
+Check out a summary of your year in music from Spotify. Log in to your account and check out your stats via this interactive web application. It's interesting to see how it breaks down by season. 
 [![](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/spotify_year_in_music.png)](https://yearinmusic.spotify.com/en-US)
