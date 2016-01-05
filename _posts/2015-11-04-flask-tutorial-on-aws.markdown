@@ -29,7 +29,18 @@ Without further ado, here's a quick text submission form I set up from the tutor
 
 **Enter some text to submit to the DB.** Keep it clean. I'm pretty sure I can check the IP of the submitter. 
 
-[![flask-beanstalk-img](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/flask-elastic-beanstalk.png)](http://nygeog-flask-aws-tutorial.elasticbeanstalk.com/)
+---
+
+####Warning, link no longer works as I shutdown my Flask EC2 instance as it was $35 a month. 
+
+![flask-beanstalk-img](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/flask-elastic-beanstalk.png)
+
+####Warning, link no longer works as I shutdown my Flask EC2 instance as it was $35 a month. 
+
+---
+
+<!--[![flask-beanstalk-img](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/flask-elastic-beanstalk.png)](http://nygeog-flask-aws-tutorial.elasticbeanstalk.com/)-->
+
 
 **Enter the number 9 in the bottom entry form and view the last 9 entries.**
 
