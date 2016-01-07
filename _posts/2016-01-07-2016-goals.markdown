@@ -34,7 +34,7 @@ categories: 2016 Goals
 
 7. Complete my [Certification of Professional Achievement in Data Sciences at Columbia University](http://datascience.columbia.edu/certification). I have only one more class, Machine Learning for Data. I've made it this far, just one more class!
 ![data_science](http://datascience.columbia.edu/files/seasdepts/idseLogo_1.jpg) 
-![columbia](http://datascience.columbia.edu/sites/all/themes/ias/seasidse/images/idse-culogo.jpg)
+<!--![columbia](http://datascience.columbia.edu/sites/all/themes/ias/seasidse/images/idse-culogo.jpg)-->
 
 8. As of February, I'll have worked for 6 years at Columbia University. While I've been able to learn and grow, get [co-authorship on many papers](http://nygeog.github.io/resume_cv/#publications), teach and take classes, it seems like a good time to take on a **new adventure**. I'd like to go work for one of the great emerging geospatial companies or perhaps move out west to join my partner and do some freelance work. 
 
