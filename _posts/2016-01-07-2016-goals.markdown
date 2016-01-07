@@ -9,7 +9,8 @@ categories: 2016 Goals
 
 #Professional
 
-1. Learn and take a class in **JavaScript**, perhaps at [General Assembly](https://generalassemb.ly/) or elsewhere. It seems that more and more of geospatial is moving towards the web. While I think I've gotten a good handle on Python (Esri and FOSS4G) for GIS on the desktop, I really need to get more into to web programming. 
+1. Learn and take a class in **[JavaScript](https://www.javascript.com/)**, perhaps at [General Assembly](https://generalassemb.ly/) or elsewhere. It seems that more and more of geospatial is moving towards the web. While I think I've gotten a good handle on Python (Esri and FOSS4G) for GIS on the desktop, I really need to get more into to web programming. 
+
 
 2. One great open source JavaScript libraries for mapping is **[Leaflet](http://leafletjs.com/)**. 2016 is the year I become more proficient in Leaflet. 
 
