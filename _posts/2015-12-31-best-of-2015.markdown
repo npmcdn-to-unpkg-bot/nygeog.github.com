@@ -42,10 +42,11 @@ One of the possible signs that I'm getting too old (i.e. unhip) to evaluate musi
 
 I hope you find the mix varied and eclectic and perhaps learn about a new artist. I didn't find that much jazz or experimental music this year. It seems like my leanings this year were more throwback rock-and-roll.
 
+* [Check out Best Music 2014](http://nygeog.github.io/music/2014/2015/01/02/best-of-2014.html) 
+
 
 ##Your Year in Music
 
 Check out a summary of your year in music from Spotify. Log in to your account and check out your stats via this interactive web application. It's interesting to see how it breaks down by season. 
 [![](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/spotify_year_in_music.png)](https://yearinmusic.spotify.com/en-US)
 
-* [Check out Best Music 2014](http://nygeog.github.io/music/2014/2015/01/02/best-of-2014.html) 
