@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "2016 GIS, web and for personal goals"
+date:   2016-01-07 16:31:10
+categories: 2016 Goals
+---
+
+#####This is a list of Goals of what I would like to achieve in 2016. 
+
+#Professional
+
+1. Learn and take a class in **JavaScript**, perhaps at [General Assembly](https://generalassemb.ly/) or elsewhere. It seems that more and more of geospatial is moving towards the web. While I think I've gotten a good handle on Python (Esri and FOSS4G) for GIS on the desktop, I really need to get more into to web programming. 
+
+2. One great open source JavaScript libraries for mapping is **[Leaflet](http://leafletjs.com/)**. 2016 is the year I become more proficient in Leaflet. 
+
+	[![leaflet](http://leafletjs.com/docs/images/logo.png)](http://leafletjs.com/)
+
+3. Another great JavaScript mapping library is [CartoDB.js](http://docs.cartodb.com/cartodb-platform/cartodb-js/)
+
+	> CartoDB.js is a simple unified JavaScript library that interacts with the CartoDB service. This library enables you to connect to your stored visualizations, create new visualizations, add custom interaction, and access or query raw data from a web browser. When you include CartoDB.js as part of your website to make maps (or to power your content with data), you improve your application by using a lot less code.
+	[![cartodb](http://cartodb.s3.amazonaws.com/static/logos_full_cartodb_light.png)](http://docs.cartodb.com/cartodb-platform/cartodb-js/)
+	
+	*From last years goals:*
+	
+	> **I've learned considerably more about CartoDB but I think there's much more I need to learn, specifically, really leveraging CartoDB.js.**
+
+
+4. Build more geoprocessing web services and applications on **Amazon Web Services**. I blogged about Amazon Web Services (AWS) here: [Getting Started with AWS (Amazon Web Services) - free bootcamp class at the AWS Loft in NYC](http://nygeog.github.io/2015/10/28/getting-started-with-aws.html) and here: [Tutorial - Deploying a Flask application on AWS](http://nygeog.github.io/2015/11/04/flask-tutorial-on-aws.html). Quite simply, AWS is another tool that all tech-related professionals should have some proficiency and understanding of. 
+
+5. Revisit **Python** fundamentals. During my Algorithms for Data Science class, I realized that I have no formal training or education in Python or Computer Science. I've always been a bit of a hack, but I think its time to now more deeply understand Python as a programming language and how to use it more effectively. Along with a JavaScript class, maybe I should take a Python course, or at least re-read one of my the Python books that I've already gone through. 
+
+6. Explore using **[NetworkX](https://networkx.github.io/)** for GIS applications instead of relying on traditional GIS software for network analysis. 
+
+7. Complete my [Certification of Professional Achievement in Data Sciences at Columbia University](http://datascience.columbia.edu/certification). I have only one more class, Machine Learning for Data. I've made it this far, just one more class!
+![data_science](http://datascience.columbia.edu/files/seasdepts/idseLogo_1.jpg) 
+![columbia](http://datascience.columbia.edu/sites/all/themes/ias/seasidse/images/idse-culogo.jpg)
+
+8. As of February, I'll have worked for 6 years at Columbia University. While I've been able to learn and grow, get [co-authorship on many papers](http://nygeog.github.io/resume_cv/#publications), teach and take classes, it seems like a good time to take on a **new adventure**. I'd like to go work for one of the great emerging geospatial companies or perhaps move out west to join my partner and do some freelance work. 
+
+9. Do more **[PostGIS](http://postgis.net/)** on **AWS**, locally and on **CartoDB**. 
+ 
+10. Have fun! I'm much more productive when I'm enjoying what I'm working on, either by finding and creating new challenges or by doing new novel work.
+
+#Personal
+
+1. Focus more on gratitude, mindfulness, minimalism, reduce stress and exercise more. I used the [Headspace](https://www.headspace.com/) app for quite a bit last year, but got out-of-practice. I think I need to get past needing quite space to practice. [![headspace](https://www.headspace.com/bundles/headspacesite/images/v2/logo-desktop.svg)](https://www.headspace.com/)
+
+2. In 2016 I'd like to focus on using words and language more effectively. Words and language have meaning, use them effectively and thoughtfully. Words are powerful, be kind with them. 
+ 
+3. Take more pictures. 
+
+4. <strike>Drink less beer.</strike>
+
+5. And most importantly, **spend more time with my partner Kim**, who took a job with Amazon in Seattle this past spring. 
+![seattle](http://www.athomeinlove.com/wp-content/uploads/2013/09/visit-seattle.jpg)
+
