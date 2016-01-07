@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2016 GIS, web and for personal goals"
+title:  "2016 Goals for GIS, web and myself"
 date:   2016-01-07 16:31:10
 categories: 2016 Goals
 ---
