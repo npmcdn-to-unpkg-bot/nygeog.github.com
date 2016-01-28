@@ -5,9 +5,12 @@ date:   2016-01-28 08:31:10
 categories: Web JavaScript jQuery HTML CSS Books
 ---
 
-As part of of my post **[2016 Goals for GIS, web and myself](http://nygeog.github.io/2016/goals/2016/01/07/2016-goals.html)**, I mentioned learning some fundamentals on JavaScript. Ideally, I'd like to take a class, but right now I'm in the midst of [Machine Learning class at Columbia Data Science](http://www.cs.columbia.edu/~djhsu/coms4721-s16/) and missed a few classes due to being stuck traveling during the late January winter storm in New York City. However, I have started on the **JavaScript & jQuery** book and find the design and simplicity of the **[@wagonbooks](https://twitter.com/wagonbooks)** to help with learning in a way that sometimes online documentation does not. Author **Jon Duckett** has conveys a  visual understanding of programming that I have not seen elsewhere. 
+As part of of my post **[2016 Goals for GIS, web and myself](http://nygeog.github.io/2016/goals/2016/01/07/2016-goals.html)**, I mentioned learning some fundamentals on JavaScript. 
 
 >1. Learn more fundamentals and take a class in **[JavaScript](https://www.javascript.com/)**, perhaps at [General Assembly](https://generalassemb.ly/) or elsewhere. More and more of geospatial is moving towards the web. While I think I've gotten a good handle on Python (Esri and FOSS4G) for GIS on the desktop, I really need to get more into web programming. And rather than concatenatively learning JavaScript, perhaps it'd be worthwhile to learn it in a classroom from an expert. 
+
+Ideally, I'd like to take a class, but right now I'm in the midst of [Machine Learning class at Columbia Data Science](http://www.cs.columbia.edu/~djhsu/coms4721-s16/) and missed a few classes due to being stuck traveling during the late January winter storm in New York City. However, I have started on the **JavaScript & jQuery** book and find the design and simplicity of the **[@wagonbooks](https://twitter.com/wagonbooks)** to help with learning in a way that sometimes online documentation does not. Author **Jon Duckett** has conveys a  visual understanding of programming that I have not seen elsewhere. 
+
 
 
 
