@@ -18,7 +18,7 @@ Ideally, I'd like to take a class, but right now I'm in the midst of [Machine Le
 
 *[Web Design with HTML, CSS, JavaScript and jQuery Set](http://www.amazon.com/gp/product/1118907442?psc=1&redirect=true&ref_=oh_aui_detailpage_o03_s00) - $34 (each book is almost $30 on its own, so $34 is a steal)*
 
->This two-book set combines the titles HTML & CSS: Designing and Building Web Sites and JavaScript & jQuery: Interactive Front-End Development.*
+>This two-book set combines the titles HTML & CSS: Designing and Building Web Sites and JavaScript & jQuery: Interactive Front-End Development.
 
 
 ![screenshot](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/javascript_jquery_book_screenshot.png)
