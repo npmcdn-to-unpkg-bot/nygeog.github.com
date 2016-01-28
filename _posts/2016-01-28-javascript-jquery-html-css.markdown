@@ -13,11 +13,11 @@ As part of of my post **[2016 Goals for GIS, web and myself](http://nygeog.githu
 
 >This two-book set combines the titles HTML & CSS: Designing and Building Web Sites and JavaScript & jQuery: Interactive Front-End Development.
 
-[![books](img/javasript_jquery_html_css.jpg)](http://www.amazon.com/gp/product/1118907442?psc=1&redirect=true&ref_=oh_aui_detailpage_o03_s00)
+[![books](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/javasript_jquery_html_css.jpg)](http://www.amazon.com/gp/product/1118907442?psc=1&redirect=true&ref_=oh_aui_detailpage_o03_s00)
 *The two books at $34 total.*
 
 
-![screenshot](img/javascript_jquery_book_screenshot.png)
+![screenshot](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/javascript_jquery_book_screenshot.png)
 *The books feature easy to read graphics and images that nicely explain the code and the concepts.*
 
 
