@@ -6,7 +6,7 @@ permalink: /code/
 
 ---
 
-####<a name="top"></a>*Menu*
+<a name="top"></a>*Menu*
 * [GitHub](#github)
 * [Python](#python)
 * [OSGeo](#osgeo)
@@ -22,7 +22,7 @@ permalink: /code/
 <img border="0" alt="github" src="https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png" width="25%" height="25%">
 </a></center>
 
-###<a name="github"></a>[GitHub](https://github.com/nygeog)
+<a name="github"></a>[GitHub](https://github.com/nygeog)
 Most of my project-related GitHub code is in a private repository as instructed by the **PI's and university staff** (supposedly the university owns my work-related code). [Contact me](mailto:daniel.martin.sheehan@gmail.com) if you have any questions about code or would like to see my work-related code.
 
 
@@ -34,12 +34,12 @@ Most of my project-related GitHub code is in a private repository as instructed 
 	
 		http://htmlpreview.github.io/?https://github.com/nygeog/R/blob/master/censusGetR/censusGetR.html
 
-[Top](#top)
+[Top](top)
 
 
 ---
 
-###<a name="python"></a>Python
+<a name="python"></a>Python
 * [Python code](https://github.com/nygeog/python)
 	* [ArcPy](https://github.com/nygeog/python/tree/master/arcpy)
 	* [Pandas](https://github.com/nygeog/pandas)
@@ -56,11 +56,11 @@ Most of my project-related GitHub code is in a private repository as instructed 
 		
 		http://nbviewer.ipython.org/github/nygeog/data/blob/master/nyc_crashes/02-parse-lat-lng-string-field.ipynb
 
-[Top](#top)
+[Top](top)
 	
 ---
 	
-###<a name="osgeo"></a>Open Source Geo (OSGEO)
+<a name="osgeo"></a>Open Source Geo (OSGEO)
 * [GDAL Cheat Sheet](https://github.com/nygeog/gdal-cheat-sheet) 
 * QGIS
 	* [QGIS Install](http://www.kyngchaos.com/software/qgis)
@@ -68,18 +68,18 @@ Most of my project-related GitHub code is in a private repository as instructed 
 	* [Install Frameworks](http://www.kyngchaos.com/software/frameworks)
 
 
-[Top](#top)
+[Top](top)
 
 ---
 		
-###<a name="api"></a>API's
+<a name="api"></a>API's
 * [Census API](https://github.com/nygeog/census_api)
 
-[Top](#top)
+[Top](top)
 
 ---
 		
-###<a name="arcgis"></a>ArcGIS code and other tips
+<a name="arcgis"></a>ArcGIS code and other tips
 
 * While 64-bit Geoprocessing is off, check your output with your History. To see this XML go to:
 
@@ -88,12 +88,12 @@ Most of my project-related GitHub code is in a private repository as instructed 
 * Here are a bunch of [**ArcPy** reference files](https://github.com/nygeog/python/tree/master/arcpy) I have in my [Python repo](https://github.com/nygeog/python)
 
 		
-[Top](#top)
+[Top](top)
 
 ---
 
 		
-###<a name="misc"></a>Misc
+<a name="misc"></a>Misc
 
 * [Formatting CSS LonnieBest](http://www.lonniebest.com/formatcss/)
 
@@ -101,4 +101,4 @@ Most of my project-related GitHub code is in a private repository as instructed 
 	* Get Latitude Longitudes by typing into search. 
 
 
-[Top](#top)
+[Top](top)

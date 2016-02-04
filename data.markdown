@@ -6,7 +6,8 @@ permalink: /data/
 
 ---
 
-####<a name="top"></a>*Menu*
+<a name="top"></a>*Menu*
+
 * [New York City](#nyc)
 * [New York State](#nys)
 * [United States](#us)
@@ -17,7 +18,7 @@ permalink: /data/
 ---
 
 
-#<a name="nyc"></a>New York City
+<a name="nyc"></a>New York City
 
 
 
@@ -43,11 +44,11 @@ Directory of Parks Properties (webpage)
 		* [Direct Download NYC Address Points](https://data.cityofnewyork.us/download/4iq4-tuhq/application/zip)
 	
 * [Department of City Planning - Bytes of Big Apple](http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml)
-	* [PLUTO and MapPLUTO](http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtml#pluto) - [Check out my Python MapPluto download and merge python tool](http://nygeog.github.io/code/#mappluto)
-	* [Political & Election Districts](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml#pod)
-	* [Borough Boundaries & Community Districts](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml#bcd)
-	* [School, Police, Health & Fire](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml#shfp)
-	* [Census Geographies](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml#cbt)
+	* [PLUTO and MapPLUTO](http://www.nyc.gov/html/dcp/html/bytes/applbyte.shtmlpluto) - [Check out my Python MapPluto download and merge python tool](http://nygeog.github.io/code/mappluto)
+	* [Political & Election Districts](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtmlpod)
+	* [Borough Boundaries & Community Districts](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtmlbcd)
+	* [School, Police, Health & Fire](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtmlshfp)
+	* [Census Geographies](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtmlcbt)
 		* Census Tracts
 			* [2010 Census Tracts (Clipped to Shoreline)](http://www.nyc.gov/html/dcp/download/bytes/nyct2010_14d.zip)
 			* [2010 Census Tracts (Water Areas Included)](http://www.nyc.gov/html/dcp/download/bytes/nyct2010wi_14d.zip)
@@ -93,19 +94,19 @@ cooperation and assistance of numerous governmental and non-profit agencies. Use
 	* [NYC Boro Taxi (Green Taxi) Trip Data 2013-2014](http://chriswhong.com/nycborotaxidata/)
 	
 	
-[Top](#top)
+[Top](top)
 
 ---
 
-#<a name="nys"></a>New York State
+<a name="nys"></a>New York State
 * [NYS Open Data](https://data.ny.gov/)
 * [NYS GIS Clearinghouse](https://gis.ny.gov/)
 
-[Top](#top)
+[Top](top)
 
 ---
 
-#<a name="us"></a>United States
+<a name="us"></a>United States
 * US Census
 	* [Table Comparisons: ACS 5-year estimates and Census 2000 SF3](http://www.census.gov/acs/www/guidance_for_data_users/table_comparisons/index.php)
 	* [American FactFinder](http://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml)
@@ -120,24 +121,24 @@ cooperation and assistance of numerous governmental and non-profit agencies. Use
 
 	* [Head Start Locations across US](http://eclkc.ohs.acf.hhs.gov/hslc/data/center-data)
 
-[Top](#top)
+[Top](top)
 
 ---
 
-#<a name="global"></a>Global
+<a name="global"></a>Global
 * [Global Data DIVA-GIS](http://www.diva-gis.org/)
 * [Global Data OpenStreetMap](http://www.openstreetmap.org/)
 * Business Data
 	* [All the Starbucks in the World](https://opendata.socrata.com/Business/All-Starbucks-Locations-in-the-World-Point-Map/7sg8-44ed)
 	
-[Top](#top)
+[Top](top)
 
 ---
 
-#<a name="univ"></a>University Data Centers
+<a name="univ"></a>University Data Centers
 * [Columbia - Digital Social Science Center (DSSC) ](http://gis.columbia.edu/data.html)
 * [Cornell University Geospatial Information Repository (CUGIR)](http://cugir.mannlib.cornell.edu/)
 * [The National Historical Geographic Information System (NHGIS)](https://www.nhgis.org/)
 
 
-[Top](#top)
+[Top](top)

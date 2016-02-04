@@ -5,15 +5,15 @@ permalink: /about/
 ---
 
 
-####<a name="top"></a>*Menu*
+<a name="top"></a>*Menu*
 
 * [Info](#info)
 * [Contact](#contact)
-<!--* [Blog](#blog)-->
-<!--* [Teaching](#teaching)-->
-<!--* [Calendar](#calendar)-->
+<!--* [Blog](blog)-->
+<!--* [Teaching](teaching)-->
+<!--* [Calendar](calendar)-->
 * [Misc](#misc)
-<!--* [Hire](#hire)-->
+<!--* [Hire](hire)-->
 
 ![campus](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/columbia_medical_center.png)
 
@@ -21,26 +21,26 @@ permalink: /about/
 
 ---
 
-##<a name="info"></a>Info
+<a name="info"></a>Info
 
 * [Resume/CV](http://nygeog.github.io/resume_cv)
 * [LinkedIn](https://www.linkedin.com/pub/daniel-sheehan/53/10b/984)
 * [BEH website](http://beh.columbia.edu/)
 * [BEH GIS website](http://beh-gis.github.com)
 
-[Top](#top)
+[Top](top)
 
 ---
 
 
-##<a name="contact"></a>Contact
+<a name="contact"></a>Contact
 Send me an [email](mailto:daniel.martin.sheehan@gmail.com).
 
-[Top](#top)
+[Top](top)
 
 ---
 
-<!--##<a name="hire"></a>Hire
+<!--<a name="hire"></a>Hire
 * GIS
 	* GIS (geoprocessing, mapping, data collection, data mining, geocoding, etc.) is my main concentration and would be happy to help with any type of GIS or mapping project. 
 * Python
@@ -48,11 +48,11 @@ Send me an [email](mailto:daniel.martin.sheehan@gmail.com).
 * Website development
 	* I do some basic web programming and have worked on large websites for public outreach for engineering and transit projects. 
 	
-[Top](#top)
+[Top](top)
 
 -->
 
-<!--##<a name="blog"></a>Blog
+<!--<a name="blog"></a>Blog
 * My current [blog is on this website](http://nygeog.github.io).
 * [Scriptogram](http://scriptogr.am/nygeog)
 	* All the posts from my **scriptogram** (a great markdown-based free blogging platform) blog have been copied over to this site. I used scriptogram for the last few months of 2014. 
@@ -61,26 +61,26 @@ Send me an [email](mailto:daniel.martin.sheehan@gmail.com).
 * [Blogspot](http://nygeog.blogspot.com/)
 	* My blogging platform from 2008-2013. Earlier posts may be found here
 
-[Top](#top)
+[Top](top)
 -->
 
 
-<!--##<a name="teaching"></a>Teaching
+<!--<a name="teaching"></a>Teaching
 My [teaching information](https://nygeog.github.io/teaching/) can be found [here](https://nygeog.github.io/teaching/). 
 
-[Top](#top)
+[Top](top)
 -->
 <!--
 
-##<a name="calendar"></a>[Calendar](http://www.google.com/calendar/embed?src=39a18nupjlakmcbjq3pveu1nqc@group.calendar.google.com&ctz=America/New_York)
+<a name="calendar"></a>[Calendar](http://www.google.com/calendar/embed?src=39a18nupjlakmcbjq3pveu1nqc@group.calendar.google.com&ctz=America/New_York)
 [Click here to access Calendar (if in Google Chrome) or not rendering.](http://www.google.com/calendar/embed?src=39a18nupjlakmcbjq3pveu1nqc@group.calendar.google.com&ctz=America/New_York)
 
 <p><iframe src="http://www.google.com/calendar/embed?src=39a18nupjlakmcbjq3pveu1nqc%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width='100%' height="500" frameborder="0" scrolling="no"></iframe></p>
 
-[Top](#top)-->
+[Top](top)-->
 
 		
-###<a name="misc"></a>Misc
+<a name="misc"></a>Misc
 
 Computer Stuff:
 
@@ -96,21 +96,21 @@ Other Stuff:
 
 * [Study Space Density at Columbia](http://density.adicu.com)
 
-* [Biking at Columbia University](http://worklife.columbia.edu/bicycling-columbia#section1)
+* [Biking at Columbia University](http://worklife.columbia.edu/bicycling-columbiasection1)
 
 * [Work Life Wellness Discounts](http://worklife.columbia.edu/discounts)
 
-[Top](#top)
+[Top](top)
 
-##Is the L Train Running?
+Is the L Train Running?
 <iframe src="http://isthelrunning.com/" frameborder="0" height="250" width="100%"></iframe>
 
 <!--
-##NYC Weather
+NYC Weather
 <iframe src="http://www.weather.com/weather/today/l/New+York+NY+USNY0996:1:US" frameborder="0" height="375" width="100%"></iframe>
 
-##Columbia Homepage 
+Columbia Homepage 
 <iframe src="http://www.columbia.edu/" frameborder="0" height="675" width="100%"></iframe>
 -->
 
-##[Columbia Study Areas App](http://density.adicu.com/)
+[Columbia Study Areas App](http://density.adicu.com/)
