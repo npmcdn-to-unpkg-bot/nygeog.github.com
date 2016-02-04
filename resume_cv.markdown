@@ -27,7 +27,7 @@ geographer, python programmer, gis analyst-->
 
 
 
----
+
 
 
 ####<a name="top"></a>menu
@@ -44,8 +44,6 @@ geographer, python programmer, gis analyst-->
 * [computer skills](#computer_skills)  
 
 
-
----
 
 <!--Mailman School of Public Health
 
