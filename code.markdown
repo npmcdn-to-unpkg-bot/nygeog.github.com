@@ -7,6 +7,7 @@ permalink: /code/
 ---
 
 <a name="top"></a>*Menu*
+
 * [GitHub](#github)
 * [Python](#python)
 * [OSGeo](#osgeo)
@@ -40,6 +41,7 @@ Most of my project-related GitHub code is in a private repository as instructed 
 ---
 
 <a name="python"></a>Python
+
 * [Python code](https://github.com/nygeog/python)
 	* [ArcPy](https://github.com/nygeog/python/tree/master/arcpy)
 	* [Pandas](https://github.com/nygeog/pandas)
@@ -61,6 +63,7 @@ Most of my project-related GitHub code is in a private repository as instructed 
 ---
 	
 <a name="osgeo"></a>Open Source Geo (OSGEO)
+
 * [GDAL Cheat Sheet](https://github.com/nygeog/gdal-cheat-sheet) 
 * QGIS
 	* [QGIS Install](http://www.kyngchaos.com/software/qgis)
@@ -73,6 +76,7 @@ Most of my project-related GitHub code is in a private repository as instructed 
 ---
 		
 <a name="api"></a>API's
+
 * [Census API](https://github.com/nygeog/census_api)
 
 [Top](top)
