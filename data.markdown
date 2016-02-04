@@ -99,6 +99,7 @@ cooperation and assistance of numerous governmental and non-profit agencies. Use
 ---
 
 <a name="nys"></a>New York State
+
 * [NYS Open Data](https://data.ny.gov/)
 * [NYS GIS Clearinghouse](https://gis.ny.gov/)
 
@@ -107,6 +108,7 @@ cooperation and assistance of numerous governmental and non-profit agencies. Use
 ---
 
 <a name="us"></a>United States
+
 * US Census
 	* [Table Comparisons: ACS 5-year estimates and Census 2000 SF3](http://www.census.gov/acs/www/guidance_for_data_users/table_comparisons/index.php)
 	* [American FactFinder](http://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml)
@@ -126,6 +128,7 @@ cooperation and assistance of numerous governmental and non-profit agencies. Use
 ---
 
 <a name="global"></a>Global
+
 * [Global Data DIVA-GIS](http://www.diva-gis.org/)
 * [Global Data OpenStreetMap](http://www.openstreetmap.org/)
 * Business Data
@@ -136,6 +139,7 @@ cooperation and assistance of numerous governmental and non-profit agencies. Use
 ---
 
 <a name="univ"></a>University Data Centers
+
 * [Columbia - Digital Social Science Center (DSSC) ](http://gis.columbia.edu/data.html)
 * [Cornell University Geospatial Information Repository (CUGIR)](http://cugir.mannlib.cornell.edu/)
 * [The National Historical Geographic Information System (NHGIS)](https://www.nhgis.org/)
