@@ -23,7 +23,7 @@ permalink: /code/
 </a></center>
 
 ###<a name="github"></a>[GitHub](https://github.com/nygeog)
-Most of my project-related GitHub code is in a private repository. [Contact me](mailto:daniel.martin.sheehan@gmail.com) if you have any questions about code.
+Most of my project-related GitHub code is in a private repository as instructed by the **PI's and university staff** (supposedly the university owns my work-related code). [Contact me](mailto:daniel.martin.sheehan@gmail.com) if you have any questions about code or would like to see my work-related code.
 
 
 * Preview an html file in GitHub without setting up a gh-pages.
