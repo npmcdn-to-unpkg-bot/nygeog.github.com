@@ -33,16 +33,6 @@ permalink: /resume_cv/
 * [computer skills](#computer_skills)  
 
 
-
-<!--Mailman School of Public Health
-
-Built Environment and Health Project
-
-Columbia University in the City of New York
-
-722 West 168th Street, Room 735 New York, NY 10032--><!--40.84261, -73.9432-->
-<!--e: daniel (d0t) martin (d0t) sheehan (at) gmail.com --><!--or dms2203@columbia.edu - p: 347-607-7430-->
-
 ###<a name="academic_background"></a>academic background:* [Certification of Professional Achievement in Data Sciences at the Columbia University Institute for Data Science and Engineering (IDSE)](http://datascience.columbia.edu/certification), New York, NY. 2016 (expected)* [M.A. Geography/Specialization in GIS at the University at Buffalo](http://www.buffalo.edu/cas/geography.html), Buffalo, NY. 2008
 	* Advisor: Dr. Chris Renschler; 	* National Center for Geographic Information and Analysis* [B.A. Geography; State University of New York at Geneseo](https://www.geneseo.edu/geography), Geneseo, NY. 2005
 	* Advisor: Dr. David Robertson;	* Graduated with Honors in Geography, Gamma Theta Upsilon###<a name="professional_experience"></a>professional experience:####[columbia university](http://www.columbia.edu/)	- new york, nySenior GIS Analyst, Geographer, Senior Staff Associate, Instructor February 2010 – present
