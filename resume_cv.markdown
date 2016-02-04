@@ -31,6 +31,7 @@ geographer, python programmer, gis analyst-->
 
 
 ####<a name="top"></a>menu
+
 * [academic background](#academic_background)
 * [professional experience](#professional_experience)
 * [instructed courses](#instructed_courses)
