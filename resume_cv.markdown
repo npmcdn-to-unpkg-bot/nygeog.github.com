@@ -4,18 +4,6 @@ title: Resume/CV
 permalink: /resume_cv/
 ---
 
-<!--<center>-->
-<!--<h1>Daniel M. Sheehan</h1>--><!--Geographic Information Systems Analyst/-->
-
-
-
-
-
-<!--##Daniel M. Sheehan
-
-geographer, python programmer, gis analyst-->
-
-
 
 <iframe src="http://docs.google.com/gview?url=https://dl.dropboxusercontent.com/u/36281098/daniel_martin_sheehan_resume.pdf&embedded=true" style="width:100%; height:700px;" frameborder="0"></iframe>
 
