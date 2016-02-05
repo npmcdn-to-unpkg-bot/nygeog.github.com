@@ -5,7 +5,7 @@ date:   2014-08-28 11:31:10
 categories: 2014 File Geodatabase Shapefile OSGEO4W
 ---
 
-##The Problem:
+## The Problem:
 I've recently run into a problem. I've been running some [Near Analysis (arcpy)](http://resources.arcgis.com/en/help/main/10.1/index.html#//00080000001q000000) on a project that I've been working on (more on that at a later blogpost). The problem is as follows; I'll have 1,460 (365 * 4 tables) geodatabase tables (in 12 geodatabases - days and months) that each comprise of 400,000+ records. 
 
 Normally, when I'm trying to get my GIS data out of Esri format (such as FGDB) I used a script like this:
