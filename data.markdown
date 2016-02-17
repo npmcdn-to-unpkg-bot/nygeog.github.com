@@ -21,6 +21,7 @@ permalink: /data/
 <a name="nyc"></a>New York City
 
 
+* [BetaNYC's Community Data Portal](http://data.beta.nyc/)
 
 * [Open Data](https://nycopendata.socrata.com/)
 	* Parks
@@ -118,6 +119,7 @@ cooperation and assistance of numerous governmental and non-profit agencies. Use
 * [US Open Data](https://www.data.gov/)
 * [List of US FIPS codes for States](http://www.epa.gov/envirofw/html/codes/state.html)
 * [HUD ZIP-Tract Crosswalk](http://www.huduser.org/portal/datasets/usps_crosswalk.html)
+* [HUD GIS Data Portal](http://egis.hud.opendata.arcgis.com/)
 
 * Education
 
