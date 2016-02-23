@@ -5,9 +5,9 @@ date:   2016-01-07 16:31:10
 categories: 2016 Goals
 ---
 
-#####This is a list of Goals of what I would like to achieve in 2016. 
+##### This is a list of Goals of what I would like to achieve in 2016. 
 
-#Professional
+# Professional
 
 1. Learn more fundamentals and take a class in **[JavaScript](https://www.javascript.com/)**, perhaps at [General Assembly](https://generalassemb.ly/) or elsewhere. More and more of geospatial is moving towards the web. While I think I've gotten a good handle on Python (Esri and FOSS4G) for GIS on the desktop, I really need to get more into web programming. And rather than concatenatively learning JavaScript, perhaps it'd be worthwhile to learn it in a classroom from an expert. 
 
@@ -42,7 +42,7 @@ categories: 2016 Goals
  
 10. Have fun! I'm much more productive when I'm enjoying what I'm working on, either by finding and creating new challenges or by doing new novel work.
 
-#Personal
+# Personal
 
 1. Focus more on gratitude, mindfulness, minimalism, reduce stress and exercise more. I used the [Headspace](https://www.headspace.com/) app for quite a bit last year, but got out-of-practice. I think I need to get past needing quite space to practice. [![headspace](https://www.headspace.com/bundles/headspacesite/images/v2/logo-desktop.svg)](https://www.headspace.com/)
 
