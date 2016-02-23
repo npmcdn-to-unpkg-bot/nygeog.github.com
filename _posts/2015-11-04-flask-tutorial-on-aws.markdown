@@ -17,9 +17,9 @@ I mostly use **Python** at the desktop level for data management ([pandas](http:
 
 I came across **Flask** a few times and was sort of interested in what it was and how it works. I did a few short tutorials locally but after taking [Getting Started with AWS (Amazon Web Services) - free bootcamp class at the AWS Loft in NYC](http://nygeog.github.io/2015/10/28/getting-started-with-aws.html) I yearned to deploy some actual Flask on the web. Luckily, I found a great tutorial... 
 
-##[Deploying a Flask application on AWS](https://medium.com/@rodkey/deploying-a-flask-application-on-aws-a72daba6bb80)
+## [Deploying a Flask application on AWS](https://medium.com/@rodkey/deploying-a-flask-application-on-aws-a72daba6bb80)
 
-####An end-to-end example using Amazon’s Elastic Beanstalk and RDS
+#### An end-to-end example using Amazon’s Elastic Beanstalk and RDS
 
 I found [Rodkey's](https://medium.com/@rodkey) tutorial [Deploying a Flask application on AWS](https://medium.com/@rodkey/deploying-a-flask-application-on-aws-a72daba6bb80) via a quick web-search. This is a great step-by-step guide for getting a quick **Flask template app** up and running on **AWS** quickly. 
 
@@ -31,11 +31,11 @@ Without further ado, here's a quick text submission form I set up from the tutor
 
 ---
 
-####Warning, link no longer works as I shutdown my Flask EC2 instance as it was $35 a month. 
+#### Warning, link no longer works as I shutdown my Flask EC2 instance as it was $35 a month. 
 
 ![flask-beanstalk-img](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/flask-elastic-beanstalk.png)
 
-####Warning, link no longer works as I shutdown my Flask EC2 instance as it was $35 a month. 
+#### Warning, link no longer works as I shutdown my Flask EC2 instance as it was $35 a month. 
 
 ---
 
