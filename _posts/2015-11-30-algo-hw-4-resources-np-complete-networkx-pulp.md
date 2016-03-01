@@ -9,7 +9,7 @@ I've been taking an algorithms for data science class this fall. This last homew
 
 
 
-###NP Complete Problems
+### NP Complete Problems
 [Topic 24 C NP Complete Problems: Video](https://www.youtube.com/watch?v=J5l-crl0LgA&app=desktop)
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/J5l-crl0LgA" frameborder="0" allowfullscreen></iframe>
@@ -20,7 +20,7 @@ We illustrate the range of NP Complete problems and how they are shown to be NPC
 Lecture by Dan Suthers for University of Hawaii Information and Computer Sciences course 311 on Algorithms. (Inverted course: lectures are online and problem solving in class.) 
 Based on Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein, Introduction to Algorithms, Third Edition, The MIT Press, 2009.
 
-###PuLP
+### PuLP
 [Solving Optimisation Problem Using PuLP/Python - Prof. Jayendran Venkateswaran: Video](https://www.youtube.com/watch?v=-hfnglaFLrk)
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/-hfnglaFLrk" frameborder="0" allowfullscreen></iframe>
