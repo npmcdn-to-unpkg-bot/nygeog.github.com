@@ -11,7 +11,7 @@ In **BOLD** I'll be re-capping on what I've done, where I've succeeded and where
 
 Here it goes...
 
-##1. Open Source GIS as default
+## 1. Open Source GIS as default
 From now on my rule-of-thumb will be to attempt to geoprocess using open source tools rather than using an Esri solution as default. 
 
 ![osgeo](http://wiki.osgeo.org/images/7/74/OSGeo_logo_750_317.png)
@@ -20,7 +20,7 @@ From now on my rule-of-thumb will be to attempt to geoprocess using open source 
 
 **Grade: B**
 
-##2. PostGIS
+## 2. PostGIS
 Probably the biggest initial hindrance of PostGIS is deciding which version to install. Once I get past those hurdles and have a reliable install of PostGIS I think I'll be ready to roll. I have been using a ton of GDAL/OGR tools lately so I'm really looking forward to the efficiencies of doing more work in PostGIS.
 
 ![postgis](http://upload.wikimedia.org/wikipedia/commons/7/7b/Logo_square_postgis.png)
@@ -29,14 +29,14 @@ Probably the biggest initial hindrance of PostGIS is deciding which version to i
 
 **Grade: B**
 
-##3. Personal Website updates
+## 3. Personal Website updates
 Rebuild the personal website. Include mapping examples (even some static ones) as I don't have much of an organized web portfolio. 
 
 **Pretty much achieved this goal and extended it past my initial expectations.**
 
 **Grade: A+**
 
-##4. Rolling out a Jekyll Bootstrap site*
+## 4. Rolling out a Jekyll Bootstrap site*
 I was just dabbling with jekyll bootstrap again recently and I forgot how easy it is to use. I haven't actually done anything in production with it but feel like it would be great to. 
 
 \* This could be achieved in rolling out updates to my personal website.
@@ -47,7 +47,7 @@ I was just dabbling with jekyll bootstrap again recently and I forgot how easy i
 
 **Grade: A**
 
-##5. Use CartoDB more
+## 5. Use CartoDB more
 CartoDB just opened their US office a few blocks from my home in Brooklyn so there's really no excuse for me to not be using their products more. They've also made the default academic accounts much larger for storage. 
 
 ![cartodb](http://cartodb.s3.amazonaws.com/static/logos_full_cartodb_light.png)
@@ -57,7 +57,7 @@ CartoDB just opened their US office a few blocks from my home in Brooklyn so the
 **Grade: B**
 
 
-##6. Blog more*
+## 6. Blog more*
 I'd like to increase the frequency with which I blog. It's useful for me to document things I've learned. 
 
 \* This could be achieved in lock step with using Jekyll
@@ -66,7 +66,7 @@ I'd like to increase the frequency with which I blog. It's useful for me to docu
 **Grade: B**
 
 
-##7. Updated and Additional 2015 Goals
+## 7. Updated and Additional 2015 Goals
 * Write out more goals! It seems like when I write the stuff down I actually end up following through. 
 
 * Try out [Python for Processing 2.0](http://py.processing.org/)
