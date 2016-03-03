@@ -54,7 +54,7 @@ Esri introduced the **Ribbon** toolbar system in **ArcGIS Pro**. I'll let the re
 ### Windows-only philosophy
 
 As [Micah Williamson's blogpost:
-PRO ON PRO (ON PRO)](http://www.cloudpointgeo.com/blog/2015/3/19/using-arcgis-pro-on-a-macbook-pro) points and references Mac sales trends, *"[Do I even need top point out how Apple was the only PC maker to have double digit growth in the past year?](http://www.macrumors.com/2014/01/09/gartner-pcmarket-statistics/)"*, **ArcGIS Pro**, like the Desktop product, is only supported for Windows. I would like to see 
+PRO ON PRO (ON PRO)](http://www.cloudpointgeo.com/blog/2015/3/19/using-arcgis-pro-on-a-macbook-pro) points and references Mac sales trends, *"[Do I even need top point out how Apple was the only PC maker to have double digit growth in the past year?](http://www.macrumors.com/2014/01/09/gartner-pcmarket-statistics/)"*, **ArcGIS Pro**, like the Desktop product, is only supported for Windows. I would like to see support for Mac and Linux. 
 
 ### To reiterate: 
 I have yet to see one **GIS User** or use case of **ArcGIS Pro** from anyone other than an **[Esri](http://www.esri.com/)** employee. Please let me know if you love **ArcGIS Pro** and why. I'd love to try it out more but I'm not sure I have the bandwidth or patience. I'm willing to change my mind and am open to civil conversation. A lot of my professional success is from learning to use Esri software so I'd love if they continued to put out great products but **at the moment I'm just not convinced ArcGIS Pro is for me**. :) 
