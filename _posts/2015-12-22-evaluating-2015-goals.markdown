@@ -2,7 +2,7 @@
 layout: post
 title:  "Evaluating 2015 Goals"
 date:   2015-12-22 11:31:10
-categories: evalution 2015 Goals
+tags: evalution 2015 Goals
 ---
 
 Part of the point of setting goals is also to evaluate them. As 2015 winds down, I'm forced to review my 2015 goals and whether I met the goals I set out to achieve or not. 

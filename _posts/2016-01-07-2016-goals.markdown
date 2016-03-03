@@ -2,7 +2,7 @@
 layout: post
 title:  "2016 Goals for GIS, web and myself"
 date:   2016-01-07 16:31:10
-categories: 2016 goals
+tags: 2016 goals
 ---
 
 ##### This is a list of Goals of what I would like to achieve in 2016. 
