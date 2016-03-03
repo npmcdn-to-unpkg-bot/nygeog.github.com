@@ -5,7 +5,7 @@ date:   2016-03-03 18:31:10
 categories: ArcGISPro Mac Esri
 ---
 
-While thinking about and starting to write a blogpost on a recent publication, [Quantifying Distance Overestimation From Global Positioning System in Urban Spaces](http://www.ncbi.nlm.nih.gov/pubmed/26890178), I thought it would be interesting to visualize some data with 3D software. I've used **ArcScene** in the past with great success, but thought to give **[ArcGIS Pro](http://pro.arcgis.com/en/pro-app/)** a shot. 
+While thinking about and starting to write a blogpost on a recent publication, [Quantifying Distance Overestimation From Global Positioning System in Urban Spaces](http://www.ncbi.nlm.nih.gov/pubmed/26890178), I thought it would be interesting to visualize some data with 3D software. I've used **ArcScene** in the past with great success, but thought to give **[ArcGIS Pro](http://pro.arcgis.com/en/pro-app/)** a shot. Below is my experience and first thoughts using ArcGIS Pro. 
 
 ### Why have I waited to use ArcGIS Pro?
 
@@ -49,4 +49,4 @@ Esri introduce the **Ribbon** toolbar system in **ArcGSI Pro**. I'll let the res
 * and many more examples... 
 
 ### To reiterate: 
-I have yet to see one **GIS User** or use case of **ArcGIS Pro** from anyone other than an **[Esri](http://www.esri.com/)** employee. Please let me know if you love **ArcGIS Pro** and why. I'd love to try it out more but I'm not sure I have the bandwidth or patience. :) 
+I have yet to see one **GIS User** or use case of **ArcGIS Pro** from anyone other than an **[Esri](http://www.esri.com/)** employee. Please let me know if you love **ArcGIS Pro** and why. I'd love to try it out more but I'm not sure I have the bandwidth or patience. I'm willing to change my mind and am open to civil conversation. A lot of my professional success is from learning to use Esri software so I'd love if they continued to put out great products but **at the moment I'm just not convinced ArcGIS Pro is for me**. :) 
