@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "First thoughts on ArcGIS Pro"
-date:   2016-03-03 18:31:10
+date:   2016-03-03 10:31:10
 categories: arcgispro mac esri
 ---
 
