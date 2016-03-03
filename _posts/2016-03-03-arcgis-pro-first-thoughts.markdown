@@ -28,10 +28,10 @@ I tweeted around and got some advice. First was to upgrade **ArcGIS Pro to versi
 PRO ON PRO (ON PRO)](http://www.cloudpointgeo.com/blog/2015/3/19/using-arcgis-pro-on-a-macbook-pro) which is a blogpost on using ArcGIS Pro on a Mac. Micah provides some good guidance on setting up your **Virtual Machine** on your Mac. 
 
 *I upgraded my CPU settings...*
-![arcgispro](img/arcgis_pro_cpu.png)
+![arcgispro](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/arcgis_pro_cpu.png)
 
 *...and my Video settings.*
-![arcgispro](img/arcgis_pro_video.png)
+![arcgispro](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/arcgis_pro_video.png)
 
 ### After some updates:
 
