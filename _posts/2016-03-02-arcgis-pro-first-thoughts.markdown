@@ -41,7 +41,7 @@ PRO ON PRO (ON PRO)](http://www.cloudpointgeo.com/blog/2015/3/19/using-arcgis-pr
 After doing all these updates. It still felt like I was playing with **beta** software. My Mac mouse and trackpad could not interact with the dataframe. Which begs the question, **who is using ArcGIS Pro in production or a non-testing capacity?**. 
 
 ### Ribbons:
-Esri introduced the **Ribbon** toolbar system in **ArcGSI Pro**. I'll let the rest of the internet comment on the **Ribbon** toolbar interface that was popularized by **Microsoft**. 
+Esri introduced the **Ribbon** toolbar system in **ArcGIS Pro**. I'll let the rest of the internet comment on the **Ribbon** toolbar interface that was popularized by **Microsoft**. 
 
 * [Hate the Microsoft Office Ribbon? You may not be alone.](https://negativevacuum.wordpress.com/duck-n-cover/hate-the-ribbon/)
 * [Why the Microsoft Office Ribbon is still rubbish](http://www.bit-tech.net/bits/software/2014/02/20/why-the-microsoft-office-ribbon-is-still-ru/1)
