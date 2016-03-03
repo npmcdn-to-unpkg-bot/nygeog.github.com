@@ -24,7 +24,8 @@ This summer I had to setup an [ArcGIS Online](https://www.arcgis.com/home/) acco
 My first experience was that **ArcGIS Pro** was laggy and did not interact well with my **Virtual Machine using Parallels**. I couldn't pan around after I added my data (shapefile with Z values and about 400,000 records - GPS points). I use Windows 7 for my **Esri** software but mostly stick with **Mac OSX** for all my **[FOSS4G](http://foss4g.org/)** software. **Esri** does not support Apple hardware and it is evident. 
 
 #### My machine thinking every mouse move was a identify gesture
-![arcgispro](http://g.recordit.co/npcsS9hQ9S.gif)
+
+![arcgispro](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/arcgispro1.gif)
 
 I tweeted around and got some advice. First was to upgrade **ArcGIS Pro to version 1.2**, which required also updating **Microsoft .NET**. Second was to check out [Micah Williamson's blogpost:
 PRO ON PRO (ON PRO)](http://www.cloudpointgeo.com/blog/2015/3/19/using-arcgis-pro-on-a-macbook-pro) which is a blogpost on using ArcGIS Pro on a Mac. Micah provides some good guidance on setting up your **Virtual Machine** on your Mac. 

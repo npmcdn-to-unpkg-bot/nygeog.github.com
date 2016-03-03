@@ -2,7 +2,7 @@
 layout: post
 title:  "Books on JavaScript, jQuery, HTML and CSS"
 date:   2016-01-28 08:31:10
-categories: Web JavaScript jQuery HTML CSS Books
+categories: web javaScript jquery html css book
 ---
 
 As part of of my post **[2016 Goals for GIS, web and myself](http://nygeog.github.io/2016/goals/2016/01/07/2016-goals.html)**, I mentioned learning some fundamentals on JavaScript. 
