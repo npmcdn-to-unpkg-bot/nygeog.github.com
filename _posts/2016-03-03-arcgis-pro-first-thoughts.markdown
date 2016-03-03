@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "First thoughts on ArcGIS Pro (on a mac)"
+title:  "First thoughts on ArcGIS Pro - on Mac Hardware"
 date:   2016-03-03 18:31:10
 categories: ArcGISPro Mac Esri
 ---
 
 While thinking about and starting to write a blogpost on a recent publication, [Quantifying Distance Overestimation From Global Positioning System in Urban Spaces](http://www.ncbi.nlm.nih.gov/pubmed/26890178), I thought it would be interesting to visualize some data with 3D software. I've used **ArcScene** in the past with great success, but thought to give **[ArcGIS Pro](http://pro.arcgis.com/en/pro-app/)** a shot. Below is my experience and first thoughts using ArcGIS Pro. 
+
+Full disclosure:, I'm a **Mac** user, so **Windows** users may not share my experience. 
 
 ### Why have I waited to use ArcGIS Pro?
 
