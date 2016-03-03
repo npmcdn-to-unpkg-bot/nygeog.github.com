@@ -38,7 +38,7 @@ PRO ON PRO (ON PRO)](http://www.cloudpointgeo.com/blog/2015/3/19/using-arcgis-pr
 
 ### After some updates:
 
-After doing all these updates. It still felt like I was playing with **beta** software. My Mac mouse and trackpad could not interact with the dataframe. It did not behave like most software behaves in a virtual environment. So I wonder (and would love to know but don't want to buy new hardware - I have 2 personal Mac machines and 1 at my office), what the experience is like on actual Windows hardware. Which if not much better (or the fact that most users don't have the minimum requirements for GPU, RAM and CPU), begs the question, **who is using ArcGIS Pro in production or a non-testing capacity?**. 
+After doing all these updates. It still felt like I was playing with **beta** software. My Mac mouse and trackpad could not interact with the dataframe. It did not behave like most software behaves in a virtual environment. So I wonder (and would love to know but don't want to buy new hardware - I have 2 personal Mac machines and 1 at my office), what the experience is like on actual Windows hardware. Which if not much better (or the fact that most users don't have the minimum requirements for GPU, RAM and CPU), begs the question, **who is using ArcGIS Pro in production or a non-testing capacity?** 
 
 ### Ribbons:
 Esri introduced the **Ribbon** toolbar system in **ArcGIS Pro**. I'll let the rest of the internet comment on the **Ribbon** toolbar interface that was popularized by **Microsoft**. 
