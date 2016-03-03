@@ -51,5 +51,14 @@ Esri introduced the **Ribbon** toolbar system in **ArcGIS Pro**. I'll let the re
 * [Dear Microsoft, the ribbon and start screen are both terrible ...](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=13&cad=rja&uact=8&ved=0ahUKEwidu5fOmaPLAhXLJR4KHYmRAwoQFghpMAw&url=http%3A%2F%2Fsegludian.com%2F2014%2F08%2F07%2Fdear-microsoft-the-ribbon-and-start-screen-are-both-terrible%2F&usg=AFQjCNElSyzacOK61ZJbMhBFaCNNdunqlg&sig2=tgHcnKeA3Ph7Cd0M1whjVQ)
 * and many more examples... 
 
+### Windows-only philosophy
+
+As [Micah Williamson's blogpost:
+PRO ON PRO (ON PRO)](http://www.cloudpointgeo.com/blog/2015/3/19/using-arcgis-pro-on-a-macbook-pro) points and references Mac sales trends, *"[Do I even need top point out how Apple was the only PC maker to have double digit growth in the past year?](http://www.macrumors.com/2014/01/09/gartner-pcmarket-statistics/)"*, **ArcGIS Pro**, like the Desktop product, is only supported for Windows. I would like to see 
+
 ### To reiterate: 
 I have yet to see one **GIS User** or use case of **ArcGIS Pro** from anyone other than an **[Esri](http://www.esri.com/)** employee. Please let me know if you love **ArcGIS Pro** and why. I'd love to try it out more but I'm not sure I have the bandwidth or patience. I'm willing to change my mind and am open to civil conversation. A lot of my professional success is from learning to use Esri software so I'd love if they continued to put out great products but **at the moment I'm just not convinced ArcGIS Pro is for me**. :) 
+
+
+### Notes:
+Also, please note, a non-technical support role person, **a dedicated GISer and Esri employee** did provide some very helpful advice to help me get my VM configured optimally for ArcGIS Pro. So I want to thank him for his help (though I cautiously won't mention his name). I imagine there are great folks that work on ArcGIS Pro and I think it has great potential but it seems the failure is in the leadership at Esri for making a new product so hard to test (with all the paywalls and ArcGIS Online account setup) and then it feeling like it is unfinished. 
