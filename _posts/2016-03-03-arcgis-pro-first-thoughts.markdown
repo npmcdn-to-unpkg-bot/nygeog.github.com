@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "First thoughts on ArcGIS Pro - on Mac Hardware"
+title:  "First thoughts on ArcGIS Pro"
 date:   2016-03-03 18:31:10
 categories: ArcGISPro Mac Esri
 ---
