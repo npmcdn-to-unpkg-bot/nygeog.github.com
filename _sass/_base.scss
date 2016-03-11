@@ -150,16 +150,19 @@ code {
 
 code {
     padding: 1px 5px;
+    background-color: #E6FFFF;
 }
 
 pre {
     padding: 8px 12px;
     overflow-x: scroll;
+    background-color: #E6FFFF;
 
     > code {
         border: 0;
         padding-right: 0;
         padding-left: 0;
+        background-color: #E6FFFF;
     }
 }
 
