@@ -13,7 +13,7 @@ A screenshot of the interface.
 
 I was messing around with the map and looking at how it was created. I was also curious if the data was available. It was a little hidden but I was able to track down the data sources contributing to the map. I have yet to look at this data intimately so if you have any questions I'm probably not the best person to speak to. 
 
-####Wall Street Journal Subway Bacteria Mapping Data (JSON)
+#### Wall Street Journal Subway Bacteria Mapping Data (JSON)
 
 * [Subway Stations](http://graphics.wsj.com/patho-map/js/stations.json)
 

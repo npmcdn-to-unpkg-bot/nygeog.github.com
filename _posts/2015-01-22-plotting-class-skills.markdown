@@ -6,7 +6,7 @@ tags: plots
 ---
 
 
-##Creating a Branch, and Generating Graphs with RStudio (ggplot)
+## Creating a Branch, and Generating Graphs with RStudio (ggplot)
 
 For more on the class check out this earlier blog post [Exploratory Data Analysis and Visualization Course.](http://nygeog.github.io/data/science/columbia/idse/2015/01/21/exploratory-data-analysis-and-visualization.html)
 
@@ -15,7 +15,7 @@ Some stuff to get started:
 * [R install.packages](http://math.usask.ca/~longhai/software/installrpkg.html)
 * [Google Docs Curl Headache](http://www.r-bloggers.com/a-tiny-rcurl-headache/)
 
-####List of steps:	
+#### List of steps:	
 
 1. fork
 2. clone
@@ -28,10 +28,10 @@ Some stuff to get started:
 9. read.csv()
 10. merge upstream/gh-pages
 
-####The Plot
+#### The Plot
 ![questionnare_plot](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/skills_plot.png)
 
-####The Code	
+#### The Code	
 	
 	library(RCurl)
 	library(ggplot2)

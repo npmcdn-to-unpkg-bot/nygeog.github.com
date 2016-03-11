@@ -9,7 +9,7 @@ Yesterday, I went to an appointment at the [Amazon Web Services (AWS) Pop-up Lof
 
 I sat with one of their AWS support specialists and sorta explained an idea for a **GIS** web service project using [PostGIS](http://postgis.net/). The specialist hadn't heard of PostGIS but he was super familiar with **PostgreSQL** and was a networking expert (the guy talked me through how companies use AWS securely and with backup servers - it was fascinating for someone who knows so little about networking and security). From what I understand Amazon cycles some of their support specialists to these Pop-up lofts and they hang out and help AWS customers. It's sort of set up like the Genius Bar at an Apple Store but for AWS. 
 
-###Amazon Web Services Pop-up Loft
+### Amazon Web Services Pop-up Loft
 <iframe width="100%" height="520" frameborder="0" src="https://dms2203.cartodb.com/viz/32a3beec-63b6-11e5-ae6e-0e73ffd62169/embed_map"></iframe>
 *AWS Pop-up Loft in New York City*
 

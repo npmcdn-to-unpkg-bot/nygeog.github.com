@@ -25,11 +25,11 @@ I then worked with this [IPython notebook file](https://github.com/nygeog/nygeog
 
 	IPython nbconvert jetblue-latlng.ipynb --to markdown
 
-##The IPython notebook code:
+## The IPython notebook code:
 [IPython notebook file](https://github.com/nygeog/nygeog.github.com/blob/master/posts_data/2015-06-29-jetblue-latlng/jetblue-latlng.ipynb)
 
 
-###Import the modules
+### Import the modules
 
     # Import pandas
     import pandas as pd
@@ -41,7 +41,7 @@ I then worked with this [IPython notebook file](https://github.com/nygeog/nygeog
     # Set iPython to display visualization inline
     %matplotlib inline
 
-###Read the lat,lng's and format
+### Read the lat,lng's and format
 
     inCSV = 'jetblue-gps.csv'
     
@@ -102,7 +102,7 @@ I then worked with this [IPython notebook file](https://github.com/nygeog/nygeog
 </div>
 
 
-###Make the plot with [Chris Albon's **Plot Points On A Map** blogpost](http://chrisalbon.com/python/matplotlib_plot_points_on_map.html)
+### Make the plot with [Chris Albon's **Plot Points On A Map** blogpost](http://chrisalbon.com/python/matplotlib_plot_points_on_map.html)
 
     # Create a figure of size (i.e. pretty big)
     fig = plt.figure(figsize=(20,10))
@@ -139,6 +139,6 @@ I then worked with this [IPython notebook file](https://github.com/nygeog/nygeog
     # Show the map
     plt.show()
 
-###The points plotted
+### The points plotted
 ![png](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/posts_data/2015-06-29-jetblue-latlng/jetblue-latlng_files/jetblue-latlng_2_0.png)
 

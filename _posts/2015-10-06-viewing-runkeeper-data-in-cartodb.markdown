@@ -5,7 +5,7 @@ date:   2015-10-06 17:21:10
 tags: runkeeper cartodb ogr gdal osgeo4w gpx gps
 ---
 
-#Viewing Your [RunKeeper](https://runkeeper.com/) Data in [CartoDB](https://cartodb.com/)
+# Viewing Your [RunKeeper](https://runkeeper.com/) Data in [CartoDB](https://cartodb.com/)
 ![osgoe4w](https://raw.githubusercontent.com/nygeog/runkeeper/master/img/home_page_slide.png)
 [RunKeeper](https://runkeeper.com/) is a great app for recording runs and other workout adventures. While its fun to see your workout on the app, it can also be exported and viewed and analyzed. [CartoDB](https://cartodb.com/) is a great mapping platform for visualizing your data. In this exercise, I'll show the following steps:
 
@@ -15,16 +15,16 @@ tags: runkeeper cartodb ogr gdal osgeo4w gpx gps
 4. Select time range (with SQL), style and map your favorite run. 
 5. Display the data in IPython. 
 
-##1. Export your RunKeeper data GPX files
+## 1. Export your RunKeeper data GPX files
 [![select_time](https://raw.githubusercontent.com/nygeog/runkeeper/master/img/export_runkeeper.png)](https://runkeeper.com/exportDataForm)
 
 First off, go out and do some runs with the [RunKeeper app](https://runkeeper.com/). After some runs, [export your RunKeeper Data with this link.](https://runkeeper.com/exportDataForm). Here is a webpage with more information on [how-to export your RunKeeper Data](https://support.runkeeper.com/hc/en-us/articles/201109886-How-to-Export-your-Runkeeper-data).
     
 Unzip the file and note its directory location. 
 
-##2. Merge all RunKeeper GPX files to a single Shapefile using [GDAL/OGR](http://www.gdal.org/index.html) with [OSGEO4W](http://trac.osgeo.org/osgeo4w/).
+## 2. Merge all RunKeeper GPX files to a single Shapefile using [GDAL/OGR](http://www.gdal.org/index.html) with [OSGEO4W](http://trac.osgeo.org/osgeo4w/).
 
-####Important Note: you can skip this step if you don't have GDAL installed or if you just want to view a single run. Skip this step if that's the case and move to step 3. Zip shapefile and upload to CartoDB. 
+#### Important Note: you can skip this step if you don't have GDAL installed or if you just want to view a single run. Skip this step if that's the case and move to step 3. Zip shapefile and upload to CartoDB. 
 
 Any GDAL installation can merge all your files in the folder, for this example I used [OSGEO4Windows](http://trac.osgeo.org/osgeo4w/) as I already had a Windows VM up. You can easily run this on Mac as well. Here is a great resource for this operation from [this StackExchange post](http://gis.stackexchange.com/questions/159360/how-to-bulk-import-gpx-files-to-qgis-and-merge-into-a-single-shapefile).
     
@@ -35,7 +35,7 @@ Running the GDAL/OGR in OSGEO4W:
 
 
 
-##3. Zip shapefile and upload to CartoDB. 
+## 3. Zip shapefile and upload to CartoDB. 
 Below we are going to zip our shapefile directory up for uploading to CartoDB. 
 
 
@@ -46,7 +46,7 @@ Below we are going to zip our shapefile directory up for uploading to CartoDB.
 Next, upload your data to CartoDB. You can simply drag-and-drop the zipped file onto your browser. 
 ![cartodb_upload](https://raw.githubusercontent.com/nygeog/runkeeper/master/img/cartodb_upload.png)
 
-##4. Select time range (with SQL), style and map your favorite run. 
+## 4. Select time range (with SQL), style and map your favorite run. 
 For this example, I'll select 1 run from 1 day this summer. June 29th, 2015 I did a fun run near Bolder, CO. The town of Louisville, CO has some great trails between development for running, biking and walking. 
 
 ![select_time](https://raw.githubusercontent.com/nygeog/runkeeper/master/img/select_time.png)
@@ -55,11 +55,11 @@ Here's the code if you'd like to copy and paste (remember to modify the dates to
     SELECT * FROM runkeeper_points 
     WHERE time > '06/29/2015' AND time <= '06/30/2015'
     
-####Style the map with [Torque](http://docs.cartodb.com/tutorials/introduction_torque.html)
+#### Style the map with [Torque](http://docs.cartodb.com/tutorials/introduction_torque.html)
 ![torque_wizard](https://raw.githubusercontent.com/nygeog/runkeeper/master/img/torque_wizard.png)   
     
     
-##5. Display the data in IPython. 
+## 5. Display the data in IPython. 
 Next I'll embed an **iframe** of the embeddable map into IPython (Hit **Publish** and grab the **embed** code). More **CartoDB/IPython** integration may be found here: [https://plot.ly/ipython-notebooks/cartodb/](https://plot.ly/ipython-notebooks/cartodb/).
 
 
@@ -73,15 +73,15 @@ Next I'll embed an **iframe** of the embeddable map into IPython (Hit **Publish*
 
 
 
-#Next Steps and future things for consideration:
+# Next Steps and future things for consideration:
 
-##Time between GPS observations
+## Time between GPS observations
 I'm not always running. Yes, I should be running more, but no matter if your an Ultramarathon runner or a casual stroller, you'll most likely always spend more time not running than running. In fact, the distribution of my runs in the winter is pretty bad as seen below.
 ![seasonal](https://raw.githubusercontent.com/nygeog/runkeeper/master/img/seasonal.png)
 
 For animating my runs, perhaps using the **cartodb_id** rather than time (datetime) would be beneficial for showing consecutive runs rather than the units of time in Torque passing uniformly. 
 
-####Here's an example of that for a few days of running in Brooklyn, NY.
+#### Here's an example of that for a few days of running in Brooklyn, NY.
 
 
     from IPython.display import HTML
@@ -97,7 +97,7 @@ The SQL to select the days:
 	SELECT * FROM runkeeper_points 
 	WHERE time > '07/07/2014' AND time <= '07/10/2014' 
 
-##Zoom to events
+## Zoom to events
 Another feature that would be fun to work with is zooming to runs by day, perhaps set the bounding box of the map frame to the envelope of the GPS per day and then zoom to that box for every new day. 
 
 

@@ -8,10 +8,10 @@ tags: statw470 nyc collisions ipython cartodb
 I missed last Thursday's STAT W4701 class due to being under the weather but was able to check it out via Columbia Video Network. Dr. Malecki posted a [mini assignment](http://stat4701.github.io/edav/2015/02/12/mini-assignment) where we could use NYC Crash Data. I've used this data before for mapping pedestrian and bicycle injuries and fatalities. This data used to be available via [Transportation Alternatives: CrashStat](http://crashstat.org/crashsolr/search) but is now delivered via [NYC Open Data](https://data.cityofnewyork.us/NYC-BigApps/NYPD-Motor-Vehicle-Collisions/h9gi-nx95).
 
 
-##Some Python Pandas in IPython Notebook
+## Some Python Pandas in IPython Notebook
 Converted to Markdown (of course). See my old blog post [Using IPython Notebook with Pandas and exporting to Markdown](https://nygeog.github.io/2015/01/27/ipython-notebook-to-markdown%20copy.html).
 
-####Importing and cleaning the CSV
+#### Importing and cleaning the CSV
 
     import pandas as pd
     
@@ -31,7 +31,7 @@ Converted to Markdown (of course). See my old blog post [Using IPython Notebook 
 
 
 
-####The original CSV data (first 5 records)
+#### The original CSV data (first 5 records)
 
 <div style="max-height:1000px;max-width:1500px;overflow:auto;">
 <table border="1" class="dataframe">
@@ -188,7 +188,7 @@ Converted to Markdown (of course). See my old blog post [Using IPython Notebook 
 </div>
 
 
-####Mergin' the date (day) and time (hours)
+#### Mergin' the date (day) and time (hours)
 
     #create datetime http://stackoverflow.com/questions/17978092/combine-date-and-time-columns-using-python-pandas
     df['datetime'] = pd.to_datetime(df['date'] + ' ' + df['time'])
@@ -205,7 +205,7 @@ Converted to Markdown (of course). See my old blog post [Using IPython Notebook 
     df.head(5)
 
 
-####Clean and small data to import to CartoDB
+#### Clean and small data to import to CartoDB
 
 <div style="max-height:1000px;max-width:1500px;overflow:auto;">
 <table border="1" class="dataframe">
@@ -255,27 +255,27 @@ Converted to Markdown (of course). See my old blog post [Using IPython Notebook 
 ---
 
 
-####[The table on CartoDB's PostGIS Server](https://nygeog.cartodb.com/tables/nypd_mv_collisions_2014_20150213)
+#### [The table on CartoDB's PostGIS Server](https://nygeog.cartodb.com/tables/nypd_mv_collisions_2014_20150213)
 
-####IPython Notebook to Markdown
+#### IPython Notebook to Markdown
 
 	IPython nbconvert 01-read-crash-data.ipynb --to markdown
 
 ---
 
-##Maps in CartoDB
+## Maps in CartoDB
 
-####PostGIS SQL Statement to grab 2014 from the 2014-2015/02/13 Table
+#### PostGIS SQL Statement to grab 2014 from the 2014-2015/02/13 Table
 
 	SELECT * FROM nypd_mv_collisions_2014_20150213 WHERE datetime BETWEEN '2014-01-01 00:00:00' and '2015-01-01 00:00:00'
 
 
-####Density Hex Bins of 2014 Collisions
+#### Density Hex Bins of 2014 Collisions
 I'm not totally sure if when creating the classes if it ignores hex bins with no collisions or what. Need to look into that. 
 
 <iframe width='100%' height='520' frameborder='0' src='http://nygeog.cartodb.com/viz/7144d0b2-b6f2-11e4-bf9b-0e018d66dc29/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-####Density of 2014 Collisions over time (using Torque)
+#### Density of 2014 Collisions over time (using Torque)
 Animation of Density of Collisions. I think these are Kernel Densities but not sure, need to check CartoDB documentation.
 
 <iframe width='100%' height='520' frameborder='0'
@@ -283,12 +283,12 @@ src='http://nygeog.cartodb.com/viz/8df5425a-b6ed-
 11e4-9539-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen
 mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-####Valentine's Day 2014 Collisions (Clickbait)
+#### Valentine's Day 2014 Collisions (Clickbait)
 I hate Clickbait. :)
 
 <iframe width='100%' height='520' frameborder='0' src='http://nygeog.cartodb.com/viz/8ebe3f92-b6f3-11e4-81dd-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-####Parting Note:
+#### Parting Note:
 While informative, crash data doesn't really tell us anything interesting about street design and whether specific places are more prone to crashes as without a denominator (such as traffic and/or pedestrian and/or cyclists) its difficult to discern if there's just more targets for collisions (like counting homicides vs. homicides per 10,000 people) or if street design (or in the case of homicides, higher homicide rate) is actually to blame. 
 
 New York City has some traffic estimates but nothing we can attribute to every street over the whole city. There may be something that NYC DOT or someone else has, but until its FOIL'ed we can't really create that denominator without more reliable data. 

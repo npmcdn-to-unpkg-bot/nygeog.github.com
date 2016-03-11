@@ -16,13 +16,13 @@ For Dr. Catherine Richards Course
 
 If you'd like **[download Processing](https://processing.org/download/)** at the beginning and if you are savvy, follow along with Exercise(s) (~9 minutes in).
 
-* ###<a href="https://nygeog.github.io/big/processing_1" target="_blank">Part 1 - Intro</a>
-* ###<a href="https://nygeog.github.io/big/processing_2" target="_blank">Part 2 - Before Processing</a>
-* ###<a href="https://nygeog.github.io/big/processing_3" target="_blank">Part 3 - Seeing Processing</a>
-* ###<a href="https://nygeog.github.io/big/processing_4" target="_blank">Part 4 - Shaking Hands with Processing</a>
+* ### <a href="https://nygeog.github.io/big/processing_1" target="_blank">Part 1 - Intro</a>
+* ### <a href="https://nygeog.github.io/big/processing_2" target="_blank">Part 2 - Before Processing</a>
+* ### <a href="https://nygeog.github.io/big/processing_3" target="_blank">Part 3 - Seeing Processing</a>
+* ### <a href="https://nygeog.github.io/big/processing_4" target="_blank">Part 4 - Shaking Hands with Processing</a>
 
 
-* ####Code Exercises:
+* #### Code Exercises:
 
 	* [Exercise A Setup](#e_a)
 	* [Exercise B Bouncing Ball](#e_b)
@@ -30,15 +30,15 @@ If you'd like **[download Processing](https://processing.org/download/)** at the
 	* [Exercise D Crazy Ball Orbits](#e_d)
 	* [Exercise E Mouse Position](#e_e)
 
-* ###<a href="https://nygeog.github.io/big/processing_5" target="_blank">Part 5 - Projecting Data onto a Map</a>
+* ### <a href="https://nygeog.github.io/big/processing_5" target="_blank">Part 5 - Projecting Data onto a Map</a>
 
-* ####Code Exercises:
+* #### Code Exercises:
 
 	* [Download Exercise F Simple Mercator](https://www.dropbox.com/sh/8rumg04nukqihsf/AAAKfeNn2pXt-aZ8mCUS5vyna?dl=1)
 
 
 
-* ###Part 6 - What we can create!
+* ### Part 6 - What we can create!
 	* Show CitiMotion animation.
 	* [NYC Traffic Crashes: Bikes & Pedestrians 1995-2009](https://www.youtube.com/watch?v=UIy3YyFizUo) (what YouTube does to raw video, fuzzy).
 
@@ -47,7 +47,7 @@ If you'd like **[download Processing](https://processing.org/download/)** at the
 
 ---
 
-####Useful Links
+#### Useful Links
 * [Processing.org](https://processing.org/)
 * [Citi Bike Rides: September 17th & 18th, 2013](http://vimeo.com/89305412)
 
@@ -68,7 +68,7 @@ Thanks: Tom MacWright for creating the [Big presentation system](http://www.macw
 
 ---
 
-#Code Exercises
+# Code Exercises
 
 
 
@@ -76,7 +76,7 @@ Thanks: Tom MacWright for creating the [Big presentation system](http://www.macw
 
 
 
-###<a name="e_a">Exercise A Setup</a>
+### <a name="e_a">Exercise A Setup</a>
 Copy and paste this code into the processing interface.
 
     int ballSize = 150;
@@ -90,10 +90,10 @@ Copy and paste this code into the processing interface.
   		ellipse(width/2,height/2,ballSize, ballSize);
 		}
 		
-####It should look like this
+#### It should look like this
 ![exercise a](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/e_a_code.png)		
 		
-####Exercise A Setup code broken down.
+#### Exercise A Setup code broken down.
 Here we create the **ballSize** variable and set it to **150**.
 
     int ballSize = 150;
@@ -112,7 +112,7 @@ Next, we create our **draw** loop, decide on a background color and position the
   		ellipse(width/2,height/2,ballSize, ballSize);
 		}
 
-####Now hit the **PLAY** button.
+#### Now hit the **PLAY** button.
 You should see this pop-up on screen.
 
 ![play a](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/e_a_play.png)
@@ -121,7 +121,7 @@ You should see this pop-up on screen.
 
 ---
 
-###<a name="e_b">Exercise B Bouncing Ball</a>
+### <a name="e_b">Exercise B Bouncing Ball</a>
 
 	int movement = 0;
 	boolean increase = true;
@@ -157,7 +157,7 @@ Here we can make the ball move and interact with its surroundings, such as the e
 
 ---
 
-###<a name="e_c">Exercise C Bouncing Ball with Changing Color and Speeds</a>
+### <a name="e_c">Exercise C Bouncing Ball with Changing Color and Speeds</a>
 
     Circle circleOne = new Circle(50,0,0,1,5,1,5,10,0,0,0);
 
@@ -311,7 +311,7 @@ Here we can make the ball move and interact with its surroundings, such as the e
 
 ---
 
-###<a name="e_d">Exercise D Crazy Ball Orbits</a>
+### <a name="e_d">Exercise D Crazy Ball Orbits</a>
 
 	float positionX = 400.0;
     float positionY = 200; //height/2.0;
@@ -386,7 +386,7 @@ Here we can make the ball move and interact with its surroundings, such as the e
 
 ---
 
-###<a name="e_e">Exercise E Mouse Position</a>
+### <a name="e_e">Exercise E Mouse Position</a>
 
 	float positionX = 400.0;
     float positionY = 200; //height/2.0;

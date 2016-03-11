@@ -5,7 +5,7 @@ date:   2015-01-27 10:21:10
 tags: IPython pandas markdown 
 ---
 
-<!--##Using IPython Notebook for data analysis with Pandas
+<!--## Using IPython Notebook for data analysis with Pandas
 -->
 
 In my [Exploratory Data Analysis and Visualization Course](http://nygeog.github.io/data/science/columbia/idse/2015/01/21/exploratory-data-analysis-and-visualization.html) we've been using [RStudio](http://www.rstudio.com/) for exploring and munging data. I'm used to doing this in Pandas and it sort of reminded me of [IPython Notebook](http://IPython.org/notebook.html). One of the great things about RStudio is the ability to create [Markdown](http://daringfireball.net/projects/markdown/) files that include your code and whatever text you'd like to include.  
@@ -34,7 +34,7 @@ Last, I used **df.head(15)** to show the first 15 records in the dataframe.
 
 
 
-###And now we can see this fantastically styled html table:
+### And now we can see this fantastically styled html table:
 
 <div style="max-height:1000px;max-width:1500px;overflow:auto;">
 <table border="1" class="dataframe">
@@ -2271,7 +2271,7 @@ Last, I used **df.head(15)** to show the first 15 records in the dataframe.
 
 
 
-#Using terminal convert the IPython Notebook to a Markdown file
+# Using terminal convert the IPython Notebook to a Markdown file
 
 	IPython nbconvert IPythonTest.ipynb --to markdown
 

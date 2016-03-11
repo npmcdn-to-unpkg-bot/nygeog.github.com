@@ -10,11 +10,11 @@ Jeff F. ( aka [@zingbot](https://twitter.com/zingbot)) gave a solid presentation
 
 Below are my notes:
 
-##MaptimeNYC's SQL for CartoDB
+## MaptimeNYC's SQL for CartoDB
 
-####Creating Lines from Points
+#### Creating Lines from Points
 
-####ST_Makeline
+#### ST_Makeline
 
 	SELECT ST_MakeLine (the_geom_webmercator ORDER BY _order ASC)
 	AS the_geom_webmercator, route
@@ -23,7 +23,7 @@ Below are my notes:
 	
 <iframe width='100%' height='900' frameborder='0' src='https://dms2203.cartodb.com/tables/maptimesql_points/public/map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 	
-####ST_Contains (Spatial Join)
+#### ST_Contains (Spatial Join)
 
 	SELECT 
 	us_counties.the_geom_webmercator,us_counties.cartodb_id, count(quakes.the_geom)
@@ -32,7 +32,7 @@ Below are my notes:
 	ON st_contains(us_counties.the_geom,quakes.the_geom)
 	GROUP BY us_counties.cartodb_id
 	
-####CDB_LatLng
+#### CDB_LatLng
 
 	SELECT * FROM table 
 	ORDER BY the_geom <->
@@ -43,6 +43,6 @@ Below are my notes:
 Check out ST_BUFFER (METERS) search it'll do the DIST or BUFFER in Meters
 
 
-####lag()
+#### lag()
 
 Access the previous row of data and get value (time, value,number,etc)

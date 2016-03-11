@@ -18,14 +18,14 @@ What I was trying to do is intersect these buffers with these census tracts, mai
 
 ![image](https://dl.dropboxusercontent.com/u/36281098/images/shapely_intersect.png)
 
-####[See the GitHub page for the data](https://github.com/nygeog/questions/tree/master/shapely_intersect)
+#### [See the GitHub page for the data](https://github.com/nygeog/questions/tree/master/shapely_intersect)
 
 
 
-####These buffers are random points. The [Census Tracts are from NYC Department of City Planning](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml#cbt)
+#### These buffers are random points. The [Census Tracts are from NYC Department of City Planning](http://www.nyc.gov/html/dcp/html/bytes/districts_download_metadata.shtml#cbt)
 
 
-##The following Code was able to do it. Thanks 
+## The following Code was able to do it. Thanks 
 [GIS.StackExchange conversation](http://gis.stackexchange.com/questions/119374/intersect-shapefiles-using-shapely)
 
 Thanks [ThomasG77](http://gis.stackexchange.com/users/638/thomasg77)
@@ -70,7 +70,7 @@ Thanks [ThomasG77](http://gis.stackexchange.com/users/638/thomasg77)
                                 })
                                 
                                 
-##Someoone also contributed some OGR code.
+## Someoone also contributed some OGR code.
 Thanks [mike-t](http://gis.stackexchange.com/users/1872/mike-t)
 
 cd to the questions directory (not the data one)
