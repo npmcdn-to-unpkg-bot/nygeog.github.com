@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Some GIS details about our paper: Quantifying Distance Overestimation From Global Positioning System in Urban Spaces"
+title:  "About our paper: Quantifying Distance Overestimation From Global Positioning System in Urban Spaces"
 date:   2016-03-15 14:31:10
 tags: gps multipatherror walks buildings
 ---
 
 While I spent some time reviewing [ArcGIS Pro in my last post](http://nygeog.github.io/2016/03/02/arcgis-pro-first-thoughts.html). Esri posted a response with all the proper settings they recommend for running [ArcGIS Pro in Mac OS X](https://blogs.esri.com/esri/arcgis/2016/03/08/arcgis-pro-in-mac-os-x/). I have yet to try their recommended settings but will when I have the time to. 
 
-The research group I am currently working for, [The Built Environment and Health Research Group](http://beh.columbia.edu/) at Columbia University, recently published a paper in [The American Journal of Public Health](http://ajph.aphapublications.org/) titled [Quantifying Distance Overestimation From Global Positioning System in Urban Spaces](http://www.ncbi.nlm.nih.gov/pubmed/26890178). 
+The research group I am currently working for, [The Built Environment and Health Research Group](http://beh.columbia.edu/) at Columbia University, recently published a paper in [The American Journal of Public Health](http://ajph.aphapublications.org/) titled [Quantifying Distance Overestimation From Global Positioning System in Urban Spaces](http://www.ncbi.nlm.nih.gov/pubmed/26890178). Led by Director Andrew Rundle, lead author Steve Mooney and some helpful students armed with DG-100 GPS devices, we recorded multiple structured walks and compared the results. 
 
 The basic gist is **can we predict overestimation of observed distance traveled (from GPS data) due to the effect of urban canyons (multipath error from buildings)?** More entropy in the built environment should increase GPS signal error, thereby increasing noise in the recording of a GPS path. 
 
