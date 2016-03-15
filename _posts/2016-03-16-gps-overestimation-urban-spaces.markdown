@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Quantifying Distance Overestimation From Global Positioning System in Urban Spaces"
-date:   2016-03-15 10:31:10
+date:   2016-03-16 10:31:10
 tags: gps multipatherror walks buildings
 ---
 
