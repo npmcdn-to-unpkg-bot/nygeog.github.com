@@ -19,7 +19,7 @@ From the [BEH](http://beh.columbia.edu/) blogpost: [Measuring Pedestrian Activit
 
 >It has been suggested that GPS monitoring data can be used to estimate distances traveled and speeds of travel during active and non-active travel journeys and, that when combined with accelerometer monitoring, GPS data can be used to identify travel mode.  We tested whether the distances between successively captured GPS way points can be used to measure distances walked in varying environments in NYC. **Students walked a series of structured routes in areas with high and low building bulk density and on streets with high and low tree canopy cover while wearing GPS monitors.  The sums of distances between successive GPS way points over estimated travel distances and over estimates were larger in areas with high building bulk density and on streets with high tree canopy cover.** Algorithms using distances between successive GPS points to infer speed or travel mode may misclassify trips differentially across built environment contexts.  
 
-# What is Multipath Error?
+## What is Multipath Error?
 From **[aboutcivil.org](http://www.aboutcivil.org/sources-of-errors-in-gps.html)**
 
 >![multipath](http://www.aboutcivil.org/imajes/multipath-effects-GPS.jpg)
@@ -33,7 +33,7 @@ From **[aboutcivil.org](http://www.aboutcivil.org/sources-of-errors-in-gps.html)
 More on [Effects of Multipath Reception on
 GPS Positioning Performance](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5606130).
 
-# Modeling Distributed Building Height
+## Modeling Distributed Building Height
 I touch on the methodology for creating the **distributed building height** metric in my Exploratory Data Analysis and Visualization course presentation: [Using NYC Building Data (2013) to predict multipath GPS error in NYC Taxi Data (2013)](http://stat4701-edav-gps.github.io/) - [the slides where I discuss it in more detail](http://stat4701-edav-gps.github.io/presentation/#/20) - whereby I essentially sum all of the building volume for a given census block and uniformly distribute the height across the census block. 
 
 
@@ -45,7 +45,7 @@ I touch on the methodology for creating the **distributed building height** metr
 *Distributed Building Height Map in CartoDB - red areas expected to have more multipath error, yellow areas less*
 
 
-### Abstract
+### Abstract:
 
 **OBJECTIVES:**
 
@@ -63,7 +63,7 @@ GPS distance overestimates were associated with building height (median overesti
 
 Algorithms using distances between successive GPS points to infer speed or travel mode may misclassify trips differentially by context. Researchers studying urban spaces may prefer alternative mode identification techniques.
 
-## GIS Info:
+### GIS Info:
 
 **Data:**
 
