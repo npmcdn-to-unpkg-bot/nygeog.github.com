@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RdP - Sampling Grid</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
+    <style>
+      html, body, #map {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+ <div id="map"></div>
+<div id="cartocss" class="layer_selector">
+    <style type="cartocss/html" id="yoy2004">
+          /** default */
+          #zip_yoy [ y_y2004 <= 0.89583529997] {
+             polygon-fill: #012700;
+          }
+          #zip_yoy [ y_y2004 <= 0.43953378963] {
+             polygon-fill: #055D00;
+          }
+          #zip_yoy [ y_y2004 <= 0.22190712055] {
+             polygon-fill: #229A00;
+          }
+          #zip_yoy [ y_y2004 <= 0.02977975425] {
+             polygon-fill: #fff2cc;
+          }
+          #zip_yoy [ y_y2004 <= -0.02560591796] {
+             polygon-fill: #F84F40;
+          }
+          #zip_yoy [ y_y2004 <= -0.12678014253] {
+             polygon-fill: #B40903;
+          }
+          #zip_yoy [ y_y2004 <= -0.31565907046] {
+             polygon-fill: #850200;
+          }
+      </style>
+      <style type="cartocss/html" id="yoy2005">
+          /** default */
+          #zip_yoy [ y_y2005 <= 0.89583529997] {
+             polygon-fill: #012700;
+          }
+          #zip_yoy [ y_y2005 <= 0.43953378963] {
+             polygon-fill: #055D00;
+          }
+          #zip_yoy [ y_y2005 <= 0.22190712055] {
+             polygon-fill: #229A00;
+          }
+          #zip_yoy [ y_y2005 <= 0.02977975425] {
+             polygon-fill: #fff2cc;
+          }
+          #zip_yoy [ y_y2005 <= -0.02560591796] {
+             polygon-fill: #F84F40;
+          }
+          #zip_yoy [ y_y2005 <= -0.12678014253] {
+             polygon-fill: #B40903;
+          }
+          #zip_yoy [ y_y2005 <= -0.31565907046] {
+             polygon-fill: #850200;
+          }
+      </style>
+      <style type="cartocss/html" id="yoy2006">
+          /** default */
+          #zip_yoy [ y_y2006 <= 0.89583529997] {
+             polygon-fill: #012700;
+          }
+          #zip_yoy [ y_y2006 <= 0.43953378963] {
+             polygon-fill: #055D00;
+          }
+          #zip_yoy [ y_y2006 <= 0.22190712055] {
+             polygon-fill: #229A00;
+          }
+          #zip_yoy [ y_y2006 <= 0.02977975425] {
+             polygon-fill: #fff2cc;
+          }
+          #zip_yoy [ y_y2006 <= -0.02560591796] {
+             polygon-fill: #F84F40;
+          }
+          #zip_yoy [ y_y2006 <= -0.12678014253] {
+             polygon-fill: #B40903;
+          }
+          #zip_yoy [ y_y2006 <= -0.31565907046] {
+             polygon-fill: #850200;
+          }
+      </style>
+      <style type="cartocss/html" id="yoy2007">
+          /** default */
+          #zip_yoy [ y_y2007 <= 0.89583529997] {
+             polygon-fill: #012700;
+          }
+          #zip_yoy [ y_y2007 <= 0.43953378963] {
+             polygon-fill: #055D00;
+          }
+          #zip_yoy [ y_y2007 <= 0.22190712055] {
+             polygon-fill: #229A00;
+          }
+          #zip_yoy [ y_y2007 <= 0.02977975425] {
+             polygon-fill: #fff2cc;
+          }
+          #zip_yoy [ y_y2007 <= -0.02560591796] {
+             polygon-fill: #F84F40;
+          }
+          #zip_yoy [ y_y2007 <= -0.12678014253] {
+             polygon-fill: #B40903;
+          }
+          #zip_yoy [ y_y2007 <= -0.31565907046] {
+             polygon-fill: #850200;
+          }
+      </style>
+      <style type="cartocss/html" id="yoy2008">
+          /** default */
+          #zip_yoy [ y_y2008 <= 0.89583529997] {
+             polygon-fill: #012700;
+          }
+          #zip_yoy [ y_y2008 <= 0.43953378963] {
+             polygon-fill: #055D00;
+          }
+          #zip_yoy [ y_y2008 <= 0.22190712055] {
+             polygon-fill: #229A00;
+          }
+          #zip_yoy [ y_y2008 <= 0.02977975425] {
+             polygon-fill: #fff2cc;
+          }
+          #zip_yoy [ y_y2008 <= -0.02560591796] {
+             polygon-fill: #F84F40;
+          }
+          #zip_yoy [ y_y2008 <= -0.12678014253] {
+             polygon-fill: #B40903;
+          }
+          #zip_yoy [ y_y2008 <= -0.31565907046] {
+             polygon-fill: #850200;
+          }
+      </style>
+      <style type="cartocss/html" id="yoy2009">
+          /** default */
+          #zip_yoy [ y_y2009 <= 0.89583529997] {
+             polygon-fill: #012700;
+          }
+          #zip_yoy [ y_y2009 <= 0.43953378963] {
+             polygon-fill: #055D00;
+          }
+          #zip_yoy [ y_y2009 <= 0.22190712055] {
+             polygon-fill: #229A00;
+          }
+          #zip_yoy [ y_y2009 <= 0.02977975425] {
+             polygon-fill: #fff2cc;
+          }
+          #zip_yoy [ y_y2009 <= -0.02560591796] {
+             polygon-fill: #F84F40;
+          }
+          #zip_yoy [ y_y2009 <= -0.12678014253] {
+             polygon-fill: #B40903;
+          }
+          #zip_yoy [ y_y2009 <= -0.31565907046] {
+             polygon-fill: #850200;
+          }
+      </style>
+      <style type="cartocss/html" id="yoy2010">
+          /** default */
+          #zip_yoy [ y_y2010 <= 0.89583529997] {
+             polygon-fill: #012700;
+          }
+          #zip_yoy [ y_y2010 <= 0.43953378963] {
+             polygon-fill: #055D00;
+          }
+          #zip_yoy [ y_y2010 <= 0.22190712055] {
+             polygon-fill: #229A00;
+          }
+          #zip_yoy [ y_y2010 <= 0.02977975425] {
+             polygon-fill: #fff2cc;
+          }
+          #zip_yoy [ y_y2010 <= -0.02560591796] {
+             polygon-fill: #F84F40;
+          }
+          #zip_yoy [ y_y2010 <= -0.12678014253] {
+             polygon-fill: #B40903;
+          }
+          #zip_yoy [ y_y2010 <= -0.31565907046] {
+             polygon-fill: #850200;
+          }
+      </style>
+      <style type="cartocss/html" id="yoy2011">
+          /** default */
+          #zip_yoy [ y_y2011 <= 0.89583529997] {
+             polygon-fill: #012700;
+          }
+          #zip_yoy [ y_y2011 <= 0.43953378963] {
+             polygon-fill: #055D00;
+          }
+          #zip_yoy [ y_y2011 <= 0.22190712055] {
+             polygon-fill: #229A00;
+          }
+          #zip_yoy [ y_y2011 <= 0.02977975425] {
+             polygon-fill: #fff2cc;
+          }
+          #zip_yoy [ y_y2011 <= -0.02560591796] {
+             polygon-fill: #F84F40;
+          }
+          #zip_yoy [ y_y2011 <= -0.12678014253] {
+             polygon-fill: #B40903;
+          }
+          #zip_yoy [ y_y2011 <= -0.31565907046] {
+             polygon-fill: #850200;
+          }
+      </style>
+      <style type="cartocss/html" id="yoy2012">
+          /** default */
+          #zip_yoy [ y_y2012 <= 0.89583529997] {
+             polygon-fill: #012700;
+          }
+          #zip_yoy [ y_y2012 <= 0.43953378963] {
+             polygon-fill: #055D00;
+          }
+          #zip_yoy [ y_y2012 <= 0.22190712055] {
+             polygon-fill: #229A00;
+          }
+          #zip_yoy [ y_y2012 <= 0.02977975425] {
+             polygon-fill: #fff2cc;
+          }
+          #zip_yoy [ y_y2012 <= -0.02560591796] {
+             polygon-fill: #F84F40;
+          }
+          #zip_yoy [ y_y2012 <= -0.12678014253] {
+             polygon-fill: #B40903;
+          }
+          #zip_yoy [ y_y2012 <= -0.31565907046] {
+             polygon-fill: #850200;
+          }
+      </style>
+      <style type="cartocss/html" id="yoy2013">
+          /** default */
+          #zip_yoy [ y_y2013 <= 0.89583529997] {
+             polygon-fill: #012700;
+          }
+          #zip_yoy [ y_y2013 <= 0.43953378963] {
+             polygon-fill: #055D00;
+          }
+          #zip_yoy [ y_y2013 <= 0.22190712055] {
+             polygon-fill: #229A00;
+          }
+          #zip_yoy [ y_y2013 <= 0.02977975425] {
+             polygon-fill: #fff2cc;
+          }
+          #zip_yoy [ y_y2013 <= -0.02560591796] {
+             polygon-fill: #F84F40;
+          }
+          #zip_yoy [ y_y2013 <= -0.12678014253] {
+             polygon-fill: #B40903;
+          }
+          #zip_yoy [ y_y2013 <= -0.31565907046] {
+             polygon-fill: #850200;
+          }
+      </style>
+      <style type="cartocss/html" id="yoy2014">
+          /** default */
+          #zip_yoy [ y_y2014 <= 0.89583529997] {
+             polygon-fill: #012700;
+          }
+          #zip_yoy [ y_y2014 <= 0.43953378963] {
+             polygon-fill: #055D00;
+          }
+          #zip_yoy [ y_y2014 <= 0.22190712055] {
+             polygon-fill: #229A00;
+          }
+          #zip_yoy [ y_y2014 <= 0.02977975425] {
+             polygon-fill: #fff2cc;
+          }
+          #zip_yoy [ y_y2014 <= -0.02560591796] {
+             polygon-fill: #F84F40;
+          }
+          #zip_yoy [ y_y2014 <= -0.12678014253] {
+             polygon-fill: #B40903;
+          }
+          #zip_yoy [ y_y2014 <= -0.31565907046] {
+             polygon-fill: #850200;
+          }
+      </style>
+
+    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.11/themes/css/cartodb.css" />
+     <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+          <div id="cartocss" class="layer_selector">
+          <center>
+          <p><strong>Year</strong></p>
+          <ul> 
+              <li data="yoy2004" data-type="cartocss">2004
+              </li>
+              <li data="yoy2005" data-type="cartocss">2005
+              </li>
+              <li data="yoy2006" data-type="cartocss">2006
+              </li>
+              <li data="yoy2007" data-type="cartocss">2007
+              </li>
+              <li data="yoy2008" data-type="cartocss">2008
+              </li>
+              <li data="yoy2009" data-type="cartocss">2009
+              </li>
+              <li data="yoy2010" data-type="cartocss">2010
+              </li>
+              <li data="yoy2011" data-type="cartocss">2011
+              </li>
+              <li data="yoy2012" data-type="cartocss">2012
+              </li>
+              <li data="yoy2013" data-type="cartocss">2013
+              </li>
+              <li data="yoy2014" data-type="cartocss">2014
+              </li> 
+          </ul>
+          </center>
+      </div>
+      
+    <!-- <div id="map"></div> -->
+
+    <!-- include cartodb.js library -->
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.11/cartodb.js"></script>
+
+    <script>
+      window.onload = function() {
+
+          var tableName = "zip_yoy";
+
+          var layerSource = {
+                  user_name: 'nygeog',
+                  type: 'cartodb',
+                  sublayers: [{
+                      sql: "SELECT * FROM " + tableName, // Earthquake data
+                      cartocss: $("#yoy2004").html() // Simple visualization
+                  }]
+          }
+          
+          // Instantiate new map object, place it in 'map' element
+          var map_object = new L.Map('map', {
+              center: [40.7127, -74.0059], // San Francisco
+              zoom: 10
+          });
+
+          // Create layer selector
+          function createSelector(layer) {
+              var cartocss = "";
+              var $options = $(".layer_selector").find("li");
+              $options.click(function(e) {
+                  var $li = $(e.target);
+                  var selected = $li.attr('data');
+
+                  $options.removeClass('cartocss_selected');
+                  $li.addClass('cartocss_selected');
+
+                  cartocss = $('#'+selected).text();
+
+                  layer.setCartoCSS(cartocss);
+              });
+          }
+
+          // Pull tiles from CartoDB's basemaps
+          L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+              attribution: '© <a href="http://www.openstreetmap.org/copyright">OpenStreetMap<\/a> contributors'
+          }).addTo(map_object);
+
+          // for storing sublayer outside of createlayer
+          var sublayers;
+
+          // Add data layer to your map
+          cartodb.createLayer(map_object,layerSource)
+              .addTo(map_object)
+              .done(function(layer) {
+                  sublayer = layer.getSubLayer(0);
+                  createSelector(sublayer);
+                  
+               $('#map').append(legend.render().el);
+
+              })
+              .error(function(err) {
+                  console.log("error: " + err);
+              });
+      }
+    </script>
+   
+  </body>
+</html>
