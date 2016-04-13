@@ -89,7 +89,6 @@
 .highlight .nv { color: #19177C } /* Name.Variable */
 .highlight .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
 .highlight .w { color: #bbbbbb } /* Text.Whitespace */
-.highlight .mb { color: #666666 } /* Literal.Number.Bin */
 .highlight .mf { color: #666666 } /* Literal.Number.Float */
 .highlight .mh { color: #666666 } /* Literal.Number.Hex */
 .highlight .mi { color: #666666 } /* Literal.Number.Integer */
@@ -202,6 +201,53 @@ div#notebook {
 <li><a href="a2.html">What is the total OfficeArea sold in 2014?</a></li>
 <li><a href="a3.html">Build an interactive map showing median 2014 sale-price by neighborhood and/or ZIP-code for residential properties &lt; 15M. Clicking on a neighborhood or ZIP will render a timeseries plot of monthly total sale-value for that polygon. It would be great to be able to see a finer-grained density of sales (as points or polygons) for the individual properties sold.</a></li>
 </ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Assumptions,-Limitations-&amp;-Questions:">Assumptions, Limitations &amp; Questions:<a class="anchor-link" href="#Assumptions,-Limitations-&amp;-Questions:">&#182;</a></h3><ul>
+<li><p>Assumption for all questions: rolling sales only include past year, I've downloaded and mostly used the annual sales data for analysis as it allows to make multi-year comparisons.</p>
+</li>
+<li><p>I'm using the NYC official Open Data ZIP code file. I think if I had more time I would prefer to map out variables by Census Tract as its a more uniform geographic administrative unit and allows for easy relation to the US Census and American Community Survey data.</p>
+</li>
+<li><p>When we look at the most active months, I did not account for number of days in month. With more time, it may be interesting to normalize by count of days in month.</p>
+</li>
+<li><p>Building classes building_class_category vs. building_class_at_time_of_sale, I'm not totally sure of these differences. I'm deferring to building_class_category by default. I hope this is okay.</p>
+</li>
+<li><p>For Q2, my assumption is that "total sale-value" the total sum of 'sale_price'.</p>
+</li>
+<li><p>I'm not super familiar with year over year growth, I'm assuming for 2014, we are just looking at the difference b/n 2013 and 2014. I referred to code online for calculating YoY with Pandas. I don't normally use this metric, so I hope I calculated it correctly.</p>
+</li>
+<li><p>I'm seeing some outliers and abnormalities. For example, in the 'neighborhoods' column, I see boro-"UNKNOWN". I did not spend the time cleaning amd getting very intimate with the data. Generally I like to get more time to get fairly intimate with data before providing answers.</p>
+</li>
+<li><p>YoY assumptions: Lets say for YoY you need 100 sales at least in 2014. Also, iterms were flagged if neighborhood has string 'UNKNOWN'</p>
+</li>
+<li><p>I'm using residential_units of &gt; 0 for questions that use the term residential. Hopefully that is okay. Or should I use Tax class 1 or 2?</p>
+</li>
+<li><p>Q3, this question may be a little more difficult to answer in regard to preference, because it may be the case that inventory of new or old-builds affects the purchasers actions, so perhaps we'd also need some listings data or something else. Also, it coudl be that I'm thinking about this question incorrectly.</p>
+</li>
+<li><p>Assumption, if sale_year is less than year_built (perhaps where things are sold before building is complete?) it is categorized as a new build.</p>
+</li>
+<li><p>Should YoY be the difference in the mean prices or the difference in total prices for a neighrbohood (Q3) or price tier (Q4)?</p>
+</li>
+<li><p>I had a BBL problem joining the DOF annual sales data. It seems like its related to 'tax_class_at_present' field, potentially with apartments and condos. I coudln't find a crosswalk from Condo BBL (Base BBL?) to MapPluto BBL (billing BBL). I may have found a work-around involving the Digital Tax Map data tables and that info helped but would think followup up with some subsample geocoding and intersecting (spatial join) with the MapPluto polygons would help verify.</p>
+</li>
+<li><p>How much does an actual sale have to be in sale_price to be considered an "actual" sale rather than an arms length sale or passing a property on. I'm having a bit of trouble finding arms length deal flags in property sales data, so in some cases I only include sales greater than $0.</p>
+</li>
+<li><p>Assumption: Q5 I'm assuming the measure of highest turnover is the lowest mean or median number o days since the last sale_date for sales in 2014.</p>
+</li>
+<li><p>Assumption: Q5 if more than one record of sale on the same date, for turnover, those dates are collapsed into one sale.</p>
+</li>
+<li><p>Assumption: Q5, "same property" means the same "sale_bbl".</p>
+</li>
+<li><p>Download and Data Carpentry: 4289 extra records (0.0037) because condo_base joins to more than one billing bbl. Perhaps its two parcels in pluto but one base bbl for sales and taxing?</p>
+</li>
+</ul>
 
 </div>
 </div>
