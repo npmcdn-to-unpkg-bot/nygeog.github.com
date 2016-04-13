@@ -3,7 +3,7 @@
 <head>
 
 <meta charset="utf-8" />
-<title>download-and-data-carpentry</title>
+<title>05</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -176,579 +176,117 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="index.html">Home</a></p>
-<h1 id="Download-and-Data-Carpentry">Download and Data Carpentry<a class="anchor-link" href="#Download-and-Data-Carpentry">&#182;</a></h1><p>The scripts in each of these cells were run as individual python files, hence the imports in every cell.</p>
-
+<p><a href="index.html">Home</a>
+<img src="img/twosigma.png" alt="twosigmalogo"></p>
+<h4 id="5-What-neighborhoods-have-seen-the-highest-turnover-in-2014-(as-measured-by-time-between-sales-of-the-same-property)">5 What neighborhoods have seen the highest turnover in 2014 (as measured by time-between sales of the same property)<a class="anchor-link" href="#5-What-neighborhoods-have-seen-the-highest-turnover-in-2014-(as-measured-by-time-between-sales-of-the-same-property)">&#182;</a></h4>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="kn">import</span> <span class="nn">warnings</span>
-<span class="n">warnings</span><span class="o">.</span><span class="n">simplefilter</span><span class="p">(</span><span class="n">action</span> <span class="o">=</span> <span class="s">&quot;ignore&quot;</span><span class="p">,</span> <span class="n">category</span> <span class="o">=</span> <span class="ne">FutureWarning</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="kn">import</span> <span class="nn">urllib</span>
-<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+<div class=" highlight hl-ipython2"><pre><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
 <span class="kn">from</span> <span class="nn">_settings</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+<span class="c">#plt.gcf().subplots_adjust(bottom=0.15)</span>
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">rcParams</span>
+<span class="n">rcParams</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="s">&#39;figure.autolayout&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">})</span> <span class="c">#http://stackoverflow.com/questions/6774086/why-is-my-xlabel-cut-off-in-my-matplotlib-plot</span>
 
-<span class="k">print</span> <span class="s">&#39;download rolling sales&#39;</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">boroNameList</span><span class="p">:</span>
-	<span class="n">ftime</span>  <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">())</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39; &#39;</span><span class="p">,</span><span class="s">&#39;-&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;:&#39;</span><span class="p">,</span><span class="s">&#39;-&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;.&#39;</span><span class="p">,</span><span class="s">&#39;-&#39;</span><span class="p">)</span>
-	<span class="n">inFile</span> <span class="o">=</span> <span class="s">&quot;http://www1.nyc.gov/assets/finance/downloads/pdf/rolling_sales/rollingsales_&quot;</span><span class="o">+</span><span class="n">i</span><span class="o">+</span><span class="s">&quot;.xls&quot;</span>
-	<span class="n">ouFile</span> <span class="o">=</span> <span class="n">d</span><span class="o">+</span><span class="s">&quot;input/rolling_sales/rollingsales_&quot;</span><span class="o">+</span><span class="n">i</span><span class="o">+</span><span class="s">&quot;_&quot;</span><span class="o">+</span><span class="n">ftime</span><span class="o">+</span><span class="s">&quot;.xls&quot;</span>
-	<span class="n">urllib</span><span class="o">.</span><span class="n">urlretrieve</span><span class="p">(</span><span class="n">inFile</span><span class="p">,</span> <span class="n">ouFile</span><span class="p">)</span>
-	<span class="c">#print ouFile.split(&#39;/&#39;)[-1], &#39;is fully downloaded.&#39; </span>
-    <span class="c">#resource: http://stackoverflow.com/questions/22676/how-do-i-download-a-file-over-http-using-python</span>
-
-<span class="k">print</span> <span class="s">&#39;download annual sales&#39;</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">boroNameList</span><span class="p">:</span>
-	<span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">years</span><span class="p">:</span>
-		<span class="n">n</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">j</span><span class="p">)</span>
-		<span class="n">m</span> <span class="o">=</span> <span class="s">&#39;0&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">j</span> <span class="o">-</span> <span class="mi">2000</span><span class="p">)</span> 
-		<span class="k">if</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="mi">2007</span><span class="p">:</span>
-			<span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="s">&#39;statenisland&#39;</span><span class="p">:</span> 
-				<span class="n">k</span> <span class="o">=</span> <span class="s">&#39;si&#39;</span>	
-				<span class="n">inFile</span> <span class="o">=</span> <span class="s">&quot;http://www1.nyc.gov/assets/finance/downloads/sales_&quot;</span><span class="o">+</span><span class="n">k</span><span class="o">+</span><span class="s">&quot;_&quot;</span><span class="o">+</span><span class="n">m</span><span class="o">+</span><span class="s">&quot;.xls&quot;</span>
-			<span class="k">else</span><span class="p">:</span>
-				<span class="n">inFile</span> <span class="o">=</span> <span class="s">&quot;http://www1.nyc.gov/assets/finance/downloads/sales_&quot;</span><span class="o">+</span><span class="n">i</span><span class="o">+</span><span class="s">&quot;_&quot;</span><span class="o">+</span><span class="n">m</span><span class="o">+</span><span class="s">&quot;.xls&quot;</span>
-		<span class="k">elif</span> <span class="n">j</span> <span class="o">==</span> <span class="mi">2007</span><span class="p">:</span>
-			<span class="n">inFile</span> <span class="o">=</span> <span class="s">&quot;http://www1.nyc.gov/assets/finance/downloads/excel/rolling_sales/sales_&quot;</span><span class="o">+</span><span class="n">n</span><span class="o">+</span><span class="s">&quot;_&quot;</span><span class="o">+</span><span class="n">i</span><span class="o">+</span><span class="s">&quot;.xls&quot;</span>
-		<span class="k">elif</span> <span class="n">j</span> <span class="o">==</span> <span class="mi">2008</span><span class="p">:</span>
-			<span class="n">inFile</span> <span class="o">=</span> <span class="s">&quot;http://www1.nyc.gov/assets/finance/downloads/pdf/09pdf/rolling_sales/sales_&quot;</span><span class="o">+</span><span class="n">n</span><span class="o">+</span><span class="s">&quot;_&quot;</span><span class="o">+</span><span class="n">i</span><span class="o">+</span><span class="s">&quot;.xls&quot;</span>
-		<span class="k">elif</span> <span class="n">j</span> <span class="o">==</span> <span class="mi">2009</span><span class="p">:</span>
-			<span class="n">inFile</span> <span class="o">=</span> <span class="s">&quot;http://www1.nyc.gov/assets/finance/downloads/pdf/rolling_sales/annualized-sales/&quot;</span><span class="o">+</span><span class="n">n</span><span class="o">+</span><span class="s">&quot;_&quot;</span><span class="o">+</span><span class="n">i</span><span class="o">+</span><span class="s">&quot;.xls&quot;</span>
-		<span class="k">elif</span> <span class="n">j</span> <span class="o">&gt;</span> <span class="mi">2009</span><span class="p">:</span>
-			<span class="n">j</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">j</span><span class="p">)</span>
-			<span class="n">inFile</span> <span class="o">=</span> <span class="s">&quot;http://www1.nyc.gov/assets/finance/downloads/pdf/rolling_sales/annualized-sales/&quot;</span><span class="o">+</span><span class="n">n</span><span class="o">+</span><span class="s">&quot;/&quot;</span><span class="o">+</span><span class="n">n</span><span class="o">+</span><span class="s">&quot;_&quot;</span><span class="o">+</span><span class="n">i</span><span class="o">+</span><span class="s">&quot;.xls&quot;</span> 
-            <span class="c">#http://www1.nyc.gov/assets/finance/downloads/pdf/rolling_sales/annualized-sales/2014/2014_manhattan.xls</span>
-		<span class="k">else</span><span class="p">:</span>
-			<span class="k">print</span> <span class="s">&#39;THERE WAS A PROBLEM WITH THE DOWNLOAD&#39;</span>
-		<span class="c">#print inFile</span>
-		<span class="n">ftime</span>  <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">())</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39; &#39;</span><span class="p">,</span><span class="s">&#39;-&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;:&#39;</span><span class="p">,</span><span class="s">&#39;-&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;.&#39;</span><span class="p">,</span><span class="s">&#39;-&#39;</span><span class="p">)</span>
-		<span class="n">ouFile</span> <span class="o">=</span> <span class="n">d</span><span class="o">+</span><span class="s">&quot;input/annual_sales/&quot;</span><span class="o">+</span><span class="n">n</span><span class="o">+</span><span class="s">&#39;_&#39;</span><span class="o">+</span><span class="n">i</span><span class="o">+</span><span class="s">&quot;_&quot;</span><span class="o">+</span><span class="n">ftime</span><span class="o">+</span><span class="s">&quot;.xls&quot;</span>
-		<span class="n">urllib</span><span class="o">.</span><span class="n">urlretrieve</span><span class="p">(</span><span class="n">inFile</span><span class="p">,</span> <span class="n">ouFile</span><span class="p">)</span>
-		<span class="c">#print ouFile.split(&#39;/&#39;)[-1], &#39;is fully downloaded.&#39;</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>download rolling sales
-download annual sales
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">glob</span>
-<span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">from</span> <span class="nn">_settings</span> <span class="kn">import</span> <span class="o">*</span>
-
-<span class="n">df_list</span>  <span class="o">=</span> <span class="p">[]</span>
-<span class="n">allCount</span> <span class="o">=</span> <span class="mi">0</span>
-
-<span class="k">print</span> <span class="s">&#39;rolling sales&#39;</span>
-<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">boroNameList</span><span class="p">,</span><span class="n">boroList</span><span class="p">):</span>
-	<span class="n">boroFiles</span> <span class="o">=</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&quot;input/rolling_sales/rollingsales_&quot;</span><span class="o">+</span><span class="n">i</span><span class="o">+</span><span class="s">&quot;_*.xls&quot;</span><span class="p">)</span> 
-    <span class="c">#http://stackoverflow.com/questions/23430395/glob-search-files-in-date-order</span>
-	<span class="n">boroFiles</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">getmtime</span><span class="p">)</span>
-	<span class="c">#print(&quot;\n&quot;.join(boroFiles))</span>
-	<span class="n">mostRecent</span> <span class="o">=</span> <span class="n">boroFiles</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-	<span class="c">#print mostRecent</span>
-
-	<span class="n">inFile</span> <span class="o">=</span> <span class="n">mostRecent</span> <span class="c">#d+&quot;input/rolling_sales/rollingsales_&quot;+i+&quot;_&quot;+ftime+&quot;.xls&quot;</span>
-	<span class="n">ouFile</span> <span class="o">=</span> <span class="n">mostRecent</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;input&#39;</span><span class="p">,</span><span class="s">&#39;processing&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;.xls&#39;</span><span class="p">,</span><span class="s">&#39;.csv&#39;</span><span class="p">)</span>
-
-	<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">excel</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">inFile</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
-	<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">ouFile</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-	<span class="c">#print df.columns</span>
-	<span class="k">print</span> <span class="n">i</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
-	<span class="n">allCount</span> <span class="o">+=</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
-	<span class="n">df_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
-
-<span class="k">print</span> <span class="n">allCount</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">df_list</span><span class="p">)</span>
-<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39; &#39;</span><span class="p">,</span> <span class="s">&#39;_&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span> <span class="c">#rename cols, lower and replace &#39; &#39; with &#39;_&#39;</span>
-
-<span class="n">df</span><span class="p">[</span><span class="s">&#39;sale_date&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s">&#39;sale_date&#39;</span><span class="p">])</span>
-<span class="n">df</span><span class="p">[</span><span class="s">&#39;sale_month&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s">&#39;sale_date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">&#39;%m&#39;</span><span class="p">))</span> <span class="c">#pull out month, set field as datetime first</span>
-<span class="n">df</span><span class="p">[</span><span class="s">&#39;sale_year&#39;</span><span class="p">]</span>  <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s">&#39;sale_date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">&#39;%Y&#39;</span><span class="p">))</span> <span class="c">#pull out year, set field as datetime first</span>
-<span class="n">df</span><span class="p">[</span><span class="s">&#39;bbl_str&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">borough</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span> <span class="o">+</span> <span class="s">&#39;-&#39;</span> <span class="o">+</span> <span class="n">df</span><span class="o">.</span><span class="n">block</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span> <span class="o">+</span> <span class="s">&#39;-&#39;</span> <span class="o">+</span> <span class="n">df</span><span class="o">.</span><span class="n">lot</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
-<span class="n">df</span><span class="p">[</span><span class="s">&#39;sale_bbl&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s">&#39;borough&#39;</span><span class="p">]</span><span class="o">*</span><span class="mi">1000000000</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s">&#39;block&#39;</span><span class="p">]</span><span class="o">*</span><span class="mi">10000</span><span class="p">)</span> <span class="o">+</span> <span class="n">df</span><span class="p">[</span><span class="s">&#39;lot&#39;</span><span class="p">]</span>
-<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&#39;processing/rolling_sales/all.csv&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">&#39;,&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-
-<span class="n">df_list</span>  <span class="o">=</span> <span class="p">[]</span>
-<span class="n">allCount</span> <span class="o">=</span> <span class="mi">0</span>
-
-<span class="k">print</span> <span class="s">&#39;annual sales&#39;</span>
-<span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">years</span><span class="p">:</span>
-	<span class="n">n</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
-	<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">boroNameList</span><span class="p">,</span><span class="n">boroList</span><span class="p">):</span>
-		<span class="n">boroFiles</span> <span class="o">=</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&quot;input/annual_sales/&quot;</span><span class="o">+</span><span class="n">n</span><span class="o">+</span><span class="s">&quot;_&quot;</span><span class="o">+</span><span class="n">i</span><span class="o">+</span><span class="s">&quot;_*.xls&quot;</span><span class="p">)</span> 
-        <span class="c">#http://stackoverflow.com/questions/23430395/glob-search-files-in-date-order</span>
-		<span class="n">boroFiles</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">getmtime</span><span class="p">)</span>
-		<span class="c">#print(&quot;\n&quot;.join(boroFiles))</span>
-		<span class="n">mostRecent</span> <span class="o">=</span> <span class="n">boroFiles</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-		<span class="c">#print mostRecent</span>
-
-		<span class="n">inFile</span> <span class="o">=</span> <span class="n">mostRecent</span> <span class="c">#d+&quot;input/rolling_sales/rollingsales_&quot;+i+&quot;_&quot;+ftime+&quot;.xls&quot;</span>
-		<span class="n">ouFile</span> <span class="o">=</span> <span class="n">mostRecent</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;input&#39;</span><span class="p">,</span><span class="s">&#39;processing&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;.xls&#39;</span><span class="p">,</span><span class="s">&#39;.csv&#39;</span><span class="p">)</span>
-
-		<span class="k">if</span> <span class="n">m</span> <span class="o">&lt;</span> <span class="mi">2011</span><span class="p">:</span>
-			<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">excel</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">inFile</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
-		<span class="k">else</span><span class="p">:</span> 
-			<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">excel</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">inFile</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
-		<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">ouFile</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-		<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39;</span><span class="se">\n</span><span class="s">&#39;</span><span class="p">,</span> <span class="s">&#39;&#39;</span><span class="p">))</span> 
-        <span class="c">#some excel files had carriage returns, getting rid of those here</span>
-		<span class="c">#print df.columns</span>
-		<span class="k">print</span> <span class="n">i</span><span class="p">,</span> <span class="n">n</span><span class="p">,</span> <span class="s">&#39;has&#39;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39;rows&#39;</span>
-		<span class="n">allCount</span> <span class="o">+=</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
-		<span class="n">df_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
-
-<span class="k">print</span> <span class="n">allCount</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">df_list</span><span class="p">)</span>
-<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
-
-<span class="c"># for i in df.columns:</span>
-<span class="c"># 	print  i</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39; &#39;</span><span class="p">,</span> <span class="s">&#39;_&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span> <span class="c">#rename cols, lower and replace &#39; &#39; with &#39;_&#39;</span>
-
-<span class="n">df</span><span class="p">[</span><span class="s">&#39;sale_date&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s">&#39;sale_date&#39;</span><span class="p">])</span>
-<span class="n">df</span><span class="p">[</span><span class="s">&#39;sale_month&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s">&#39;sale_date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">&#39;%m&#39;</span><span class="p">))</span> <span class="c">#pull out month, set field as datetime first</span>
-<span class="n">df</span><span class="p">[</span><span class="s">&#39;sale_year&#39;</span><span class="p">]</span>  <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s">&#39;sale_date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s">&#39;%Y&#39;</span><span class="p">))</span> <span class="c">#pull out year, set field as datetime first</span>
-<span class="n">df</span><span class="p">[</span><span class="s">&#39;bbl_str&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">borough</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span> <span class="o">+</span> <span class="s">&#39;-&#39;</span> <span class="o">+</span> <span class="n">df</span><span class="o">.</span><span class="n">block</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span> <span class="o">+</span> <span class="s">&#39;-&#39;</span> <span class="o">+</span> <span class="n">df</span><span class="o">.</span><span class="n">lot</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
-<span class="n">df</span><span class="p">[</span><span class="s">&#39;sale_bbl&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s">&#39;borough&#39;</span><span class="p">]</span><span class="o">*</span><span class="mi">1000000000</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s">&#39;block&#39;</span><span class="p">]</span><span class="o">*</span><span class="mi">10000</span><span class="p">)</span> <span class="o">+</span> <span class="n">df</span><span class="p">[</span><span class="s">&#39;lot&#39;</span><span class="p">]</span>
-<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&#39;processing/annual_sales/all.csv&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">&#39;,&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-
-<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span> <span class="c">#Counts NaN values</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="o">.</span><span class="n">residential_units</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)]</span> <span class="c">#has to have some residential units</span>
-<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39; - how many greater than 0 residential_units&#39;</span> <span class="c">#Counts NaN values</span>
-<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&#39;processing/annual_sales/res.csv&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">&#39;,&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>rolling sales
-manhattan 23810
-bronx 6407
-brooklyn 23785
-queens 25049
-statenisland 6785
-85836
-85836
-annual sales
-manhattan 2003 has 22210 rows
-bronx 2003 has 10664 rows
-brooklyn 2003 has 33706 rows
-queens 2003 has 39177 rows
-statenisland 2003 has 12671 rows
-manhattan 2004 has 25894 rows
-bronx 2004 has 11807 rows
-brooklyn 2004 has 35048 rows
-queens 2004 has 41199 rows
-statenisland 2004 has 12643 rows
-manhattan 2005 has 26388 rows
-bronx 2005 has 11805 rows
-brooklyn 2005 has 34243 rows
-queens 2005 has 39937 rows
-statenisland 2005 has 11270 rows
-manhattan 2006 has 26352 rows
-bronx 2006 has 10695 rows
-brooklyn 2006 has 32146 rows
-queens 2006 has 36482 rows
-statenisland 2006 has 9797 rows
-manhattan 2007 has 28439 rows
-bronx 2007 has 9269 rows
-brooklyn 2007 has 28643 rows
-queens 2007 has 32032 rows
-statenisland 2007 has 8626 rows
-manhattan 2008 has 25994 rows
-bronx 2008 has 7057 rows
-brooklyn 2008 has 23791 rows
-queens 2008 has 27097 rows
-statenisland 2008 has 7208 rows
-manhattan 2009 has 19166 rows
-bronx 2009 has 5243 rows
-brooklyn 2009 has 19995 rows
-queens 2009 has 24060 rows
-statenisland 2009 has 6531 rows
-manhattan 2010 has 17296 rows
-bronx 2010 has 4755 rows
-brooklyn 2010 has 19649 rows
-queens 2010 has 21198 rows
-statenisland 2010 has 6138 rows
-manhattan 2011 has 21500 rows
-bronx 2011 has 4963 rows
-brooklyn 2011 has 20726 rows
-queens 2011 has 21580 rows
-statenisland 2011 has 4756 rows
-manhattan 2012 has 26258 rows
-bronx 2012 has 5151 rows
-brooklyn 2012 has 23492 rows
-queens 2012 has 22949 rows
-statenisland 2012 has 6231 rows
-manhattan 2013 has 26715 rows
-bronx 2013 has 5932 rows
-brooklyn 2013 has 24842 rows
-queens 2013 has 25415 rows
-statenisland 2013 has 7070 rows
-manhattan 2014 has 24524 rows
-bronx 2014 has 6208 rows
-brooklyn 2014 has 25361 rows
-queens 2014 has 25157 rows
-statenisland 2014 has 7437 rows
-1162588
-1162588
-1162588
-803406  - how many greater than 0 residential_units
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">glob</span>
-<span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">import</span> <span class="nn">urllib</span>
-<span class="kn">import</span> <span class="nn">zipfile</span>
-<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
-<span class="kn">from</span> <span class="nn">_settings</span> <span class="kn">import</span> <span class="o">*</span>
-
-<span class="c">###SOURCE:</span>
-<span class="c">#pluto 14v2 </span>
-<span class="c">#http://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyc_pluto_14v2.zip</span>
-<span class="c">#mappluto 14v2 </span>
-<span class="c">#http://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/mappluto_14v2.zip</span>
-
-<span class="n">inFile</span> <span class="o">=</span> <span class="s">&quot;http://www1.nyc.gov/assets/planning/download/zip/data-maps/open-data/nyc_pluto_14v2.zip&quot;</span>
-<span class="n">ouFile</span> <span class="o">=</span> <span class="n">d</span><span class="o">+</span><span class="s">&quot;input/pluto/nyc_pluto_14v2.zip&quot;</span>
-<span class="n">urllib</span><span class="o">.</span><span class="n">urlretrieve</span><span class="p">(</span><span class="n">inFile</span><span class="p">,</span> <span class="n">ouFile</span><span class="p">)</span>
-
-<span class="n">zfile</span> <span class="o">=</span> <span class="n">zipfile</span><span class="o">.</span><span class="n">ZipFile</span><span class="p">(</span><span class="n">ouFile</span><span class="p">)</span> 
-<span class="c">#http://stackoverflow.com/questions/9431918/extracting-zip-file-contents-to-specific-directory-in-python-2-7</span>
-<span class="n">zfile</span><span class="o">.</span><span class="n">extractall</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&quot;input/pluto/&quot;</span><span class="p">)</span>
-
-<span class="n">df_list</span>  <span class="o">=</span> <span class="p">[]</span>
-<span class="n">allCount</span> <span class="o">=</span> <span class="mi">0</span>
-
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">boroAbbrev</span><span class="p">:</span>
-	<span class="k">print</span> <span class="n">i</span>
-	<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&quot;input/pluto/&quot;</span><span class="o">+</span><span class="n">i</span><span class="o">+</span><span class="s">&quot;.csv&quot;</span><span class="p">)</span>
-	<span class="n">df_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
-	<span class="c">#print df.columns</span>
-	<span class="k">print</span> <span class="n">i</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
-	<span class="n">allCount</span> <span class="o">+=</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
-
-<span class="k">print</span> <span class="n">allCount</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">df_list</span><span class="p">)</span>
-<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
-
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39; &#39;</span><span class="p">,</span> <span class="s">&#39;_&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span> <span class="c">#rename cols, lower and replace &#39; &#39; with &#39;_&#39;</span>
-<span class="n">df</span><span class="p">[</span><span class="s">&#39;bbl_str&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">borocode</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span> <span class="o">+</span> <span class="s">&#39;-&#39;</span> <span class="o">+</span> <span class="n">df</span><span class="o">.</span><span class="n">block</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span> <span class="o">+</span> <span class="s">&#39;-&#39;</span> <span class="o">+</span> <span class="n">df</span><span class="o">.</span><span class="n">lot</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
-<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&quot;processing/pluto/all.csv&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">&#39;,&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>MN
-MN 43169
-BX
-BX 89840
-BK
-BK 277563
-QN
-QN 324530
-SI
-SI 123812
-858914
-858914
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">glob</span>
-<span class="kn">import</span> <span class="nn">urllib</span>
-<span class="kn">import</span> <span class="nn">zipfile</span>
-<span class="kn">import</span> <span class="nn">csv</span>
-<span class="kn">from</span> <span class="nn">dbfpy</span> <span class="kn">import</span> <span class="n">dbf</span>
-<span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">import</span> <span class="nn">sys</span>
- 
-<span class="c">###SOURCE:</span>
-<span class="c">#https://data.cityofnewyork.us/download/smk3-tmxj/application/zip</span>
-<span class="c"># Department of Finance Digital Tax Map</span>
-<span class="c"># The official tax maps for the City of New York are maintained by the </span>
-<span class="c"># DEPARTMENT OF FINANCE Tax Map Office. Tax maps show the lot lines, the </span>
-<span class="c"># block and lot numbers, the street names, lot dimensions, and easements.</span>
-<span class="c"># Digital_Tax_Map_shapefile@01-16.zip </span>
-
-<span class="n">inFile</span> <span class="o">=</span> <span class="s">&quot;https://data.cityofnewyork.us/download/smk3-tmxj/application/zip&quot;</span>
-<span class="n">ouFile</span> <span class="o">=</span> <span class="n">d</span><span class="o">+</span><span class="s">&quot;input/digital_tax_map/digital_tax_map.zip&quot;</span>
-<span class="n">urllib</span><span class="o">.</span><span class="n">urlretrieve</span><span class="p">(</span><span class="n">inFile</span><span class="p">,</span> <span class="n">ouFile</span><span class="p">)</span>
-
-<span class="n">tabFold</span> <span class="o">=</span> <span class="n">d</span><span class="o">+</span><span class="s">&quot;input/digital_tax_map/&quot;</span>
-
-<span class="n">zfile</span> <span class="o">=</span> <span class="n">zipfile</span><span class="o">.</span><span class="n">ZipFile</span><span class="p">(</span><span class="n">ouFile</span><span class="p">)</span> 
-<span class="c">#http://stackoverflow.com/questions/9431918/extracting-zip-file-contents-to-specific-directory-in-python-2-7</span>
-<span class="n">zfile</span><span class="o">.</span><span class="n">extractall</span><span class="p">(</span><span class="n">tabFold</span><span class="p">)</span>
-
-<span class="n">exp</span> <span class="o">=</span> <span class="s">&quot;*.dbf&quot;</span>
-<span class="n">all_dbfs</span> <span class="o">=</span> <span class="n">glob</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="n">tabFold</span><span class="o">+</span><span class="n">exp</span><span class="p">)</span>
-
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">all_dbfs</span><span class="p">:</span>
-    <span class="n">filename</span> <span class="o">=</span> <span class="n">i</span>
-    <span class="k">if</span> <span class="n">filename</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="s">&#39;.dbf&#39;</span><span class="p">):</span>
-        <span class="k">print</span> <span class="s">&quot;Converting </span><span class="si">%s</span><span class="s"> to csv&quot;</span> <span class="o">%</span> <span class="n">filename</span>
-        <span class="n">csv_fn</span> <span class="o">=</span> <span class="n">filename</span><span class="p">[:</span><span class="o">-</span><span class="mi">4</span><span class="p">]</span><span class="o">+</span> <span class="s">&quot;.csv&quot;</span>
-        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">csv_fn</span><span class="p">,</span><span class="s">&#39;wb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">csvfile</span><span class="p">:</span>
-            <span class="n">in_db</span> <span class="o">=</span> <span class="n">dbf</span><span class="o">.</span><span class="n">Dbf</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
-            <span class="n">out_csv</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">writer</span><span class="p">(</span><span class="n">csvfile</span><span class="p">)</span>
-            <span class="n">names</span> <span class="o">=</span> <span class="p">[]</span>
-            <span class="k">for</span> <span class="n">field</span> <span class="ow">in</span> <span class="n">in_db</span><span class="o">.</span><span class="n">header</span><span class="o">.</span><span class="n">fields</span><span class="p">:</span>
-                <span class="n">names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">field</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
-            <span class="n">out_csv</span><span class="o">.</span><span class="n">writerow</span><span class="p">(</span><span class="n">names</span><span class="p">)</span>
-            <span class="k">for</span> <span class="n">rec</span> <span class="ow">in</span> <span class="n">in_db</span><span class="p">:</span>
-                <span class="n">out_csv</span><span class="o">.</span><span class="n">writerow</span><span class="p">(</span><span class="n">rec</span><span class="o">.</span><span class="n">fieldData</span><span class="p">)</span>
-            <span class="n">in_db</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
-            <span class="k">print</span> <span class="s">&quot;Done...&quot;</span>
-    <span class="k">else</span><span class="p">:</span>
-      <span class="k">print</span> <span class="s">&quot;Filename does not end with .dbf&quot;</span>
-<span class="c"># upnext: create DTM_0116_Condo_Units.csv table, use UNIT_BBL for the Base BBL (also referred to as the FKA [Formerly Known As]) </span>
-<span class="c">#        and CONDO_BA_3 to get the billing BBL (MapPluto)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Converting ../data/input/digital_tax_map/DTM_0116_Air_Rights_Condos.dbf to csv
-Done...
-Converting ../data/input/digital_tax_map/DTM_0116_Air_Rights_Holders.dbf to csv
-Done...
-Converting ../data/input/digital_tax_map/DTM_0116_Air_Rights_Lots.dbf to csv
-Done...
-Converting ../data/input/digital_tax_map/DTM_0116_Boundary.dbf to csv
-Done...
-Converting ../data/input/digital_tax_map/DTM_0116_Condo.dbf to csv
-Done...
-Converting ../data/input/digital_tax_map/DTM_0116_Condo_Units.dbf to csv
-Done...
-Converting ../data/input/digital_tax_map/DTM_0116_Lot_Face_Possession_Hooks.dbf to csv
-Done...
-Converting ../data/input/digital_tax_map/DTM_0116_Misc_Text.dbf to csv
-Done...
-Converting ../data/input/digital_tax_map/DTM_0116_Possession_Hooks.dbf to csv
-Done...
-Converting ../data/input/digital_tax_map/DTM_0116_REUC_Lots.dbf to csv
-Done...
-Converting ../data/input/digital_tax_map/DTM_0116_Subterranean_Lots.dbf to csv
-Done...
-Converting ../data/input/digital_tax_map/DTM_0116_Tax_Block_Polygon.dbf to csv
-Done...
-Converting ../data/input/digital_tax_map/DTM_0116_Tax_Lot_Face.dbf to csv
-Done...
-Converting ../data/input/digital_tax_map/DTM_0116_Tax_Lot_Polygon.dbf to csv
-Done...
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">tabFold</span><span class="o">+</span><span class="s">&#39;DTM_0116_Condo_Units.csv&#39;</span><span class="p">)</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s">&#39;UNIT_BBL&#39;</span><span class="p">,</span><span class="s">&#39;CONDO_BA_4&#39;</span><span class="p">,</span><span class="s">&#39;UNIT_BORO&#39;</span><span class="p">,</span><span class="s">&#39;UNIT_BLOCK&#39;</span><span class="p">,</span><span class="s">&#39;UNIT_LOT&#39;</span><span class="p">,</span><span class="s">&#39;CONDO_BA_3&#39;</span><span class="p">]]</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39; &#39;</span><span class="p">,</span> <span class="s">&#39;_&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span> <span class="c">#rename cols, lower and replace &#39; &#39; with &#39;_&#39;</span>
-<span class="n">df</span><span class="p">[</span><span class="s">&#39;dtm_condo_units_flag&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&#39;processing/digital_tax_map/dtm_condo_units.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-<span class="k">print</span> <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
-
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">tabFold</span><span class="o">+</span><span class="s">&#39;DTM_0116_Condo.csv&#39;</span><span class="p">)</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s">&#39;CONDO_BASE&#39;</span><span class="p">,</span><span class="s">&#39;CONDO_KEY&#39;</span><span class="p">,</span><span class="s">&#39;CONDO_BA_1&#39;</span><span class="p">,</span><span class="s">&#39;CONDO_BILL&#39;</span><span class="p">]]</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s">&#39; &#39;</span><span class="p">,</span> <span class="s">&#39;_&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span> <span class="c">#rename cols, lower and replace &#39; &#39; with &#39;_&#39;</span>
-<span class="n">df</span><span class="p">[</span><span class="s">&#39;dtm_condo_flag&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&#39;processing/digital_tax_map/dtm_condo.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
-<span class="k">print</span> <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>     unit_bbl    condo_ba_4  unit_boro  unit_block  unit_lot  condo_ba_3  \
-0  1019071031  1.019070e+13          1        1907      1031  1019070013   
-1  1019071101  1.019070e+14          1        1907      1101  1019070049   
-2  1019071203  1.019070e+14          1        1907      1203  1019070039   
-3  1019071204  1.019070e+14          1        1907      1204  1019070039   
-4  1019071207  1.019070e+14          1        1907      1207  1019070039   
-5  1019071302  1.019070e+14          1        1907      1302  1019070038   
-6  1019081001  1.019080e+14          1        1908      1001  1019080006   
-7  1019081003  1.019080e+14          1        1908      1003  1019080006   
-8  1019081101  1.019080e+14          1        1908      1101  1019080049   
-9  1019081109  1.019080e+14          1        1908      1109  1019080049   
-
-   dtm_condo_units_flag  
-0                     1  
-1                     1  
-2                     1  
-3                     1  
-4                     1  
-5                     1  
-6                     1  
-7                     1  
-8                     1  
-9                     1  
-   condo_base  condo_key    condo_ba_1  condo_bill  dtm_condo_flag
-0  3022260032       3428  3.022260e+13  3022267501               1
-1  3022260020       3740  3.022260e+13  3022267502               1
-2  3022260025      32176  3.022260e+14  3022267503               1
-3  3022260052      32450  3.022260e+14  3022267504               1
-4  3022260024      33226  3.022260e+14  3022267505               1
-5  3022260021      33364  3.022260e+14  3022267506               1
-6  3022300010       3737  3.022300e+13  3022307501               1
-7  3022300050       3863  3.022300e+13  3022307502               1
-8  3022300049      31065  3.022300e+14  3022307503               1
-9  3022300037      31113  3.022300e+14  3022307504               1
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">numpy</span>  <span class="kn">as</span> <span class="nn">np</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s">&#39;display.width&#39;</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span> <span class="c">#http://stackoverflow.com/questions/11707586/python-pandas-widen-output-display</span>
+<span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s">&#39;display.max_rows&#39;</span><span class="p">,</span> <span class="mi">500</span><span class="p">)</span> <span class="c">#http://stackoverflow.com/questions/11707586/python-pandas-widen-output-display</span>
 
 <span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&#39;processing/annual_sales/all.csv&#39;</span><span class="p">)</span>
-<span class="n">count_all_sales</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
-<span class="k">print</span> <span class="n">count_all_sales</span><span class="p">,</span> <span class="s">&#39;- count of records&#39;</span>
+<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span> <span class="c">#Counts NaN values</span>
 
-<span class="n">dfu</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&#39;processing/digital_tax_map/dtm_condo_units.csv&#39;</span><span class="p">)</span>
-<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">dfu</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39;- count of dtm condo unit records&#39;</span> <span class="c">#use this condo units csv to get bbl&#39;s for actual condo units, whos bbls are not in pluto</span>
-<span class="n">dfc</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&#39;processing/digital_tax_map/dtm_condo.csv&#39;</span><span class="p">)</span>
-<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">dfc</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39;- count of dtm condo records&#39;</span> <span class="c">#use this condo csv to get condo_bill bbl&#39;s for actual condo units, whos bbls are not in pluto</span>
-<span class="n">dfp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&#39;processing/pluto/all.csv&#39;</span><span class="p">)</span>
-<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">dfp</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39;- count of pluto records&#39;</span> 
+<span class="n">df</span><span class="p">[</span><span class="s">&#39;weird&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">neighborhood</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="s">&#39;UNKNOWN&#39;</span><span class="p">)</span> <span class="c">#flagged if neighborhood has string &#39;UNKNOWN&#39;</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="o">.</span><span class="n">weird</span> <span class="o">==</span> <span class="bp">False</span><span class="p">)]</span> <span class="c">#remove all flagged</span>
 
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s">&#39;sale_bbl&#39;</span><span class="p">,</span><span class="s">&#39;neighborhood&#39;</span><span class="p">,</span><span class="s">&#39;sale_date&#39;</span><span class="p">,</span><span class="s">&#39;sale_year&#39;</span><span class="p">]]</span>
 
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">dfu</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s">&#39;left&#39;</span><span class="p">,</span> <span class="n">left_on</span><span class="o">=</span><span class="s">&#39;sale_bbl&#39;</span><span class="p">,</span> <span class="n">right_on</span><span class="o">=</span><span class="s">&#39;unit_bbl&#39;</span><span class="p">)</span>
-<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39;- count of records after condo units merge&#39;</span> 
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">dfc</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s">&#39;left&#39;</span><span class="p">,</span> <span class="n">left_on</span><span class="o">=</span><span class="s">&#39;condo_ba_3&#39;</span><span class="p">,</span> <span class="n">right_on</span><span class="o">=</span><span class="s">&#39;condo_base&#39;</span><span class="p">)</span>
-<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39;- count of records after condos merge -&#39;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span> <span class="o">-</span> <span class="n">count_all_sales</span><span class="p">,</span> <span class="s">&#39; extra records (&#39;</span><span class="p">,</span> <span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)</span> <span class="o">-</span> <span class="n">count_all_sales</span><span class="o">*</span><span class="mf">1.0</span><span class="p">)</span><span class="o">/</span><span class="n">count_all_sales</span><span class="p">),</span> <span class="s">&#39;) b/c condo_base joins to more than one billing bbl - perhaps its two parcels in pluto but one base bbl for sales and taxing?&#39;</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">sort</span><span class="p">([</span><span class="s">&#39;sale_bbl&#39;</span><span class="p">,</span><span class="s">&#39;sale_date&#39;</span><span class="p">],</span><span class="n">ascending</span><span class="o">=</span><span class="p">[</span><span class="bp">True</span><span class="p">,</span><span class="bp">True</span><span class="p">])</span>
 
-<span class="n">df</span><span class="p">[</span><span class="s">&#39;join_pluto_bbl&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s">&#39;dtm_condo_units_flag&#39;</span><span class="p">]</span><span class="o">==</span><span class="mi">1</span><span class="p">,</span> <span class="n">df</span><span class="p">[</span><span class="s">&#39;condo_bill&#39;</span><span class="p">],</span> <span class="n">df</span><span class="p">[</span><span class="s">&#39;sale_bbl&#39;</span><span class="p">])</span>
+<span class="n">df</span><span class="p">[</span><span class="s">&#39;count&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">dfSC</span> <span class="o">=</span> <span class="n">df</span>
 
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">dfp</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s">&#39;left&#39;</span><span class="p">,</span> <span class="n">left_on</span><span class="o">=</span><span class="s">&#39;join_pluto_bbl&#39;</span><span class="p">,</span> <span class="n">right_on</span><span class="o">=</span><span class="s">&#39;bbl&#39;</span><span class="p">)</span>
-<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39;- count of records after pluto merge&#39;</span> 
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s">&#39;sale_bbl&#39;</span><span class="p">,</span><span class="s">&#39;sale_date&#39;</span><span class="p">,</span><span class="s">&#39;neighborhood&#39;</span><span class="p">,</span><span class="s">&#39;sale_year&#39;</span><span class="p">],</span> <span class="n">as_index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 
-<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&#39;processing/sales_dtm_pluto/sales_dtm_pluto.csv&#39;</span><span class="p">,</span><span class="n">index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s">&#39;datetime&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s">&#39;sale_date&#39;</span><span class="p">])</span>
 
-<span class="n">dfnoplutobbl</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="p">[</span><span class="s">&#39;bbl&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isnull</span><span class="p">())]</span>
-<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">dfnoplutobbl</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39;- count of records that did not join to pluto (&#39;</span><span class="p">,</span> <span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">dfnoplutobbl</span><span class="o">.</span><span class="n">index</span><span class="p">)</span><span class="o">*</span><span class="mf">1.0</span><span class="p">)</span><span class="o">/</span><span class="n">count_all_sales</span><span class="p">),</span> <span class="s">&#39;) of all orig. sales data does not have condo_bill, these records certainly require more due diligence&#39;</span>
-<span class="n">dfnoplutobbl</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&#39;processing/sales_dtm_pluto/MISSING_sales_dtm_pluto.csv&#39;</span><span class="p">,</span><span class="n">index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="c">#print df.dtypes </span>
 
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="o">.</span><span class="n">residential_units</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)]</span> <span class="c">#has to have some residential units</span>
-<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39;- count of records w/ greater than 0 residential_units&#39;</span> <span class="c">#Counts NaN values</span>
-<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&#39;processing/sales_dtm_pluto/sales_dtm_pluto_res_only.csv&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">&#39;,&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="n">df_list</span>  <span class="o">=</span> <span class="p">[]</span>
+<span class="n">allCount</span> <span class="o">=</span> <span class="mi">0</span>
 
-<span class="n">dfnoplutobbl</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="p">[</span><span class="s">&#39;bbl&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isnull</span><span class="p">())]</span>
-<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">dfnoplutobbl</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39;- count of records w/ greater than 0 residential_units that did not join to pluto (&#39;</span><span class="p">,</span> <span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">dfnoplutobbl</span><span class="o">.</span><span class="n">index</span><span class="p">)</span><span class="o">*</span><span class="mf">1.0</span><span class="p">)</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">)),</span> <span class="s">&#39;) of all orig. sales data w/ greater than 0 residential_units does not have condo_bill, these records certainly require more due diligence&#39;</span>
-<span class="n">dfnoplutobbl</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&#39;processing/sales_dtm_pluto/MISSING_sales_dtm_pluto_res_only.csv&#39;</span><span class="p">,</span><span class="n">index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="n">unqbbls</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">sale_bbl</span><span class="o">.</span><span class="n">unique</span><span class="p">()</span><span class="c">#create a list of unique bbls</span>
+<span class="k">print</span> <span class="s">&#39;There are&#39;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">unqbbls</span><span class="p">),</span> <span class="s">&#39;unique sale_bbl-s&#39;</span> 
+<span class="c">#unqbbls = unqbbls[:2000] #only first x for testing</span>
 
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="p">[</span><span class="s">&#39;sale_bbl&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">3027211009</span><span class="p">)]</span>
-<span class="c">#print df.head(20)</span>
+<span class="c">#IF HAD MORE TIME WOULD RUN THIS LOOP WITH A QUICKER SOLUTION FOR SUBSETTING (THIS WAY TAKES VERY LONG) EACH BBL&#39;S DATAFRAME TO NOT HAVE TO DO THE </span>
+<span class="c">#COUNT_TOTAL_TRANSATIONS column - HAVE AN IDEA HOW TO FIX BUT NOT ENOUGH TIME TO TEST</span>
+<span class="c"># for i in unqbbls: #loop through unique bbls</span>
+<span class="c"># 	print i</span>
+<span class="c"># 	df_t = df[(df.sale_bbl == i)]</span>
 
-<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">d</span><span class="o">+</span><span class="s">&#39;processing/temp/2bayard1A.csv&#39;</span><span class="p">,</span><span class="n">index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="c"># 	df_t[&#39;time_dif&#39;] = df_t[&#39;datetime&#39;] - df_t[&#39;datetime&#39;].shift().fillna(0) #calc time dif. between consecutive pts. https://github.com/nygeog/beh/blob/master/rio/tasks/201505_gpx_files/20-percent-time-outside-rdp-boundaries.ipynb</span>
+<span class="c"># 	#print df_t.head(10)</span>
+<span class="c"># 	allCount += len(df_t.index)</span>
+<span class="c"># 	df_list.append(df_t)</span>
+
+<span class="n">df</span><span class="p">[</span><span class="s">&#39;time_dif&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s">&#39;datetime&#39;</span><span class="p">]</span> <span class="o">-</span> <span class="n">df</span><span class="p">[</span><span class="s">&#39;datetime&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">shift</span><span class="p">()</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span> <span class="c">#calc time dif. between consecutive pts. https://github.com/nygeog/beh/blob/master/rio/tasks/201505_gpx_files/20-percent-time-outside-rdp-boundaries.ipynb</span>
+
+<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39; are how many unique sales_bbl-s and sale_date-s&#39;</span>
+
+<span class="n">df</span><span class="p">[</span><span class="s">&#39;days_dif&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">time_dif</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">timedelta64</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s">&#39;D&#39;</span><span class="p">))</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span> <span class="c">#http://stackoverflow.com/questions/25646200/python-convert-timedelta-to-int-in-a-dataframe</span>
+
+<span class="n">dfSC</span> <span class="o">=</span> <span class="n">dfSC</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s">&#39;sale_bbl&#39;</span><span class="p">,</span><span class="s">&#39;sale_date&#39;</span><span class="p">,</span><span class="s">&#39;sale_year&#39;</span><span class="p">],</span><span class="n">as_index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">dfSC</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39; are how many unique sales_bbl-s and sale_date-s&#39;</span>
+<span class="c">#print dfSC.head(100)</span>
+
+<span class="n">dfSC</span><span class="p">[</span><span class="s">&#39;count_total_transactions_unique_date&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+
+<span class="n">dfSC</span> <span class="o">=</span> <span class="n">dfSC</span><span class="p">[[</span><span class="s">&#39;sale_bbl&#39;</span><span class="p">,</span><span class="s">&#39;count_total_transactions_unique_date&#39;</span><span class="p">]]</span>
+
+<span class="n">dfSC</span> <span class="o">=</span> <span class="n">dfSC</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s">&#39;sale_bbl&#39;</span><span class="p">],</span><span class="n">as_index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">dfSC</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39; are how many unique sales sales_bbl has had on unique dates&#39;</span>
+<span class="c">#print dfSC.head(100)</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">dfSC</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s">&#39;sale_bbl&#39;</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s">&#39;left&#39;</span><span class="p">)</span>
+<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39; after merge with dfSC&#39;</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="o">.</span><span class="n">count_total_transactions_unique_date</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)]</span>
+<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39; are how many sales records have more than one transaction (same sale_bbl)&#39;</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="o">.</span><span class="n">days_dif</span> <span class="o">&lt;=</span> <span class="mi">4382</span><span class="p">)]</span> <span class="c">#The maximium amount of days between 2003-01-01 &lt;-&gt; 2014-12-31 is 4382 Days anything else is b/n dawn of time in 1970 and first records sales date in this database</span>
+<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39; are leftover after deleting time gap larger than maximum allowed time gap b/n 2003/1/1 and 2014/12/31&#39;</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="o">.</span><span class="n">days_dif</span> <span class="o">&gt;</span> <span class="o">-</span><span class="mi">1</span><span class="p">)]</span> <span class="c">#The maximium amount of days between 2003-01-01 &lt;-&gt; 2014-12-31 is 4,382 Days, anything else is b/n dawn of time in 1970 and first records sales date in this database</span>
+<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39; are leftover after deleting negative time gap - records with time referring to previous sale above - see loop text above, this is a non-ideal artifact of not getting this to run fast enough-needs to be addressed for proper faith in analysis&#39;</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="o">.</span><span class="n">sale_year</span> <span class="o">==</span> <span class="mi">2014</span><span class="p">)]</span> 
+<span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="s">&#39; are leftover after only keeping sale_dates that happened in year 2014&#39;</span>
+
+<span class="c">#print df.head(10)</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s">&#39;neighborhood&#39;</span><span class="p">,</span><span class="s">&#39;days_dif&#39;</span><span class="p">]]</span> 
+<span class="c">#print df.head(100)</span>
+
+<span class="k">print</span> <span class="s">&#39;CAVEAT: Should set minimum number of sales in Neighhorhood before calculating these stats&#39;</span>
+
+<span class="n">dfMean</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s">&#39;neighborhood&#39;</span><span class="p">,</span><span class="n">as_index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<span class="k">print</span> <span class="s">&#39;Mean Days Difference b/n Sales by Neighborhood&#39;</span>
+<span class="n">dfMean</span> <span class="o">=</span> <span class="n">dfMean</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="s">&#39;days_dif&#39;</span><span class="p">,</span><span class="n">ascending</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">dfMean</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="n">dfMed</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s">&#39;neighborhood&#39;</span><span class="p">,</span><span class="n">as_index</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span><span class="o">.</span><span class="n">median</span><span class="p">()</span>
+<span class="k">print</span> <span class="s">&#39;Median Days Difference b/n Sales by Neighborhood&#39;</span>
+<span class="n">dfMed</span> <span class="o">=</span> <span class="n">dfMed</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="s">&#39;days_dif&#39;</span><span class="p">,</span><span class="n">ascending</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">dfMed</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="c">#print df.dtypes </span>
+<span class="c">#df.to_csv(d+&#39;processing/q05/2014_sales_days_since_last_sale.csv&#39;,index=False)</span>
 </pre></div>
 
 </div>
@@ -761,24 +299,41 @@ Done...
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>1162588 - count of records
-237943 - count of dtm condo unit records
-8371 - count of dtm condo records
-858914 - count of pluto records
-1162588 - count of records after condo units merge
-1166877 - count of records after condos merge - 4289  extra records ( 0.0036891830984 ) b/c condo_base joins to more than one billing bbl - perhaps its two parcels in pluto but one base bbl for sales and taxing?
-1166877 - count of records after pluto merge
-24605 - count of records that did not join to pluto ( 0.0211639893066 ) of all orig. sales data does not have condo_bill, these records certainly require more due diligence
-807475 - count of records w/ greater than 0 residential_units
-4341 - count of records w/ greater than 0 residential_units that did not join to pluto ( 0.00537601783337 ) of all orig. sales data w/ greater than 0 residential_units does not have condo_bill, these records certainly require more due diligence
-</pre>
-</div>
-</div>
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>/Library/Python/2.7/site-packages/pandas/io/parsers.py:1164: DtypeWarning: Columns (15,16,18,19,20,21,62,63,78) have mixed types. Specify dtype option on import or set low_memory=False.
-  data = self._reader.read(nrows)
+<pre>1162588
+There are 578422 unique sale_bbl-s
+1102358  are how many unique sales_bbl-s and sale_date-s
+1102358  are how many unique sales_bbl-s and sale_date-s
+578422  are how many unique sales sales_bbl has had on unique dates
+1102358  after merge with dfSC
+737388  are how many sales records have more than one transaction (same sale_bbl)
+737387  are leftover after deleting time gap larger than maximum allowed time gap b/n 2003/1/1 and 2014/12/31
+573721  are leftover after deleting negative time gap - records with time referring to previous sale above - see loop text above, this is a non-ideal artifact of not getting this to run fast enough-needs to be addressed for proper faith in analysis
+55571  are leftover after only keeping sale_dates that happened in year 2014
+CAVEAT: Should set minimum number of sales in Neighhorhood before calculating these stats
+Mean Days Difference b/n Sales by Neighborhood
+                  neighborhood    days_dif
+231  VAN CORTLANDT PARK         129.500000
+152  MORNINGSIDE HEIGHTS        154.422535
+93   GLEN OAKS                  168.109155
+84   FLUSHING MEADOW PARK       359.840000
+88   FOREST HILLS               372.918671
+192  RIVERDALE                  376.838174
+227  UPPER EAST SIDE (96-110)   393.134328
+103  GREENWICH VILLAGE-CENTRAL  415.305903
+149  MIDTOWN WEST               423.468737
+187  REGO PARK                  461.577603
+Median Days Difference b/n Sales by Neighborhood
+                  neighborhood  days_dif
+93   GLEN OAKS                        10
+149  MIDTOWN WEST                     17
+136  LOWER EAST SIDE                  22
+52   CONEY ISLAND                     28
+125  JAVITS CENTER                    34
+166  OAKLAND GARDENS                  34
+187  REGO PARK                        41
+88   FOREST HILLS                     43
+148  MIDTOWN EAST                     43
+152  MORNINGSIDE HEIGHTS              43
 </pre>
 </div>
 </div>
