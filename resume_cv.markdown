@@ -55,6 +55,8 @@ Geographic Information Systems (40-hour course – co-instructed with James Quin
 
 	* **[Quantifying Distance Overestimation From Global Positioning System in Urban Spaces.](http://www.ncbi.nlm.nih.gov/pubmed/26890178)** 
 Mooney SJ, Sheehan DM, Zulaika G, Rundle AG, McGill K, Behrooz MR, Lovasi GS. Am J Public Health. 2016 Apr;106(4):651-3. doi: 10.2105/AJPH.2015.303036. Epub 2016 Feb 18.
+
+	* **[Use of Google Street View to Assess Environmental Contributions to Pedestrian Injury.](http://ajph.aphapublications.org/doi/abs/10.2105/AJPH.2015.302978)**  Stephen J Mooney, Charles J DiMaggio, Gina S Lovasi, Kathryn M Neckerman, Michael DM Bader, Julien O Teitler, Daniel M Sheehan, Darby W Jack, Andrew G Rundle. Am J Public Health. 106(3):e1-e8 · January 2016.
  
 * 2015
 	

@@ -49,3 +49,12 @@ html, body, #map {
 .layer_selector li.cartocss_selected {
     background-color: #A6CEE3;
 }
+#exports { 
+    position: absolute; 
+    top: 600px; 
+    right: 8px; 
+    height: 100px; 
+    text-align: right;
+}   
+
+
