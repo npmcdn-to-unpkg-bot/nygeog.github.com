@@ -16,8 +16,6 @@ permalink: /about/
 * [Misc](#misc)
 <!--* [Hire](hire)-->
 
----
-
 
 ![campus](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/columbia_medical_center.png)
 
