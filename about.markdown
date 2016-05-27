@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 ---
 
+---
 
 <a name="top"></a>*Menu*
 
@@ -14,6 +15,9 @@ permalink: /about/
 <!--* [Calendar](calendar)-->
 * [Misc](#misc)
 <!--* [Hire](hire)-->
+
+---
+
 
 ![campus](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/img/columbia_medical_center.png)
 
