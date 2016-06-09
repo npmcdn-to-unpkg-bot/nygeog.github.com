@@ -16,7 +16,7 @@ This past Saturday I participated in the [NYC Parks TreesCount! Data Jam](https:
 
 
 [![datajammap](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/datajammap.png)](http://nyctreescountdatajam.github.io/map/treesdn2015.html)
-_Map of Count of Street Tree Density per sq. mile from Census in 2015_
+_Map of Street Tree Density per sq. mile from Census in 2015_
 
 It was a long morning of talks and introductions and then around 11 am we got to working through some of the coding challenge options. I got started thinking I would try and find a team after getting the data organized and up into the [CartoDB](https://cartodb.com/) platform, but ended up working independently, though around some other folks working through the data. The challenge I decided to take on was looking at the Street Tree Census data over time. This challenge along with the others are described on the [Beta NYC NYC TreesCount! Data Jam Challenges blogpost](https://beta.nyc/2016/05/20/nyc-treescount-data-jam-challenges/). 
 
