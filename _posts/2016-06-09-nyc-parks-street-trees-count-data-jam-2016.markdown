@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NYC Parks TreesCount! Data Jam 2016"
+title:  "NYC Parks TreesCount! Data Jam 2016: Change over Time Category Winner"
 date:   2016-06-08 06:30:10
 tags: hackathon parks street trees hackforchange cartodb opendata
 ---
