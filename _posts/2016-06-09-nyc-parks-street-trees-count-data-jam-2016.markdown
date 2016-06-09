@@ -7,6 +7,9 @@ tags: hackathon parks street trees hackforchange cartodb opendata
 
 This past Saturday I participated in the [NYC Parks TreesCount! Data Jam](https://www.nycgovparks.org/events/2016/06/04/treescount-data-jam). Below is some info describing the event. 
 
+[![datajam](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/data_jam2.png)](https://www.nycgovparks.org/events/2016/06/04/treescount-data-jam)
+
+
 > NYC Parks will unveil NYC’s latest urban forest dataset. This is the most spatially accurate map of New York City’s street trees. Join NYC Parks, BetaNYC, TreesCount! partners, tree care volunteers, and other civic hackers to improve our understanding of, and plan for the future of our City’s urban forest!
 
 > To spark and sustain public engagement, NYC Parks launched the TreesCount! 2015 campaign. To date, more than 2,300 New Yorkers have voluntreered helping complete the first comprehensive map of our city’s street trees. Now, we are looking for data scientists, statisticians, developers, designers, visualizers, cartographers, and quants to help us transform the data gathered thus far into actionable insights. Bring your skills, questions, and creativity to this data jam!
