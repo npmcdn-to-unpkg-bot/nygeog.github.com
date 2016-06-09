@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "NYC Parks TreesCount! Data Jam 2016"
-date:   2016-06-09 06:30:10
+date:   2016-06-08 06:30:10
 tags: hackathon parks street trees hackforchange cartodb opendata
 ---
 
