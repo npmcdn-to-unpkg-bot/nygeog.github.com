@@ -5,7 +5,7 @@ date:   2016-06-09 06:30:10
 tags: hackathon parks street trees hackforchange cartodb opendata
 ---
 
-This past Saturday I participated in the [NYC Parks TreesCount! Data Jam](https://www.nycgovparks.org/events/2016/06/04/treescount-data-jam)
+This past Saturday I participated in the [NYC Parks TreesCount! Data Jam](https://www.nycgovparks.org/events/2016/06/04/treescount-data-jam). Below is some info describing the event. 
 
 > NYC Parks will unveil NYC’s latest urban forest dataset. This is the most spatially accurate map of New York City’s street trees. Join NYC Parks, BetaNYC, TreesCount! partners, tree care volunteers, and other civic hackers to improve our understanding of, and plan for the future of our City’s urban forest!
 
@@ -36,10 +36,14 @@ Apologies for the poor audio quality, had my laptop mic while in iMovie, thus fa
 
 ### Caveats, Limitations and Takeaways
 
-* The 1995 and 2005 Street Tree Census data was geocoded and the 2015 used more accurage mapping methods, so some Census Block counts of street trees may differ due to the geocoding method differences. 
+* The 1995 and 2005 Street Tree Census data was geocoded and the 2015 used more accurage mapping methods, so some Census Block counts of street trees may differ due to the geocoding method differences combined with boundary effects in geoprocessing. 
 
-* The 2015 Street Tree Census is about 80% complete as of the event. Brooklyn and Queens being the areas missing the most data. This is shown in my final map [Percent Change in Tree Count Den. 1995 -> 2015 per Sq. Mile in Censu Block (2010) w/ Counts of 1995 and 2015 Street Trees](http://nyctreescountdatajam.github.io/map/pctchange9515den_tree_million.html). 
+* The 2015 Street Tree Census is about 80% complete as of the day event. Brooklyn and Queens being the areas missing the most data. This is shown in my final map [Percent Change in Tree Count Den. 1995 -> 2015 per Sq. Mile in Censu Block (2010) w/ Counts of 1995 and 2015 Street Trees](http://nyctreescountdatajam.github.io/map/pctchange9515den_tree_million.html). 
 
 [![map](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/treesmaplast.png)](http://nyctreescountdatajam.github.io/map/pctchange9515den_tree_million.html)
 
 * [CartoDB](https://cartodb.com/) allowed for some pretty quick intersects with their [SQL API](https://docs.cartodb.com/cartodb-platform/sql-api/).
+
+* The hackathon portion was only about 4-5 hours. I would have liked to do some machine learning for predicting dead or trees in poor health with the data but time was limited. 
+
+* Trees in the NYC Street Tree Census __do not have unique identifiers__ to track trees over time. Some fairly complicated geoprocessing and matching would be necessary to do so. This would be very useful for the next Street Tree Census. 
