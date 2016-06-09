@@ -36,7 +36,7 @@ Apologies for the poor audio quality, had my laptop mic while in iMovie, thus fa
 
 ### Caveats, Limitations and Takeaways
 
-* The 1995 and 2005 Street Tree Census data was geocoded and the 2015 used more accurage mapping methods, so some Census Block counts of street trees may differ due to the geocoding method differences combined with boundary effects in geoprocessing. 
+* The 1995 and 2005 Street Tree Census data was geocoded and the 2015 used more accurate mapping methods, so some Census Block counts of street trees may differ due to the geocoding method differences combined with boundary effects in geoprocessing. 
 
 * The 2015 Street Tree Census is about 80% complete as of the day event. Brooklyn and Queens being the areas missing the most data. This is shown in my final map [Percent Change in Tree Count Den. 1995 -> 2015 per Sq. Mile in Censu Block (2010) w/ Counts of 1995 and 2015 Street Trees](http://nyctreescountdatajam.github.io/map/pctchange9515den_tree_million.html). 
 
