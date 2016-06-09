@@ -41,3 +41,5 @@ Apologies for the poor audio quality, had my laptop mic while in iMovie, thus fa
 * The 2015 Street Tree Census is about 80% complete as of the event. Brooklyn and Queens being the areas missing the most data. This is shown in my final map [Percent Change in Tree Count Den. 1995 -> 2015 per Sq. Mile in Censu Block (2010) w/ Counts of 1995 and 2015 Street Trees](http://nyctreescountdatajam.github.io/map/pctchange9515den_tree_million.html). 
 
 [![map](https://raw.githubusercontent.com/nygeog/nygeog.github.com/master/_posts/img/treesmaplast.png)](http://nyctreescountdatajam.github.io/map/pctchange9515den_tree_million.html)
+
+* [CartoDB](https://cartodb.com/) allowed for some pretty quick intersects with their [SQL API](https://docs.cartodb.com/cartodb-platform/sql-api/).
