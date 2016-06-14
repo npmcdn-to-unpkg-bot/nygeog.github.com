@@ -89,7 +89,7 @@
           lon = position.coords.longitude;
           lat = position.coords.latitude;
           
-          var jsonURL = "https://common-data.cartodb.com/api/v2/sql?q=select geoid from public.tl_2014_census_tracts where st_intersects(the_geom,st_GeomFromText('POINT("+lon+" "+lat+")', 4326)) & format=geojson";
+          var jsonURL = "http://common-data.cartodb.com/api/v2/sql?q=select geoid from public.tl_2014_census_tracts where st_intersects(the_geom,st_GeomFromText('POINT("+lon+" "+lat+")', 4326)) & format=geojson";
           
          // var jsonObj = [];
          $.getJSON(jsonURL, function(data) {
