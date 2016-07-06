@@ -1,0 +1,2035 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>dumplings</name>
+		<Style id='Style2-point-1'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-point-1-hover'>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				</Icon>
+			</IconStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-point-1-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-point-1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-point-1-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-line-2'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-line-2-hover'>
+			<LineStyle>
+				<color>800000ff</color>
+				<width>2</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-line-2-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-line-2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-line-2-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='Style2-polygon-3'>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<Style id='Style2-polygon-3-hover'>
+			<LineStyle>
+				<color>ff666666</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>7f0000ff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<text>$[description]</text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='Style2-polygon-3-map'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#Style2-polygon-3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#Style2-polygon-3-hover</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41518053<br>
+<b>DBA:</b> NEW PROSPERITY DUMPLING<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 46<br>
+<b>STREET:</b> ELDRIDGE STREET<br>
+<b>POINT_X:</b> -73.99301303970<br>
+<b>POINT_Y:</b> 40.71592473490
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41518053</value>
+				</Data>
+				<Data name='DBA'>
+					<value>NEW PROSPERITY DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>46</value>
+				</Data>
+				<Data name='STREET'>
+					<value>ELDRIDGE STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.99301303970</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.71592473490</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.993013,40.715925</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41643146<br>
+<b>DBA:</b> QING QING HANDMADE NOODLE &amp; DUMPLING<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 144<br>
+<b>STREET:</b> EAST BROADWAY<br>
+<b>POINT_X:</b> -73.99119055010<br>
+<b>POINT_Y:</b> 40.71402116870
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41643146</value>
+				</Data>
+				<Data name='DBA'>
+					<value>QING QING HANDMADE NOODLE &amp; DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>144</value>
+				</Data>
+				<Data name='STREET'>
+					<value>EAST BROADWAY</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.99119055010</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.71402116870</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.991191,40.714021</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41658930<br>
+<b>DBA:</b> PANDA DUMPLING HOUSE<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 67<br>
+<b>STREET:</b> ELDRIDGE STREET<br>
+<b>POINT_X:</b> -73.99285345680<br>
+<b>POINT_Y:</b> 40.71652385430
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41658930</value>
+				</Data>
+				<Data name='DBA'>
+					<value>PANDA DUMPLING HOUSE</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>67</value>
+				</Data>
+				<Data name='STREET'>
+					<value>ELDRIDGE STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.99285345680</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.71652385430</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.992853,40.716524</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41305395<br>
+<b>DBA:</b> DUMPLING HOUSE<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 118 A<br>
+<b>STREET:</b> ELDRIDGE STREET<br>
+<b>POINT_X:</b> -73.98315679740<br>
+<b>POINT_Y:</b> 40.72643414400
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41305395</value>
+				</Data>
+				<Data name='DBA'>
+					<value>DUMPLING HOUSE</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>118 A</value>
+				</Data>
+				<Data name='STREET'>
+					<value>ELDRIDGE STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.98315679740</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.72643414400</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.983157,40.726434</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41564515<br>
+<b>DBA:</b> C &amp; C PROSPERITY DUMPLINGS<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 69<br>
+<b>STREET:</b> CLINTON STREET<br>
+<b>POINT_X:</b> -73.98501007450<br>
+<b>POINT_Y:</b> 40.71933402250
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41564515</value>
+				</Data>
+				<Data name='DBA'>
+					<value>C &amp; C PROSPERITY DUMPLINGS</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>69</value>
+				</Data>
+				<Data name='STREET'>
+					<value>CLINTON STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.98501007450</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.71933402250</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.98501,40.719334</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41375835<br>
+<b>DBA:</b> HUA DU DUMPLING SHOP<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 69<br>
+<b>STREET:</b> ELDRDGE STREET SOUTH<br>
+<b>POINT_X:</b> -73.99281861260<br>
+<b>POINT_Y:</b> 40.71659354190
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41375835</value>
+				</Data>
+				<Data name='DBA'>
+					<value>HUA DU DUMPLING SHOP</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>69</value>
+				</Data>
+				<Data name='STREET'>
+					<value>ELDRDGE STREET SOUTH</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.99281861260</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.71659354190</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.992819,40.716594</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41717213<br>
+<b>DBA:</b> K TASTY DUMPLING<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 67<br>
+<b>STREET:</b> ELDRIDGE STREET<br>
+<b>POINT_X:</b> -73.99285345680<br>
+<b>POINT_Y:</b> 40.71652385430
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41717213</value>
+				</Data>
+				<Data name='DBA'>
+					<value>K TASTY DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>67</value>
+				</Data>
+				<Data name='STREET'>
+					<value>ELDRIDGE STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.99285345680</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.71652385430</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.992853,40.716524</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41192197<br>
+<b>DBA:</b> NORTH DUMPLING<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 27 1/2<br>
+<b>STREET:</b> ESSEX STREET<br>
+<b>POINT_X:</b> -73.98979350640<br>
+<b>POINT_Y:</b> 40.71559663170
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41192197</value>
+				</Data>
+				<Data name='DBA'>
+					<value>NORTH DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>27 1/2</value>
+				</Data>
+				<Data name='STREET'>
+					<value>ESSEX STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.98979350640</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.71559663170</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.989794,40.715597</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41512206<br>
+<b>DBA:</b> FRIED  DUMPLING<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 99<br>
+<b>STREET:</b> ALLEN STREET<br>
+<b>POINT_X:</b> -73.99084652700<br>
+<b>POINT_Y:</b> 40.71869227350
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41512206</value>
+				</Data>
+				<Data name='DBA'>
+					<value>FRIED  DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>99</value>
+				</Data>
+				<Data name='STREET'>
+					<value>ALLEN STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.99084652700</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.71869227350</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.990847,40.718692</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41645715<br>
+<b>DBA:</b> MAN DUMPLING HOUSE<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 77<br>
+<b>STREET:</b> CHRISTIE ST<br>
+<b>POINT_X:</b> -73.99436697720<br>
+<b>POINT_Y:</b> 40.71718394770
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41645715</value>
+				</Data>
+				<Data name='DBA'>
+					<value>MAN DUMPLING HOUSE</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>77</value>
+				</Data>
+				<Data name='STREET'>
+					<value>CHRISTIE ST</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.99436697720</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.71718394770</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.994367,40.717184</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41457638<br>
+<b>DBA:</b> FINEST DUMPLING RESTAURANT<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 25B<br>
+<b>STREET:</b> HENRY STREET<br>
+<b>POINT_X:</b> -73.99614636050<br>
+<b>POINT_Y:</b> 40.71293318150
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41457638</value>
+				</Data>
+				<Data name='DBA'>
+					<value>FINEST DUMPLING RESTAURANT</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>25B</value>
+				</Data>
+				<Data name='STREET'>
+					<value>HENRY STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.99614636050</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.71293318150</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.996146,40.712933</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41710530<br>
+<b>DBA:</b> HOMEMADE DUMPLING<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 27A<br>
+<b>STREET:</b> ESSEX STREET<br>
+<b>POINT_X:</b> -73.98979350640<br>
+<b>POINT_Y:</b> 40.71559663170
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41710530</value>
+				</Data>
+				<Data name='DBA'>
+					<value>HOMEMADE DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>27A</value>
+				</Data>
+				<Data name='STREET'>
+					<value>ESSEX STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.98979350640</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.71559663170</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.989794,40.715597</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41416561<br>
+<b>DBA:</b> VANESSA'S DUMPLING<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 220<br>
+<b>STREET:</b> EAST 14 STREET<br>
+<b>POINT_X:</b> -73.98671202160<br>
+<b>POINT_Y:</b> 40.73302903450
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41416561</value>
+				</Data>
+				<Data name='DBA'>
+					<value>VANESSA'S DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>220</value>
+				</Data>
+				<Data name='STREET'>
+					<value>EAST 14 STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.98671202160</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.73302903450</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.986712,40.733029</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41456841<br>
+<b>DBA:</b> PLUMP DUMPLING<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 174<br>
+<b>STREET:</b> 2 AVENUE<br>
+<b>POINT_X:</b> -73.98630470610<br>
+<b>POINT_Y:</b> 40.73037484730
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41456841</value>
+				</Data>
+				<Data name='DBA'>
+					<value>PLUMP DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>174</value>
+				</Data>
+				<Data name='STREET'>
+					<value>2 AVENUE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.98630470610</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.73037484730</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.986305,40.730375</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41029140<br>
+<b>DBA:</b> DUMPLING MAN<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 100<br>
+<b>STREET:</b> ST MARKS PLACE<br>
+<b>POINT_X:</b> -73.98499030200<br>
+<b>POINT_Y:</b> 40.72740063640
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41029140</value>
+				</Data>
+				<Data name='DBA'>
+					<value>DUMPLING MAN</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>100</value>
+				</Data>
+				<Data name='STREET'>
+					<value>ST MARKS PLACE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.98499030200</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.72740063640</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.98499,40.727401</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41660983<br>
+<b>DBA:</b> DI DI DUMPLING<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 38<br>
+<b>STREET:</b> LEXINGTON AVENUE<br>
+<b>POINT_X:</b> -73.98444234230<br>
+<b>POINT_Y:</b> 40.74001478740
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41660983</value>
+				</Data>
+				<Data name='DBA'>
+					<value>DI DI DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>38</value>
+				</Data>
+				<Data name='STREET'>
+					<value>LEXINGTON AVENUE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.98444234230</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.74001478740</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.984442,40.740015</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41077447<br>
+<b>DBA:</b> RICKSHAW DUMPLING BAR<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 61<br>
+<b>STREET:</b> WEST 23 STREET<br>
+<b>POINT_X:</b> -73.99147784210<br>
+<b>POINT_Y:</b> 40.74240957040
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41077447</value>
+				</Data>
+				<Data name='DBA'>
+					<value>RICKSHAW DUMPLING BAR</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>61</value>
+				</Data>
+				<Data name='STREET'>
+					<value>WEST 23 STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.99147784210</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.74240957040</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.991478,40.74241</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41660365<br>
+<b>DBA:</b> S H DUMPLING &amp; NOODLE BAR<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 227<br>
+<b>STREET:</b> SULLIVAN STREET<br>
+<b>POINT_X:</b> -73.99976088690<br>
+<b>POINT_Y:</b> 40.72947205750
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41660365</value>
+				</Data>
+				<Data name='DBA'>
+					<value>S H DUMPLING &amp; NOODLE BAR</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>227</value>
+				</Data>
+				<Data name='STREET'>
+					<value>SULLIVAN STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.99976088690</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.72947205750</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.999761,40.729472</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41182363<br>
+<b>DBA:</b> SHAN DONG DUMPLING<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 106<br>
+<b>STREET:</b> MOSCO STREET<br>
+<b>POINT_X:</b> -73.99942448740<br>
+<b>POINT_Y:</b> 40.71451821140
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41182363</value>
+				</Data>
+				<Data name='DBA'>
+					<value>SHAN DONG DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>106</value>
+				</Data>
+				<Data name='STREET'>
+					<value>MOSCO STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.99942448740</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.71451821140</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.999424,40.714518</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41290200<br>
+<b>DBA:</b> TASTY DUMPLING<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 54-56<br>
+<b>STREET:</b> MULBERRY STREET<br>
+<b>POINT_X:</b> -74.02204487220<br>
+<b>POINT_Y:</b> 40.64665161430
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41290200</value>
+				</Data>
+				<Data name='DBA'>
+					<value>TASTY DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>54-56</value>
+				</Data>
+				<Data name='STREET'>
+					<value>MULBERRY STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-74.02204487220</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.64665161430</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-74.022045,40.646652</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 40991905<br>
+<b>DBA:</b> EXCELLENT DUMPLING HOUSE<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 111<br>
+<b>STREET:</b> LAFAYETTE STREET<br>
+<b>POINT_X:</b> -74.00061203220<br>
+<b>POINT_Y:</b> 40.71822363590
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>40991905</value>
+				</Data>
+				<Data name='DBA'>
+					<value>EXCELLENT DUMPLING HOUSE</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>111</value>
+				</Data>
+				<Data name='STREET'>
+					<value>LAFAYETTE STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-74.00061203220</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.71822363590</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-74.000612,40.718224</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41552801<br>
+<b>DBA:</b> RICKSHAW DUMPLING BAR<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 459<br>
+<b>STREET:</b> LEXINGTON AVENUE<br>
+<b>POINT_X:</b> -73.97459073160<br>
+<b>POINT_Y:</b> 40.75335186460
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41552801</value>
+				</Data>
+				<Data name='DBA'>
+					<value>RICKSHAW DUMPLING BAR</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>459</value>
+				</Data>
+				<Data name='STREET'>
+					<value>LEXINGTON AVENUE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.97459073160</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.75335186460</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.974591,40.753352</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41653942<br>
+<b>DBA:</b> SUPER DUMPLING<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 251<br>
+<b>STREET:</b> EAST 45 STREET<br>
+<b>POINT_X:</b> -73.97185299110<br>
+<b>POINT_Y:</b> 40.75225304230
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41653942</value>
+				</Data>
+				<Data name='DBA'>
+					<value>SUPER DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>251</value>
+				</Data>
+				<Data name='STREET'>
+					<value>EAST 45 STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.97185299110</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.75225304230</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.971853,40.752253</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41705420<br>
+<b>DBA:</b> EAST DUMPLING HOUSE<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 248<br>
+<b>STREET:</b> W 106TH ST<br>
+<b>POINT_X:</b> -73.96737237080<br>
+<b>POINT_Y:</b> 40.80106500000
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41705420</value>
+				</Data>
+				<Data name='DBA'>
+					<value>EAST DUMPLING HOUSE</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>248</value>
+				</Data>
+				<Data name='STREET'>
+					<value>W 106TH ST</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.96737237080</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.80106500000</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.967372,40.801065</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41420504<br>
+<b>DBA:</b> EAST DUMPLING HOUSE<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 248<br>
+<b>STREET:</b> WEST 106 STREET<br>
+<b>POINT_X:</b> -73.96737237080<br>
+<b>POINT_Y:</b> 40.80106500000
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41420504</value>
+				</Data>
+				<Data name='DBA'>
+					<value>EAST DUMPLING HOUSE</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>248</value>
+				</Data>
+				<Data name='STREET'>
+					<value>WEST 106 STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.96737237080</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.80106500000</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.967372,40.801065</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41629936<br>
+<b>DBA:</b> GOLDEN FRIED DUMPLING<br>
+<b>BORO:</b> 3<br>
+<b>BUILDING:</b> 192<br>
+<b>STREET:</b> DUFFIELD STREET<br>
+<b>POINT_X:</b> -73.98436971580<br>
+<b>POINT_Y:</b> 40.69246207120
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41629936</value>
+				</Data>
+				<Data name='DBA'>
+					<value>GOLDEN FRIED DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>3</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>192</value>
+				</Data>
+				<Data name='STREET'>
+					<value>DUFFIELD STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.98436971580</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.69246207120</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.98437,40.692462</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41710768<br>
+<b>DBA:</b> NEW GOLDEN FRIED DUMPLING<br>
+<b>BORO:</b> 3<br>
+<b>BUILDING:</b> 192<br>
+<b>STREET:</b> DUFFIELD STREET<br>
+<b>POINT_X:</b> -73.98436971580<br>
+<b>POINT_Y:</b> 40.69246207120
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41710768</value>
+				</Data>
+				<Data name='DBA'>
+					<value>NEW GOLDEN FRIED DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>3</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>192</value>
+				</Data>
+				<Data name='STREET'>
+					<value>DUFFIELD STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.98436971580</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.69246207120</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.98437,40.692462</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41498159<br>
+<b>DBA:</b> HAND PULL NOODLE &amp; DUMPLING HOUSE<br>
+<b>BORO:</b> 3<br>
+<b>BUILDING:</b> 7201<br>
+<b>STREET:</b> 18 AVENUE<br>
+<b>POINT_X:</b> -73.99417686950<br>
+<b>POINT_Y:</b> 40.61505526070
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41498159</value>
+				</Data>
+				<Data name='DBA'>
+					<value>HAND PULL NOODLE &amp; DUMPLING HOUSE</value>
+				</Data>
+				<Data name='BORO'>
+					<value>3</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>7201</value>
+				</Data>
+				<Data name='STREET'>
+					<value>18 AVENUE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.99417686950</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.61505526070</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.994177,40.615055</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41646865<br>
+<b>DBA:</b> DUMPLING KING PIZZA<br>
+<b>BORO:</b> 3<br>
+<b>BUILDING:</b> 24<br>
+<b>STREET:</b> AVENUE O<br>
+<b>POINT_X:</b> -73.98429409450<br>
+<b>POINT_Y:</b> 40.61012721060
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41646865</value>
+				</Data>
+				<Data name='DBA'>
+					<value>DUMPLING KING PIZZA</value>
+				</Data>
+				<Data name='BORO'>
+					<value>3</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>24</value>
+				</Data>
+				<Data name='STREET'>
+					<value>AVENUE O</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.98429409450</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.61012721060</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.984294,40.610127</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41699935<br>
+<b>DBA:</b> KATHY'S DUMPLING<br>
+<b>BORO:</b> 3<br>
+<b>BUILDING:</b> 7924<br>
+<b>STREET:</b> 3 AVENUE<br>
+<b>POINT_X:</b> -74.02911944030<br>
+<b>POINT_Y:</b> 40.62838389780
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41699935</value>
+				</Data>
+				<Data name='DBA'>
+					<value>KATHY'S DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>3</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>7924</value>
+				</Data>
+				<Data name='STREET'>
+					<value>3 AVENUE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-74.02911944030</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.62838389780</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-74.029119,40.628384</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41630803<br>
+<b>DBA:</b> VANESSA'S DUMPLING HOUSE INC<br>
+<b>BORO:</b> 3<br>
+<b>BUILDING:</b> 310<br>
+<b>STREET:</b> BEDFORD AVENUE<br>
+<b>POINT_X:</b> -73.96181732150<br>
+<b>POINT_Y:</b> 40.71382747550
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41630803</value>
+				</Data>
+				<Data name='DBA'>
+					<value>VANESSA'S DUMPLING HOUSE INC</value>
+				</Data>
+				<Data name='BORO'>
+					<value>3</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>310</value>
+				</Data>
+				<Data name='STREET'>
+					<value>BEDFORD AVENUE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.96181732150</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.71382747550</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.961817,40.713827</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41176679<br>
+<b>DBA:</b> DUMPLING CAFE<br>
+<b>BORO:</b> 3<br>
+<b>BUILDING:</b> 861<br>
+<b>STREET:</b> GRAND STREET<br>
+<b>POINT_X:</b> -73.93938745810<br>
+<b>POINT_Y:</b> 40.71232268930
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41176679</value>
+				</Data>
+				<Data name='DBA'>
+					<value>DUMPLING CAFE</value>
+				</Data>
+				<Data name='BORO'>
+					<value>3</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>861</value>
+				</Data>
+				<Data name='STREET'>
+					<value>GRAND STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.93938745810</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.71232268930</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.939387,40.712323</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41578597<br>
+<b>DBA:</b> DUMPLINGS &amp; THINGS<br>
+<b>BORO:</b> 3<br>
+<b>BUILDING:</b> 375B<br>
+<b>STREET:</b> 5 AVENUE<br>
+<b>POINT_X:</b> -73.98465218480<br>
+<b>POINT_Y:</b> 40.67103572610
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41578597</value>
+				</Data>
+				<Data name='DBA'>
+					<value>DUMPLINGS &amp; THINGS</value>
+				</Data>
+				<Data name='BORO'>
+					<value>3</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>375B</value>
+				</Data>
+				<Data name='STREET'>
+					<value>5 AVENUE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.98465218480</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.67103572610</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.984652,40.671036</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41643108<br>
+<b>DBA:</b> KAI FENG FU DUMPLING HOUSE<br>
+<b>BORO:</b> 3<br>
+<b>BUILDING:</b> 4801<br>
+<b>STREET:</b> 8 AVENUE<br>
+<b>POINT_X:</b> -74.00251142650<br>
+<b>POINT_Y:</b> 40.64218952270
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41643108</value>
+				</Data>
+				<Data name='DBA'>
+					<value>KAI FENG FU DUMPLING HOUSE</value>
+				</Data>
+				<Data name='BORO'>
+					<value>3</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>4801</value>
+				</Data>
+				<Data name='STREET'>
+					<value>8 AVENUE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-74.00251142650</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.64218952270</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-74.002511,40.64219</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41634857<br>
+<b>DBA:</b> SHANG HAI FAMILY DUMPLING<br>
+<b>BORO:</b> 3<br>
+<b>BUILDING:</b> 6301<br>
+<b>STREET:</b> 8 AVENUE<br>
+<b>POINT_X:</b> -74.01127495110<br>
+<b>POINT_Y:</b> 40.63374762180
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41634857</value>
+				</Data>
+				<Data name='DBA'>
+					<value>SHANG HAI FAMILY DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>3</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>6301</value>
+				</Data>
+				<Data name='STREET'>
+					<value>8 AVENUE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-74.01127495110</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.63374762180</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-74.011275,40.633748</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41673863<br>
+<b>DBA:</b> TASTY DUMPLING<br>
+<b>BORO:</b> 3<br>
+<b>BUILDING:</b> 5216<br>
+<b>STREET:</b> 8 AVENUE<br>
+<b>POINT_X:</b> -74.00502734010<br>
+<b>POINT_Y:</b> 40.63992865950
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41673863</value>
+				</Data>
+				<Data name='DBA'>
+					<value>TASTY DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>3</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>5216</value>
+				</Data>
+				<Data name='STREET'>
+					<value>8 AVENUE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-74.00502734010</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.63992865950</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-74.005027,40.639929</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41599960<br>
+<b>DBA:</b> SHANG HAI TRADITIONAL DUMPLING<br>
+<b>BORO:</b> 3<br>
+<b>BUILDING:</b> 6319<br>
+<b>STREET:</b> 8 AVENUE<br>
+<b>POINT_X:</b> -74.01137657900<br>
+<b>POINT_Y:</b> 40.63364984390
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41599960</value>
+				</Data>
+				<Data name='DBA'>
+					<value>SHANG HAI TRADITIONAL DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>3</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>6319</value>
+				</Data>
+				<Data name='STREET'>
+					<value>8 AVENUE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-74.01137657900</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.63364984390</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-74.011377,40.63365</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41532181<br>
+<b>DBA:</b> GREAT TASTE DUMPLING<br>
+<b>BORO:</b> 3<br>
+<b>BUILDING:</b> 4317A<br>
+<b>STREET:</b> 8 AVENUE<br>
+<b>POINT_X:</b> -73.99967085660<br>
+<b>POINT_Y:</b> 40.64489311770
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41532181</value>
+				</Data>
+				<Data name='DBA'>
+					<value>GREAT TASTE DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>3</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>4317A</value>
+				</Data>
+				<Data name='STREET'>
+					<value>8 AVENUE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.99967085660</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.64489311770</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.999671,40.644893</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41613672<br>
+<b>DBA:</b> 8 DUMPLING HOUSE<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 8<br>
+<b>STREET:</b> LIBERTY PLACE<br>
+<b>POINT_X:</b> -74.00939968720<br>
+<b>POINT_Y:</b> 40.70902896150
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41613672</value>
+				</Data>
+				<Data name='DBA'>
+					<value>8 DUMPLING HOUSE</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>8</value>
+				</Data>
+				<Data name='STREET'>
+					<value>LIBERTY PLACE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-74.00939968720</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.70902896150</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-74.0094,40.709029</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41371333<br>
+<b>DBA:</b> NEW DUMPLING HOUSE<br>
+<b>BORO:</b> 4<br>
+<b>BUILDING:</b> 95-12<br>
+<b>STREET:</b> JAMAICA AVE<br>
+<b>POINT_X:</b> -73.85026209760<br>
+<b>POINT_Y:</b> 40.69426665200
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41371333</value>
+				</Data>
+				<Data name='DBA'>
+					<value>NEW DUMPLING HOUSE</value>
+				</Data>
+				<Data name='BORO'>
+					<value>4</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>95-12</value>
+				</Data>
+				<Data name='STREET'>
+					<value>JAMAICA AVE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.85026209760</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.69426665200</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.850262,40.694267</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41378965<br>
+<b>DBA:</b> C &amp; L DUMPLING HOUSE<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 77<br>
+<b>STREET:</b> CHRYSTIE STREET<br>
+<b>POINT_X:</b> -73.99428950810<br>
+<b>POINT_Y:</b> 40.71725525490
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41378965</value>
+				</Data>
+				<Data name='DBA'>
+					<value>C &amp; L DUMPLING HOUSE</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>77</value>
+				</Data>
+				<Data name='STREET'>
+					<value>CHRYSTIE STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.99428950810</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.71725525490</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.99429,40.717255</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41384383<br>
+<b>DBA:</b> KAI FENG FU DUMPLING<br>
+<b>BORO:</b> 3<br>
+<b>BUILDING:</b> 4801<br>
+<b>STREET:</b> 8 AVENUE<br>
+<b>POINT_X:</b> -74.00262322020<br>
+<b>POINT_Y:</b> 40.64214739510
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41384383</value>
+				</Data>
+				<Data name='DBA'>
+					<value>KAI FENG FU DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>3</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>4801</value>
+				</Data>
+				<Data name='STREET'>
+					<value>8 AVENUE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-74.00262322020</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.64214739510</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-74.002623,40.642147</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41387549<br>
+<b>DBA:</b> LAN ZHOU HANDMADE NOODLE &amp; DUMPLING<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 144<br>
+<b>STREET:</b> EAST BROADWAY<br>
+<b>POINT_X:</b> -73.99122005550<br>
+<b>POINT_Y:</b> 40.71397232730
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41387549</value>
+				</Data>
+				<Data name='DBA'>
+					<value>LAN ZHOU HANDMADE NOODLE &amp; DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>144</value>
+				</Data>
+				<Data name='STREET'>
+					<value>EAST BROADWAY</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.99122005550</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.71397232730</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.99122,40.713972</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41415452<br>
+<b>DBA:</b> MERIT KEBAB &amp; DUMPLING PALACE<br>
+<b>BORO:</b> 4<br>
+<b>BUILDING:</b> 37-67<br>
+<b>STREET:</b> 74 STREET<br>
+<b>POINT_X:</b> -73.89148437840<br>
+<b>POINT_Y:</b> 40.74717974140
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41415452</value>
+				</Data>
+				<Data name='DBA'>
+					<value>MERIT KEBAB &amp; DUMPLING PALACE</value>
+				</Data>
+				<Data name='BORO'>
+					<value>4</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>37-67</value>
+				</Data>
+				<Data name='STREET'>
+					<value>74 STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.89148437840</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.74717974140</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.891484,40.74718</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41419677<br>
+<b>DBA:</b> MY SWEET HOME DUMPLINGS<br>
+<b>BORO:</b> 4<br>
+<b>BUILDING:</b> 136-76<br>
+<b>STREET:</b> ROOSEVELT AVENUE<br>
+<b>POINT_X:</b> -73.82760008740<br>
+<b>POINT_Y:</b> 40.76019155650
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41419677</value>
+				</Data>
+				<Data name='DBA'>
+					<value>MY SWEET HOME DUMPLINGS</value>
+				</Data>
+				<Data name='BORO'>
+					<value>4</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>136-76</value>
+				</Data>
+				<Data name='STREET'>
+					<value>ROOSEVELT AVENUE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.82760008740</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.76019155650</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.8276,40.760192</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41430546<br>
+<b>DBA:</b> DUMPLING CAFE RESTAURANT<br>
+<b>BORO:</b> 4<br>
+<b>BUILDING:</b> 71-60<br>
+<b>STREET:</b> YELLOWSTONE BLVD<br>
+<b>POINT_X:</b> -73.85508975350<br>
+<b>POINT_Y:</b> 40.72126212880
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41430546</value>
+				</Data>
+				<Data name='DBA'>
+					<value>DUMPLING CAFE RESTAURANT</value>
+				</Data>
+				<Data name='BORO'>
+					<value>4</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>71-60</value>
+				</Data>
+				<Data name='STREET'>
+					<value>YELLOWSTONE BLVD</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.85508975350</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.72126212880</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.85509,40.721262</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41476690<br>
+<b>DBA:</b> BEST NORTHERN DUMPLING SHOP<br>
+<b>BORO:</b> 4<br>
+<b>BUILDING:</b> 41-42A<br>
+<b>STREET:</b> MAIN STREET<br>
+<b>POINT_X:</b> -73.82897251210<br>
+<b>POINT_Y:</b> 40.75709477990
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41476690</value>
+				</Data>
+				<Data name='DBA'>
+					<value>BEST NORTHERN DUMPLING SHOP</value>
+				</Data>
+				<Data name='BORO'>
+					<value>4</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>41-42A</value>
+				</Data>
+				<Data name='STREET'>
+					<value>MAIN STREET</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.82897251210</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.75709477990</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.828973,40.757095</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41489786<br>
+<b>DBA:</b> LAO BEI FANG DUMPLING &amp; HAND-DRAWN NOODLE HOUSE,<br>
+<b>BORO:</b> 4<br>
+<b>BUILDING:</b> 83-05<br>
+<b>STREET:</b> BROADWAY<br>
+<b>POINT_X:</b> -73.87988171750<br>
+<b>POINT_Y:</b> 40.74100625670
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41489786</value>
+				</Data>
+				<Data name='DBA'>
+					<value>LAO BEI FANG DUMPLING &amp; HAND-DRAWN NOODLE HOUSE,</value>
+				</Data>
+				<Data name='BORO'>
+					<value>4</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>83-05</value>
+				</Data>
+				<Data name='STREET'>
+					<value>BROADWAY</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.87988171750</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.74100625670</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.879882,40.741006</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41507428<br>
+<b>DBA:</b> NORTH DUMPLING HOUSE<br>
+<b>BORO:</b> 4<br>
+<b>BUILDING:</b> 144-18<br>
+<b>STREET:</b> NORTHERN BOULEVARD<br>
+<b>POINT_X:</b> -73.82302904220<br>
+<b>POINT_Y:</b> 40.76469699140
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41507428</value>
+				</Data>
+				<Data name='DBA'>
+					<value>NORTH DUMPLING HOUSE</value>
+				</Data>
+				<Data name='BORO'>
+					<value>4</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>144-18</value>
+				</Data>
+				<Data name='STREET'>
+					<value>NORTHERN BOULEVARD</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.82302904220</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.76469699140</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.823029,40.764697</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41564592<br>
+<b>DBA:</b> LAO KOU WEI DUMPLING HOUSE<br>
+<b>BORO:</b> 4<br>
+<b>BUILDING:</b> 86-08<br>
+<b>STREET:</b> WHITNEY AVENUE<br>
+<b>POINT_X:</b> -73.87890246600<br>
+<b>POINT_Y:</b> 40.74172161140
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41564592</value>
+				</Data>
+				<Data name='DBA'>
+					<value>LAO KOU WEI DUMPLING HOUSE</value>
+				</Data>
+				<Data name='BORO'>
+					<value>4</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>86-08</value>
+				</Data>
+				<Data name='STREET'>
+					<value>WHITNEY AVENUE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.87890246600</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.74172161140</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.878902,40.741722</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41569216<br>
+<b>DBA:</b> COCO FRESH TEA &amp; JUICE/ DI DI DUMPLING<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> 38<br>
+<b>STREET:</b> LEXINGTON AVENUE<br>
+<b>POINT_X:</b> -73.98433858460<br>
+<b>POINT_Y:</b> 40.74007423140
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41569216</value>
+				</Data>
+				<Data name='DBA'>
+					<value>COCO FRESH TEA &amp; JUICE/ DI DI DUMPLING</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>38</value>
+				</Data>
+				<Data name='STREET'>
+					<value>LEXINGTON AVENUE</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.98433858460</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.74007423140</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.984339,40.740074</coordinates></Point></Placemark>
+		<Placemark>
+			<snippet></snippet>
+			<description><![CDATA[<div class="googft-info-window">
+<b>description:</b> <br>
+<b>name:</b> <br>
+<b>CAMIS:</b> 41616867<br>
+<b>DBA:</b> RICKSHAW DUMPLING BAR<br>
+<b>BORO:</b> 1<br>
+<b>BUILDING:</b> NKA<br>
+<b>STREET:</b> BROADWAY PLAZA<br>
+<b>POINT_X:</b> -73.98503545770<br>
+<b>POINT_Y:</b> 40.75915699310
+</div>]]></description>
+			<styleUrl>#Style2-point-1-map</styleUrl>
+			<ExtendedData>
+				<Data name='CAMIS'>
+					<value>41616867</value>
+				</Data>
+				<Data name='DBA'>
+					<value>RICKSHAW DUMPLING BAR</value>
+				</Data>
+				<Data name='BORO'>
+					<value>1</value>
+				</Data>
+				<Data name='BUILDING'>
+					<value>NKA</value>
+				</Data>
+				<Data name='STREET'>
+					<value>BROADWAY PLAZA</value>
+				</Data>
+				<Data name='POINT_X'>
+					<value>-73.98503545770</value>
+				</Data>
+				<Data name='POINT_Y'>
+					<value>40.75915699310</value>
+				</Data>
+			</ExtendedData><Point><coordinates>-73.985035,40.759157</coordinates></Point></Placemark>
+	</Document>
+</kml>
