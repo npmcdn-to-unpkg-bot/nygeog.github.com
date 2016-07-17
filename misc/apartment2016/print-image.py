@@ -7,3 +7,6 @@ for i in imgList:
 	print ''
 	print ''
 	print ''
+
+for i in imgList:
+	print '<section><img src="img/'+i+'" width="85%"></section>'
