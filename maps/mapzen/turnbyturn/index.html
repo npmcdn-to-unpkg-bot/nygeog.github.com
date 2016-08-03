@@ -34,13 +34,16 @@
 	var origLat = getParameterByName('origLat'); // "" (present with no value)
 	var origLng = getParameterByName('origLng'); // null (absent)
 	var typeRou = getParameterByName('typeRou'); //'auto','auto_shorter','bicycle','bus','multimodal','pedestrian'
-	//var typeRou = 'auto'
-	//var destLat = '40.704512'
+
 	// http://localhost:8000/?typeRou=auto&destLat=40.704512&destLng=-73.936669&origLat=40.7127&origLng=-74.0059 
-    
+    // http://localhost:8000/?typeRou=bicycle&destLat=40.704512&destLng=-73.936669&origLat=40.7127&origLng=-74.0059 
+    // http://nygeog.github.io/maps/mapzen/turnbyturn/?typeRou=bicycle&destLat=40.704512&destLng=-73.936669&origLat=40.7127&origLng=-74.0059 
+
     var map = L.map('map');
     var layer = Tangram.leafletLayer({
-      scene: 'https://raw.githubusercontent.com/tangrams/cinnabar-style/gh-pages/cinnabar-style.yaml',
+      // scene: 'https://raw.githubusercontent.com/tangrams/cinnabar-style/gh-pages/cinnabar-style.yaml',
+      scene: 'https://raw.githubusercontent.com/tangrams/zinc-style/gh-pages/zinc-style.yaml',
+      //scene: 'https://raw.githubusercontent.com/tangrams/transit-style/gh-pages/transit-style.yaml',
       attribution: '<a href="https://mapzen.com/tangram" target="_blank">Tangram</a> | <a href="http://www.openstreetmap.org/about" target="_blank">&copy; OSM contributors | <a href="https://mapzen.com/" target="_blank">Mapzen</a>',
     });
     layer.addTo(map);
