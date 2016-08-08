@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Torque runtime example | CartoDB.js</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
+    <style>
+      html, body, #map {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.ie.css" />
+    <![endif]-->
+    <script type="sql/html" id="cartocss_template">
+      /** torque visualization */
+
+        Map {
+        -torque-frame-count:256;
+        -torque-animation-duration:30;
+        -torque-time-attribute:"new_time";
+        -torque-aggregation-function:"count(cartodb_id)";
+        -torque-resolution:2;
+        -torque-data-aggregation:linear;
+        }
+
+        #waze_olympics_timeshift_final{
+          comp-op: lighter;
+          marker-fill-opacity: 0.9;
+          marker-line-color: #FFF;
+          marker-line-width: 0;
+          marker-line-opacity: 1;
+          marker-type: ellipse;
+          marker-width: 6;
+          marker-fill: #0F3B82;
+        }
+        #waze_olympics_timeshift_final[frame-offset=1] {
+         marker-width:8;
+         marker-fill-opacity:0.45; 
+        }
+        #waze_olympics_timeshift_final[frame-offset=2] {
+         marker-width:10;
+         marker-fill-opacity:0.225; 
+        }
+            </script>
+  </head>
+  <body>
+    <div id="map"></div>
+    
+    <!-- include cartodb.js library -->
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+
+    <script>
+      var dataLayer;
+      var d = new Date()
+      var n = d.getTimezoneOffset();
+      console.log(n)
+      var minDif = (-n); //* 100000000;
+      console.log(d)
+      console.log(n)
+      console.log(minDif)
+
+      console.log('test')
+      function pad(n, width, z) { 
+            z = z || '0'; n = n + ''; return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n; 
+          } 
+          var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']; 
+
+
+      function main() {
+        var map = new L.Map('map', {
+          zoomControl: false,
+          center: [-22.91199364199352, -43.230085372924805],
+          zoom: 12
+        });
+
+        L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+        }).addTo(map);
+
+        cartodb.createLayer(map, {
+          type: "torque",
+          order: 1,
+          options: {
+            query: "SELECT the_geom, the_geom_webmercator, cartodb_id, (gmt_time - interval '"+minDif+" minutes') as new_time FROM waze_olympics_timeshift_final",
+            table_name: "waze_olympics_timeshift_final",
+            user_name: "nygeog",
+            tile_style: $('#cartocss_template').html()
+            }
+
+
+        }).done(function(viz, layer) {
+          //map.addLayer(layer);
+          console.log(map.viz)
+          //console.log(map.viz.timeSlider)
+
+          //var slider = map.viz.timeSlider;
+          var slider = map.viz.overlays[0];
+          console.log(slider)
+           slider.formatter(function(d) { 
+              $('.time .value').css('width','160px'); 
+              return pad(d.getMonth()+1,2) +'/'+ pad(d.getDate(),2) +'/'+ d.getFullYear() + ' ' + pad(d.getHours(),2) +':'+pad(d.getMinutes(),2); 
+          }) 
+        }).addTo(map)
+      }
+
+      // you could use $(window).load(main);
+      window.onload = main;
+    </script>
+  </body>
+</html>

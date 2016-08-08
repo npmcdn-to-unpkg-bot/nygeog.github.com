@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Waze</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
+    <style>
+      html, body, #map {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+
+    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <!-- include cartodb.js library -->
+    <!-- <script src="http://libs.cartocdn.com/cartodb.js/v3/3.11/cartodb.js"></script>  -->
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+
+    <script>
+
+    var dataLayer;
+      var d = new Date()
+      var n = d.getTimezoneOffset();
+      var minDif = (n);
+      //window.alert(d);
+      //window.alert(minDif);
+      //console.log("SELECT *, (datetime - interval '"+minDif+" minutes') as the_new_time FROM waze_olympics_timeshift_final");
+      console.log(n)
+      console.log(minDif)
+
+      var map = L.map('map', {
+              zoomControl: true,
+              center: [39.583,2.670],
+              zoom: 12
+          });
+
+      cartodb.createLayer(map, {
+          user_name: 'your user name',
+          type: 'cartodb',
+          sublayers: [{
+            sql: "SELECT * FROM table_name",
+            cartocss: '#table_name {marker-fill: #F0F0F0;}'
+          }]
+        })
+        .addTo(map)
+
+    </script>
+  </body>
+</html>
