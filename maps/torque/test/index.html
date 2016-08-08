@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Example | CartoDB.js</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
+    <style>
+      html, body, #map {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+
+    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+  </head>
+  <body>
+    <div id="map"></div>
+
+
+    <!-- include cartodb.js library -->
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+
+    <script>
+        var dataLayer;
+
+      function main() {
+
+        // Change your viz.json below
+        cartodb.createVis('map', 'http://documentation.cartodb.com/api/v2/viz/2b13c956-e7c1-11e2-806b-5404a6a683d5/viz.json')
+        .done(function(vis, layers) {
+  
+          //getting the data layer
+         dataLayer = layers[1].getSubLayer(0);
+
+         //Apply a query into that layer
+         dataLayer.setSQL("select * from european_countries_e limit 5")
+
+         //Apply a CartoCSS for that layer
+         dataLayer.setCartoCSS("#european_countries_e{ polygon-fill: #000; polygon-opacity: 0.8; line-color: #FFF; line-width: 1; line-opacity: 0.5; } ");
+      
+        })
+        .error(function(err) {
+          console.log(err);
+        });
+      }
+      window.onload = main;
+    </script>
+  </body>
+</html>

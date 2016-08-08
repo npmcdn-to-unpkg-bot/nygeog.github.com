@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Waze</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
+    <style>
+      html, body, #map {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+
+    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <!-- include cartodb.js library -->
+    <!-- <script src="http://libs.cartocdn.com/cartodb.js/v3/3.11/cartodb.js"></script>  -->
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+
+
+    <script>
+      var dataLayer;
+      var d = new Date()
+      var n = d.getTimezoneOffset();
+      var minDif = (n+120); //* 100000000;
+      //window.alert(d);
+      //window.alert(minDif);
+      console.log("SELECT *, (datetime - interval '"+minDif+" minutes') as the_new_time FROM waze_olympics_timeshift_final");
+      function main() {
+        cartodb.createVis('map', 'https://nygeog.carto.com/api/v2/viz/4c8a8dea-5da7-11e6-b66a-0ee66e2c9693/viz.json', {
+            // title: true,
+            // description: true,
+            // search: true,
+            // tiles_loader: true,
+            // center_lat: -22.9785,
+            // center_lon: -43.3373, 
+            // zoom: 17,
+            // scrollwheel: false,
+            //search: false,
+            // shareable: false,
+            //layer_selector: false
+        })
+        .done(function(vis, layers) {
+          // layer 0 is the base layer, layer 1 is cartodb layer
+          // setInteraction is disabled by default
+          //layers[1].setInteraction(true);
+          //minDif = 100000000000000;
+          dataLayer = layers[1]//.getSubLayer(0);
+          dataLayer.stop()
+          dataLayer.setSQL("SELECT *, (datetime - interval '"+minDif+" minutes') as the_new_time FROM waze_olympics_timeshift_final")
+          dataLayer.setCartoCSS("Map{-torque-frame-count:256;-torque-animation-duration:30;-torque-time-attribute:'the_new_time';-torque-aggregation-function:'CDB_Math_Mode(torque_category)';-torque-resolution:1;-torque-data-aggregation:linear}#waze_olympics_timeshift_final{comp-op:source-over;marker-fill-opacity:.9;marker-line-color:#FFF;marker-line-width:0;marker-line-opacity:1;marker-type:ellipse;marker-width:6;marker-fill:#0F3B82}#waze_olympics_timeshift_final[frame-offset=1]{marker-width:8;marker-fill-opacity:.45}#waze_olympics_timeshift_final[frame-offset=2]{marker-width:10;marker-fill-opacity:.225}#waze_olympics_timeshift_final[value=1]{marker-fill:#A6CEE3}#waze_olympics_timeshift_final[value=2]{marker-fill:#1F78B4}#waze_olympics_timeshift_final[value=3]{marker-fill:#B2DF8A}#waze_olympics_timeshift_final[value=4]{marker-fill:#33A02C}#waze_olympics_timeshift_final[value=5]{marker-fill:#FB9A99}#waze_olympics_timeshift_final[value=6]{marker-fill:#E31A1C}#waze_olympics_timeshift_final[value=7]{marker-fill:#FDBF6F}");
+          dataLayer.on('change:time', function(e){console.log(e)} );
+          dataLayer.play()
+          // layers[1].on('featureOver', function(e, pos, latlng, data) {
+          //   cartodb.log.log(e, pos, latlng, data);
+          // });
+          // you can get the native map to work with it
+          // var map = vis.getNativeMap();
+          // now, perform any operations you need
+          // map.setZoom(3);
+          // map.panTo([50.5, 30.5]);
+
+        })
+        .error(function(err) {
+          console.log(err);
+        });
+      }
+      window.onload = main;
+
+
+
+    </script>
+  </body>
+</html>
