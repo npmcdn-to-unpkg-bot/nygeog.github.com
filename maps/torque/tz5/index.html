@@ -156,7 +156,7 @@
               $('.time .value').css('width','160px'); 
               return pad(d.getMonth()+1,2) +'/'+ pad(d.getDate(),2) +'/'+ d.getFullYear() + ' ' + pad(d.getHours(),2) +':'+pad((Math.round(d.getMinutes()/15) * 15) % 60,2); //pad(d.getMinutes(),2)
           }) 
-        }).addTo(map)
+        },{https:true}).addTo(map)
       }
 
       // you could use $(window).load(main);
