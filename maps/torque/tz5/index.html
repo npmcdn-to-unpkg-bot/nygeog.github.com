@@ -133,6 +133,7 @@
         cartodb.createLayer(map, {
           type: "torque",
           order: 1,
+          https:true,
           options: {
             query: "SELECT the_geom, the_geom_webmercator, cartodb_id, (gmt_time - interval '"+minDif+" minutes') as new_time, (case when type = 'JAM' then 1 when type = 'HAZARD' then 2 when type = 'ACCIDENT' then 3 end) as torque_category FROM waze_olympics_timeshift_final",
             table_name: "waze_olympics_timeshift_final",
