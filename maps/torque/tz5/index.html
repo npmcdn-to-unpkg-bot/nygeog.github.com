@@ -24,7 +24,7 @@
         -torque-frame-count:256;
         -torque-animation-duration:30;
         -torque-time-attribute:"new_time";
-        -torque-aggregation-function:"count(cartodb_id)";
+        -torque-aggregation-function:"CDB_Math_Mode(torque_category)";
         -torque-resolution:2;
         -torque-data-aggregation:linear;
         }
@@ -37,20 +37,20 @@
           marker-line-opacity: 1;
           marker-type: ellipse;
           marker-width: 20;
-          marker-fill: #0F3B82;
-          marker-file: url('https://s3.amazonaws.com/com.cartodb.users-assets.production/production/nygeog/assets/20160809000115Accident.png');
+          //marker-fill: #0F3B82;
+          //marker-file: url('https://s3.amazonaws.com/com.cartodb.users-assets.production/production/nygeog/assets/20160803181435jam.png');
         }
 
         #waze_olympics_timeshift_final[value=1] {
-           marker-file: url('https://s3.amazonaws.com/com.cartodb.users-assets.production/production/nygeog/assets/20160809000115Accident.png');
-        }
-
-        #waze_olympics_timeshift_final[value=2] {
            marker-file: url('https://s3.amazonaws.com/com.cartodb.users-assets.production/production/nygeog/assets/20160803181435jam.png');
         }
 
-        #waze_olympics_timeshift_final[value=3] {
+        #waze_olympics_timeshift_final[value=2] {
            marker-file: url('https://s3.amazonaws.com/com.cartodb.users-assets.production/production/nygeog/assets/20160808235911Hazards.png');
+        }
+
+        #waze_olympics_timeshift_final[value=3] {
+           marker-file: url('https://s3.amazonaws.com/com.cartodb.users-assets.production/production/nygeog/assets/20160809000115Accident.png');
         }
 
         #waze_olympics_timeshift_final[frame-offset=1] {
@@ -109,7 +109,7 @@
           type: "torque",
           order: 1,
           options: {
-            query: "SELECT the_geom, the_geom_webmercator, cartodb_id, (gmt_time - interval '"+minDif+" minutes') as new_time, (case when type = 'ACCIDENT' then 1 when type = 'JAM' then 2 when type = 'HAZARD' then 3 end) as torque_category FROM waze_olympics_timeshift_final",
+            query: "SELECT the_geom, the_geom_webmercator, cartodb_id, (gmt_time - interval '"+minDif+" minutes') as new_time, (case when type = 'JAM' then 1 when type = 'HAZARD' then 2 when type = 'ACCIDENT' then 3 end) as torque_category FROM waze_olympics_timeshift_final",
             table_name: "waze_olympics_timeshift_final",
             user_name: "nygeog",
             tile_style: $('#cartocss_template').html()
