@@ -11,6 +11,20 @@
         padding: 0;
         margin: 0;
       }
+      #waze_logo { 
+          position: absolute; 
+          top: 8px; 
+          right: 8px; 
+          height: 100px; 
+          text-align: right;
+        }  
+      #legend { 
+          position: absolute; 
+          bottom: 3px; 
+          right: 4px; 
+          height: 140px; 
+          text-align: right;
+        }   
     </style>
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
     <!--[if lte IE 8]>
@@ -69,10 +83,18 @@
         //  marker-width:20;
         //  marker-fill-opacity:0.25; 
         // }
+
             </script>
   </head>
   <body>
+
     <div id="map"></div>
+    <div id='waze_logo'>
+       <img src='https://www.waze.com/assets/wazelogo@2x-34a14a0a6869179df927a3c00428020c.png'>
+    </div>
+    <div id='legend'>
+       <img src='img/legend.png'>
+    </div>
     
     <!-- include cartodb.js library -->
     <!-- <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script> -->
@@ -135,5 +157,7 @@
       // you could use $(window).load(main);
       window.onload = main;
     </script>
+
+      
   </body>
 </html>
