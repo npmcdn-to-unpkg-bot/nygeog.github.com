@@ -16,6 +16,7 @@
     <!--[if lte IE 8]>
       <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.ie.css" />
     <![endif]-->
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
     <script type="sql/html" id="cartocss_template">
       /** torque visualization */
 
@@ -29,30 +30,52 @@
         }
 
         #waze_olympics_timeshift_final{
-          comp-op: lighter;
-          marker-fill-opacity: 0.9;
+          comp-op: source-over;
+          marker-fill-opacity: 1;
           marker-line-color: #FFF;
           marker-line-width: 0;
           marker-line-opacity: 1;
           marker-type: ellipse;
-          marker-width: 6;
+          marker-width: 20;
           marker-fill: #0F3B82;
+          marker-file: url('https://s3.amazonaws.com/com.cartodb.users-assets.production/production/nygeog/assets/20160809000115Accident.png');
         }
+
+        #waze_olympics_timeshift_final[value=1] {
+           marker-file: url('https://s3.amazonaws.com/com.cartodb.users-assets.production/production/nygeog/assets/20160809000115Accident.png');
+        }
+
+        #waze_olympics_timeshift_final[value=2] {
+           marker-file: url('https://s3.amazonaws.com/com.cartodb.users-assets.production/production/nygeog/assets/20160803181435jam.png');
+        }
+
+        #waze_olympics_timeshift_final[value=3] {
+           marker-file: url('https://s3.amazonaws.com/com.cartodb.users-assets.production/production/nygeog/assets/20160808235911Hazards.png');
+        }
+
         #waze_olympics_timeshift_final[frame-offset=1] {
-         marker-width:8;
-         marker-fill-opacity:0.45; 
+         marker-width:20;
+         marker-fill-opacity:1; 
         }
         #waze_olympics_timeshift_final[frame-offset=2] {
-         marker-width:10;
-         marker-fill-opacity:0.225; 
+         marker-width:20;
+         marker-fill-opacity:1; 
         }
+        #waze_olympics_timeshift_final[frame-offset=3] {
+         marker-width:20;
+         marker-fill-opacity:0.75; 
+        }
+        // #waze_olympics_timeshift_final[frame-offset=4] {
+        //  marker-width:20;
+        //  marker-fill-opacity:0.25; 
+        // }
             </script>
   </head>
   <body>
     <div id="map"></div>
     
     <!-- include cartodb.js library -->
-    <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+    <!-- <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script> -->
 
     <script>
       var dataLayer;
@@ -86,7 +109,7 @@
           type: "torque",
           order: 1,
           options: {
-            query: "SELECT the_geom, the_geom_webmercator, cartodb_id, (gmt_time - interval '"+minDif+" minutes') as new_time FROM waze_olympics_timeshift_final",
+            query: "SELECT the_geom, the_geom_webmercator, cartodb_id, (gmt_time - interval '"+minDif+" minutes') as new_time, (case when type = 'ACCIDENT' then 1 when type = 'JAM' then 2 when type = 'HAZARD' then 3 end) as torque_category FROM waze_olympics_timeshift_final",
             table_name: "waze_olympics_timeshift_final",
             user_name: "nygeog",
             tile_style: $('#cartocss_template').html()
@@ -99,7 +122,8 @@
           //console.log(map.viz.timeSlider)
 
           //var slider = map.viz.timeSlider;
-          var slider = map.viz.overlays[0];
+          //var slider = map.viz.overlays[0];
+          var slider = map.viz.timeSlider;
           console.log(slider)
            slider.formatter(function(d) { 
               $('.time .value').css('width','160px'); 
