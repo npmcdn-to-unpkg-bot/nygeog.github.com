@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Waze | 2016 Olympics Opening Ceremony</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
+    <style>
+      html, body, #map {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      #waze_logo { 
+          position: absolute; 
+          top: 8px; 
+          right: 8px; 
+          height: 100px; 
+          text-align: right;
+        }  
+      #legend { 
+          position: absolute; 
+          bottom: 80px; 
+          right: 4px; 
+          height: 140px; 
+          text-align: right;
+        }   
+        .roundrect {
+          border-radius: 15px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.ie.css" />
+    <![endif]-->
+    <script src="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/cartodb.js"></script>
+    <script type="sql/html" id="cartocss_template">
+      /** torque visualization */
+
+        Map {
+        -torque-frame-count:256;
+        -torque-animation-duration:30;
+        -torque-time-attribute:"new_time";
+        -torque-aggregation-function:"CDB_Math_Mode(torque_category)";
+        -torque-resolution:2;
+        -torque-data-aggregation:linear;
+        }
+
+        #waze_olympics_timeshift_final{
+          comp-op: source-over;
+          marker-fill-opacity: 1;
+          marker-line-color: #FFF;
+          marker-line-width: 0;
+          marker-line-opacity: 1;
+          marker-type: ellipse;
+          marker-width: 20;
+          //marker-fill: #0F3B82;
+          //marker-file: url('https://s3.amazonaws.com/com.cartodb.users-assets.production/production/nygeog/assets/20160803181435jam.png');
+        }
+
+        #waze_olympics_timeshift_final[value=1] {
+           marker-file: url('https://s3.amazonaws.com/com.cartodb.users-assets.production/production/nygeog/assets/20160803181435jam.png');
+        }
+
+        #waze_olympics_timeshift_final[value=2] {
+           marker-file: url('https://s3.amazonaws.com/com.cartodb.users-assets.production/production/nygeog/assets/20160808235911Hazards.png');
+        }
+
+        #waze_olympics_timeshift_final[value=3] {
+           marker-file: url('https://s3.amazonaws.com/com.cartodb.users-assets.production/production/nygeog/assets/20160809000115Accident.png');
+        }
+
+        #waze_olympics_timeshift_final[frame-offset=1] {
+         marker-width:20;
+         marker-fill-opacity:1; 
+        }
+        #waze_olympics_timeshift_final[frame-offset=2] {
+         marker-width:20;
+         marker-fill-opacity:1; 
+        }
+        #waze_olympics_timeshift_final[frame-offset=3] {
+         marker-width:20;
+         marker-fill-opacity:0.75; 
+        }
+        // #waze_olympics_timeshift_final[frame-offset=4] {
+        //  marker-width:20;
+        //  marker-fill-opacity:0.25; 
+        // }
+
+            </script>
+  </head>
+  <body>
+
+    <div id="map"></div>
+    <div id='waze_logo'>
+       <img src='https://www.waze.com/assets/wazelogo@2x-34a14a0a6869179df927a3c00428020c.png'>
+    </div>
+    <div id='legend'>
+       <img class="roundrect" src='img/legend.png'>
+    </div>
+    
+    <!-- include cartodb.js library -->
+    <!-- <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script> -->
+
+    <script>
+      var dataLayer;
+      var d = new Date()
+      var n = d.getTimezoneOffset();
+      console.log(n)
+      var minDif = (-n); //* 100000000;
+      console.log(d)
+      console.log(n)
+      console.log(minDif)
+
+      console.log('test')
+      function pad(n, width, z) { 
+            z = z || '0'; n = n + ''; return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n; 
+          } 
+          var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']; 
+
+
+      function main() {
+        var map = new L.Map('map', {
+          zoomControl: true,
+          center: [-22.91199364199352, -43.230085372924805],
+          zoom: 13
+        });
+
+        // L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
+        //   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+        // }).addTo(map);
+
+        L.tileLayer('https://cartocdn_{s}.global.ssl.fastly.net/base-dark/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+        }).addTo(map);
+
+        cartodb.createLayer(map, {
+          type: "torque",
+          order: 1,
+          https:true,
+          options: {
+            query: "SELECT the_geom, the_geom_webmercator, cartodb_id, (gmt_time - interval '"+minDif+" minutes') as new_time, (case when type = 'JAM' then 1 when type = 'HAZARD' then 2 when type = 'ACCIDENT' then 3 end) as torque_category FROM waze_olympics_timeshift_final",
+            table_name: "waze_olympics_timeshift_final",
+            user_name: "nygeog",
+            https:true,
+            tile_style: $('#cartocss_template').html()
+            }
+
+
+        },{https:true}).done(function(viz, layer) {
+          //map.addLayer(layer);
+          console.log(map.viz)
+          //console.log(map.viz.timeSlider)
+
+          //var slider = map.viz.timeSlider;
+          //var slider = map.viz.overlays[0];
+          var slider = map.viz.timeSlider;
+          console.log(slider)
+           slider.formatter(function(d) { 
+              $('.time .value').css('width','160px'); 
+              return pad(d.getMonth()+1,2) +'/'+ pad(d.getDate(),2) +'/'+ d.getFullYear() + ' ' + pad(d.getHours(),2) +':'+pad((Math.round(d.getMinutes()/15) * 15) % 60,2); //pad(d.getMinutes(),2)
+          }) 
+        },{https:true}).addTo(map)
+      }
+
+      // you could use $(window).load(main);
+      window.onload = main;
+    </script>
+
+      
+  </body>
+</html>
