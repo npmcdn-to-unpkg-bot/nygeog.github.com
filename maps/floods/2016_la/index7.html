@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Deep-Insights.js | Populated Places</title>
+    <meta name=viewport content="width=device-width initial-scale=1">
+    <!--<link href="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.06/stylesheets/public_editor3.css" media="all" rel="stylesheet" type="text/css" />
+<link href="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.06/stylesheets/deep_insights.css" media="all" rel="stylesheet" type="text/css" />
+    <script src="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.06/javascripts/vendor_editor3.js" type="text/javascript"></script>
+  <script src="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.06/javascripts/common_editor3.js" type="text/javascript"></script>
+  <script src="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.06/javascripts/public_editor3.js" type="text/javascript"></script>-->
+    <link rel="stylesheet" href="http://libs.cartocdn.com/di.js/v0/themes/css/deep-insights.css" />
+    <script src=" http://libs.cartocdn.com/di.js/v0/deep-insights.uncompressed.js"></script><!---->
+    <style type="text/css">
+      html, body {
+        position:relative;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="dashboard"></div>
+
+    <script>
+      window.onload = function() {
+        var vizJSON = {
+id: "6f9fe6ee-664a-11e6-8404-0e3ebc282e83",
+version: "3.0.0",
+title: "current_disaster_declarations map",
+likes: 0,
+description: null,
+scrollwheel: false,
+legends: false,
+map_provider: "leaflet",
+bounds: [
+[
+-26.902476886279807,
+-139.74609375
+],
+[
+66.44310650816469,
+-7.03125
+]
+],
+center: "[29.53522956294847, -73.388671875]",
+zoom: 3,
+updated_at: "2016-08-19T20:21:10+00:00",
+layers: [
+{
+id: "7ced9f4a-3163-4427-a124-b7c8be71685c",
+type: "tiled",
+options: {
+default: "true",
+url: "http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png",
+subdomains: "abcd",
+minZoom: "0",
+maxZoom: "18",
+name: "Positron",
+className: "positron_rainbow_labels",
+attribution: "&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors",
+labels: {
+url: "http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png"
+},
+urlTemplate: "http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png"
+}
+},
+
+
+// {
+// id: "66006a81-ef20-444c-af39-b38524ebda63",
+// type: "tiled",
+// options: {
+// default: "true",
+// url: "http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png",
+// subdomains: "abcd",
+// minZoom: 0,
+// maxZoom: 21,
+// name: "",
+// className: "httpsserverarcgisonlinecomarcgisrestservicesworld_imagerymapservertilezyx",
+// attribution: null,
+// labels: {
+// url: "http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png"
+// },
+// urlTemplate: "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+// type: "Tiled",
+// tms: false,
+// category: "Custom"
+// }
+// },
+
+{
+id: "74078577-8e0d-4153-b8e5-614d3a9d2425",
+type: "tiled",
+options: {
+default: false,
+url: "http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png",
+subdomains: "",
+minZoom: 0,
+maxZoom: 21,
+name: "",
+className: "httpsngsstormviewerwebazurewebsitesnetstormstilesaservicestileserverphp20160818_rgbzxypng",
+attribution: null,
+labels: null,
+urlTemplate: "https://ngs-storm-viewer-web.azurewebsites.net/storms/tilesa/services/tileserver.php/20160818_RGB/{z}/{x}/{y}.png",
+type: "Tiled",
+category: "Custom",
+tms: false,
+selected: true,
+val: "httpsngsstormviewerwebazurewebsitesnetstormstilesaservicestileserverphp20160818_rgbzxypng",
+label: "Custom basemap 1"
+}
+},
+
+
+{
+id: "c18a5762-c550-4c16-9b82-2b308db9ee3b",
+type: "CartoDB",
+infowindow: {
+template_name: "none",
+fields: [ ]
+},
+tooltip: {
+fields: [ ],
+template_name: "none"
+},
+legend: null,
+visible: true,
+options: {
+layer_name: "current_disaster_declarations",
+cartocss: "#current_disaster_declarations { polygon-fill:#FF6600; polygon-opacity: 0.7; line-opacity:1; line-color: #FFFFFF; }",
+sql: "SELECT * FROM current_disaster_declarations",
+cartocss_version: "2.1.1",
+attribution: "",
+source: "a0"
+}
+},
+{
+id: "f9a30e50-cd81-421c-9ffa-1227aa25cdaf",
+type: "tiled",
+options: {
+default: "true",
+url: "http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png",
+subdomains: "abcd",
+minZoom: "0",
+maxZoom: "18",
+attribution: "&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors",
+urlTemplate: "http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png",
+type: "Tiled",
+name: "Positron Labels"
+}
+}
+],
+overlays: [
+{
+type: "share",
+order: 2,
+options: {
+display: true,
+x: 20,
+y: 20
+},
+template: ""
+},
+{
+type: "search",
+order: 3,
+options: {
+display: true,
+x: 60,
+y: 20
+},
+template: ""
+},
+{
+type: "zoom",
+order: 6,
+options: {
+display: true,
+x: 20,
+y: 20
+},
+template: "<a href=\"#zoom_in\" class=\"zoom_in\">+</a> <a href=\"#zoom_out\" class=\"zoom_out\">-</a>"
+},
+{
+type: "loader",
+order: 8,
+options: {
+display: true,
+x: 20,
+y: 150
+},
+template: "<div class=\"loader\" original-title=\"\"></div>"
+},
+{
+type: "logo",
+order: 9,
+options: {
+display: true,
+x: 10,
+y: 40
+},
+template: ""
+}
+],
+widgets: [ ],
+datasource: {
+user_name: "sheehan-carto",
+maps_api_template: "https://{user}.carto.com:443",
+stat_tag: "6f9fe6ee-664a-11e6-8404-0e3ebc282e83"
+},
+user: {
+fullname: "sheehan-carto",
+avatar_url: "//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/unversioned/images/avatars/avatar_heart_yellow.png",
+profile_url: "https://team.carto.com/u/sheehan-carto"
+},
+analyses: [
+{
+id: "a0",
+type: "source",
+params: {
+query: "SELECT * FROM current_disaster_declarations"
+},
+options: {
+table_name: "current_disaster_declarations"
+}
+}
+],
+vector: false
+}
+        cartodb.deepInsights.createDashboard('#dashboard', vizJSON, {
+          no_cdn: false,
+          cartodb_logo: false,
+          share_urls: true
+        });
+      }
+    </script>
+  </body>
+</html>
