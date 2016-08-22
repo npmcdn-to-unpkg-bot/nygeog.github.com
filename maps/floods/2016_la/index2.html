@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flooding</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
+    <style>
+      html, body, #map {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      #waze_logo { 
+          position: absolute; 
+          bottom: 1px; 
+          left: 75px; 
+          height: 30px; 
+          text-align: left;
+        }  
+      #legend { 
+          position: absolute; 
+          bottom: 80px; 
+          left: 20px; 
+          height: 140px; 
+          text-align: right;
+        }   
+        .roundrect {
+          border-radius: 15px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.ie.css" />
+    <![endif]-->
+    <script src="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/cartodb.js"></script>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+
+theUrl = 'https://team.carto.com/u/sheehan-carto/api/v3/viz/af7a2d1e-6641-11e6-9d5a-0e3ebc282e83/viz.json'
+cartoViz = cartodb.createVis('map', theUrl, {//options
+            // center_lat:36,
+            // center_lon:0,
+            // zoom:8,
+            // legends:true,    
+            // shareable:true,
+            // title:true,
+            // description:true,
+            //search:false,
+            //zoomControl:false,
+            // loaderControl:true,
+            // cartodb_logo:true,
+            // infowindow:true,
+            // time_slider:false,
+            //layer_selector:true,
+            // legends:true,
+            // https:true,
+            //scrollwheel:false,
+            // fullscreen:true,
+            // mobile_layout:true,
+            // force_mobile:false,
+            //no_cdn:true
+          })//.addTo(map);
+
+window.onload = main;
+    </script>
+      
+  </body>
+</html>

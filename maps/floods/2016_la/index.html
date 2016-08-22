@@ -33,6 +33,8 @@
     <!--[if lte IE 8]>
       <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.ie.css" />
     <![endif]-->
+    <link rel="stylesheet" href="http://libs.cartocdn.com/di.js/v0/themes/css/deep-insights.css" />
+    <script src=" http://libs.cartocdn.com/di.js/v0/deep-insights.uncompressed.js"></script>
     <script src="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/cartodb.js"></script>
   </head>
   <body>
@@ -109,6 +111,51 @@
         .on('done', function(layer) {
             layer.setZIndex(5);
         });
+        
+        //mapUrl='https://team.carto.com/u/sheehan-carto/api/v3/viz/40f4786a-661c-11e6-913c-0ecd1babd;de5/viz.json'
+        //mapUrl='https://nygeog.carto.com/api/v2/viz/6dcc3060-663c-11e6-ba4c-0e233c30368f/viz.json' 
+        mapUrl='https://team.carto.com/u/sheehan-carto/api/v3/viz/af7a2d1e-6641-11e6-9d5a-0e3ebc282e83/viz.json'
+
+        cartodb.createLayer(map,mapUrl).addTo(map).done(function(layer) {
+          layer.setZIndex(2);
+        })
+
+
+        // mapUrl='https://team.carto.com/u/sheehan-carto/api/v3/viz/40f4786a-661c-11e6-913c-0ecd1babd;de5/viz.json'
+        // mapUrl='https://nygeog.carto.com/api/v2/viz/6dcc3060-663c-11e6-ba4c-0e233c30368f/viz.json'
+        //cartodb.createVis('map', mapUrl);
+        // cartoViz = cartodb.createVis('map', mapUrl, {//options
+        //     // center_lat:36,
+        //     // center_lon:0,
+        //     // zoom:8,
+        //     // legends:true,    
+        //     // shareable:true,
+        //     // title:true,
+        //     // description:true,
+        //     search:false,
+        //     //zoomControl:false,
+        //     // loaderControl:true,
+        //     // cartodb_logo:true,
+        //     // infowindow:true,
+        //     // time_slider:false,
+        //     layer_selector:true,
+        //     // legends:true,
+        //     // https:true,
+        //     scrollwheel:false,
+        //     // fullscreen:true,
+        //     // mobile_layout:true,
+        //     // force_mobile:false,
+        //     //no_cdn:true
+        //   })//.addTo(map);
+
+         //  turnOff = cartoViz.vis.getLayers()[0]
+         //  turnOff.hide()
+         // cartoViz.getSubLayer.hide();
+         // map.removeLayer(cartoViz);
+
+
+
+
 
         // map.attributionControl.setPrefix('<a href="http://leafletjs.com/" target="_blank">Leaflet</a>');
         // L.control.zoom({
@@ -140,8 +187,34 @@
         // },{https:true}).addTo(map)
       }
       // you could use $(window).load(main);
+
+          // var linkViz = 'https://nygeog.carto.com/api/v2/viz/113cab80-6624-11e6-91dd-0ee66e2c9693/viz.json'
+
+          // cartodb.deepInsights.createDashboard('map', linkViz, {}, function(err, dashboard) {
+          //     // update a dashboard widget
+          //     var formulaWidget = dashboard.getWidget('whatever-id')
+          //     formulaWidget.update({ title: 'this is the title' });
+
+          //     // update map layers
+          //     var map = dashboard.getMap();
+          //     map.getLayer(1).set('cartocss', CARTOCSS);
+
+          //     // create a new widget on layer 2
+          //     var params = {
+          //       "type": "category",
+          //       "title": "Metro line",
+          //       "type": "aggregation",
+          //       "column": "closest_metro_line",
+          //       "aggregationColumn": "closest_metro_line",
+          //       "aggregation": "count",
+          //     };
+          //     // adds a categoty using column `test` from the second layer
+          //     dashboard.createCategoryWidget(params, map.getLayer(2))
+          // });
       window.onload = main;
     </script>
+
+    <!-- <iframe width="100%" height="520" frameborder="0" src="https://team.carto.com/u/sheehan-carto/builder/af7a2d1e-6641-11e6-9d5a-0e3ebc282e83/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe> -->
       
   </body>
 </html>

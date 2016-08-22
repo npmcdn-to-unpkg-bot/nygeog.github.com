@@ -1,0 +1,562 @@
+{
+          "user": {
+            "fullname": "Andrew Thompson",
+            "avatar_url": "https://s3.amazonaws.com/com.cartodb.users-assets.production/production/piensaenpixel/assets/20150507074635Captura%20de%20pantalla%202015-05-07%20a%20la%28s%29%2009.46.28.png"
+          },
+          "datasource": {
+            "user_name": "athompson",
+            "maps_api_template": "https://{user}.cartodb.com:443",
+            "force_cors": true, // This is sometimes set in the editor,
+            "stat_tag": "83f87dc4-3a83-11e6-ac10-0e674067d321"
+          },
+          "id": "83f87dc4-3a83-11e6-ac10-0e674067d321",
+          "widgets" : [
+            {
+              "id": "store-sales-points-histo",
+              "type": "histogram",
+              "title": "2015 Store Sales (points)",
+              "order": 1,
+              "layer_id": "8e093bd2-260c-4434-a944-81e15f6e1859",
+              "options": {
+                "column": "sales_2015",
+                "bins": 10,
+                "show_stats": true
+              }
+            }, {
+              "id": "store-sales-area-histo",
+              "type": "histogram",
+              "title": "2015 Store Sales (trade areas)",
+              "order": 2,
+              "layer_id": "ac5422e3-8e03-489a-bb6e-f805a186ec93",
+              "options": {
+                "column": "sales_2015",
+                "bins": 10,
+                "show_stats": true
+              }
+            }, {
+              "id": "trade-area-pop",
+              "type": "formula",
+              "title": "Average trade area population in view",
+              "order": 3,
+              "layer_id": "ac5422e3-8e03-489a-bb6e-f805a186ec93",
+              "options": {
+                "column": "area_pop",
+                "operation": "avg"
+              }
+            }, {
+              "id": "tract-pop-histo",
+              "type": "histogram",
+              "title": "Filter tracts with population",
+              "order": 4,
+              "layer_id": "a09d6e85-695d-4c43-8aa5-75006806bd64",
+              "options": {
+                "column": "total_pop2",
+                "bins": 10,
+                "show_stats": true
+              }
+            },{
+              "id": "max-population-formula",
+              "type": "formula",
+              "title": "Total population in view",
+              "order": 5,
+              "layer_id": "a09d6e85-695d-4c43-8aa5-75006806bd64",
+              "options": {
+                "column": "total_pop2",
+                "operation": "sum"
+              }
+            }],
+          "version": "0.1.0",
+          "title": "Ecuador KFC map",
+          "likes": 0,
+          "description": null,
+          "scrollwheel": false,
+          "legends": true,
+          "url": null,
+          "map_provider": "leaflet",
+          "bounds": [
+            [
+              -3.5463175009986707,
+              -81.88037109375
+            ],
+            [
+              0.999705130841982,
+              -69.1142578125
+            ]
+          ],
+          "center": "[-1.2743089918452233, -78.49731445312499]",
+          "zoom": 7,
+          "updated_at": "2016-06-25T03:18:41+00:00",
+          "layers": [
+            {
+              "options": {
+                "visible": true,
+                "type": "Tiled",
+                "default": "true",
+                "url": "http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png",
+                "subdomains": "abcd",
+                "minZoom": "0",
+                "maxZoom": "18",
+                "name": "Positron",
+                "className": "httpsbasemapscartocdncomlight_nolabelszxypng",
+                "attribution": "&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"http://cartodb.com/attributions\">CartoDB</a>",
+                "labels": {
+                  "url": "http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png"
+                },
+                "urlTemplate": "http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png",
+                "id": "6fa13f82-9f5b-44fc-b6dd-cd259c99f33a",
+                "order": 0
+              },
+              "infowindow": null,
+              "tooltip": null,
+              "id": "32f0026e-b04b-4ed5-8608-93ab7763dc27",
+              "order": 0,
+              "type": "tiled"
+            },
+            {
+              "type": "layergroup",
+              "options": {
+                "user_name": "athompson",
+                "maps_api_template": "https://{user}.cartodb.com:443",
+                "sql_api_template": "https://{user}.cartodb.com:443",
+                "tiler_protocol": "http",
+                "tiler_domain": "cartodb.com",
+                "tiler_port": "80",
+                "sql_api_protocol": "http",
+                "sql_api_domain": "cartodb.com",
+                "sql_api_endpoint": "/api/v2/sql",
+                "sql_api_port": 80,
+                "filter": "mapnik",
+                "layer_definition": {
+                  "stat_tag": "83f87dc4-3a83-11e6-ac10-0e674067d321",
+                  "version": "1.0.1",
+                  "layers": [
+                    {
+                      "id": "a09d6e85-695d-4c43-8aa5-75006806bd64",
+                      "type": "CartoDB",
+                      "infowindow": {
+                        "fields": [
+                          {
+                            "name": "a",
+                            "title": true,
+                            "position": 0
+                          },
+                          {
+                            "name": "b",
+                            "title": true,
+                            "position": 1
+                          },
+                          {
+                            "name": "c",
+                            "title": true,
+                            "position": 2
+                          },
+                          {
+                            "name": "d",
+                            "title": true,
+                            "position": 3
+                          },
+                          {
+                            "name": "e",
+                            "title": true,
+                            "position": 4
+                          },
+                          {
+                            "name": "redcode",
+                            "title": true,
+                            "position": 200
+                          },
+                          {
+                            "name": "social_cla",
+                            "title": true,
+                            "position": 204
+                          },
+                          {
+                            "name": "total_pop2",
+                            "title": true,
+                            "position": 207
+                          }
+                        ],
+                        "template_name": "infowindow_light",
+                        "template": "<div class=\"cartodb-popup v2\">\n  <a href=\"#close\" class=\"cartodb-popup-close-button close\">x</a>\n  <div class=\"cartodb-popup-content-wrapper\">\n    <div class=\"cartodb-popup-content\">\n      {{#content.fields}}\n        {{#title}}<h4>{{title}}</h4>{{/title}}\n        {{#value}}\n          <p {{#type}}class=\"{{ type }}\"{{/type}}>{{{ value }}}</p>\n        {{/value}}\n        {{^value}}\n          <p class=\"empty\">null</p>\n        {{/value}}\n      {{/content.fields}}\n    </div>\n  </div>\n  <div class=\"cartodb-popup-tip-container\"></div>\n</div>\n",
+                        "alternative_names": {},
+                        "width": 226,
+                        "maxHeight": 180
+                      },
+                      "tooltip": {
+                        "fields": [],
+                        "template_name": "tooltip_light",
+                        "template": "<div class=\"cartodb-tooltip-content-wrapper\">\n  <div class=\"cartodb-tooltip-content\">\n  {{#fields}}\n    {{#title}}\n    <h4>{{title}}</h4>\n    {{/title}}\n    <p>{{{ value }}}</p>\n  {{/fields}}\n  </div>\n</div>",
+                        "alternative_names": {},
+                        "maxHeight": 180
+                      },
+                      "legend": {
+                        "type": "choropleth",
+                        "show_title": true,
+                        "title": "Total population",
+                        "template": "",
+                        "visible": true,
+                        "items": [
+                          {
+                            "name": "Left label",
+                            "visible": true,
+                            "value": "166.00",
+                            "type": "text"
+                          },
+                          {
+                            "name": "Right label",
+                            "visible": true,
+                            "value": "4701.00",
+                            "type": "text"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#F2D2D3",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#EBB7B9",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#E39D9F",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#DB8286",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#D4686C",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#CC4E52",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#C1373C",
+                            "type": "color"
+                          }
+                        ]
+                      },
+                      "order": 1,
+                      "visible": true,
+                      "options": {
+                        "layer_name": "ecu_demographics_minfields",
+                        "cartocss": "/** choropleth visualization */\n\n#ecu_demographics_minfields{\n  polygon-fill: #F2D2D3;\n  polygon-opacity: 0.8;\n  line-color: #FFF;\n  line-width: 0.5;\n  line-opacity: 1;\n}\n#ecu_demographics_minfields [ total_pop2 <= 4701] {\n   polygon-fill: #C1373C;\n}\n#ecu_demographics_minfields [ total_pop2 <= 1023] {\n   polygon-fill: #CC4E52;\n}\n#ecu_demographics_minfields [ total_pop2 <= 830] {\n   polygon-fill: #D4686C;\n}\n#ecu_demographics_minfields [ total_pop2 <= 664] {\n   polygon-fill: #DB8286;\n}\n#ecu_demographics_minfields [ total_pop2 <= 498] {\n   polygon-fill: #E39D9F;\n}\n#ecu_demographics_minfields [ total_pop2 <= 332] {\n   polygon-fill: #EBB7B9;\n}\n#ecu_demographics_minfields [ total_pop2 <= 166] {\n   polygon-fill: #F2D2D3;\n}",
+                        "cartocss_version": "2.1.1",
+                        "interactivity": "cartodb_id",
+                        "sql": "select * from ecu_demographics_minfields",
+                        "table_name": "\"\"."
+                      }
+                    },
+                    {
+                      "id": "ac5422e3-8e03-489a-bb6e-f805a186ec93",
+                      "type": "CartoDB",
+                      "infowindow": {
+                        "fields": [
+                          {
+                            "name": "area_pop",
+                            "title": true,
+                            "position": 14
+                          },
+                          {
+                            "name": "store_name",
+                            "title": true,
+                            "position": 28
+                          }
+                        ],
+                        "template_name": "table/views/infowindow_light",
+                        "template": "<div class=\"cartodb-popup v2\">\n  <a href=\"#close\" class=\"cartodb-popup-close-button close\">x</a>\n  <div class=\"cartodb-popup-content-wrapper\">\n    <div class=\"cartodb-popup-content\">\n      {{#content.fields}}\n        {{#title}}<h4>{{title}}</h4>{{/title}}\n        {{#value}}\n          <p {{#type}}class=\"{{ type }}\"{{/type}}>{{{ value }}}</p>\n        {{/value}}\n        {{^value}}\n          <p class=\"empty\">null</p>\n        {{/value}}\n      {{/content.fields}}\n    </div>\n  </div>\n  <div class=\"cartodb-popup-tip-container\"></div>\n</div>\n",
+                        "alternative_names": {},
+                        "width": 226,
+                        "maxHeight": 180
+                      },
+                      "tooltip": {
+                        "fields": [],
+                        "template_name": "tooltip_light",
+                        "template": "<div class=\"cartodb-tooltip-content-wrapper\">\n  <div class=\"cartodb-tooltip-content\">\n  {{#fields}}\n    {{#title}}\n    <h4>{{title}}</h4>\n    {{/title}}\n    <p>{{{ value }}}</p>\n  {{/fields}}\n  </div>\n</div>",
+                        "alternative_names": {},
+                        "maxHeight": 180
+                      },
+                      "legend": {
+                        "type": "choropleth",
+                        "show_title": true,
+                        "title": "Trade Area Population",
+                        "template": "",
+                        "visible": true,
+                        "items": [
+                          {
+                            "name": "Left label",
+                            "visible": true,
+                            "value": "172397.00",
+                            "type": "text"
+                          },
+                          {
+                            "name": "Right label",
+                            "visible": true,
+                            "value": "1511630.00",
+                            "type": "text"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#FFFFCC",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#C7E9B4",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#7FCDBB",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#41B6C4",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#1D91C0",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#225EA8",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#0C2C84",
+                            "type": "color"
+                          }
+                        ]
+                      },
+                      "order": 2,
+                      "visible": true,
+                      "options": {
+                        "layer_name": "kfc_ecuador_with_sales_5mi_buffers_merge",
+                        "cartocss": "/** choropleth visualization */\n\n#kfc_ecuador_with_sales_5mi_buffers_merge{\n  polygon-fill: #FFFFCC;\n  polygon-opacity: 0.8;\n  line-color: #FFF;\n  line-width: 0.5;\n  line-opacity: 1;\n}\n#kfc_ecuador_with_sales_5mi_buffers_merge [ area_pop <= 1511630] {\n   polygon-fill: #0C2C84;\n}\n#kfc_ecuador_with_sales_5mi_buffers_merge [ area_pop <= 1344726] {\n   polygon-fill: #225EA8;\n}\n#kfc_ecuador_with_sales_5mi_buffers_merge [ area_pop <= 999795] {\n   polygon-fill: #1D91C0;\n}\n#kfc_ecuador_with_sales_5mi_buffers_merge [ area_pop <= 833084] {\n   polygon-fill: #41B6C4;\n}\n#kfc_ecuador_with_sales_5mi_buffers_merge [ area_pop <= 445498] {\n   polygon-fill: #7FCDBB;\n}\n#kfc_ecuador_with_sales_5mi_buffers_merge [ area_pop <= 252705] {\n   polygon-fill: #C7E9B4;\n}\n#kfc_ecuador_with_sales_5mi_buffers_merge [ area_pop <= 172397] {\n   polygon-fill: #FFFFCC;\n}",
+                        "cartocss_version": "2.1.1",
+                        "interactivity": "cartodb_id",
+                        "sql": "select * from kfc_ecuador_with_sales_5mi_buffers_merge",
+                        "table_name": "\"\"."
+                      }
+                    },
+                    {
+                      "id": "8e093bd2-260c-4434-a944-81e15f6e1859",
+                      "type": "CartoDB",
+                      "infowindow": {
+                        "fields": [
+                          {
+                            "name": "store_name",
+                            "title": true,
+                            "position": 1
+                          },
+                          {
+                            "name": "sales_2015",
+                            "title": true,
+                            "position": 2
+                          },
+                          {
+                            "name": "champs_number",
+                            "title": true,
+                            "position": 5
+                          }
+                        ],
+                        "template_name": "infowindow_light",
+                        "template": "<div class=\"cartodb-popup v2\">\n  <a href=\"#close\" class=\"cartodb-popup-close-button close\">x</a>\n  <div class=\"cartodb-popup-content-wrapper\">\n    <div class=\"cartodb-popup-content\">\n      {{#content.fields}}\n        {{#title}}<h4>{{title}}</h4>{{/title}}\n        {{#value}}\n          <p {{#type}}class=\"{{ type }}\"{{/type}}>{{{ value }}}</p>\n        {{/value}}\n        {{^value}}\n          <p class=\"empty\">null</p>\n        {{/value}}\n      {{/content.fields}}\n    </div>\n  </div>\n  <div class=\"cartodb-popup-tip-container\"></div>\n</div>\n",
+                        "alternative_names": {},
+                        "width": 226,
+                        "maxHeight": 180
+                      },
+                      "tooltip": {
+                        "fields": null,
+                        "template_name": "tooltip_light",
+                        "template": "<div class=\"cartodb-tooltip-content-wrapper\">\n  <div class=\"cartodb-tooltip-content\">\n  {{#fields}}\n    {{#title}}\n    <h4>{{title}}</h4>\n    {{/title}}\n    <p>{{{ value }}}</p>\n  {{/fields}}\n  </div>\n</div>",
+                        "alternative_names": {},
+                        "maxHeight": 180
+                      },
+                      "legend": {
+                        "type": "choropleth",
+                        "show_title": true,
+                        "title": "2015 Store Sales",
+                        "template": "",
+                        "visible": true,
+                        "items": [
+                          {
+                            "name": "Left label",
+                            "visible": true,
+                            "value": "572285.50",
+                            "type": "text"
+                          },
+                          {
+                            "name": "Right label",
+                            "visible": true,
+                            "value": "2918830.00",
+                            "type": "text"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#EDF8FB",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#D7FAF4",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#CCECE6",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#66C2A4",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#41AE76",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#238B45",
+                            "type": "color"
+                          },
+                          {
+                            "name": "Color",
+                            "visible": true,
+                            "value": "#005824",
+                            "type": "color"
+                          }
+                        ]
+                      },
+                      "order": 3,
+                      "visible": true,
+                      "options": {
+                        "layer_name": "kfc_ecuador_with_sales",
+                        "cartocss": "/** choropleth visualization */\n\n#kfc_ecuador_with_sales{\n  marker-fill-opacity: 0.8;\n  marker-line-color: #000000;\n  marker-line-width: 1;\n  marker-line-opacity: 1;\n  marker-width: 10;\n  marker-fill: #EDF8FB;\n  marker-allow-overlap: true;\n}\n#kfc_ecuador_with_sales[zoom <= 7]{\n  marker-width: 6;\n}\n#kfc_ecuador_with_sales [ sales_2015 <= 2918830] {\n   marker-fill: #005824;\n}\n#kfc_ecuador_with_sales [ sales_2015 <= 1779253.5] {\n   marker-fill: #238B45;\n}\n#kfc_ecuador_with_sales [ sales_2015 <= 1343216] {\n   marker-fill: #41AE76;\n}\n#kfc_ecuador_with_sales [ sales_2015 <= 1129764.5] {\n   marker-fill: #66C2A4;\n}\n#kfc_ecuador_with_sales [ sales_2015 <= 902881] {\n   marker-fill: #CCECE6;\n}\n#kfc_ecuador_with_sales [ sales_2015 <= 778612] {\n   marker-fill: #D7FAF4;\n}\n#kfc_ecuador_with_sales [ sales_2015 <= 572285.5] {\n   marker-fill: #EDF8FB;\n}",
+                        "cartocss_version": "2.1.1",
+                        "interactivity": "cartodb_id",
+                        "sql": "select * from kfc_ecuador_with_sales",
+                        "table_name": "\"\"."
+                      }
+                    }
+                  ]
+                },
+                "attribution": ""
+              }
+            },
+            {
+              "options": {
+                "visible": true,
+                "type": "Tiled",
+                "default": "true",
+                "url": "http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png",
+                "subdomains": "abcd",
+                "minZoom": "0",
+                "maxZoom": "18",
+                "attribution": "&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"http://cartodb.com/attributions\">CartoDB</a>",
+                "urlTemplate": "http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png",
+                "name": "Positron Labels",
+                "className": "httpsbasemapscartocdncomlight_only_labelszxypng",
+                "id": "bee2ac22-1d3e-495d-98ba-cd6599ddcb30",
+                "order": 4
+              },
+              "infowindow": null,
+              "tooltip": null,
+              "id": "f7169496-3d56-445d-b55f-44e9417c5036",
+              "order": 4,
+              "type": "tiled"
+            }
+          ],
+          "overlays": [
+            {
+              "type": "share",
+              "order": 2,
+              "options": {
+                "display": true,
+                "x": 20,
+                "y": 20
+              },
+              "template": ""
+            },
+            {
+              "type": "search",
+              "order": 3,
+              "options": {
+                "display": true,
+                "x": 60,
+                "y": 20
+              },
+              "template": ""
+            },
+            {
+              "type": "zoom",
+              "order": 6,
+              "options": {
+                "display": true,
+                "x": 20,
+                "y": 20
+              },
+            "template": "<div class=\"CDB-Overlay\"><button class=\"CDB-Zoom-action CDB-Zoom-action--out js-zoomOut\"></button><button class=\"CDB-Zoom-action CDB-Zoom-action--in js-zoomIn\"></button></div><div class=\"CDB-Zoom-info js-zoomInfo\">1</div>"
+          },,
+            {
+              "type": "loader",
+              "order": 8,
+              "options": {
+                "display": true,
+                "x": 20,
+                "y": 150
+              },
+              "template": "<div class=\"loader\" original-title=\"\"></div>"
+            },
+            {
+              "type": "logo",
+              "order": 9,
+              "options": {
+                "display": true,
+                "x": 10,
+                "y": 40
+              },
+              "template": ""
+            }
+          ],
+          "prev": null,
+          "next": null,
+          "transition_options": {
+            "time": 0
+          }
+        }
