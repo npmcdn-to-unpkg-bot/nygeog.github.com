@@ -1,79 +1,15 @@
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link href="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.07/favicons/favicon.ico?1467884078" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-    <title>Louisiana Floods 2016</title>
-    <meta name="description" content="Map created by sheehan-carto in CARTO">
-    <meta name="keywords" content="Louisiana, Floods, 2016, datasets, maps, data visualization, spatial data, geospatial, CARTO">
-    <meta name="author" content="sheehan-carto">
-    <meta charset='utf-8' />
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-
-    <meta property="og:title" content="Louisiana Floods 2016" />
-    <meta property="og:site_name" content="CARTO" />
-    <meta property="og:description" content="Map created by sheehan-carto in CARTO" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://team.carto.com/u/sheehan-carto/builder/41f239a6-68b4-11e6-9088-0ee66e2c9693/embed" />
-    <meta property="og:image" content="https://cartocdn-ashbu.global.ssl.fastly.net/sheehan-carto/api/v1/map/static/named/tpl_41f239a6_68b4_11e6_9088_0ee66e2c9693/1200/630.png">
-      <meta property="fb:app_id" content="204330262947622" />
-      <meta property="fb:admins" content="500593636634213" />
-    <meta property="article:publisher" content="https://www.facebook.com/cartodb" />
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@cartodb">
-    <meta name="twitter:title" content="Louisiana Floods 2016">
-    <meta name="twitter:description" content="Map created by sheehan-carto in CARTO">
-    <meta name="twitter:image" content="https://cartocdn-ashbu.global.ssl.fastly.net/sheehan-carto/api/v1/map/static/named/tpl_41f239a6_68b4_11e6_9088_0ee66e2c9693/560/300.png">
-
-    
-  <link href="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.07/stylesheets/public_editor3.css" media="all" rel="stylesheet" type="text/css" />
-<link href="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.07/stylesheets/deep_insights.css" media="all" rel="stylesheet" type="text/css" />
-  <style type="text/css">
-    html, body {
-      position:relative;
-      height: 100%;
-      padding: 0;
-      margin: 0;
-    }
-  </style>
-
-
-    <!--[if lt IE 9]>
-      <script src="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.07/javascripts/modernizr.js" type="text/javascript"></script>
-    <![endif]-->
-  </head>
-  <body class="">
-    
-  <div id="dashboard"></div>
-
-    
-  <script>
-    var vizJSON = JSON.parse('{\"id\":\"41f239a6-68b4-11e6-9088-0ee66e2c9693\",\"version\":\"3.0.0\",\"title\":\"Louisiana Floods 2016\",\"likes\":0,\"description\":null,\"scrollwheel\":false,\"legends\":false,\"map_provider\":\"leaflet\",\"bounds\":[[28.642389157900524,-92.603759765625],[31.812229022640732,-89.31884765624999]],\"center\":\"[30.240086360983426, -90.9613037109375]\",\"zoom\":8,\"updated_at\":\"2016-08-22T22:52:27+00:00\",\"layers\":[{\"id\":\"49cb11ef-cd9e-43bd-a20b-386b729cd95c\",\"type\":\"tiled\",\"options\":{\"default\":false,\"url\":\"http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png\",\"subdomains\":\"\",\"minZoom\":0,\"maxZoom\":21,\"name\":\"Custom basemap 2\",\"className\":\"httpsserverarcgisonlinecomarcgisrestservicesworld_imagerymapservertilezyx\",\"attribution\":null,\"opacity\":0.5,\"labels\":null,\"urlTemplate\":\"https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}\",\"type\":\"Tiled\",\"category\":\"Custom\",\"tms\":false,\"selected\":true,\"val\":\"httpsserverarcgisonlinecomarcgisrestservicesworld_imagerymapservertilezyx\",\"label\":\"Custom basemap 2\",\"highlighted\":true}},{\"id\":\"734ba4a2-9aae-4288-b743-4b97e0a84ef9\",\"type\":\"tiled\",\"options\":{\"default\":false,\"url\":\"http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png\",\"subdomains\":\"\",\"minZoom\":0,\"maxZoom\":21,\"name\":\"\",\"className\":\"httpsngsstormviewerwebazurewebsitesnetstormstilesaservicestileserverphp20160818_rgbzxypng\",\"attribution\":null,\"labels\":null,\"urlTemplate\":\"https://ngs-storm-viewer-web.azurewebsites.net/storms/tilesa/services/tileserver.php/20160818_RGB/{z}/{x}/{y}.png\",\"type\":\"Tiled\",\"category\":\"Custom\",\"tms\":false,\"selected\":true,\"val\":\"httpsngsstormviewerwebazurewebsitesnetstormstilesaservicestileserverphp20160818_rgbzxypng\",\"label\":\"Custom basemap 1\"}},{\"id\":\"01fafed3-36c9-4ad0-b820-8bd1e95441b9\",\"type\":\"tiled\",\"options\":{\"default\":\"true\",\"url\":\"http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png\",\"subdomains\":\"abcd\",\"minZoom\":0,\"maxZoom\":21,\"name\":\"\",\"className\":\"httpsngsstormviewerwebazurewebsitesnetstormstilesaservicestileserverphp20160814_rgbzxypng\",\"attribution\":null,\"labels\":{\"url\":\"http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png\"},\"urlTemplate\":\"https://ngs-storm-viewer-web.azurewebsites.net/storms/tilesa/services/tileserver.php/20160814_RGB/{z}/{x}/{y}.png\",\"type\":\"Tiled\",\"tms\":false,\"category\":\"Custom\"}},{\"id\":\"628fd0db-0aeb-4d3b-a679-85fd5e2d8d20\",\"type\":\"tiled\",\"options\":{\"default\":\"true\",\"url\":\"http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png\",\"subdomains\":\"abcd\",\"minZoom\":0,\"maxZoom\":21,\"name\":\"\",\"className\":\"httpsngsstormviewerwebazurewebsitesnetstormstilesaservicestileserverphp20160815_moszxypng\",\"attribution\":null,\"labels\":{\"url\":\"http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png\"},\"urlTemplate\":\"https://ngs-storm-viewer-web.azurewebsites.net/storms/tilesa/services/tileserver.php/20160815_MOS/{z}/{x}/{y}.png\",\"type\":\"Tiled\",\"tms\":false,\"category\":\"Custom\"}},{\"id\":\"b9fd456e-ab85-4138-bcc8-00d14bd5e723\",\"type\":\"CartoDB\",\"visible\":true,\"options\":{\"layer_name\":\"acs_2014_5yr_bg_22_x01\",\"attribution\":\"\",\"source\":\"a0\"}},{\"id\":\"9a9f1425-367d-43a8-916a-576c6864912c\",\"type\":\"CartoDB\",\"visible\":true,\"options\":{\"layer_name\":\"evacuation_routes\",\"attribution\":\"\",\"source\":\"c0\"}},{\"id\":\"4fef11e9-82cf-4366-9e9c-36ba0c3d22f5\",\"type\":\"CartoDB\",\"visible\":true,\"options\":{\"layer_name\":\"Emergency Counties\",\"attribution\":\"\",\"source\":\"d0\"}},{\"id\":\"b56af39e-7bca-46f1-8003-8d4c2a665d4f\",\"type\":\"CartoDB\",\"visible\":true,\"options\":{\"layer_name\":\"red_cross_national_shelter_system\",\"attribution\":\"\",\"source\":\"b0\"},\"infowindow\":{\"template_name\":\"infowindow_light\",\"maxHeight\":180,\"template\":\"<div class=\\\"CDB-infowindow CDB-infowindow--light js-infowindow\\\">\\n  <div class=\\\"CDB-infowindow-close js-close\\\"><\/div>\\n  <div class=\\\"CDB-infowindow-container\\\">\\n    <div class=\\\"CDB-infowindow-bg\\\">\\n      <div class=\\\"CDB-infowindow-inner\\\">\\n        {{#loading}}\\n          <div class=\\\"CDB-Loader js-loader is-visible\\\"><\/div>\\n        {{/loading}}\\n        <ul class=\\\"CDB-infowindow-list js-content\\\">\\n          {{#content.fields}}\\n          <li class=\\\"CDB-infowindow-listItem\\\">\\n            {{#title}}<h5 class=\\\"CDB-infowindow-subtitle\\\">{{title}}<\/h5>{{/title}}\\n            {{#value}}<h4 class=\\\"CDB-infowindow-title\\\">{{{ value }}}<\/h4>{{/value}}\\n            {{^value}}<h4 class=\\\"CDB-infowindow-title\\\">null<\/h4>{{/value}}\\n          <\/li>\\n          {{/content.fields}}\\n        <\/ul>\\n      <\/div>\\n    <\/div>\\n    <div class=\\\"CDB-hook\\\">\\n      <div class=\\\"CDB-hook-inner\\\"><\/div>\\n    <\/div>\\n  <\/div>\\n<\/div>\\n\",\"alternative_names\":{},\"fields\":[{\"name\":\"lat\",\"title\":true,\"position\":0},{\"name\":\"lng\",\"title\":true,\"position\":1},{\"name\":\"name\",\"title\":true,\"position\":2},{\"name\":\"addr1\",\"title\":true,\"position\":3},{\"name\":\"city\",\"title\":true,\"position\":4},{\"name\":\"state\",\"title\":true,\"position\":5},{\"name\":\"zip\",\"title\":true,\"position\":6},{\"name\":\"capacity\",\"title\":true,\"position\":7},{\"name\":\"population\",\"title\":true,\"position\":8},{\"name\":\"updated\",\"title\":true,\"position\":9},{\"name\":\"availability\",\"title\":true,\"position\":10}],\"width\":226,\"headerColor\":{\"color\":{\"fixed\":\"#35AAE5\",\"opacity\":1}},\"template_type\":\"mustache\"}}],\"overlays\":[{\"type\":\"share\",\"order\":1,\"options\":{\"display\":true,\"x\":20,\"y\":20},\"template\":\"\"},{\"type\":\"search\",\"order\":2,\"options\":{\"display\":true,\"x\":60,\"y\":20},\"template\":\"\"},{\"type\":\"zoom\",\"order\":3,\"options\":{\"display\":true,\"x\":20,\"y\":20},\"template\":\"<a href=\\\"#zoom_in\\\" class=\\\"zoom_in\\\">+<\/a> <a href=\\\"#zoom_out\\\" class=\\\"zoom_out\\\">-<\/a>\"},{\"type\":\"loader\",\"order\":4,\"options\":{\"display\":true,\"x\":20,\"y\":150},\"template\":\"<div class=\\\"loader\\\" original-title=\\\"\\\"><\/div>\"},{\"type\":\"logo\",\"order\":5,\"options\":{\"display\":true,\"x\":10,\"y\":40},\"template\":\"\"}],\"widgets\":[{\"id\":\"56051229-76c9-4791-b398-2f8d593a4aaf\",\"type\":\"formula\",\"title\":\"Population in Map View\",\"order\":0,\"layer_id\":\"b9fd456e-ab85-4138-bcc8-00d14bd5e723\",\"options\":{\"column\":\"b01001e1\",\"operation\":\"sum\",\"sync_on_data_change\":true,\"sync_on_bbox_change\":true,\"schema\":{},\"suffix\":\"\",\"prefix\":\"\",\"description\":\"\"},\"source\":{\"id\":\"a0\"}},{\"id\":\"47778ac2-71e8-47e1-8031-d9b70d6e314e\",\"type\":\"histogram\",\"title\":\"Population Distribution\",\"order\":1,\"layer_id\":\"b9fd456e-ab85-4138-bcc8-00d14bd5e723\",\"options\":{\"column\":\"b01001e1\",\"bins\":\"30\",\"sync_on_data_change\":true,\"sync_on_bbox_change\":true},\"source\":{\"id\":\"a0\"}},{\"id\":\"99022ec8-3a4e-4008-ad7f-a21dd50faff6\",\"type\":\"category\",\"title\":\"Red Cross Shelters\",\"order\":0,\"layer_id\":\"b56af39e-7bca-46f1-8003-8d4c2a665d4f\",\"options\":{\"column\":\"name\",\"aggregation_column\":\"name\",\"aggregation\":\"count\",\"sync_on_data_change\":true,\"sync_on_bbox_change\":true},\"source\":{\"id\":\"b0\"}}],\"datasource\":{\"user_name\":\"sheehan-carto\",\"maps_api_template\":\"https://{user}.carto.com:443\",\"stat_tag\":\"41f239a6-68b4-11e6-9088-0ee66e2c9693\",\"template_name\":\"tpl_41f239a6_68b4_11e6_9088_0ee66e2c9693\"},\"user\":{\"fullname\":\"sheehan-carto\",\"avatar_url\":\"//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/unversioned/images/avatars/avatar_heart_yellow.png\",\"profile_url\":\"https://team.carto.com/u/sheehan-carto\"},\"analyses\":[{\"id\":\"d0\",\"type\":\"source\",\"options\":{\"table_name\":\"doc\",\"simple_geom\":\"polygon\"}},{\"id\":\"a0\",\"type\":\"source\",\"options\":{\"table_name\":\"acs_2014_5yr_bg_22_x01\",\"simple_geom\":\"polygon\"}},{\"id\":\"c0\",\"type\":\"source\",\"options\":{\"table_name\":\"evacuation_routes\",\"simple_geom\":\"line\"}},{\"id\":\"b0\",\"type\":\"source\",\"options\":{\"table_name\":\"red_cross_national_shelter_system\",\"simple_geom\":\"point\"}}],\"vector\":false}');
-    var authTokens = JSON.parse('null');
-  </script>
-  <script src="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.07/javascripts/vendor_editor3.js" type="text/javascript"></script>
-  <script src="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.07/javascripts/common_editor3.js" type="text/javascript"></script>
-  <script src="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.07/javascripts/public_editor3.js" type="text/javascript"></script>
-
-  <script>
-  window._trackJs = {
-    enabled: true,
-    application: 'j2fvjk4hsmckojrqpxjp'
-      , userId: 'sheehan-carto'
-  };
-</script>
-<script type="text/javascript" src="//d2zah9y47r7bi2.cloudfront.net/releases/current/tracker.js" data-token="cf7a7cd8411140689ea94e92d9fba842"></script>
-
-  <script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-20934186-10']);
-  _gaq.push(['_setDomainName', 'carto.com']);
-  _gaq.push(['_setAllowLinker', true]);
-  _gaq.push(['_trackPageview']);
-
-  (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
-</script>
-
-
-  </body>
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="1;url=https://nygeog.github.io/maps/floods/2016_la/index11.html">
+        <script type="text/javascript">
+            window.location.href = "https://nygeog.github.io/maps/floods/2016_la/index11.html"
+        </script>
+        <title>Page Redirection</title>
+    </head>
+    <body>
+        <!-- Note: don't tell people to `click` the link, just tell them that it is a link. -->
+        If you are not redirected automatically, follow the <a href='https://nygeog.github.io/maps/floods/2016_la/index11.html'>link to example</a>
+    </body>
 </html>
