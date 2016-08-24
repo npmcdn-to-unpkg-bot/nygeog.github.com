@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.13/favicons/favicon.ico?1467884083" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <title>Louisiana Flood Map August 2016</title>
+    <meta name="description" content="Map created by sheehan-carto in CARTO">
+    <meta name="keywords" content="Louisiana, Flood, Map, August, 2016, datasets, maps, data visualization, spatial data, geospatial, CARTO">
+    <meta name="author" content="sheehan-carto">
+    <meta charset='utf-8' />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+    <meta property="og:title" content="Louisiana Flood Map August 2016" />
+    <meta property="og:site_name" content="CARTO" />
+    <meta property="og:description" content="Map created by sheehan-carto in CARTO" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://team.carto.com/u/sheehan-carto/builder/bbb96f5e-6998-11e6-b5aa-0e05a8b3e3d7/embed?state=%7B%22map%22%3A%7B%22center%22%3A%5B30.871582821957446%2C-91.73309326171875%5D%2C%22zoom%22%3A8%7D%7D" />
+    <meta property="og:image" content="https://cartocdn-ashbu.global.ssl.fastly.net/sheehan-carto/api/v1/map/static/named/tpl_bbb96f5e_6998_11e6_b5aa_0e05a8b3e3d7/1200/630.png">
+      <meta property="fb:app_id" content="204330262947622" />
+      <meta property="fb:admins" content="500593636634213" />
+    <meta property="article:publisher" content="https://www.facebook.com/cartodb" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@cartodb">
+    <meta name="twitter:title" content="Louisiana Flood Map August 2016">
+    <meta name="twitter:description" content="Map created by sheehan-carto in CARTO">
+    <meta name="twitter:image" content="https://cartocdn-ashbu.global.ssl.fastly.net/sheehan-carto/api/v1/map/static/named/tpl_bbb96f5e_6998_11e6_b5aa_0e05a8b3e3d7/560/300.png">
+
+    
+  <link href="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.13/stylesheets/public_editor3.css" media="all" rel="stylesheet" type="text/css" />
+<link href="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.13/stylesheets/deep_insights.css" media="all" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+    html, body {
+      position:relative;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+
+
+    <!--[if lt IE 9]>
+      <script src="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.13/javascripts/modernizr.js" type="text/javascript"></script>
+    <![endif]-->
+  </head>
+  <body class="">
+    
+  <div id="dashboard"></div>
+
+    
+  <script>
+    var vizJSON = JSON.parse('{\"id\":\"bbb96f5e-6998-11e6-b5aa-0e05a8b3e3d7\",\"version\":\"3.0.0\",\"title\":\"Louisiana Flood Map August 2016\",\"likes\":0,\"description\":null,\"scrollwheel\":false,\"legends\":true,\"map_provider\":\"leaflet\",\"bounds\":[[28.8551269999112,-94.0433519999947],[33.0195429999096,-88.7583879998063]],\"center\":\"[30.9373349999104,-91.4008699999005]\",\"zoom\":6,\"updated_at\":\"2016-08-24T01:27:10+00:00\",\"layers\":[{\"id\":\"49cb11ef-cd9e-43bd-a20b-386b729cd95c\",\"type\":\"tiled\",\"options\":{\"default\":false,\"url\":\"http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png\",\"subdomains\":\"\",\"minZoom\":0,\"maxZoom\":21,\"name\":\"Custom basemap 2\",\"className\":\"httpsserverarcgisonlinecomarcgisrestservicesworld_imagerymapservertilezyx\",\"attribution\":null,\"opacity\":0.5,\"labels\":null,\"urlTemplate\":\"https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}\",\"type\":\"Tiled\",\"category\":\"Custom\",\"tms\":false,\"selected\":true,\"val\":\"httpsserverarcgisonlinecomarcgisrestservicesworld_imagerymapservertilezyx\",\"label\":\"Custom basemap 2\",\"highlighted\":true}},{\"id\":\"734ba4a2-9aae-4288-b743-4b97e0a84ef9\",\"type\":\"tiled\",\"options\":{\"default\":false,\"url\":\"http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png\",\"subdomains\":\"\",\"minZoom\":0,\"maxZoom\":21,\"name\":\"\",\"className\":\"httpsngsstormviewerwebazurewebsitesnetstormstilesaservicestileserverphp20160818_rgbzxypng\",\"attribution\":null,\"labels\":null,\"urlTemplate\":\"https://ngs-storm-viewer-web.azurewebsites.net/storms/tilesa/services/tileserver.php/20160818_RGB/{z}/{x}/{y}.png\",\"type\":\"Tiled\",\"category\":\"Custom\",\"tms\":false,\"selected\":true,\"val\":\"httpsngsstormviewerwebazurewebsitesnetstormstilesaservicestileserverphp20160818_rgbzxypng\",\"label\":\"Custom basemap 1\"}},{\"id\":\"01fafed3-36c9-4ad0-b820-8bd1e95441b9\",\"type\":\"tiled\",\"options\":{\"default\":\"true\",\"url\":\"http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png\",\"subdomains\":\"abcd\",\"minZoom\":0,\"maxZoom\":21,\"name\":\"\",\"className\":\"httpsngsstormviewerwebazurewebsitesnetstormstilesaservicestileserverphp20160814_rgbzxypng\",\"attribution\":null,\"labels\":{\"url\":\"http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png\"},\"urlTemplate\":\"https://ngs-storm-viewer-web.azurewebsites.net/storms/tilesa/services/tileserver.php/20160814_RGB/{z}/{x}/{y}.png\",\"type\":\"Tiled\",\"tms\":false,\"category\":\"Custom\"}},{\"id\":\"628fd0db-0aeb-4d3b-a679-85fd5e2d8d20\",\"type\":\"tiled\",\"options\":{\"default\":\"true\",\"url\":\"http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png\",\"subdomains\":\"abcd\",\"minZoom\":0,\"maxZoom\":21,\"name\":\"\",\"className\":\"httpsngsstormviewerwebazurewebsitesnetstormstilesaservicestileserverphp20160815_moszxypng\",\"attribution\":null,\"labels\":{\"url\":\"http://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png\"},\"urlTemplate\":\"https://ngs-storm-viewer-web.azurewebsites.net/storms/tilesa/services/tileserver.php/20160815_MOS/{z}/{x}/{y}.png\",\"type\":\"Tiled\",\"tms\":false,\"category\":\"Custom\"}},{\"id\":\"df2cd628-f299-4df9-8839-e0b70e610cf6\",\"type\":\"CartoDB\",\"visible\":true,\"options\":{\"layer_name\":\"Census ACS 2014 5yr Block Groups\",\"attribution\":\"\",\"source\":\"c0\"}},{\"id\":\"609ad7d9-0ed6-4099-90ad-8678b0dd53e2\",\"type\":\"CartoDB\",\"visible\":true,\"options\":{\"layer_name\":\"Emergency Counties\",\"attribution\":\"\",\"source\":\"b0\"}},{\"id\":\"ed2e2083-3104-4c39-80ec-9fcb3b47598f\",\"type\":\"CartoDB\",\"visible\":true,\"options\":{\"layer_name\":\"Red Cross Shelters\",\"attribution\":\"\",\"source\":\"a0\"},\"infowindow\":{\"template_name\":\"infowindow_light\",\"fields\":[{\"name\":\"name\",\"title\":true,\"position\":null},{\"name\":\"city\",\"title\":true,\"position\":null},{\"name\":\"addr1\",\"title\":true,\"position\":null},{\"name\":\"state\",\"title\":true,\"position\":null},{\"name\":\"zip\",\"title\":true,\"position\":null},{\"name\":\"capacity\",\"title\":true,\"position\":null}],\"maxHeight\":180,\"template\":\"<div class=\\\"CDB-infowindow CDB-infowindow--light js-infowindow\\\">\\n  <div class=\\\"CDB-infowindow-close js-close\\\"><\/div>\\n  <div class=\\\"CDB-infowindow-container\\\">\\n    <div class=\\\"CDB-infowindow-bg\\\">\\n      <div class=\\\"CDB-infowindow-inner\\\">\\n        {{#loading}}\\n          <div class=\\\"CDB-Loader js-loader is-visible\\\"><\/div>\\n        {{/loading}}\\n        <ul class=\\\"CDB-infowindow-list js-content\\\">\\n          {{#content.fields}}\\n          <li class=\\\"CDB-infowindow-listItem\\\">\\n            {{#title}}<h5 class=\\\"CDB-infowindow-subtitle\\\">{{title}}<\/h5>{{/title}}\\n            {{#value}}<h4 class=\\\"CDB-infowindow-title\\\">{{{ value }}}<\/h4>{{/value}}\\n            {{^value}}<h4 class=\\\"CDB-infowindow-title\\\">null<\/h4>{{/value}}\\n          <\/li>\\n          {{/content.fields}}\\n        <\/ul>\\n      <\/div>\\n    <\/div>\\n    <div class=\\\"CDB-hook\\\">\\n      <div class=\\\"CDB-hook-inner\\\"><\/div>\\n    <\/div>\\n  <\/div>\\n<\/div>\\n\",\"alternative_names\":{},\"width\":226,\"headerColor\":{\"color\":{\"fixed\":\"#35AAE5\",\"opacity\":1}},\"template_type\":\"mustache\"}}],\"overlays\":[{\"type\":\"share\",\"order\":1,\"options\":{\"display\":true,\"x\":20,\"y\":20},\"template\":\"\"},{\"type\":\"search\",\"order\":2,\"options\":{\"display\":true,\"x\":60,\"y\":20},\"template\":\"\"},{\"type\":\"zoom\",\"order\":3,\"options\":{\"display\":true,\"x\":20,\"y\":20},\"template\":\"<a href=\\\"#zoom_in\\\" class=\\\"zoom_in\\\">+<\/a> <a href=\\\"#zoom_out\\\" class=\\\"zoom_out\\\">-<\/a>\"},{\"type\":\"loader\",\"order\":4,\"options\":{\"display\":true,\"x\":20,\"y\":150},\"template\":\"<div class=\\\"loader\\\" original-title=\\\"\\\"><\/div>\"},{\"type\":\"logo\",\"order\":5,\"options\":{\"display\":true,\"x\":10,\"y\":40},\"template\":\"\"}],\"widgets\":[{\"id\":\"5a6002e0-e467-4b8a-953a-31b08cdb53e7\",\"type\":\"formula\",\"title\":\"Population in Map View\",\"order\":0,\"layer_id\":\"df2cd628-f299-4df9-8839-e0b70e610cf6\",\"options\":{\"column\":\"b01001e1\",\"operation\":\"sum\",\"sync_on_data_change\":true,\"sync_on_bbox_change\":true,\"schema\":{},\"suffix\":\"\",\"prefix\":\"\",\"description\":\"\"},\"source\":{\"id\":\"c0\"}},{\"id\":\"3de3a28d-ee6f-4d39-b955-e101f8dde04e\",\"type\":\"histogram\",\"title\":\"Population Histogram\",\"order\":1,\"layer_id\":\"df2cd628-f299-4df9-8839-e0b70e610cf6\",\"options\":{\"column\":\"b01001e1\",\"bins\":10,\"sync_on_data_change\":true,\"sync_on_bbox_change\":true},\"source\":{\"id\":\"c0\"}},{\"id\":\"44418d06-f518-4551-8734-63b4d3eadd03\",\"type\":\"category\",\"title\":\"Red Cross Shelters\",\"order\":0,\"layer_id\":\"ed2e2083-3104-4c39-80ec-9fcb3b47598f\",\"options\":{\"column\":\"name\",\"aggregation_column\":\"name\",\"aggregation\":\"count\",\"sync_on_data_change\":true,\"sync_on_bbox_change\":true},\"source\":{\"id\":\"a0\"}},{\"id\":\"62694484-00e4-41f6-93c0-9902fd52c75e\",\"type\":\"formula\",\"title\":\"Shelter Capacity\",\"order\":1,\"layer_id\":\"ed2e2083-3104-4c39-80ec-9fcb3b47598f\",\"options\":{\"column\":\"capacity\",\"operation\":\"sum\",\"sync_on_data_change\":true,\"sync_on_bbox_change\":true,\"schema\":{},\"suffix\":\"\",\"prefix\":\"\",\"description\":\"\"},\"source\":{\"id\":\"a0\"}}],\"datasource\":{\"user_name\":\"sheehan-carto\",\"maps_api_template\":\"https://{user}.carto.com:443\",\"stat_tag\":\"bbb96f5e-6998-11e6-b5aa-0e05a8b3e3d7\",\"template_name\":\"tpl_bbb96f5e_6998_11e6_b5aa_0e05a8b3e3d7\"},\"user\":{\"fullname\":\"sheehan-carto\",\"avatar_url\":\"https://s3.amazonaws.com/com.cartodb.users-assets.production/production/sheehan-carto/assets/20160823141429builder-icon%402x.png\",\"profile_url\":\"https://team.carto.com/u/sheehan-carto\"},\"analyses\":[{\"id\":\"b0\",\"type\":\"source\",\"options\":{\"table_name\":\"doc\",\"simple_geom\":\"polygon\"}},{\"id\":\"a0\",\"type\":\"source\",\"options\":{\"table_name\":\"red_cross_national_shelter_system\",\"simple_geom\":\"point\"}},{\"id\":\"c0\",\"type\":\"source\",\"options\":{\"table_name\":\"acs_2014_5yr_bg_22_x01\",\"simple_geom\":\"polygon\"}}],\"vector\":false}');
+    var stateJSON = JSON.parse('{\"map\":{\"center\":[30.871582821957446,-91.73309326171875],\"zoom\":8}}');
+    var authTokens = JSON.parse('null');
+  </script>
+  <script src="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.13/javascripts/vendor_editor3.js" type="text/javascript"></script>
+  <script src="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.13/javascripts/common_editor3.js" type="text/javascript"></script>
+  <script src="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.1.13/javascripts/public_editor3.js" type="text/javascript"></script>
+
+  <script>
+  window._trackJs = {
+    enabled: true,
+    application: 'j2fvjk4hsmckojrqpxjp'
+      , userId: 'sheehan-carto'
+  };
+</script>
+<script type="text/javascript" src="//d2zah9y47r7bi2.cloudfront.net/releases/current/tracker.js" data-token="cf7a7cd8411140689ea94e92d9fba842"></script>
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20934186-10']);
+  _gaq.push(['_setDomainName', 'carto.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+</script>
+
+
+  </body>
+</html>
