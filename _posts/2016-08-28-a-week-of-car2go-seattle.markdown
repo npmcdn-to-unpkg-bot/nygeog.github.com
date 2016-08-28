@@ -9,7 +9,7 @@ I haven't posted in a while as I've started working for **[CARTO](https://carto.
 
 Anyway, I have been super interested in **[Car2Go](https://www.car2go.com/US/en/)** ever since it came to Brooklyn. My partner Kim is in Seattle and I've been out there quite a bit and find it very useful there. 
 
-What's most interesting (and I'd like to show some plots and do a deeper dive eventually to prove it) is how in Seattle, during the work day Car2Go's are all over downtown and South Lake Union (where Amazon and many other tech and medical companies are) but at night they are so much harder to find. It seems a lot of folks use Car2Go for commuting. 
+What's most interesting (this map confirms my prior belief, though, I'd like to show some plots and do a deeper dive) is how in Seattle, during the work day Car2Go's are all over downtown and South Lake Union (where Amazon and many other tech and medical companies are) but at night they are so much harder to find. It seems a lot of folks use Car2Go for commuting. 
 
 So anyway, I scrapped their API every 5 minutes for a week (Sunday afternoon-Sunday afternoon). And then decided just to keep the points closest to the nearest hour, (thus rendering 5 min. scraping naught, could have just done on the hour), and then jittered the time for both privacy and better animation so its randomly within the hour. I brought this into **[CARTO Builder](https://carto.com/builder/)** and used our standard tools for vizualizaion for about 20 minutes. 
 
