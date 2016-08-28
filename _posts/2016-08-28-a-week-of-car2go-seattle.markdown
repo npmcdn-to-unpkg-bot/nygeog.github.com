@@ -7,7 +7,7 @@ tags: car2go cartodb
 
 I haven't posted in a while as I've started working for **[CARTO](https://carto.com/)** in late June. It has been a great opportunity to work with one of the most innovative mapping and locational data companies. I was only a CartoDB employee for a week before we dropped the 'DB.' 
 
-Anyway, I have been super interested in **[Car2Go](https://www.car2go.com/US/en/)** ever since it came to Brooklyn. My partner Kim is in Seattle and I've been out there quite a bit and find it very useful there. 
+Anyway, I have been super interested in **[Car2Go](https://www.car2go.com/US/en/)** ever since it came to Brooklyn. I used its several times in Brooklyn and my partner Kim is in Seattle and I've been out there quite a bit and find it very useful there. I've had a few difficulties with my account not being able to unlock and start cars in Bed-Stuy but this may be due to signal strength to their cars (I hope they work this out). 
 
 What's most interesting (this map confirms my prior belief, though, I'd like to show some plots and do a deeper dive) is how in Seattle, during the work day Car2Go's are all over downtown and South Lake Union (where Amazon and many other tech and medical companies are) but at night they are so much harder to find. It seems a lot of folks use Car2Go for commuting. 
 
