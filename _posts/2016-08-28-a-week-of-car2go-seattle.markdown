@@ -16,3 +16,4 @@ So anyway, I scraped their API every 5 minutes for a week (Sunday afternoon-Sund
 ### [Car2Go Week of 2016/8/7-2016/8/15](https://team.carto.com/u/sheehan-carto/builder/c4816a40-6d41-11e6-88c8-0e3ebc282e83/embed)
 
 <iframe width="100%" height="750" frameborder="0" src="https://team.carto.com/u/sheehan-carto/builder/c4816a40-6d41-11e6-88c8-0e3ebc282e83/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+*Note: time-slider may show differing times if in non-EST timezone, as data was uploaded in EST and may be offset by difference, testing needs to be done*
